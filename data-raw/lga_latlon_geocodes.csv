@@ -1,0 +1,775 @@
+LGA,State,Country,lon,lat
+Abadam,Borno State,Nigeria,13.2648576,13.6181979
+Abaji,Federal Capital Territory,Nigeria,6.9450688,8.4746755
+Abak,Akwa Ibom State,Nigeria,7.7742702,5.0032857
+Abakaliki,Ebonyi State,Nigeria,8.1120116,6.3230608
+Aba North,Abia State,Nigeria,7.3678624,5.1268221
+Aba South,Abia State,Nigeria,7.3408535,5.0702604
+Abeokuta North,Ogun State,Nigeria,3.1378173,7.2114285
+Abeokuta South,Ogun State,Nigeria,3.3489671,7.1561368
+Abi,Cross River State,Nigeria,8.0247005,5.8622772
+Aboh Mbaise,Imo State,Nigeria,7.2333516,5.4501323
+Abua/Odual,Rivers State,Nigeria,6.5356449,4.8206803
+Abuja Municipal Area Council,Federal Capital Territory,Nigeria,7.4220911,9.0617844
+Adavi,Kogi State,Nigeria,6.429036,7.671977
+Ado Ekiti,Ekiti State,Nigeria,5.2371087,7.6124263
+Ado-Odo/Ota,Ogun State,Nigeria,3.0576199,6.6117188
+Afijio,Oyo State,Nigeria,3.8655303,7.724271
+Afikpo North,Ebonyi State,Nigeria,7.9374948,5.9053951
+Afikpo South (Edda),Ebonyi State,Nigeria,7.8367954,5.7838682
+Agaie,Niger State,Nigeria,6.3172906,9.0085126
+Agatu,Benue State,Nigeria,7.9157099,7.8412296
+Agwara,Niger State,Nigeria,4.479976,10.6778185
+Agege,Lagos State,Nigeria,3.3208916,6.6179731
+Aguata,Anambra State,Nigeria,7.1009488,6.0085842
+Ahiazu Mbaise,Imo State,Nigeria,7.2437105,5.5384547
+Ahoada East,Rivers State,Nigeria,6.642433,5.0467637
+Ahoada West,Rivers State,Nigeria,6.5356449,5.0685422
+Ajaokuta,Kogi State,Nigeria,6.642433,7.5393781
+Ajeromi-Ifelodun,Lagos State,Nigeria,3.3338547,6.4554777
+Ajingi,Kano State,Nigeria,9.0377612,11.9686426
+Akamkpa,Cross River State,Nigeria,8.349917,5.3189793
+Akinyele,Oyo State,Nigeria,3.9470396,7.5503161
+Akko,Gombe State,Nigeria,11.0259275,10.1186354
+Akoko-Edo,Edo State,Nigeria,6.1102943,7.3533315
+Akoko North-East,Ondo State,Nigeria,5.8775964,7.550299
+Akoko North-West,Ondo State,Nigeria,5.7721204,7.616456
+Akoko South-West,Ondo State,Nigeria,5.6668306,7.3806607
+Akoko South-East,Ondo State,Nigeria,5.9198387,7.4204353
+Akpabuyo,Cross River State,Nigeria,8.5281613,4.8807911
+Akuku-Toru,Rivers State,Nigeria,6.663812,4.6137897
+Akure North,Ondo State,Nigeria,5.2684437,7.2779136
+Akure South,Ondo State,Nigeria,5.1640605,7.2146191
+Akwanga,Nasarawa State,Nigeria,8.4074573,8.9066616
+Albasu,Kano State,Nigeria,9.1400807,11.6691801
+Aleiro,Kebbi State,Nigeria,4.43879,12.3561875
+Alimosho,Lagos State,Nigeria,3.2569872,6.5744462
+Alkaleri,Bauchi State,Nigeria,10.3301431,10.2713037
+Amuwo-Odofin,Lagos State,Nigeria,3.2684215,6.4293017
+Anambra East,Anambra State,Nigeria,6.8672668,6.3092973
+Anambra West,Anambra State,Nigeria,6.7922355,6.4901675
+Anaocha,Anambra State,Nigeria,7.0175879,6.0964302
+Andoni,Rivers State,Nigeria,7.3732655,4.5044138
+Aninri,Enugu State,Nigeria,7.5897372,6.0361534
+Aniocha North,Delta State,Nigeria,6.471658,6.3460797
+Aniocha South,Delta State,Nigeria,6.4503434,6.1562164
+Anka,Zamfara State,Nigeria,5.9832577,11.9170674
+Ankpa,Kogi State,Nigeria,7.6222665,7.4053197
+Apa,Benue State,Nigeria,7.8939317,6.707241
+Apapa,Lagos State,Nigeria,3.3640841,6.45528
+Ado,Benue State,Nigeria,8.0028892,6.8116406
+Ardo Kola,Taraba State,Nigeria,11.2523792,8.7556634
+Arewa Dandi,Kebbi State,Nigeria,4.0815243,12.6857157
+Argungu,Kebbi State,Nigeria,4.5366582,12.7494718
+Arochukwu,Abia State,Nigeria,7.90482,5.3948874
+Asa,Kwara State,Nigeria,4.43879,8.4154043
+Asari-Toru,Rivers State,Nigeria,6.8458204,4.7455955
+Askira/Uba,Borno State,Nigeria,13.181523,10.4874473
+Atakunmosa East,Osun State,Nigeria,4.7898731,7.4771604
+Atakunmosa West,Osun State,Nigeria,4.6657027,7.5216685
+Atiba,Oyo State,Nigeria,3.8655303,8.246514
+Atisbo,Oyo State,Nigeria,3.3388917,8.3824436
+Augie,Kebbi State,Nigeria,4.5998517,12.8932167
+Auyo,Jigawa State,Nigeria,9.987731,12.3606302
+Awe,Nasarawa State,Nigeria,9.1428479,8.1101474
+Awgu,Enugu State,Nigeria,7.4760047,6.0639962
+Awka North,Anambra State,Nigeria,7.1251699,6.2636193
+Awka South,Anambra State,Nigeria,7.0713572,6.2116033
+Ayamelum,Anambra State,Nigeria,6.9638624,6.4878428
+Aiyedaade,Osun State,Nigeria,4.2743628,7.2022656
+Aiyedire,Osun State,Nigeria,4.2538452,7.5690718
+Babura,Jigawa State,Nigeria,9.0156554,12.7747028
+Badagry,Lagos State,Nigeria,2.8876436,6.4315805
+Bagudo,Kebbi State,Nigeria,4.2256464,11.4008163
+Bagwai,Kano State,Nigeria,8.1393179,12.1520334
+Bakassi,Cross River State,Nigeria,8.5830907,4.74672
+Bokkos,Plateau State,Nigeria,8.9949368,9.2993816
+Bakori,Katsina State,Nigeria,7.4246158,11.5576973
+Bakura,Zamfara State,Nigeria,5.8762768,12.604554
+Balanga,Gombe State,Nigeria,11.6612934,9.8329042
+Bali,Taraba State,Nigeria,10.9637456,7.8533039
+Bama,Borno State,Nigeria,13.6883765,11.5218308
+Bade,Yobe State,Nigeria,10.7774424,12.8360914
+Barkin Ladi,Plateau State,Nigeria,8.9687011,9.5625527
+Baruten,Kwara State,Nigeria,3.5812692,9.3493393
+Bassa,Kogi State,Nigeria,7.0498442,7.7701761
+Bassa,Plateau State,Nigeria,8.7921836,10.0976062
+Batagarawa,Katsina State,Nigeria,7.6032892,12.9049462
+Batsari,Katsina State,Nigeria,7.2491037,12.7578433
+Bauchi,Bauchi State,Nigeria,9.8236533,10.3009641
+Baure,Katsina State,Nigeria,8.7921836,12.7964929
+Bayo,Borno State,Nigeria,11.6612934,10.2728707
+Bebeji,Kano State,Nigeria,8.2623222,11.6647762
+Bekwarra,Cross River State,Nigeria,8.9024603,6.6899911
+Bende,Abia State,Nigeria,7.6304012,5.5570426
+Biase,Cross River State,Nigeria,8.090174,5.5483266
+Bichi,Kano State,Nigeria,8.2404397,12.2312766
+Bida,Niger State,Nigeria,6.0097018,9.0796794
+Billiri,Gombe State,Nigeria,11.1164452,9.8513884
+Bindawa,Katsina State,Nigeria,7.8096037,12.6706146
+Binji,Sokoto State,Nigeria,4.9117284,13.222221
+Biriniwa,Jigawa State,Nigeria,10.0359661,12.8428921
+Birnin Gwari,Kaduna State,Nigeria,6.5383124,10.6613339
+Birnin Kebbi,Kebbi State,Nigeria,4.1956212,12.4317585
+Birnin Kudu,Jigawa State,Nigeria,9.475603,11.4530865
+Birnin Magaji/Kiyaw,Zamfara State,Nigeria,6.8779926,12.396867
+Biu,Borno State,Nigeria,12.1918637,10.6116811
+Bodinga,Sokoto State,Nigeria,5.1640605,12.8239688
+Bogoro,Bauchi State,Nigeria,9.6049091,9.6679241
+Boki,Cross River State,Nigeria,8.9245343,6.2466716
+Boluwaduro,Osun State,Nigeria,4.8002333,7.9425867
+Bomadi,Delta State,Nigeria,5.9251211,5.1625611
+Bonny,Rivers State,Nigeria,7.1898025,4.4142392
+Borgu,Niger State,Nigeria,4.1513764,10.323219
+Boripe,Osun State,Nigeria,4.6553679,7.8356644
+Bursari,Yobe State,Nigeria,11.4339148,12.6498621
+Bosso,Niger State,Nigeria,6.5260598,9.6522186
+Brass,Bayelsa State,Nigeria,6.2455597,4.3077728
+Buji,Jigawa State,Nigeria,9.7678687,11.6766108
+Bukkuyum,Zamfara State,Nigeria,5.4686068,12.1365984
+Buruku,Benue State,Nigeria,9.2231387,7.4178411
+Bungudu,Zamfara State,Nigeria,6.5543199,12.2652977
+Bunkure,Kano State,Nigeria,8.5418899,11.696086
+Bunza,Kebbi State,Nigeria,4.0108086,12.0915882
+Burutu,Delta State,Nigeria,5.5066242,5.3509707
+Bwari,Federal Capital Territory,Nigeria,7.3786689,9.2855902
+Calabar Municipal,Cross River State,Nigeria,8.3636131,5.0166331
+Calabar South,Cross River State,Nigeria,8.3307468,4.8627188
+Chanchaga,Niger State,Nigeria,6.5463156,9.6278405
+Charanchi,Katsina State,Nigeria,7.7280914,12.6729947
+Chibok,Borno State,Nigeria,12.8476207,10.8692052
+Chikun,Kaduna State,Nigeria,7.179026,10.2703859
+Dala,Kano State,Nigeria,8.5007116,12.0052643
+Damaturu,Yobe State,Nigeria,11.9661922,11.7469961
+Damban,Bauchi State,Nigeria,10.7548851,11.6412456
+Dambatta,Kano State,Nigeria,8.6160674,12.4382197
+Damboa,Borno State,Nigeria,12.7566109,11.1560843
+Dandi,Kebbi State,Nigeria,4.0815243,12.6857157
+Dandume,Katsina State,Nigeria,7.2221421,11.390665
+Dange Shuni,Sokoto State,Nigeria,5.435853,12.7955956
+Danja,Katsina State,Nigeria,7.5599321,11.379367
+Dan Musa,Katsina State,Nigeria,7.332753,12.2626868
+Darazo,Bauchi State,Nigeria,10.4087543,10.9965005
+Dass,Bauchi State,Nigeria,9.4610722,10.1023474
+Daura,Katsina State,Nigeria,8.3225325,13.0314945
+Dawakin Kudu,Kano State,Nigeria,8.5913335,11.841376
+Dawakin Tofa,Kano State,Nigeria,8.4184224,12.1493458
+Degema,Rivers State,Nigeria,6.7681366,4.7695087
+Dekina,Kogi State,Nigeria,7.0471556,7.6919765
+Demsa,Adamawa State,Nigeria,12.1525518,9.4555409
+Dikwa,Borno State,Nigeria,13.9172992,12.0419812
+Doguwa,Kano State,Nigeria,8.704075,10.8125373
+Doma,Nasarawa State,Nigeria,8.3581344,8.400857
+Donga,Taraba State,Nigeria,10.1703257,7.7499813
+Dukku,Gombe State,Nigeria,10.7732854,10.8229629
+Dunukofia,Anambra State,Nigeria,6.9786326,6.2009693
+Dutse,Jigawa State,Nigeria,9.3340158,11.7023512
+Dutsi,Katsina State,Nigeria,8.1557066,12.9311273
+Dutsin Ma,Katsina State,Nigeria,7.4976536,12.4544798
+Eastern Obolo,Akwa Ibom State,Nigeria,7.6656625,4.5116152
+Ebonyi,Ebonyi State,Nigeria,8.1120116,6.4919425
+Edati,Niger State,Nigeria,5.624767,9.0362339
+Ede North,Osun State,Nigeria,4.4696765,7.729243
+Ede South,Osun State,Nigeria,4.4593791,7.6535525
+Edu,Kwara State,Nigeria,5.1432068,8.8891769
+Ife Central,Osun State,Nigeria,4.5315029,7.5554803
+Ife East,Osun State,Nigeria,4.6243751,7.4357606
+Ife North,Osun State,Nigeria,4.43879,7.4592295
+Ife South,Osun State,Nigeria,4.6037231,7.1990859
+Efon,Ekiti State,Nigeria,4.9143239,7.6919065
+Yewa North,Ogun State,Nigeria,2.8577105,7.1701914
+Yewa South,Ogun State,Nigeria,2.9775558,6.7831512
+Egbeda,Oyo State,Nigeria,3.9674675,7.3795963
+Egbedore,Osun State,Nigeria,4.4182089,7.7839704
+Egor,Edo State,Nigeria,5.5722297,6.3671083
+Ehime Mbano,Imo State,Nigeria,7.3057581,5.6654905
+Ejigbo,Osun State,Nigeria,4.3051542,7.9045188
+Ekeremor,Bayelsa State,Nigeria,5.8142885,4.9511791
+Eket,Akwa Ibom State,Nigeria,7.9429421,4.6467365
+Ekiti,Kwara State,Nigeria,5.3311652,8.1208991
+Ekiti East,Ekiti State,Nigeria,5.6668306,7.7259207
+Ekiti South-West,Ekiti State,Nigeria,5.0390536,7.5175564
+Ekiti West,Ekiti State,Nigeria,5.0390536,7.690466
+Ekwusigo,Anambra State,Nigeria,6.8511814,6.0301686
+Eleme,Rivers State,Nigeria,7.1574784,4.7938534
+Emuoha,Rivers State,Nigeria,6.8726295,4.8843385
+Emure,Ekiti State,Nigeria,5.4620545,7.4316665
+Enugu East,Enugu State,Nigeria,7.5680595,6.5638913
+Enugu North,Enugu State,Nigeria,7.5463885,6.4583661
+Enugu South,Enugu State,Nigeria,7.5138947,6.3848509
+Epe,Lagos State,Nigeria,3.9470396,6.6054955
+Esan Central,Edo State,Nigeria,6.2163597,6.6887913
+Esan North-East,Edo State,Nigeria,6.3438785,6.729735
+Esan South-East,Edo State,Nigeria,6.4929797,6.6214492
+Esan West,Edo State,Nigeria,6.1314928,6.6898534
+Ese Odo,Ondo State,Nigeria,4.9350929,6.2569898
+Esit Eket,Akwa Ibom State,Nigeria,8.068343,4.6606744
+Essien Udim,Akwa Ibom State,Nigeria,7.633113,5.1185456
+Etche,Rivers State,Nigeria,7.0498442,5.063155
+Ethiope East,Delta State,Nigeria,5.9621106,5.6782458
+Ethiope West,Delta State,Nigeria,5.7510475,5.932316
+Etim Ekpo,Akwa Ibom State,Nigeria,7.633113,4.9946291
+Etinan,Akwa Ibom State,Nigeria,7.8558357,4.842716
+Eti Osa,Lagos State,Nigeria,3.6015207,6.4589849
+Etsako Central,Edo State,Nigeria,6.4503434,7.0056607
+Etsako East,Edo State,Nigeria,6.4503434,7.2626871
+Etsako West,Edo State,Nigeria,6.2800864,7.0079603
+Etung,Cross River State,Nigeria,8.7921836,5.8716507
+Ewekoro,Ogun State,Nigeria,3.2181477,6.9529882
+Ezeagu,Enugu State,Nigeria,7.2221421,6.3995938
+Ezinihitte,Imo State,Nigeria,7.3192542,5.4854476
+Ezza North,Ebonyi State,Nigeria,7.9810845,6.2829253
+Ezza South,Ebonyi State,Nigeria,8.0247005,6.1139167
+Fagge,Kano State,Nigeria,8.5336525,12.015578
+Fakai,Kebbi State,Nigeria,5.1120384,11.5079734
+Faskari,Katsina State,Nigeria,7.1016215,11.6399657
+Fika,Yobe State,Nigeria,11.3119092,11.2927933
+Fufure,Adamawa State,Nigeria,12.7135121,9.2283529
+Funakaye,Gombe State,Nigeria,11.3885001,10.7252264
+Fune,Yobe State,Nigeria,11.5248055,11.6560899
+Funtua,Katsina State,Nigeria,7.3129299,11.5184818
+Gabasawa,Kano State,Nigeria,8.9121169,12.1805847
+Gada,Sokoto State,Nigeria,5.6576266,13.7525329
+Gagarawa,Jigawa State,Nigeria,9.5291085,12.4082969
+Gamawa,Bauchi State,Nigeria,10.5380494,12.1359226
+Ganjuwa,Bauchi State,Nigeria,10.1703797,10.8577997
+Ganye,Adamawa State,Nigeria,12.0507927,8.4366627
+Garki,Jigawa State,Nigeria,9.181599,12.4337889
+Garko,Kano State,Nigeria,8.8059596,11.6486333
+Garun Mallam,Kano State,Nigeria,8.3718319,11.684176
+Gashaka,Taraba State,Nigeria,11.4868062,7.3667241
+Gassol,Taraba State,Nigeria,10.3617197,8.5866018
+Gaya,Kano State,Nigeria,8.9990801,11.862577
+Gayuk,Adamawa State,Nigeria,11.9348069,9.8232956
+Gbako,Niger State,Nigeria,6.0255738,9.2723105
+Gboko,Benue State,Nigeria,9.0018424,7.3368424
+Gbonyin,Ekiti State,Nigeria,5.4987565,7.5983988
+Geidam,Yobe State,Nigeria,11.9291015,12.8934904
+Gezawa,Kano State,Nigeria,8.7536237,12.0993046
+Giade,Bauchi State,Nigeria,10.1972975,11.3882479
+Giwa,Kaduna State,Nigeria,7.417857,11.2801638
+Gokana,Rivers State,Nigeria,7.286868,4.669214
+Gombe,Gombe State,Nigeria,11.1730615,10.279142
+Gombi,Adamawa State,Nigeria,12.7368452,10.1558887
+Goronyo,Sokoto State,Nigeria,5.6786664,13.4379112
+Girei,Adamawa State,Nigeria,12.5498818,9.3673084
+Gubio,Borno State,Nigeria,12.7796034,12.4955373
+Gudu,Sokoto State,Nigeria,4.479976,13.4115664
+Gujba,Yobe State,Nigeria,11.9336539,11.4998068
+Gulani,Yobe State,Nigeria,11.6895189,10.7263161
+Guma,Benue State,Nigeria,8.7481167,7.9541144
+Gumel,Jigawa State,Nigeria,9.3839598,12.6226118
+Gummi,Zamfara State,Nigeria,5.1171505,12.1333211
+Gurara,Niger State,Nigeria,7.0498442,9.3418238
+Guri,Jigawa State,Nigeria,10.4811089,12.6333833
+Gusau,Zamfara State,Nigeria,6.6745042,12.1628466
+Guzamala,Borno State,Nigeria,13.2201828,12.8816649
+Gwadabawa,Sokoto State,Nigeria,5.2344983,13.3539251
+Gwagwalada,Federal Capital Territory,Nigeria,7.0767365,8.9508329
+Gwale,Kano State,Nigeria,8.5199254,11.9848764
+Gwandu,Kebbi State,Nigeria,4.6424521,12.4985661
+Gwaram,Jigawa State,Nigeria,9.8836895,11.2777838
+Gwarzo,Kano State,Nigeria,7.9347713,11.9171312
+Gwer East,Benue State,Nigeria,8.3964938,7.4449784
+Gwer West,Benue State,Nigeria,8.1775638,7.6638933
+Gwiwa,Jigawa State,Nigeria,8.2705298,12.7392945
+Gwoza,Borno State,Nigeria,13.6883765,11.0897215
+Hadejia,Jigawa State,Nigeria,10.040407,12.4506045
+Hawul,Borno State,Nigeria,12.3463875,10.4676364
+Hong,Adamawa State,Nigeria,12.9262851,10.2300928
+Ibadan North,Oyo State,Nigeria,3.9164585,7.4101675
+Ibadan North-East,Oyo State,Nigeria,3.9317468,7.3614935
+Ibadan North-West,Oyo State,Nigeria,3.8757119,7.3889435
+Ibadan South-East,Oyo State,Nigeria,3.9113634,7.3293296
+Ibadan South-West,Oyo State,Nigeria,3.8757119,7.3458061
+Ibaji,Kogi State,Nigeria,6.7922355,6.8301773
+Ibarapa Central,Oyo State,Nigeria,3.238251,7.4047947
+Ibarapa East,Oyo State,Nigeria,3.4599326,7.6410231
+Ibarapa North,Oyo State,Nigeria,3.1779659,7.6865302
+Ibeju-Lekki,Lagos State,Nigeria,3.8858955,6.4569054
+Ibeno,Akwa Ibom State,Nigeria,8.1557066,4.5778049
+Ibesikpo Asutan,Akwa Ibom State,Nigeria,7.9483898,4.9187853
+Ibi,Taraba State,Nigeria,9.7483527,8.1824134
+Ibiono-Ibom,Akwa Ibom State,Nigeria,7.8939317,5.1980998
+Idah,Kogi State,Nigeria,6.7440467,7.1138119
+Idanre,Ondo State,Nigeria,5.1484196,7.0913555
+Ideato North,Imo State,Nigeria,7.1251699,5.8849293
+Ideato South,Imo State,Nigeria,7.1251699,5.8010982
+Idemili North,Anambra State,Nigeria,6.9477532,6.1236562
+Idemili South,Anambra State,Nigeria,6.8672668,6.07731
+Ido,Oyo State,Nigeria,3.7193936,7.5077051
+Ido Osi,Ekiti State,Nigeria,5.2057909,7.861779
+Ifako-Ijaiye,Lagos State,Nigeria,3.2885455,6.6849677
+Ifedayo,Osun State,Nigeria,4.9974461,7.9945904
+Ifedore,Ondo State,Nigeria,5.0806918,7.3876881
+Ifelodun,Kwara State,Nigeria,5.1432068,8.5380979
+Ifelodun,Osun State,Nigeria,4.6347041,7.92273
+Ifo,Ogun State,Nigeria,3.1930302,6.8192374
+Igabi,Kaduna State,Nigeria,7.5247243,10.7987418
+Igalamela Odolu,Kogi State,Nigeria,7.0498442,7.0825382
+Igbo Etiti,Enugu State,Nigeria,7.4165053,6.6722151
+Igbo Eze North,Enugu State,Nigeria,7.4814163,6.9904262
+Igbo Eze South,Enugu State,Nigeria,7.3840729,6.9386413
+Igueben,Edo State,Nigeria,6.2163597,6.5187665
+Ihiala,Anambra State,Nigeria,6.8511814,5.8516439
+Ihitte/Uboma,Imo State,Nigeria,7.3462545,5.6153965
+Ilaje,Ondo State,Nigeria,4.7691586,6.2585161
+Ijebu East,Ogun State,Nigeria,4.315422,6.8159044
+Ijebu North,Ogun State,Nigeria,3.9470396,7.0332904
+Ijebu North East,Ogun State,Nigeria,4.0082563,6.8827355
+Ijebu Ode,Ogun State,Nigeria,3.9164585,6.8299846
+Ijero,Ekiti State,Nigeria,5.0676766,7.8119593
+Ijumu,Kogi State,Nigeria,5.940971,7.8737298
+Ika,Akwa Ibom State,Nigeria,7.5355555,5.006074
+Ika North East,Delta State,Nigeria,6.3013432,6.2213208
+Ikara,Kaduna State,Nigeria,8.2267665,11.178802
+Ika South,Delta State,Nigeria,6.1739116,6.2650871
+Ikeduru,Imo State,Nigeria,7.1574784,5.5812135
+Ikeja,Lagos State,Nigeria,3.3514863,6.601838
+Ikenne,Ogun State,Nigeria,3.7105118,6.8717415
+Ikere,Ekiti State,Nigeria,5.2318879,7.4991255
+Ikole,Ekiti State,Nigeria,5.514493,7.7982661
+Ikom,Cross River State,Nigeria,8.7205877,5.9616504
+Ikono,Akwa Ibom State,Nigeria,7.8068851,5.1991828
+Ikorodu,Lagos State,Nigeria,3.5104537,6.6194131
+Ikot Abasi,Akwa Ibom State,Nigeria,7.5788975,4.5739124
+Ikot Ekpene,Akwa Ibom State,Nigeria,7.7145152,5.1744472
+Ikpoba Okha,Edo State,Nigeria,5.6878736,6.1648661
+Ikwerre,Rivers State,Nigeria,6.8779926,5.1478094
+Ikwo,Ebonyi State,Nigeria,8.1994276,6.0692847
+Ikwuano,Abia State,Nigeria,7.5897372,5.4092921
+Ila,Osun State,Nigeria,4.8987523,8.0120727
+Ilejemeje,Ekiti State,Nigeria,5.2371087,7.9590518
+Ile Oluji/Okeigbo,Ondo State,Nigeria,4.8520636,7.2825482
+Ilesa East,Osun State,Nigeria,4.7588042,7.5962981
+Ilesa West,Osun State,Nigeria,4.7174062,7.6400019
+Illela,Sokoto State,Nigeria,5.3520876,13.717481
+Ilorin East,Kwara State,Nigeria,4.7898731,8.6083453
+Ilorin South,Kwara State,Nigeria,4.6657027,8.4346609
+Ilorin West,Kwara State,Nigeria,4.5108862,8.4911827
+Imeko Afon,Ogun State,Nigeria,2.8379588,7.4477356
+Ingawa,Katsina State,Nigeria,8.0492462,12.6406844
+Ini,Akwa Ibom State,Nigeria,7.7416703,5.3866006
+Ipokia,Ogun State,Nigeria,2.8402583,6.5250214
+Irele,Ondo State,Nigeria,4.8702156,6.4883332
+Irepo,Oyo State,Nigeria,3.8655303,9.0368445
+Irepodun,Kwara State,Nigeria,4.8520636,8.148653
+Irepodun,Osun State,Nigeria,4.5315029,7.9021368
+Irepodun/Ifelodun,Ekiti State,Nigeria,5.2475518,7.7312585
+Irewole,Osun State,Nigeria,4.2128337,7.3966885
+Isa,Sokoto State,Nigeria,6.1526985,13.1926106
+Ise/Orun,Ekiti State,Nigeria,5.4149003,7.4268554
+Iseyin,Oyo State,Nigeria,3.5913939,7.9764931
+Ishielu,Ebonyi State,Nigeria,7.8286368,6.3907251
+Isiala Mbano,Imo State,Nigeria,7.1782682,5.7084257
+Isiala Ngwa North,Abia State,Nigeria,7.4165053,5.2868186
+Isiala Ngwa South,Abia State,Nigeria,7.4165053,5.4114338
+Isin,Kwara State,Nigeria,5.018246,8.2338123
+Isi Uzo,Enugu State,Nigeria,7.7416703,6.7308981
+Isokan,Osun State,Nigeria,4.1718542,7.3108412
+Isoko North,Delta State,Nigeria,6.2163597,5.5919041
+Isoko South,Delta State,Nigeria,6.195132,5.4042968
+Isu,Imo State,Nigeria,7.0605998,5.6972693
+Isuikwuato,Abia State,Nigeria,7.4814163,5.8069731
+Itas/Gadau,Bauchi State,Nigeria,10.1255164,11.934262
+Itesiwaju,Oyo State,Nigeria,3.5407909,8.1621641
+Itu,Akwa Ibom State,Nigeria,8.0247005,5.1550917
+Ivo,Ebonyi State,Nigeria,7.633113,5.9096556
+Iwajowa,Oyo State,Nigeria,3.0175712,8.0355073
+Iwo,Osun State,Nigeria,4.1872178,7.6292088
+Izzi,Ebonyi State,Nigeria,8.265058,6.5528936
+Jaba,Kaduna State,Nigeria,8.0247005,9.4753712
+Jada,Adamawa State,Nigeria,12.1575544,8.7653111
+Jahun,Jigawa State,Nigeria,9.6257837,12.0788907
+Jakusko,Yobe State,Nigeria,10.7746224,12.3806343
+Jalingo,Taraba State,Nigeria,11.3771496,8.8928524
+Jama'are,Bauchi State,Nigeria,9.9283477,11.669685
+Jega,Kebbi State,Nigeria,4.3822109,12.2257507
+Jema'a,Kaduna State,Nigeria,8.2212979,9.3607042
+Jere,Borno State,Nigeria,13.2201828,11.8948004
+Jibia,Katsina State,Nigeria,7.2248378,13.0930867
+Jos East,Plateau State,Nigeria,9.1013498,9.8679247
+Jos North,Plateau State,Nigeria,8.8803925,9.9180654
+Jos South,Plateau State,Nigeria,8.8142264,9.7650607
+Kabba/Bunu,Kogi State,Nigeria,6.195132,8.2174523
+Kabo,Kano State,Nigeria,8.2301846,11.9065366
+Kachia,Kaduna State,Nigeria,7.9551999,9.8734418
+Kaduna North,Kaduna State,Nigeria,7.4489531,10.5432199
+Kaduna South,Kaduna State,Nigeria,7.4056928,10.4548808
+Kafin Hausa,Jigawa State,Nigeria,9.9241575,12.189788
+Kafur,Katsina State,Nigeria,7.654811,11.6505302
+Kaga,Borno State,Nigeria,12.5298028,11.5245781
+Kagarko,Kaduna State,Nigeria,7.6955129,9.4910276
+Kaiama,Kwara State,Nigeria,3.9419415,9.6062133
+Kaita,Katsina State,Nigeria,7.7615855,13.0755004
+Kajola,Oyo State,Nigeria,3.3792057,7.9891543
+Kajuru,Kaduna State,Nigeria,7.6832998,10.3242857
+Kala/Balge,Borno State,Nigeria,14.5189214,12.0081346
+Kalgo,Kebbi State,Nigeria,4.2000242,12.3342413
+Kaltungo,Gombe State,Nigeria,11.3119092,9.8201485
+Kanam,Plateau State,Nigeria,9.9912254,9.4907048
+Kankara,Katsina State,Nigeria,7.413802,11.9313228
+Kanke,Plateau State,Nigeria,9.5896043,9.3702261
+Kankia,Katsina State,Nigeria,7.8286368,12.462174
+Kano Municipal,Kano State,Nigeria,8.5007116,11.9600036
+Karasuwa,Yobe State,Nigeria,10.6647101,12.9088044
+Karaye,Kano State,Nigeria,8.0110677,11.7848816
+Karim Lamido,Taraba State,Nigeria,11.192885,9.3203791
+Karu,Nasarawa State,Nigeria,7.6004644,9.0268067
+Katagum,Bauchi State,Nigeria,10.3525964,12.289736
+Katcha,Niger State,Nigeria,6.3133033,8.7602341
+Katsina,Katsina State,Nigeria,7.6222665,12.9815608
+Katsina-Ala,Benue State,Nigeria,9.2841023,7.1657856
+Kaura,Kaduna State,Nigeria,8.5034561,9.6321773
+Kaura Namoda,Zamfara State,Nigeria,6.5863469,12.5951892
+Kauru,Kaduna State,Nigeria,8.1488775,10.57481
+Kazaure,Jigawa State,Nigeria,8.4120775,12.6532933
+Keana,Nasarawa State,Nigeria,8.8004489,8.150144
+Kebbe,Sokoto State,Nigeria,4.8105955,11.9394717
+Keffi,Nasarawa State,Nigeria,7.8776023,8.8471213
+Khana,Rivers State,Nigeria,7.394882,4.6475715
+Kibiya,Kano State,Nigeria,8.6573084,11.5291917
+Kirfi,Bauchi State,Nigeria,10.5296115,10.3561675
+Kiri Kasama,Jigawa State,Nigeria,10.2144571,12.5941828
+Kiru,Kano State,Nigeria,8.1365868,11.7022386
+Kiyawa,Jigawa State,Nigeria,9.597952,11.7808864
+Kogi,Kogi State,Nigeria,6.8779926,8.1195008
+Koko/Besse,Kebbi State,Nigeria,4.43879,11.4458287
+Kokona,Nasarawa State,Nigeria,7.9810845,8.7738702
+Kolokuma/Opokuma,Bayelsa State,Nigeria,6.2588369,5.0919902
+Konduga,Borno State,Nigeria,13.4196641,11.6549207
+Konshisha,Benue State,Nigeria,8.5721016,7.0996526
+Kontagora,Niger State,Nigeria,5.4699173,10.407146
+Kosofe,Lagos State,Nigeria,3.379308,6.5690802
+Kaugama,Jigawa State,Nigeria,9.7372027,12.4709969
+Kubau,Kaduna State,Nigeria,8.1229329,10.7724364
+Kudan,Kaduna State,Nigeria,7.7634019,11.2643007
+Kuje,Federal Capital Territory,Nigeria,7.2437105,8.8763514
+Kukawa,Borno State,Nigeria,13.5639377,12.9229652
+Kumbotso,Kano State,Nigeria,8.5144352,11.9284828
+Kumi,Taraba State,Nigeria,10.7097867,7.2249628
+Kunchi,Kano State,Nigeria,8.2732659,12.5029442
+Kura,Kano State,Nigeria,8.4239055,11.7701438
+Kurfi,Katsina State,Nigeria,7.4841222,12.6685608
+Kusada,Katsina State,Nigeria,7.9769968,12.4621016
+Kwali,Federal Capital Territory,Nigeria,7.0605998,8.8469761
+Kwande,Benue State,Nigeria,9.456155,6.9125552
+Kwami,Gombe State,Nigeria,11.2523792,10.5085436
+Kware,Sokoto State,Nigeria,5.2645259,13.2195408
+Kwaya Kusar,Borno State,Nigeria,11.8435568,10.5311068
+Lafia,Nasarawa State,Nigeria,8.5226706,8.5060115
+Lagelu,Oyo State,Nigeria,4.0491077,7.484551
+Lagos Island,Lagos State,Nigeria,3.4245984,6.4548791
+Lagos Mainland,Lagos State,Nigeria,3.3780722,6.5059002
+Langtang South,Plateau State,Nigeria,9.8124935,8.6220757
+Langtang North,Plateau State,Nigeria,9.8571416,9.1001985
+Lapai,Niger State,Nigeria,6.663812,8.6899208
+Lamurde,Adamawa State,Nigeria,11.795251,9.6057641
+Lau,Taraba State,Nigeria,11.2922884,9.2029332
+Lavun,Niger State,Nigeria,5.6457951,9.4111066
+Lere,Kaduna State,Nigeria,8.5721016,10.4145738
+Logo,Benue State,Nigeria,9.2785583,7.5986891
+Lokoja,Kogi State,Nigeria,6.733343,7.8023204
+Machina,Yobe State,Nigeria,9.9779474,13.0648015
+Madagali,Adamawa State,Nigeria,13.6275894,10.8909284
+Madobi,Kano State,Nigeria,8.2868123,11.7747991
+Mafa,Borno State,Nigeria,13.5986529,11.924
+Magama,Niger State,Nigeria,4.976654,10.3116107
+Magumeri,Borno State,Nigeria,12.8256275,12.1151051
+Mai'Adua,Katsina State,Nigeria,8.2260829,13.1467607
+Maiduguri,Borno State,Nigeria,13.1509672,11.8310981
+Maigatari,Jigawa State,Nigeria,9.4478215,12.8050568
+Maiha,Adamawa State,Nigeria,13.2196567,9.9930995
+Maiyama,Kebbi State,Nigeria,4.356513,11.8102996
+Makarfi,Kaduna State,Nigeria,7.8803236,11.3766
+Makoda,Kano State,Nigeria,8.43076,12.4199145
+Malam Madori,Jigawa State,Nigeria,10.0275755,12.5509751
+Malumfashi,Katsina State,Nigeria,7.6168439,11.7928739
+Mangu,Plateau State,Nigeria,9.1400807,9.4865595
+Mani,Katsina State,Nigeria,7.8694391,12.8513966
+Maradun,Zamfara State,Nigeria,6.1766496,12.5562239
+Mariga,Niger State,Nigeria,6.0229282,10.1348575
+Makurdi,Benue State,Nigeria,8.539144,7.7321516
+Marte,Borno State,Nigeria,13.8277397,12.3640592
+Maru,Zamfara State,Nigeria,6.3226072,11.3661846
+Mashegu,Niger State,Nigeria,5.3102505,9.9492032
+Mashi,Katsina State,Nigeria,8.0028892,13.0958903
+Matazu,Katsina State,Nigeria,7.6738023,12.2363249
+Mayo Belwa,Adamawa State,Nigeria,12.0575469,9.0528821
+Mbaitoli,Imo State,Nigeria,7.0283383,5.5827692
+Mbo,Akwa Ibom State,Nigeria,8.2541155,4.6482803
+Michika,Adamawa State,Nigeria,13.4049445,10.5564111
+Miga,Jigawa State,Nigeria,9.7107273,12.2384087
+Mikang,Plateau State,Nigeria,9.5896043,9.0199326
+Minjibir,Kano State,Nigeria,8.6284374,12.1924477
+Misau,Bauchi State,Nigeria,10.465234,11.313985
+Moba,Ekiti State,Nigeria,5.1223608,7.9930673
+Mobbar,Borno State,Nigeria,12.7135121,13.1329558
+Mubi North,Adamawa State,Nigeria,13.3125299,10.3844515
+Mubi South,Adamawa State,Nigeria,13.3356272,10.1860174
+Mokwa,Niger State,Nigeria,5.0546643,9.2928248
+Monguno,Borno State,Nigeria,13.616014,12.6729174
+Mopa Muro,Kogi State,Nigeria,5.8564864,8.1354546
+Moro,Kwara State,Nigeria,4.645035,8.8956916
+Moya,Niger State,Nigeria,7.2264575,9.1329924
+Mkpat-Enin,Akwa Ibom State,Nigeria,7.7688358,4.6999361
+Musawa,Katsina State,Nigeria,7.6724456,12.1299094
+Mushin,Lagos State,Nigeria,3.3489671,6.535233
+Nafada,Gombe State,Nigeria,11.3345967,11.0968118
+Nangere,Yobe State,Nigeria,11.0697615,11.8662689
+Nasarawa,Kano State,Nigeria,8.5830907,11.9970897
+Nasarawa,Nasarawa State,Nigeria,7.7118003,8.5474692
+Nasarawa Egon,Nasarawa State,Nigeria,8.5418899,8.7425085
+Ndokwa East,Delta State,Nigeria,6.5356449,5.6511495
+Ndokwa West,Delta State,Nigeria,6.365157,5.7367764
+Nembe,Bayelsa State,Nigeria,6.4037428,4.5328134
+Ngala,Borno State,Nigeria,14.1858272,12.3420676
+Nganzai,Borno State,Nigeria,13.0817903,12.5735707
+Ngaski,Kebbi State,Nigeria,4.7691586,10.5388321
+Ngor Okpala,Imo State,Nigeria,7.1359377,5.3108695
+Nguru,Yobe State,Nigeria,10.4565159,12.8775114
+Ningi,Bauchi State,Nigeria,9.5729115,11.0716348
+Njaba,Imo State,Nigeria,6.9960925,5.698055
+Njikoka,Anambra State,Nigeria,6.9880335,6.178444
+Nkanu East,Enugu State,Nigeria,7.654811,6.3088938
+Nkanu West,Enugu State,Nigeria,7.5030669,6.3322073
+Nkwerre,Imo State,Nigeria,7.0982581,5.7647948
+Nnewi North,Anambra State,Nigeria,6.9101806,6.0136533
+Nnewi South,Anambra State,Nigeria,6.9853474,5.960165
+Nsit-Atai,Akwa Ibom State,Nigeria,8.0247005,4.825321
+Nsit-Ibom,Akwa Ibom State,Nigeria,7.90482,4.8987176
+Nsit-Ubium,Akwa Ibom State,Nigeria,7.9374948,4.7441933
+Nsukka,Enugu State,Nigeria,7.3732655,6.8429422
+Numan,Adamawa State,Nigeria,12.0318456,9.4535964
+Nwangele,Imo State,Nigeria,7.1251699,5.7173854
+Obafemi Owode,Ogun State,Nigeria,3.5079264,6.948262
+Obanliku,Cross River State,Nigeria,9.3229213,6.5343648
+Obi,Benue State,Nigeria,8.7729012,8.378267
+Obi,Nasarawa State,Nigeria,8.704075,8.3445273
+Obi Ngwa,Abia State,Nigeria,7.4814163,5.1410209
+Obio/Akpor,Rivers State,Nigeria,7.0283383,4.8775753
+Obokun,Osun State,Nigeria,4.7691586,7.8018665
+Obot Akara,Akwa Ibom State,Nigeria,7.5897372,5.2432639
+Obowo,Imo State,Nigeria,7.3219537,5.6026593
+Obubra,Cross River State,Nigeria,8.3280086,6.085685
+Obudu,Cross River State,Nigeria,9.1622211,6.6693528
+Odeda,Ogun State,Nigeria,3.5281482,7.2328184
+Odigbo,Ondo State,Nigeria,4.8676221,6.7946593
+Odogbolu,Ogun State,Nigeria,3.768906,6.8365046
+Odo Otin,Osun State,Nigeria,4.6657027,7.9984534
+Odukpani,Cross River State,Nigeria,8.349917,5.0812383
+Offa,Kwara State,Nigeria,4.7174062,8.1393408
+Ofu,Kogi State,Nigeria,7.0498442,7.3395867
+Ogba/Egbema/Ndoni,Rivers State,Nigeria,6.6210611,5.3998133
+Ogbadibo,Benue State,Nigeria,7.654811,6.9876439
+Ogbaru,Anambra State,Nigeria,6.7279918,5.9213455
+Ogbia,Bayelsa State,Nigeria,6.321278,4.6901388
+Ogbomosho North,Oyo State,Nigeria,4.2538452,8.1335403
+Ogbomosho South,Oyo State,Nigeria,4.2230836,8.0793875
+Ogu/Bolo,Rivers State,Nigeria,7.1998906,4.7231385
+Ogoja,Cross River State,Nigeria,8.7976937,6.6548369
+Ogo Oluwa,Oyo State,Nigeria,4.2128337,7.9597967
+Ogori/Magongo,Kogi State,Nigeria,6.1633042,7.4709559
+Ogun Waterside,Ogun State,Nigeria,4.356513,6.5169241
+Oguta,Imo State,Nigeria,6.8083063,5.7055314
+Ohafia,Abia State,Nigeria,7.8570912,5.6223011
+Ohaji/Egbema,Imo State,Nigeria,6.8779926,5.3137921
+Ohaozara,Ebonyi State,Nigeria,7.7634019,5.9917255
+Ohaukwu,Ebonyi State,Nigeria,8.0028892,6.4725373
+Ohimini,Benue State,Nigeria,7.9157099,7.2395625
+Orhionmwon,Edo State,Nigeria,5.9832577,6.1194361
+Oji River,Enugu State,Nigeria,7.2733783,6.2536784
+Ojo,Lagos State,Nigeria,3.1579655,6.4579097
+Oju,Benue State,Nigeria,8.352656,6.8907086
+Okehi,Kogi State,Nigeria,6.3438785,7.7164381
+Okene,Kogi State,Nigeria,6.2429045,7.5614184
+Oke Ero,Kwara State,Nigeria,5.3520876,8.2295195
+Okigwe,Imo State,Nigeria,7.3408535,5.8192832
+Okitipupa,Ondo State,Nigeria,4.7795149,6.5024813
+Okobo,Akwa Ibom State,Nigeria,8.1120116,4.8242837
+Okpe,Delta State,Nigeria,6.3266806,5.4862686
+Okrika,Rivers State,Nigeria,7.0848063,4.7406191
+Olamaboro,Kogi State,Nigeria,7.5680595,7.1598866
+Ola Oluwa,Osun State,Nigeria,4.2128337,7.7426803
+Olorunda,Osun State,Nigeria,4.5727598,7.8582665
+Olorunsogo,Oyo State,Nigeria,4.1104449,8.7699197
+Oluyole,Oyo State,Nigeria,3.8655303,7.2058848
+Omala,Kogi State,Nigeria,7.5247243,7.8052077
+Omuma,Rivers State,Nigeria,7.2437105,5.1230653
+Ona Ara,Oyo State,Nigeria,4.0491077,7.268874
+Ondo East,Ondo State,Nigeria,4.9558696,7.0880779
+Ondo West,Ondo State,Nigeria,4.7691586,7.0256803
+Onicha,Ebonyi State,Nigeria,7.8231982,6.1116318
+Onitsha North,Anambra State,Nigeria,6.8029489,6.1623902
+Onitsha South,Anambra State,Nigeria,6.7761686,6.1363826
+Onna,Akwa Ibom State,Nigeria,7.8503951,4.5812212
+Okpokwu,Benue State,Nigeria,7.8286368,7.0701061
+Opobo/Nkoro,Rivers State,Nigeria,7.5138947,4.5132013
+Oredo,Edo State,Nigeria,5.5407299,6.2298249
+Orelope,Oyo State,Nigeria,3.7841503,8.8613387
+Oriade,Osun State,Nigeria,4.8728093,7.5194264
+Ori Ire,Oyo State,Nigeria,4.1513764,8.3747765
+Orlu,Imo State,Nigeria,7.0390904,5.7812306
+Orolu,Osun State,Nigeria,4.4696765,7.9027996
+Oron,Akwa Ibom State,Nigeria,8.2377049,4.807369
+Orsu,Imo State,Nigeria,6.974604,5.8448851
+Oru East,Imo State,Nigeria,6.9423844,5.6673409
+Oruk Anam,Akwa Ibom State,Nigeria,7.6765157,4.7882297
+Orumba North,Anambra State,Nigeria,7.2194466,6.0543288
+Orumba South,Anambra State,Nigeria,7.2005806,5.999404
+Oru West,Imo State,Nigeria,6.9101806,5.7409359
+Ose,Ondo State,Nigeria,5.6878736,7.0154815
+Oshimili North,Delta State,Nigeria,6.6210611,6.4076815
+Oshimili South,Delta State,Nigeria,6.6210611,6.0698466
+Oshodi-Isolo,Lagos State,Nigeria,3.3245859,6.5312609
+Osisioma,Abia State,Nigeria,7.330053,5.2049035
+Osogbo,Osun State,Nigeria,4.5418141,7.7826709
+Oturkpo,Benue State,Nigeria,8.1393179,7.1982133
+Ovia North-East,Edo State,Nigeria,5.6037465,6.5046794
+Ovia South-West,Edo State,Nigeria,5.3102505,6.4653494
+Owan East,Edo State,Nigeria,6.0255738,7.0969157
+Owan West,Edo State,Nigeria,5.8564864,6.9278693
+Owerri Municipal,Imo State,Nigeria,7.0175879,5.4682267
+Owerri North,Imo State,Nigeria,7.1144039,5.4566772
+Owerri West,Imo State,Nigeria,6.9853474,5.4165507
+Owo,Ondo State,Nigeria,5.593239,7.198851
+Oye,Ekiti State,Nigeria,5.3285505,7.7979306
+Oyi,Anambra State,Nigeria,6.8887202,6.2245579
+Oyigbo,Rivers State,Nigeria,7.1251699,4.8868615
+Oyo West,Oyo State,Nigeria,3.7841503,7.8986699
+Oyo East,Oyo State,Nigeria,4.0491077,7.8744751
+Oyun,Kwara State,Nigeria,4.6243751,8.2167074
+Paikoro,Niger State,Nigeria,6.7922355,9.4351377
+Pankshin,Plateau State,Nigeria,9.4311572,9.3278585
+Patani,Delta State,Nigeria,6.1911526,5.2287989
+Pategi,Kwara State,Nigeria,5.7563151,8.721124
+Port Harcourt,Rivers State,Nigeria,7.0498442,4.815554
+Potiskum,Yobe State,Nigeria,11.0824912,11.7072355
+Qua'an Pan,Plateau State,Nigeria,9.2841023,8.9786215
+Rabah,Sokoto State,Nigeria,5.5053129,13.1225519
+Rafi,Niger State,Nigeria,6.1526985,10.112955
+Rano,Kano State,Nigeria,8.581717,11.5610083
+Remo North,Ogun State,Nigeria,3.7232005,7.0136522
+Rijau,Niger State,Nigeria,5.2527741,11.0991113
+Rimi,Katsina State,Nigeria,7.7063707,12.850523
+Rimin Gado,Kano State,Nigeria,8.247151,11.9673401
+Ringim,Jigawa State,Nigeria,9.4729757,12.2852094
+Riyom,Plateau State,Nigeria,8.713707,9.5842063
+Rogo,Kano State,Nigeria,7.8231982,11.5500501
+Roni,Jigawa State,Nigeria,8.3485476,12.5674532
+Sabon Birni,Sokoto State,Nigeria,6.2814148,13.5128244
+Sabon Gari,Kaduna State,Nigeria,7.6765157,11.1765614
+Sabuwa,Katsina State,Nigeria,7.0713572,11.3266588
+Safana,Katsina State,Nigeria,7.7362384,12.6984184
+Sagbama,Bayelsa State,Nigeria,6.1924791,5.1522389
+Sakaba,Kebbi State,Nigeria,5.5965224,11.0654717
+Saki East,Oyo State,Nigeria,3.6217802,8.6869566
+Saki West,Oyo State,Nigeria,3.1378173,8.6033433
+Sandamu,Katsina State,Nigeria,8.3608737,12.9617351
+Sanga,Kaduna State,Nigeria,8.5281613,9.2216192
+Sapele,Delta State,Nigeria,5.6931356,5.8750769
+Sardauna,Taraba State,Nigeria,11.2523792,6.8734491
+Shagamu,Ogun State,Nigeria,3.6319131,6.8322014
+Shagari,Sokoto State,Nigeria,4.9909478,12.6253621
+Shanga,Kebbi State,Nigeria,4.579209,11.2131346
+Shani,Borno State,Nigeria,12.051835,10.2227095
+Shanono,Kano State,Nigeria,7.9892605,12.0515162
+Shelleng,Adamawa State,Nigeria,12.0147147,9.8971838
+Shendam,Plateau State,Nigeria,9.4537243,8.8955221
+Shinkafi,Zamfara State,Nigeria,6.5063095,13.0720499
+Shira,Bauchi State,Nigeria,10.045741,11.4615001
+Shiroro,Niger State,Nigeria,6.8093109,9.9822296
+Shongom,Gombe State,Nigeria,11.2977322,9.669775
+Shomolu,Lagos State,Nigeria,3.3841676,6.539173
+Silame,Sokoto State,Nigeria,4.7944055,12.9923502
+Soba,Kaduna State,Nigeria,8.060158,10.9840928
+Sokoto North,Sokoto State,Nigeria,5.2162283,13.0639217
+Sokoto South,Sokoto State,Nigeria,5.2371087,13.0175647
+Song,Adamawa State,Nigeria,12.6158803,9.8257523
+Southern Ijaw,Bayelsa State,Nigeria,5.9832577,4.6198405
+Suleja,Niger State,Nigeria,7.1722917,9.2003255
+Sule Tankarkar,Jigawa State,Nigeria,9.2342196,12.5994417
+Sumaila,Kano State,Nigeria,8.8803925,11.3453338
+Suru,Kebbi State,Nigeria,4.1833765,11.9252631
+Surulere,Oyo State,Nigeria,4.43879,8.066228
+Surulere,Lagos State,Nigeria,3.348572,6.498293
+Tafa,Niger State,Nigeria,7.2882171,9.2447759
+Tafawa Balewa,Bauchi State,Nigeria,9.5562219,9.7560479
+Tai,Rivers State,Nigeria,7.2437105,4.7518199
+Takai,Kano State,Nigeria,9.1096477,11.5716154
+Takum,Taraba State,Nigeria,9.9744535,7.2576942
+Talata Mafara,Zamfara State,Nigeria,6.0652719,12.5617809
+Tambuwal,Sokoto State,Nigeria,4.8520636,12.3491698
+Tangaza,Sokoto State,Nigeria,4.976654,13.4023005
+Tarauni,Kano State,Nigeria,8.5542478,11.9767588
+Tarka,Benue State,Nigeria,8.8142264,7.6298559
+Tarmuwa,Yobe State,Nigeria,11.7979613,12.0933225
+Taura,Jigawa State,Nigeria,9.2827163,12.2277734
+Toungo,Adamawa State,Nigeria,12.0441254,8.1176596
+Tofa,Kano State,Nigeria,8.2724176,12.0584525
+Toro,Bauchi State,Nigeria,9.0709315,10.0595845
+Toto,Nasarawa State,Nigeria,7.0780814,8.389202
+Chafe,Zamfara State,Nigeria,6.9182301,11.9552779
+Tsanyawa,Kano State,Nigeria,7.9892605,12.2954782
+Tudun Wada,Kano State,Nigeria,8.4047163,11.2496719
+Tureta,Sokoto State,Nigeria,5.547291,12.5944079
+Udenu,Enugu State,Nigeria,7.5463885,6.8828347
+Udi,Enugu State,Nigeria,7.394882,6.4817502
+Udu,Delta State,Nigeria,5.8353837,5.4704358
+Udung-Uko,Akwa Ibom State,Nigeria,8.2541155,4.7507369
+Ughelli North,Delta State,Nigeria,6.1102943,5.65577
+Ughelli South,Delta State,Nigeria,5.940971,5.2403052
+Ugwunagbo,Abia State,Nigeria,7.330053,4.9980821
+Uhunmwonde,Edo State,Nigeria,5.9832577,6.4579082
+Ukanafun,Akwa Ibom State,Nigeria,7.5897372,4.9126657
+Ukum,Benue State,Nigeria,9.634135,7.5909302
+Ukwa East,Abia State,Nigeria,7.4165053,4.9146128
+Ukwa West,Abia State,Nigeria,7.2437105,4.9165104
+Ukwuani,Delta State,Nigeria,6.195132,5.822521
+Umuahia North,Abia State,Nigeria,7.5030669,5.576912
+Umuahia South,Abia State,Nigeria,7.4165053,5.4946611
+Umu Nneochi,Abia State,Nigeria,7.4165053,5.9545417
+Ungogo,Kano State,Nigeria,8.4963355,12.0915753
+Unuimo,Imo State,Nigeria,7.2329255,5.7787991
+Uruan,Akwa Ibom State,Nigeria,8.068343,5.0306592
+Urue-Offong/Oruko,Akwa Ibom State,Nigeria,8.1557066,4.7006432
+Ushongo,Benue State,Nigeria,8.9687011,7.1347572
+Ussa,Taraba State,Nigeria,10.0359661,7.1127734
+Uvwie,Delta State,Nigeria,5.7826597,5.5649555
+Uyo,Akwa Ibom State,Nigeria,7.9127945,5.0377396
+Uzo-Uwani,Enugu State,Nigeria,7.1359377,6.7401102
+Vandeikya,Benue State,Nigeria,9.0695492,6.7835394
+Wamako,Sokoto State,Nigeria,5.0945238,13.0367242
+Wamba,Nasarawa State,Nigeria,8.6023254,8.943208
+Warawa,Kano State,Nigeria,8.7921836,11.8888632
+Warji,Bauchi State,Nigeria,9.7539282,11.1804984
+Warri North,Delta State,Nigeria,5.1432068,5.9593413
+Warri South,Delta State,Nigeria,5.6037465,5.6608683
+Warri South West,Delta State,Nigeria,5.435853,5.5787051
+Wasagu/Danko,Kebbi State,Nigeria,5.6457951,11.3799005
+Wase,Plateau State,Nigeria,9.9604795,9.0946491
+Wudil,Kano State,Nigeria,8.8390321,11.7942415
+Wukari,Taraba State,Nigeria,9.7790227,7.877332
+Wurno,Sokoto State,Nigeria,5.4201377,13.2838698
+Wushishi,Niger State,Nigeria,6.1112878,9.7220855
+Yabo,Sokoto State,Nigeria,5.0104451,12.7209075
+Yagba East,Kogi State,Nigeria,5.6878736,8.1378427
+Yagba West,Kogi State,Nigeria,5.5197394,8.3144684
+Yakuur,Cross River State,Nigeria,8.1775638,5.7973453
+Yala,Cross River State,Nigeria,8.6160674,6.6315815
+Yamaltu/Deba,Gombe State,Nigeria,11.47935,10.2794091
+Yankwashi,Jigawa State,Nigeria,8.5062007,12.7830962
+Yauri,Kebbi State,Nigeria,4.5211935,10.9924545
+Yenagoa,Bayelsa State,Nigeria,6.2747734,4.9211621
+Yola North,Adamawa State,Nigeria,12.4151335,9.1737191
+Yola South,Adamawa State,Nigeria,12.4151335,9.2606194
+Yorro,Taraba State,Nigeria,11.47935,8.8788503
+Yunusari,Yobe State,Nigeria,11.6157773,13.1854133
+Yusufari,Yobe State,Nigeria,11.1717405,13.0635676
+Zaki,Bauchi State,Nigeria,10.3048897,12.1080695
+Zango,Katsina State,Nigeria,8.4869905,13.0547126
+Zangon Kataf,Kaduna State,Nigeria,8.2212979,9.8905849
+Zaria,Kaduna,Nigeria,7.7199454,11.0855409
+Zing,Taraba,Nigeria,11.7466898,8.9951994
+Zurmi,Zamfara,Nigeria,6.7842015,12.784464
+Zuru,Kebbi,Nigeria,5.2318879,11.4384457

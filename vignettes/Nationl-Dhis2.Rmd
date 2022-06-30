@@ -1,0 +1,158 @@
+---
+title: "Nationl-Dhis2"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Nationl-Dhis2}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(Dhis2WithSormas)
+library(datimutils)
+library(tidyverse)
+library(dplyr)
+library(httptest)
+
+dw <- config::get("development_stream2") 
+
+loginToDATIM(
+  base_url = "https://dhis2nigeria.org.ng/dhis/",
+  username = dw$dhis2_username,
+  password = dw$dhis2_password
+)
+
+```
+
+
+
+```{r}
+dataElements <- datimutils::getMetadata("organisationUnits", fields = "id,name,shortName")
+
+dataElements %>%
+   filter(id =="hvYqrmR6MPq")
+```
+
+
+## Get analytics
+
+
+```{r}
+get_period_type <- function(months){
+  
+  if(length(months)==0){
+    
+    period_type <- "year"
+    
+  } else{
+    
+    period_type <- "year_month"
+    
+    
+  }
+  period_type
+}
+
+
+#get_period_type(months = NULL)
+#get_period_type("Jan")
+
+
+get_periods_str <- function(v_years, v_months){
+  
+  all_periods_vector <- c()
+  
+  period_type <- get_period_type(v_months)
+  
+  if (period_type == "year_month") {
+    for (y in 1:length(v_years)) {
+      year_month_str <- paste(paste0(v_years[y],v_months,collapse=";"),sep=";") 
+      all_periods_vector <- append(all_periods_vector,year_month_str)
+    }
+  } else {
+    for (y in 1:length(v_years)) {
+      year_str <- paste(paste0(v_years[y],collapse=";"),sep=";") 
+      all_periods_vector <- append(all_periods_vector,year_str)
+    }
+  }
+  period_string <- paste0(all_periods_vector[1:length(all_periods_vector)], collapse = ";")
+  
+  period_string
+}
+
+
+```
+
+
+```{r}
+# 
+#years_vector <- c("2017","2018", "2019", "2020", "2021", "2022")
+
+years_vector <- c("2022")
+
+
+#years_vector <- c("2021")
+
+months_vector <- c()#c("05")
+
+
+period <-  get_periods_str(v_years = years_vector, v_months = months_vector)
+
+
+
+df_from_xml <-  datimutils::getAnalytics(dx = "hvYqrmR6MPq",
+                         ou = c("LEVEL-1", "LEVEL-2","LEVEL-3"),
+                         pe = period,
+                         return_names = T)
+```
+
+
+```{r}
+getAnalytics_cleaned <- function(dx = "hvYqrmR6MPq",
+                                 pe = months_vector,
+                                 indicator_id,
+                                 ou = c("LEVEL-1", "LEVEL-2","LEVEL-3", "s5DPBsdoE8b")){
+  
+  
+   p_type <- get_period_type(months = mth)
+
+  if(p_type == "year"){
+    
+    df1 <- df_from_xml %>%
+      set_names(c("Indicator", "Year", "Organization_Unit", "Values"))%>% tibble() %>%  #glimpse()
+      mutate(Year = as.numeric(Year),
+             Month = NA,
+              Values =  as.numeric(Values),
+              LGA =  case_when(str_detect(str_to_lower(Organization_Unit), "area") ~ Organization_Unit),
+              State_Code = str_sub(str_trim(Organization_Unit), 1, 2))
+    
+  }else{
+    
+    df1 <- df_from_xml %>%
+      set_names(c("Indicator", "Month_Year", "Organization_Unit", "Values"))%>% tibble() %>%  #glimpse()
+      separate(Month_Year,into = c("Month", "Year")) %>% 
+      mutate( Month = str_sub(Month, 1, 3),
+              Year = as.numeric(Year),
+              Values =  as.numeric(Values),
+              LGA =  case_when(str_detect(str_to_lower(Organization_Unit), "area") ~ Organization_Unit),
+              State_Code = str_sub(str_trim(Organization_Unit), 1, 2))
+  
+    
+  }
+  
+  df1
+
+}
+
+
+```
+
+
+

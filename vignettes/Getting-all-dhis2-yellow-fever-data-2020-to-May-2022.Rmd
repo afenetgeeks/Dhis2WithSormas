@@ -1,0 +1,271 @@
+---
+title: "Getting-all-dhis2-yellow-fever-data-2020-to-May-2022"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Getting-all-dhis2-yellow-fever-data-2020-to-May-2022}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(Dhis2WithSormas)
+library(purrr)
+library(readr)
+library(dplyr)
+```
+
+```{r}
+
+# months_vector <- c("05")
+# 
+# yf_years <- c(2022)
+# 
+
+yf_first_year <- 2020
+
+yf_years <-  c(2021, 2022)
+
+months_vector <-  c("01","02","03","04","05","06","07","08", "09","10","11","12")
+
+```
+
+```{r}
+
+dw <- config::get("development_stream2")
+
+loginToDATIM(
+  base_url = "https://dhis2nigeria.org.ng/dhis/",
+  username = dw$dhis2_username,
+  password = dw$dhis2_password
+)
+```
+
+
+
+```{r}
+yf_coverage_annualized <-  getAnalytics_cleaned(indicator_id = "RtXOV3xQvWT",
+                       months = c(),
+                       year = yf_first_year,
+                       organisation_uint = c("LEVEL-1", "LEVEL-2","LEVEL-3")
+                       )
+
+
+
+for( year in  yf_years) {
+   print(year)
+  
+  data_for_that_year <- getAnalytics_cleaned(indicator_id = "RtXOV3xQvWT",
+                       months = c(),
+                       year = year,
+                       organisation_uint = c("LEVEL-1", "LEVEL-2","LEVEL-3")
+                       )
+  
+  yf_coverage_annualized <-  bind_rows(yf_coverage_annualized,  data_for_that_year)
+  
+}
+
+indicator_name <-  datimutils::getAnalytics(dx = "RtXOV3xQvWT",
+                                         ou = "LEVEL-1",
+                                         pe = "2020",
+                                         return_names = T) %>% pull(Data) %>% unique()
+
+
+yf_coverage_annualized <- yf_coverage_annualized %>% mutate(Indicator =indicator_name)
+write_csv(x = yf_coverage_annualized,
+          file = "/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/yf_coverage_annualized.csv")
+```
+
+
+```{r}
+yf_coverage_monthly <- getAnalytics_cleaned(indicator_id = "RtXOV3xQvWT",
+                       months = months_vector,
+                       year = yf_first_year,
+                       organisation_uint = c("LEVEL-1", "LEVEL-2","LEVEL-3")
+                       )
+
+
+for( year in  yf_years) {
+  
+   print(year)
+  
+  data_for_that_year <- getAnalytics_cleaned(indicator_id = "RtXOV3xQvWT",
+                       months = months_vector,
+                       year = year,
+                       organisation_uint = c("LEVEL-1", "LEVEL-2","LEVEL-3")
+                       )
+  
+  yf_coverage_monthly <-  bind_rows(yf_coverage_monthly,  data_for_that_year)
+  
+}
+
+indicator_name <-  datimutils::getAnalytics(dx = "RtXOV3xQvWT",
+                                         ou = "LEVEL-1",
+                                         pe = "2020",
+                                         return_names = T) %>% pull(Data) %>% unique()
+
+
+yf_coverage_monthly <- yf_coverage_monthly %>% mutate(Indicator =indicator_name)
+
+
+write_csv(x = yf_coverage_monthly,
+          file = "/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/yf_coverage_monthly.csv")
+```
+
+
+```{r}
+yf_Vaccine_Given  <- getAnalytics_cleaned(indicator_id = "KpKx2MosfIV",
+                       months = months_vector,
+                       year = yf_first_year,
+                       organisation_uint = c("LEVEL-1", "LEVEL-2","LEVEL-3")
+                       )
+
+
+
+for( year in yf_years) {
+  
+   print(year)
+  
+  data_for_that_year <- getAnalytics_cleaned(indicator_id =  "KpKx2MosfIV",
+                       months = months_vector,
+                       year = year,
+                       organisation_uint = c("LEVEL-1", "LEVEL-2","LEVEL-3")
+                       )
+  
+  yf_Vaccine_Given <-  bind_rows(yf_Vaccine_Given,  data_for_that_year)
+  
+}
+
+indicator_name <-  datimutils::getAnalytics(dx =  "KpKx2MosfIV",
+                                         ou = "LEVEL-1",
+                                         pe = "2020",
+                                         return_names = T) %>% pull(Data) %>% unique()
+
+
+yf_Vaccine_Given <- yf_Vaccine_Given %>% mutate(Indicator =indicator_name)
+
+write_csv(x = yf_Vaccine_Given,
+          file = "/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/yf_Vaccine_Given.csv")
+
+
+```
+
+
+```{r}
+yf_Received  <- getAnalytics_cleaned(indicator_id = "GkFMGCF5p4n",
+                       months = months_vector,
+                       year = yf_first_year,
+                       organisation_uint = c("LEVEL-1", "LEVEL-2","LEVEL-3")
+                       )
+
+
+for( year in yf_years) {
+  
+   print(year)
+  
+  data_for_that_year <- getAnalytics_cleaned(indicator_id = "GkFMGCF5p4n",
+                       months = months_vector,
+                       year = year,
+                       organisation_uint = c("LEVEL-1", "LEVEL-2","LEVEL-3")
+                       )
+  
+  yf_Received <-  bind_rows(yf_Received,  data_for_that_year)
+  
+}
+
+indicator_name <-  datimutils::getAnalytics(dx = "GkFMGCF5p4n",
+                                         ou = "LEVEL-1",
+                                         pe = "2020",
+                                         return_names = T) %>% pull(Data) %>% unique()
+
+
+yf_Received <- yf_Received %>% mutate(Indicator =indicator_name)
+
+
+write_csv(x = yf_Received,
+          file = "/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/yf_Received.csv")
+
+```
+
+
+```{r}
+yf_OB  <-  getAnalytics_cleaned(indicator_id = "iKUmaZuN5l0",
+                       months = months_vector,
+                       year = yf_first_year,
+                       organisation_uint = c("LEVEL-1", "LEVEL-2","LEVEL-3")
+                       )
+
+
+
+for( year in yf_years) {
+  
+   print(year)
+  
+  data_for_that_year <- getAnalytics_cleaned(indicator_id = "iKUmaZuN5l0",
+                       months = months_vector,
+                       year = year,
+                       organisation_uint = c("LEVEL-1", "LEVEL-2","LEVEL-3")
+                       )
+  
+  yf_OB <-  bind_rows(yf_OB,  data_for_that_year)
+  
+}
+
+indicator_name <-  datimutils::getAnalytics(dx = "iKUmaZuN5l0",
+                                         ou = "LEVEL-1",
+                                         pe = "2020",
+                                         return_names = T) %>% pull(Data) %>% unique()
+
+
+yf_OB <- yf_OB %>% mutate(Indicator =indicator_name)
+
+
+write_csv(x = yf_OB,
+          file = "/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/yf_OB.csv")
+
+```
+
+
+
+```{r}
+yf_Doses_Opened  <-getAnalytics_cleaned(indicator_id = "OiNgd1uT2Mp",
+                       months = months_vector,
+                       year = yf_first_year,
+                       organisation_uint = c("LEVEL-1", "LEVEL-2","LEVEL-3")
+                       )
+
+
+for( year in yf_years) {
+  
+   print(year)
+  
+  data_for_that_year <- getAnalytics_cleaned(indicator_id =  "OiNgd1uT2Mp",
+                       months = months_vector,
+                       year = year,
+                       organisation_uint = c("LEVEL-1", "LEVEL-2","LEVEL-3")
+                       )
+  
+  yf_Doses_Opened <-  bind_rows(yf_Doses_Opened,  data_for_that_year)
+  
+}
+
+indicator_name <-  datimutils::getAnalytics(dx =  "OiNgd1uT2Mp",
+                                         ou = "LEVEL-1",
+                                         pe = "2020",
+                                         return_names = T) %>% pull(Data) %>% unique()
+
+
+yf_Doses_Opened <- yf_Doses_Opened %>% mutate(Indicator =indicator_name)
+
+write_csv(x = yf_Doses_Opened,
+          file = "/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/yf_Doses_Opened.csv")
+```
+
+
+

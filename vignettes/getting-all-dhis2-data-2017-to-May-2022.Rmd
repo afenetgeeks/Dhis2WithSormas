@@ -1,0 +1,40 @@
+---
+title: "getting-all-dhis2-data-2017-to-May-2022"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{getting-all-dhis2-data-2017-to-May-2022}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(Dhis2WithSormas)
+```
+
+```{r}
+
+                                                       
+measles1_coverage_annualized <- map_dfr(.x = years_vector, function(year){
+  
+  print(year)
+  extract_data_by_ou_month_year(yr = year,
+                                mth = c(),
+                                indicator_id = "hvYqrmR6MPq")}
+  
+  )
+
+
+write_rds(x = measles1_coverage_annualized, 
+          file = "creation-of-stream2-database/data/rds_data_2020_2021/measles_coverage_annualized.rds")
+
+
+
+```
+
