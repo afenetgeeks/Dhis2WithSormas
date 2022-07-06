@@ -117,7 +117,7 @@ get_measles_alt_denominator <- function(sormas_cleaned,mcv1, mcv2, measles1_give
 
   state_alt_den <- denominator_data %>%
     group_by(State, Year) %>%
-    summarise(Denominator = sum(Denominator),LGA = "State Level data")
+    summarise(Denominator = sum(Denominator),LGA = "State level data")
 
 
   alt_den_long_s <- bind_rows(state_alt_den, denominator_data) %>%

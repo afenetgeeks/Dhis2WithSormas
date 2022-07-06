@@ -48,7 +48,7 @@ mvc_cleaned_slide4_f <- sormas_cases_by_age_group %>%
   summarise(across(c(Vaccinated, Unvaccinated, Unknown), ~ sum(.x, na.rm = TRUE)),.groups = "drop") %>% 
   filter(Year %in% years_vector) %>% 
   mutate(State = "Federal Government",
-         LGA = "State Level data")
+         LGA = "State level data")
 
 write_rds(mvc_cleaned_slide4_f, "creation-of-stream2-database/data/rds_cleaned_2020_2021/mvc_cleaned_slide4_federal.rds")
 
@@ -57,7 +57,7 @@ mvc_cleaned_slide4_states <- sormas_cases_by_age_group %>%
   group_by(`Age group`, Year, Months, State) %>% 
   summarise(across(c(Vaccinated, Unvaccinated, Unknown), ~ sum(.x, na.rm = TRUE)), .groups = "drop") %>% 
   filter(Year %in% years_vector) %>% 
-  mutate(LGA = "State Level data")
+  mutate(LGA = "State level data")
 
 
 
