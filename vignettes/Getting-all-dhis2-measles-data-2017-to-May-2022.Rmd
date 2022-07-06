@@ -26,9 +26,9 @@ library(readr)
 dw <- config::get("development_stream2")
 
 loginToDATIM(
-  base_url = "https://dhis2nigeria.org.ng/dhis/",
-  username = dw$dhis2_username,
-  password = dw$dhis2_password
+  base_url = dw$Dhis2_base_url,
+  username = dw$Dhis2_username,
+  password = dw$Dhis2_password
 )
 
 # months_vector <- c("05")
@@ -89,8 +89,6 @@ measles2_coverage_annualized <-  getAnalytics_cleaned(indicator_id = "Fbj3AkYjCi
                        year = 2019,
                        organisation_uint = c("LEVEL-1", "LEVEL-2","LEVEL-3")
                        )
-
-
 
 
 for( year in measles2_years) {

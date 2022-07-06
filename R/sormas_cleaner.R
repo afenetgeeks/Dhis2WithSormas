@@ -5,10 +5,10 @@
 #' @inheritParams stringr::str_split
 #'
 #' @return a dataframe.
-#' @export
 #'
 #' @examples
 #' cleaned_measles_data <- "sormas_cleaner(file = "path")"
+#' @export
 
 
 sormas_cleaner  <- function(file, skip = 2) {

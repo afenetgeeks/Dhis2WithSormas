@@ -1,0 +1,92 @@
+---
+title: "age_group_vaccination_status"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{age_group_vaccination_status}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(Dhis2WithSormas)
+library(dplyr)
+library(readr)
+library(tidyr)
+```
+
+
+```{r}
+measles_sormas_cleaned <-sormas_cleaner("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/sormas_measles.csv")
+
+sormas_cases_by_age_group <- measles_sormas_cleaned  %>%  
+  pivot_wider(names_from = `Vaccination status`,
+              values_from = `Vaccination status`) %>%
+  mutate(across(c(Vaccinated, Unvaccinated, Unknown), ~ if_else(is.na(.x), 0, 1))) %>%
+  mutate(Age_numeric = case_when(!str_detect(Age, "[[:alpha:]]")~  as.numeric(Age), 
+                                 str_detect(Age,  "Months") ~  as.numeric(str_extract(Age, pattern = "[[:digit:]]"))/12,
+                                 str_detect(Age,  "Days") ~  as.numeric(str_extract(Age, pattern = "[[:digit:]]"))/365,
+                                 TRUE~ 0)) %>%
+  mutate(`Age group` = case_when( Age_numeric < 0.75 ~ "< 9",
+                                  Age_numeric <= 4.916667 ~ "9 - 59",
+                                  Age_numeric <= 15 ~ "60 - 180",
+                                  TRUE ~ "> 180") ) %>% 
+  select(-Age_numeric )
+
+
+  
+  
+
+mvc_cleaned_slide4_f <- sormas_cases_by_age_group %>% 
+  group_by(`Age group`, Year, Months) %>% 
+  summarise(across(c(Vaccinated, Unvaccinated, Unknown), ~ sum(.x, na.rm = TRUE)),.groups = "drop") %>% 
+  filter(Year %in% years_vector) %>% 
+  mutate(State = "Federal Government",
+         LGA = "State Level data")
+
+write_rds(mvc_cleaned_slide4_f, "creation-of-stream2-database/data/rds_cleaned_2020_2021/mvc_cleaned_slide4_federal.rds")
+
+
+mvc_cleaned_slide4_states <- sormas_cases_by_age_group %>%  
+  group_by(`Age group`, Year, Months, State) %>% 
+  summarise(across(c(Vaccinated, Unvaccinated, Unknown), ~ sum(.x, na.rm = TRUE)), .groups = "drop") %>% 
+  filter(Year %in% years_vector) %>% 
+  mutate(LGA = "State Level data")
+
+
+
+mvc_cleaned_slide4_lga <- sormas_cases_by_age_group %>%  
+  group_by(`Age group`, Year, Months, State, LGA) %>% 
+  summarise(across(c(Vaccinated, Unvaccinated, Unknown), ~ sum(.x, na.rm = TRUE)), .groups = "drop") %>% 
+  filter(Year %in% years_vector)
+
+mvc_cleaned_slide4_s <- bind_rows(mvc_cleaned_slide4_states, mvc_cleaned_slide4_lga )
+
+
+write_rds(mvc_cleaned_slide4_s, "creation-of-stream2-database/data/rds_cleaned_2020_2021/mvc_cleaned_slide4_states.rds")
+
+s4_combined <- bind_rows(mvc_cleaned_slide4_f,mvc_cleaned_slide4_s)
+write_rds(s4_combined, "creation-of-stream2-database/data/rds_cleaned_2020_2021/s4_combined.rds")
+
+
+
+mvc_by_age_group <-
+  s4_combined %>% 
+  mutate(State = str_replace(State,pattern = "Fct",replacement = "Federal Capital Territory"))
+
+
+write_rds(mvc_by_age_group, "creation-of-stream2-database/data/rds_cleaned_2020_2021/mvc_by_age_group.rds")
+
+
+
+
+
+
+```
+

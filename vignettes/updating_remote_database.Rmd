@@ -1,0 +1,32 @@
+---
+title: "updating_remote_database"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{updating_remote_database}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(Dhis2WithSormas)
+```
+
+## Confirmed Measles cases, MCV1, MCV2 and cases
+
+```{r}
+
+
+dbWriteTable(cn, name = "s3_combined", value = s3_combined, overwrite = TRUE)
+
+updated_aws_database(dataset = bind_rows( filter(s3_combined, State == "Federal Capital Territory"), filter(s3_combined, State != "Federal Capital Territory") ),
+                     aws_datatable = "s3_combined",  starting_index = 1)
+
+```
+

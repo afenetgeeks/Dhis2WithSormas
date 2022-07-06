@@ -1,0 +1,159 @@
+---
+title: "updating_remote_database_yellow_fever"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{updating_remote_database_yellow_fever}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(Dhis2WithSormas)
+library(readr)
+```
+
+```{r}
+dw <- config::get("development_stream2")
+
+connection <- DBI::dbConnect(RMariaDB::MariaDB(),
+               username = dw$DB_user,
+               password = dw$DB_password,
+               host     = dw$DB_host,
+               port     = dw$DB_port,
+               dbname   = dw$DB_name)
+```
+
+
+##  Confirmed Yellow Fever cases, coverage
+
+```{r}
+sormas_yellow_fever_cleaned <- sormas_cleaner("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/sormas_yellow_fever.csv")
+
+yf_coverage_monthly  <- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/yf_coverage_monthly.csv")
+
+yf_given <- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/yf_Vaccine_Given.csv")
+
+```
+
+```{r}
+
+yf_alt_denominator <- get_alt_denominator(coverage = yf_coverage_monthly,
+                    sormas_cleaned = sormas_yellow_fever_cleaned ,
+                    doses_given = yf_given, 
+                    denominator_data = denominator_data)
+
+#dbWriteTable(connection , name = "yf_alt_denominator", value = yf_alt_denominator %>% slice(1:2), overwrite = TRUE)
+
+updated_remote_database(connection = connection,
+                        dataset = bind_rows( filter(yf_alt_denominator, State == "Federal Capital Territory"),
+                                             filter(yf_alt_denominator, State != "Federal Capital Territory") ),
+                        aws_datatable = "yf_alt_denominator", 
+                       starting_index = 1)
+```
+
+
+## Age Group of Confirmed Yellow Fever Cases by Vaccination Status
+
+```{r}
+
+yf_age_group <- get_age_group(sormas_cleaned = sormas_yellow_fever_cleaned )
+
+#dbWriteTable(connection, name = "yf_age_group", value = yf_age_group %>% slice(1:2), overwrite = TRUE)
+
+updated_remote_database(dataset = bind_rows( filter(yf_age_group, State == "Federal Capital Territory"),
+                                                 filter(yf_age_group, State != "Federal Capital Territory") ), 
+                            aws_datatable = "yf_age_group",
+                            starting_index = 1)
+
+```
+
+
+## Yellow Fever Vaccine Stock Analysis & Yellow Fever given
+
+```{r}
+
+yf_received <- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/yf_Received.csv")
+
+yf_opening_balance <- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/yf_OB.csv")
+
+yf_opened_used <- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/yf_Doses_Opened.csv")
+
+```
+
+
+```{r}
+
+yf_stock_analysis <- get_stock_analysis(doses_given = yf_given,
+                                        received = yf_received,
+                                        opening_balance = yf_opening_balance,
+                                        opened_used = yf_opened_used)
+
+#dbWriteTable(connection, name = "yf_stock_analysis", value = yf_stock_analysis %>% slice(1:2), overwrite = TRUE)
+
+updated_remote_database(dataset = bind_rows( filter(yf_stock_analysis, State == "Federal Capital Territory"), filter(yf_stock_analysis, State != "Federal Capital Territory") ), 
+                     
+                     aws_datatable = "yf_stock_analysis",starting_index = 1)
+
+```
+
+
+## Co-administered Antigen Discrepancy: MCV 1 & Yellow Fever given by State
+
+## Map  Confirmed Yellow Fever cases, Yellow Fever coverage
+
+
+## Map Confirmed yf cases, MCV 1 coverage
+
+
+```{r}
+yf_coverage_annually <- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/yf_coverage_annualized.csv")
+
+yf_coverage_monthly <- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/yf_coverage_monthly.csv")
+```
+
+
+```{r}
+yf_coverage_map <- get_coverage_map(annual_data = yf_coverage_annually,
+                 monthly_data = yf_coverage_monthly)
+
+
+#dbWriteTable(connection, name = "yf_coverage_map", 
+#             value = yf_coverage_map %>% slice(1:2), overwrite = TRUE)
+
+updated_remote_database(
+  dataset = bind_rows( filter(yf_coverage_map, State == "Federal Capital Territory"),
+                       filter(yf_coverage_map, State != "Federal Capital Territory") ), 
+                     
+                     aws_datatable = "yf_coverage_map",starting_index = 1)
+
+
+```
+
+
+```{r}
+yf_cases_map <- sormas_yellow_fever_cleaned %>%
+  select("##Case ID","Disease", "Long", "Lat", "Months", "Year", "State", "LGA")
+
+
+#dbWriteTable(connection, name = "yf_cases_map", 
+#            value = yf_cases_map %>% slice(1:2), overwrite = TRUE)
+
+updated_remote_database(
+  dataset = bind_rows( filter(yf_cases_map, State == "Federal Capital Territory"),
+                       filter(yf_cases_map, State != "Federal Capital Territory") ), 
+                     
+                     aws_datatable = "yf_cases_map",starting_index = 1)
+
+
+```
+
+
+
+

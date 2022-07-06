@@ -4,13 +4,35 @@
 
 #'
 #' @noRd
-#' @import datimutils
+#' @import datimutils odbc RMariaDB DBI
 
-dw <- config::get("development_stream2")
+#' @export
+#'
+#'
+# loginToDhis2<- function(base_url,username, password ){
+#
+#   loginToDATIM(
+#       base_url = base_url,
+#       username = username,
+#       password = dhis2_password
+#       )
+#
+#
+# }
 
-loginToDATIM(
-  base_url = "https://dhis2nigeria.org.ng/dhis/",
-  username = dw$dhis2_username,
-  password = dw$dhis2_password
-)
+
+
+#' @export
+# connectToDatabase <- function(username,  password, host,dbname, port){
+#
+#   DBI::dbConnect(RMariaDB::MariaDB(),
+#             username = username,
+#             password =  password,
+#             host     = host,
+#             port     = port,
+#             dbname   = dbname)
+# }
+
+
+
 

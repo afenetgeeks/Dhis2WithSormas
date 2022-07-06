@@ -1,0 +1,19 @@
+---
+title: "cases_coverage_alt_denominator"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{cases_coverage_alt_denominator}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(Dhis2WithSormas)
+```

@@ -1,0 +1,220 @@
+---
+title: "updating_remote_database_measles"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{updating_remote_database_measles}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(Dhis2WithSormas)
+library(readr)
+```
+
+```{r}
+dw <- config::get("development_stream2")
+
+connection <- DBI::dbConnect(RMariaDB::MariaDB(),
+               username = dw$DB_user,
+               password = dw$DB_password,
+               host     = dw$DB_host,
+               port     = dw$DB_port,
+               dbname   = dw$DB_name)
+```
+
+
+
+## Confirmed Measles cases, MCV1, MCV2 and cases
+
+```{r}
+measles_sormas_cleaned <- sormas_cleaner("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/sormas_measles.csv")
+
+measles1_coverage_monthly <- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/measles1_coverage_monthly.csv")
+
+measles2_coverage_monthly <- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/measles2_coverage_monthly.csv")
+
+measles1_given <- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/measles1_given.csv")
+
+measles2_given <-read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/measles2_given.csv")
+```
+
+
+```{r}
+measles_alt_denominator <- get_measles_alt_denominator(sormas_cleaned = measles_sormas_cleaned,
+                            mcv1 =measles1_coverage_monthly,
+                            mcv2 = measles2_coverage_monthly,
+                            measles1_given = measles1_given,
+                            measles2_given = measles2_given,
+                            denominator_data = denominator_data)
+
+#dbWriteTable(connection , name = "measles_alt_denominator", value = measles_alt_denominator %>% slice(1:2), overwrite = TRUE)
+
+updated_remote_database(connection = connection,
+                        dataset = bind_rows( filter(measles_alt_denominator, State == "Federal Capital Territory"),
+                                             filter(measles_alt_denominator, State != "Federal Capital Territory") ),
+                        aws_datatable = "measles_alt_denominator", 
+                       starting_index = 1)
+
+```
+
+# Age group 
+
+```{r}
+
+measles_age_group <- get_age_group(sormas_cleaned = measles_sormas_cleaned)
+
+#dbWriteTable(connection, name = "measles_age_group", value = measles_age_group %>% slice(1:2), overwrite = TRUE)
+
+updated_remote_database(dataset = bind_rows( filter(measles_age_group, State == "Federal Capital Territory"), filter(measles_age_group, State != "Federal Capital Territory") ), 
+                     
+                     aws_datatable = "measles_age_group",starting_index = 1)
+
+
+
+```
+
+# Chart 3: MCV Stock Analysis & MCV (1 & 2) given
+
+
+```{r}
+measles_1_2_given <- add_measles_1_2_given(measles1_given = measles1_given,measles2_given = measles2_given)
+
+measles_received <- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/measles_Received.csv")
+
+measles_opening_balance <- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/measles_OB.csv")
+
+measles_opened_used <- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/measles_opened_used.csv")
+
+```
+
+
+```{r}
+
+measles_stock_analysis <- get_stock_analysis(doses_given = measles_1_2_given,
+                                        received = measles_received,
+                                        opening_balance = measles_opening_balance,
+                                        opened_used = measles_opened_used)
+
+#dbWriteTable(connection, name = "measles_stock_analysis", value = measles_stock_analysis %>% slice(1:2), overwrite = TRUE)
+
+updated_remote_database(dataset = bind_rows( filter(measles_stock_analysis, State == "Federal Capital Territory"), filter(measles_stock_analysis, State != "Federal Capital Territory") ), 
+                     
+                     aws_datatable = "measles_stock_analysis",starting_index = 1)
+
+```
+
+## MCV 1, MCV 2 Coverage & Drop Out Rate
+
+
+```{r}
+mcv1_mcv2_dropout_rate <- get_drop_out_rate(first_dose  = measles1_coverage_monthly,
+                                            second_dose =  measles2_coverage_monthly)
+
+#dbWriteTable(connection, name = "mcv1_mcv2_dropout_rate", value = mcv1_mcv2_dropout_rate %>% slice(1:2), overwrite = TRUE)
+
+updated_remote_database(
+  dataset = bind_rows( filter(mcv1_mcv2_dropout_rate, State == "Federal Capital Territory"),
+                       filter(mcv1_mcv2_dropout_rate, State != "Federal Capital Territory") ), 
+  aws_datatable = "mcv1_mcv2_dropout_rate",
+  starting_index = 1)
+
+```
+
+## Co-administered Antigen Discrepancy: MCV 1 & Yellow Fever given by State
+
+```{r}
+yf_vaccine_given <- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/yf_Vaccine_Given.csv")
+```
+
+
+```{r}
+
+measles_yf_discrepancy <- get_discrepancy(main_vaccine_given = measles1_given, 
+                                                        other_vaccine_given = yf_vaccine_given)
+
+
+#dbWriteTable(connection, name = "measles_yf_discrepancy", 
+ #            value = measles_yf_discrepancy %>% slice(1:2), overwrite = TRUE)
+
+updated_remote_database(
+  dataset = bind_rows( filter(measles_yf_discrepancy, State == "Federal Capital Territory"),
+                       filter(measles_yf_discrepancy, State != "Federal Capital Territory") ), 
+                     
+                     aws_datatable = "measles_yf_discrepancy",starting_index = 1)
+```
+
+## National MCV Coverage (%) by different sources, Nigeria (National)
+
+```{r}
+measles1_coverage_annualized_all_time <- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/measles1_coverage_annualized_all_time.csv")
+
+measles2_coverage_annualized_all_time <- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/measles2_coverage_annualized_all_time.csv")
+```
+
+
+```{r}
+# Data aggregated by Year, State
+
+mcv_different_sources <- get_mcv_different_sources(mcv1_annualized_all_time = measles1_coverage_annualized_all_time,
+                                                   mcv2_annualized_all_time = measles2_coverage_annualized_all_time)
+
+dbWriteTable(connection, name = "mcv_different_sources", value = mcv_different_sources, overwrite = TRUE)
+
+```
+
+## Map Confirmed Measles cases, MCV 1 coverage
+
+
+```{r}
+measles1_coverage_annually <- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/measles1_coverage_annualized.csv")
+
+```
+
+
+```{r}
+measles_coverage_map <- get_coverage_map(annual_data = measles1_coverage_annually,
+                 monthly_data = measles1_coverage_monthly)
+
+
+#dbWriteTable(connection, name = "measles_coverage_map", 
+#             value = measles_coverage_map %>% slice(1:2), overwrite = TRUE)
+
+updated_remote_database(
+  dataset = bind_rows( filter(measles_coverage_map, State == "Federal Capital Territory"),
+                       filter(measles_coverage_map, State != "Federal Capital Territory") ), 
+                     
+                     aws_datatable = "measles_coverage_map",starting_index = 1)
+
+
+```
+
+
+```{r}
+measles_cases_map <- measles_sormas_cleaned%>%
+  select("##Case ID","Disease", "Long", "Lat", "Months", "Year", "State", "LGA")
+
+
+#dbWriteTable(connection, name = "measles_cases_map", 
+#             value = measles_cases_map %>% slice(1:2), overwrite = TRUE)
+
+updated_remote_database(
+  dataset = bind_rows( filter(measles_cases_map, State == "Federal Capital Territory"),
+                       filter(measles_cases_map, State != "Federal Capital Territory") ), 
+                     
+                     aws_datatable = "measles_cases_map",starting_index = 1)
+
+
+```
+
+
+
+
+
