@@ -68,7 +68,8 @@ meningitis_age_group <- get_age_group(sormas_cleaned = sormas_meningitis_cleaned
 
 #dbWriteTable(connection, name = "meningitis_age_group", value = meningitis_age_group %>% slice(1:2), overwrite = TRUE)
 
-updated_remote_database(dataset = bind_rows( filter(meningitis_age_group, State == "Federal Capital Territory"),
+updated_remote_database(connection = connection,
+                        dataset = bind_rows( filter(meningitis_age_group, State == "Federal Capital Territory"),
                                                  filter(meningitis_age_group, State != "Federal Capital Territory") ), 
                             aws_datatable = "meningitis_age_group",
                             starting_index = 1)
@@ -96,7 +97,9 @@ men_A_stock_analysis <- get_stock_analysis(doses_given = men_A_given,
 
 #dbWriteTable(connection, name = "men_A_stock_analysis", value = men_A_stock_analysis %>% slice(1:2), overwrite = TRUE)
 
-updated_remote_database(dataset = bind_rows( filter(men_A_stock_analysis, State == "Federal Capital Territory"), filter(men_A_stock_analysis, State != "Federal Capital Territory") ), 
+updated_remote_database(connection = connection,
+                        dataset = bind_rows( filter(men_A_stock_analysis, State == "Federal Capital Territory"),
+                                             filter(men_A_stock_analysis, State != "Federal Capital Territory") ), 
                      
                      aws_datatable = "men_A_stock_analysis",starting_index = 1)
 ```

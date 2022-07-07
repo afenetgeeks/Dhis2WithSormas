@@ -67,7 +67,8 @@ yf_age_group <- get_age_group(sormas_cleaned = sormas_yellow_fever_cleaned )
 
 #dbWriteTable(connection, name = "yf_age_group", value = yf_age_group %>% slice(1:2), overwrite = TRUE)
 
-updated_remote_database(dataset = bind_rows( filter(yf_age_group, State == "Federal Capital Territory"),
+updated_remote_database(connection = connection,
+                        dataset = bind_rows( filter(yf_age_group, State == "Federal Capital Territory"),
                                                  filter(yf_age_group, State != "Federal Capital Territory") ), 
                             aws_datatable = "yf_age_group",
                             starting_index = 1)
@@ -145,7 +146,7 @@ yf_cases_map <- sormas_yellow_fever_cleaned %>%
 #dbWriteTable(connection, name = "yf_cases_map", 
 #            value = yf_cases_map %>% slice(1:2), overwrite = TRUE)
 
-updated_remote_database(
+updated_remote_database(connection = connection,
   dataset = bind_rows( filter(yf_cases_map, State == "Federal Capital Territory"),
                        filter(yf_cases_map, State != "Federal Capital Territory") ), 
                      

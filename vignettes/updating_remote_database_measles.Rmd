@@ -205,7 +205,7 @@ measles_cases_map <- measles_sormas_cleaned%>%
 #dbWriteTable(connection, name = "measles_cases_map", 
 #             value = measles_cases_map %>% slice(1:2), overwrite = TRUE)
 
-updated_remote_database(
+updated_remote_database(connection = connection,
   dataset = bind_rows( filter(measles_cases_map, State == "Federal Capital Territory"),
                        filter(measles_cases_map, State != "Federal Capital Territory") ), 
                      
