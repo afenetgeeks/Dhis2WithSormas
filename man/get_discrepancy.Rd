@@ -4,7 +4,7 @@
 \alias{get_discrepancy}
 \title{add measles}
 \usage{
-get_discrepancy(measles1_given, other_vaccine_given)
+get_discrepancy(main_vaccine_given, other_vaccine_given)
 }
 \description{
 add measles

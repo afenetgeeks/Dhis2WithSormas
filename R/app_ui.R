@@ -12,7 +12,12 @@ app_ui <- function(request) {
     fluidPage(
 
       h1("Dhis2WithSormas"),
+
       shinyFeedback::useShinyFeedback(),
+
+      waiter::useWaitress(),
+
+      mod_inputs_ui("inputs_1"),
 
       tabsetPanel(type = "tabs",
 
@@ -20,16 +25,11 @@ app_ui <- function(request) {
                   tabPanel(
                     h4("Measles"),
 
-
-
                     # 2.
                     div(class = "row-page",
 
 
                         mod_measles_ui("measles_1"),
-
-
-
 
                         )),
 
@@ -38,14 +38,17 @@ app_ui <- function(request) {
                     h4("Yellow Fever"),
 
                     # 2.
-                    div(class = "row-page")),
+                    div(class = "row-page"),
+
+                    mod_yellow_fever_ui("yellow_fever_1")),
 
                   # 1.
                   tabPanel(
                     h4("Meningitis"),
 
                     # 2.
-                    div(class = "row-page"))
+                    div(class = "row-page"),
+                    mod_meningitis_ui("meningitis_1"))
 
 
                   )

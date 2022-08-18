@@ -1,0 +1,203 @@
+---
+title: "appending_remote_database_yf"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{appending_remote_database_yf}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(Dhis2WithSormas)
+library(readr)
+```
+
+```{r}
+
+input <- list(year = "2022", month = "06")
+
+dw <- config::get("development_stream2")
+
+connection <- DBI::dbConnect(RMariaDB::MariaDB(),
+               username = dw$DB_user,
+               password = dw$DB_password,
+               host     = dw$DB_host,
+               port     = dw$DB_port,
+               dbname   = dw$DB_name)
+
+loginToDATIM(
+  base_url = dw$Dhis2_base_url,
+  username = dw$Dhis2_username,
+  password = dw$Dhis2_password
+)
+```
+
+
+##  Confirmed Yellow Fever cases, coverage
+
+```{r}
+sormas_yellow_fever_cleaned <- sormas_cleaner("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/sormas_yf_cases_june_2022.csv")
+```
+
+
+```{r}
+#yf_coverage_monthly  <- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/yf_coverage_monthly.csv")
+
+
+yf_coverage_monthly <- getAnalytics_cleaned(indicator_id = "RtXOV3xQvWT",
+                        months = input$month,
+                       year = input$year,
+                       organisation_uint = c("LEVEL-1", "LEVEL-2","LEVEL-3")
+                       )
+```
+
+
+```{r}
+#yf_given <- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/yf_Vaccine_Given.csv")
+
+yf_given  <- getAnalytics_cleaned(indicator_id = "KpKx2MosfIV",
+                        months = input$month,
+                       year = input$year,
+                       organisation_uint = c("LEVEL-1", "LEVEL-2","LEVEL-3")
+                       )
+
+```
+
+```{r}
+
+yf_alt_denominator <- get_alt_denominator(coverage = yf_coverage_monthly,
+                    sormas_cleaned = sormas_yellow_fever_cleaned ,
+                    doses_given = yf_given, 
+                    denominator_data = denominator_data)
+
+dbAppendTable(connection , name = "yf_alt_denominator", value = yf_alt_denominator )
+
+
+```
+
+
+## Age Group of Confirmed Yellow Fever Cases by Vaccination Status
+
+```{r}
+
+yf_age_group <- get_age_group(sormas_cleaned = sormas_yellow_fever_cleaned )
+
+dbAppendTable(connection, name = "yf_age_group", value = yf_age_group )
+
+```
+
+
+## Yellow Fever Vaccine Stock Analysis & Yellow Fever given
+
+```{r}
+#yf_received <- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/yf_Received.csv")
+
+yf_received  <- getAnalytics_cleaned(indicator_id = "GkFMGCF5p4n",
+                       months = input$month,
+                       year = input$year,
+                       organisation_uint = c("LEVEL-1", "LEVEL-2","LEVEL-3")
+                       )
+
+
+
+```
+
+
+```{r}
+#yf_opening_balance <- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/yf_OB.csv")
+
+yf_opening_balance  <-  getAnalytics_cleaned(indicator_id = "iKUmaZuN5l0",
+                      months = input$month,
+                       year = input$year,
+                       organisation_uint = c("LEVEL-1", "LEVEL-2","LEVEL-3")
+                       )
+
+
+
+```
+
+
+```{r}
+#yf_opened_used <- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/yf_Doses_Opened.csv")
+
+yf_opened_used  <-getAnalytics_cleaned(indicator_id = "OiNgd1uT2Mp",
+                       months = input$month,
+                       year = input$year,
+                       organisation_uint = c("LEVEL-1", "LEVEL-2","LEVEL-3")
+                       )
+
+
+
+
+```
+
+
+```{r}
+
+yf_stock_analysis <- get_stock_analysis(doses_given = yf_given,
+                                        received = yf_received,
+                                        opening_balance = yf_opening_balance,
+                                        opened_used = yf_opened_used)
+
+dbAppendTable(connection, name = "yf_stock_analysis", value = yf_stock_analysis )
+
+
+
+```
+
+
+## Co-administered Antigen Discrepancy: MCV 1 & Yellow Fever given by State
+
+## Map  Confirmed Yellow Fever cases, Yellow Fever coverage
+
+
+## Map Confirmed yf cases, MCV 1 coverage
+
+
+```{r}
+#yf_coverage_annually <- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/yf_coverage_annualized.csv")
+
+
+
+yf_coverage_annually <- getAnalytics_cleaned(indicator_id = "RtXOV3xQvWT",
+                       months = c(),
+                        year = input$year,
+                       organisation_uint = c("LEVEL-1", "LEVEL-2","LEVEL-3")
+                       )
+```
+
+
+```{r}
+yf_coverage_map <- get_coverage_map(annual_data = yf_coverage_annually,
+                 monthly_data = yf_coverage_monthly)
+
+
+dbAppendTable(connection, name = "yf_coverage_map", value = yf_coverage_map )
+
+
+
+```
+
+
+```{r}
+yf_cases_map <- sormas_yellow_fever_cleaned %>%
+  select("##Case ID","Disease", "Long", "Lat", "Months", "Year", "State", "LGA")
+
+
+dbAppendTable(connection, name = "yf_cases_map",
+           value = yf_cases_map )
+
+
+```
+
+
+
+
+

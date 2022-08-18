@@ -4,7 +4,7 @@
 \alias{get_drop_out_rate}
 \title{add measles}
 \usage{
-get_drop_out_rate(MCV1_data, MCV2_data)
+get_drop_out_rate(first_dose, second_dose)
 }
 \description{
 add measles

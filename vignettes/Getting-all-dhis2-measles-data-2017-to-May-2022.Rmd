@@ -364,7 +364,8 @@ indicator_name <-  datimutils::getAnalytics(dx = "hg1D2tXg3aB",
                                          pe = "202005",
                                          return_names = T) %>% pull(Data) %>% unique()
 
-measles_Opened_Used <- measles_Opened_Used%>% mutate(Indicator =indicator_name)
+measles_Opened_Used <- measles_Opened_Used%>%
+  mutate(Indicator =indicator_name)
 
 
 
@@ -438,34 +439,34 @@ write_csv(x = measles2_coverage_annualized_all_time,
 
 
 ```{r}
-measles_new_cases_less_5years <-  getAnalytics_cleaned(indicator_id = "yWOolkdPEA4",
-                       months = months_vector,
-                       year = 2017,
-                       organisation_uint = c("LEVEL-1", "LEVEL-2","LEVEL-3"))
-
-
-
-for( year in  measles1_years) {
-   print(year)
-  
-  data_for_that_year <-  getAnalytics_cleaned(indicator_id = "yWOolkdPEA4",
-                       months = months_vector,
-                       year = year,
-                       organisation_uint = c("LEVEL-1", "LEVEL-2","LEVEL-3"))
-  
-  measles_new_cases_less_5years <-  bind_rows(measles_new_cases_less_5years,  data_for_that_year)
-  
-}
-
-indicator_name <-  datimutils::getAnalytics(dx = "yWOolkdPEA4",
-                                         ou = "LEVEL-1",
-                                         pe = "202005",
-                                         return_names = T) %>% pull(Data) %>% unique()
-
-measles_new_cases_less_5years <- measles_new_cases_less_5years%>% mutate(Indicator =indicator_name)
-
-
-write_csv(x = measles_new_cases_less_5years,file = "/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/measles_new_cases_less_5years.csv")
+# measles_new_cases_less_5years <-  getAnalytics_cleaned(indicator_id = "yWOolkdPEA4",
+#                        months = months_vector,
+#                        year = 2017,
+#                        organisation_uint = c("LEVEL-1", "LEVEL-2","LEVEL-3"))
+# 
+# 
+# 
+# for( year in  measles1_years) {
+#    print(year)
+#   
+#   data_for_that_year <-  getAnalytics_cleaned(indicator_id = "yWOolkdPEA4",
+#                        months = months_vector,
+#                        year = year,
+#                        organisation_uint = c("LEVEL-1", "LEVEL-2","LEVEL-3"))
+#   
+#   measles_new_cases_less_5years <-  bind_rows(measles_new_cases_less_5years,  data_for_that_year)
+#   
+# }
+# 
+# indicator_name <-  datimutils::getAnalytics(dx = "yWOolkdPEA4",
+#                                          ou = "LEVEL-1",
+#                                          pe = "202005",
+#                                          return_names = T) %>% pull(Data) %>% unique()
+# 
+# measles_new_cases_less_5years <- measles_new_cases_less_5years%>% mutate(Indicator =indicator_name)
+# 
+# 
+# write_csv(x = measles_new_cases_less_5years,file = "/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/measles_new_cases_less_5years.csv")
 ```
 
 

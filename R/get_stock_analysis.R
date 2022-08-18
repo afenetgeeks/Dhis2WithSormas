@@ -1,6 +1,5 @@
 #' add measles
 #' @import dplyr stringr
-#' @export
 #'
 #'
 
@@ -26,7 +25,7 @@ add_measles_1_2_given <-  function(measles1_given, measles2_given){
 
 #' getting other diseases with one dose
 #' @export
-#' add measles
+#'
 
 get_stock_analysis <- function(received,opening_balance,opened_used, doses_given){
 
