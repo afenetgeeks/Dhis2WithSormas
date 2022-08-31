@@ -21,7 +21,7 @@ library(readr)
 
 ```{r}
 
-input <- list(year = "2022", month = "06")
+input <- list(year = "2022", month = "07")
 
 dw <- config::get("development_stream2")
 
@@ -43,7 +43,7 @@ loginToDATIM(
 ##   Confirmed Meningitis cases, Meningitis coverage, ALt D
 
 ```{r}
-sormas_meningitis_cleaned <- sormas_cleaner("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/sormas_meningitis_cases_june_2022.csv")
+sormas_meningitis_cleaned <- sormas_cleaner("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/sormas_meningitis_cases_july_2022.csv")
 ```
 
 

@@ -49,6 +49,27 @@ get_periods_str <- function(year, months){
   period_string
 }
 
+
+
+
+
+get_ou_str <- function(ou_ids){
+
+
+  if(length(ou_ids) == 1){
+    ou_string = ou_ids
+  } else{
+    ou_string <- paste0(ou_ids, collapse = ";")
+
+  }
+  ou_string
+}
+
+###
+
+
+
+
 #' Get the period type year or year_month
 #'
 #' @param tag months vector
@@ -72,6 +93,7 @@ getAnalytics_cleaned <- function(indicator_id,
   period <-  get_periods_str(year = year, months = months)
   p_type <- get_period_type(months = months)
 
+  ou_string <- get_ou_str(ou_ids = organisation_uint)
 
   # indicator_name <-  datimutils::getAnalytics(dx = indicator_id,
   #                                          ou = "LEVEL-1",
@@ -90,7 +112,7 @@ getAnalytics_cleaned <- function(indicator_id,
   urlAnalytics <- "https://dhis2nigeria.org.ng/dhis/api/29/analytics.xml?"
   urlIndicatorID <- paste0("dimension=dx:", indicator_id)
   urlPeriod <- paste0("dimension=pe:", period)
-  urlOU <- paste0("dimension=ou:", organisation_uint)
+  urlOU <- paste0("dimension=ou:", ou_string)
   urlE <- "displayProperty=NAME&hierarchyMeta=true&outputIdScheme=UID"
 
 
@@ -154,7 +176,8 @@ getAnalytics_cleaned <- function(indicator_id,
       mutate(Months = lubridate::parse_date_time(Month_Year, "%Y%m") %>%
                           lubridate::month(label = T, abbr = T),
              Year = lubridate::parse_date_time(Month_Year, "%Y%m") %>%
-               lubridate::year()) %>%
+               lubridate::year(),
+             Values = as.numeric(Values)) %>%
       select(-Month_Year)
 
   }

@@ -133,6 +133,7 @@ get_measles_alt_denominator <- function(sormas_cleaned,mcv1, mcv2, measles1_give
     left_join(alt_den_long_s, by = c("State" = "State",
                                      "Year" = "Year",
                                      "LGA" = "LGA")) %>%
+
     mutate("MCV 1 Alt Denominator" = round(calc_alt_denominator_monthly(`Measles 1 given`, Denominator))) %>%
     mutate("MCV 2 Alt Denominator" = round(calc_alt_denominator_monthly(`Measles 2 given`, Denominator))) %>%
     select(!c(Denominator))

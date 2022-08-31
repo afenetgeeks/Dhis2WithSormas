@@ -21,7 +21,7 @@ library(readr)
 
 ```{r}
 
-input <- list(year = "2022", month = "06")
+input <- list(year = "2022", month = "07")
 
 dw <- config::get("development_stream2")
 
@@ -42,7 +42,7 @@ connection <- DBI::dbConnect(RMariaDB::MariaDB(),
 ```{r}
 #measles_sormas_cleaned <- sormas_cleaner("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/sormas_measles.csv")
 
-measles_sormas_cleaned <- sormas_cleaner("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/sormas_measles_cases_june_2022.csv")
+measles_sormas_cleaned <- sormas_cleaner("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/sormas_measles_cases_july_2022.csv")
 
 ```
 
@@ -52,7 +52,7 @@ measles_sormas_cleaned <- sormas_cleaner("/Volumes/Robinson/Afenet-projects/Dhis
 measles1_coverage_monthly <- getAnalytics_cleaned(indicator_id = "tb5NGUMB9dQ",
                        months = input$month,
                        year = input$year,
-                       organisation_uint = c("LEVEL-1")
+                       organisation_uint = c("LEVEL-1","LEVEL-2","LEVEL-3")
                        )
 
 ```
@@ -109,8 +109,6 @@ dbAppendTable(connection , name = "measles_alt_denominator", value = measles_alt
 measles_age_group <- get_age_group(sormas_cleaned = measles_sormas_cleaned)
 
 dbAppendTable(connection, name = "measles_age_group", value = measles_age_group )
-
-
 
 
 ```

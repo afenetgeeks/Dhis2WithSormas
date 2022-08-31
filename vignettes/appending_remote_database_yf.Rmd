@@ -21,7 +21,7 @@ library(readr)
 
 ```{r}
 
-input <- list(year = "2022", month = "06")
+input <- list(year = "2022", month = "07")
 
 dw <- config::get("development_stream2")
 
@@ -43,7 +43,7 @@ loginToDATIM(
 ##  Confirmed Yellow Fever cases, coverage
 
 ```{r}
-sormas_yellow_fever_cleaned <- sormas_cleaner("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/sormas_yf_cases_june_2022.csv")
+sormas_yellow_fever_cleaned <- sormas_cleaner("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/sormas_yf_cases_july_2022.csv")
 ```
 
 
@@ -163,7 +163,6 @@ dbAppendTable(connection, name = "yf_stock_analysis", value = yf_stock_analysis 
 
 ```{r}
 #yf_coverage_annually <- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/yf_coverage_annualized.csv")
-
 
 
 yf_coverage_annually <- getAnalytics_cleaned(indicator_id = "RtXOV3xQvWT",
