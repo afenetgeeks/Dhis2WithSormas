@@ -21,7 +21,7 @@ library(readr)
 
 ```{r}
 
-input <- list(year = "2022", month = "07")
+input <- list(year = "2022", month = "09")
 
 dw <- config::get("development_stream2")
 
@@ -42,7 +42,7 @@ connection <- DBI::dbConnect(RMariaDB::MariaDB(),
 ```{r}
 #measles_sormas_cleaned <- sormas_cleaner("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/sormas_measles.csv")
 
-measles_sormas_cleaned <- sormas_cleaner("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/sormas_measles_cases_july_2022.csv")
+measles_sormas_cleaned <- sormas_cleaner("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/sormas_measles_cases_sep_2022.csv")
 
 ```
 
@@ -259,6 +259,7 @@ dbAppendTable(connection, name = "measles_coverage_map", value = measles_coverag
 ```{r}
 measles_cases_map <- measles_sormas_cleaned %>%
   select("##Case ID","Disease", "Long", "Lat", "Months", "Year", "State", "LGA")
+
 
 dbAppendTable(connection, name = "measles_cases_map", value = measles_cases_map )
 

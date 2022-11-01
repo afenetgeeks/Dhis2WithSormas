@@ -21,7 +21,7 @@ library(readr)
 
 ```{r}
 
-input <- list(year = "2022", month = "07")
+input <- list(year = "2022", month = "09")
 
 dw <- config::get("development_stream2")
 
@@ -32,20 +32,13 @@ connection <- DBI::dbConnect(RMariaDB::MariaDB(),
                port     = dw$DB_port,
                dbname   = dw$DB_name)
 
-loginToDATIM(
-  base_url = dw$Dhis2_base_url,
-  username = dw$Dhis2_username,
-  password = dw$Dhis2_password
-)
 ```
 
-
-##   Confirmed Meningitis cases, Meningitis coverage, ALt D
+## Confirmed Meningitis cases, Meningitis coverage, ALt D
 
 ```{r}
-sormas_meningitis_cleaned <- sormas_cleaner("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/sormas_meningitis_cases_july_2022.csv")
+sormas_meningitis_cleaned <- sormas_cleaner("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/sormas_meningitis_cases_sep_2022.csv")
 ```
-
 
 ```{r}
 #men_A_coverage_monthly <- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/meningitis_coverage_monthly.csv")
@@ -56,7 +49,6 @@ men_A_coverage_monthly <-getAnalytics_cleaned(indicator_id = "SruoPzzt3ES",
                        year = input$year,
                        organisation_uint = c("LEVEL-1", "LEVEL-2","LEVEL-3"))
 ```
-
 
 ```{r}
 #men_A_given <- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/men_A_given.csv")
@@ -92,7 +84,6 @@ dbAppendTable(connection, name = "meningitis_age_group", value = meningitis_age_
 
 ## Men A Stock Analysis & Men A given
 
-
 ```{r}
 #men_A_received <- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/men_A_Received.csv")
 
@@ -105,7 +96,6 @@ men_A_received  <- getAnalytics_cleaned(indicator_id = "yH7RI3urgYi",
 
 
 ```
-
 
 ```{r}
 #men_A_opening_balance <- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/men_A_OB.csv")
@@ -121,7 +111,6 @@ men_A_opening_balance  <-  getAnalytics_cleaned(indicator_id = "BWBsbKHaCrz",
 
 
 ```
-
 
 ```{r}
 #men_A_opened_used <- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/men_A_Doses_Opened.csv")
@@ -146,6 +135,7 @@ dbAppendTable(connection, name = "men_A_stock_analysis", value = men_A_stock_ana
 ```
 
 ## Co-administered Antigen Discrepancy: MCV 1 & Men A given by State
+
 ```{r}
 
 #measles1_given <- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/measles1_given.csv")
@@ -156,8 +146,6 @@ measles1_given <- getAnalytics_cleaned(indicator_id = "j6mCLL1X4yG",
                        organisation_uint = c("LEVEL-1", "LEVEL-2","LEVEL-3"))
 
 ```
-
-
 
 ```{r}
 measles_men_A_discrepancy <- get_discrepancy(main_vaccine_given = measles1_given, 
@@ -170,9 +158,7 @@ dbAppendTable(connection, name = "measles_men_A_discrepancy", value = measles_me
 
 ## Map Confirmed Meningitis cases, Meningitis coverage
 
-
 ## Map Confirmed men_A cases, MCV 1 coverage
-
 
 ```{r}
 #men_A_coverage_annually <- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/meningitis_coverage_annualized.csv")
@@ -186,7 +172,6 @@ men_A_coverage_annually <- getAnalytics_cleaned(indicator_id = "SruoPzzt3ES",
 
 ```
 
-
 ```{r}
 men_A_coverage_map <- get_coverage_map(annual_data = men_A_coverage_annually,
                  monthly_data = men_A_coverage_monthly)
@@ -198,7 +183,6 @@ dbAppendTable(connection, name = "men_A_coverage_map", value = men_A_coverage_ma
 
 ```
 
-
 ```{r}
 meningitis_cases_map <- sormas_meningitis_cleaned%>%
   select("##Case ID","Disease", "Long", "Lat", "Months", "Year", "State", "LGA")
@@ -207,6 +191,4 @@ meningitis_cases_map <- sormas_meningitis_cleaned%>%
 dbAppendTable(connection, name = "meningitis_cases_map",value = meningitis_cases_map )
 
 
-
 ```
-

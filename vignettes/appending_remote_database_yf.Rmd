@@ -21,7 +21,7 @@ library(readr)
 
 ```{r}
 
-input <- list(year = "2022", month = "07")
+input <- list(year = "2022", month = "09")
 
 dw <- config::get("development_stream2")
 
@@ -31,19 +31,13 @@ connection <- DBI::dbConnect(RMariaDB::MariaDB(),
                host     = dw$DB_host,
                port     = dw$DB_port,
                dbname   = dw$DB_name)
-
-loginToDATIM(
-  base_url = dw$Dhis2_base_url,
-  username = dw$Dhis2_username,
-  password = dw$Dhis2_password
-)
 ```
 
 
 ##  Confirmed Yellow Fever cases, coverage
 
 ```{r}
-sormas_yellow_fever_cleaned <- sormas_cleaner("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/sormas_yf_cases_july_2022.csv")
+sormas_yellow_fever_cleaned <- sormas_cleaner("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/sormas_yf_cases_sep_2022.csv")
 ```
 
 
@@ -112,15 +106,11 @@ yf_received  <- getAnalytics_cleaned(indicator_id = "GkFMGCF5p4n",
 
 ```{r}
 #yf_opening_balance <- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/yf_OB.csv")
-
 yf_opening_balance  <-  getAnalytics_cleaned(indicator_id = "iKUmaZuN5l0",
                       months = input$month,
                        year = input$year,
                        organisation_uint = c("LEVEL-1", "LEVEL-2","LEVEL-3")
                        )
-
-
-
 ```
 
 
@@ -132,10 +122,6 @@ yf_opened_used  <-getAnalytics_cleaned(indicator_id = "OiNgd1uT2Mp",
                        year = input$year,
                        organisation_uint = c("LEVEL-1", "LEVEL-2","LEVEL-3")
                        )
-
-
-
-
 ```
 
 
