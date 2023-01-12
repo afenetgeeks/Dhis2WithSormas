@@ -21,7 +21,7 @@ library(readr)
 
 ```{r}
 
-input <- list(year = "2022", month = "09")
+input <- list(year = "2022", month = "11")
 
 dw <- config::get("development_stream2")
 
@@ -34,14 +34,14 @@ connection <- DBI::dbConnect(RMariaDB::MariaDB(),
 
 ```
 
-## Confirmed Meningitis cases, Meningitis coverage, ALt D
+## Confirmed Meningitis cases, Meningitis coverage, Alt D
 
 ```{r}
-sormas_meningitis_cleaned <- sormas_cleaner("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/sormas_meningitis_cases_sep_2022.csv")
+sormas_meningitis_cleaned <- sormas_cleaner("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/sormas_meningitis_cases_nov_2022.csv")
 ```
 
 ```{r}
-#men_A_coverage_monthly <- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/meningitis_coverage_monthly.csv")
+#men_A_coverage_monthly <- read_csv("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/meningitis_coverage_monthly.csv")
 
 
 men_A_coverage_monthly <-getAnalytics_cleaned(indicator_id = "SruoPzzt3ES",
@@ -51,7 +51,7 @@ men_A_coverage_monthly <-getAnalytics_cleaned(indicator_id = "SruoPzzt3ES",
 ```
 
 ```{r}
-#men_A_given <- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/men_A_given.csv")
+#men_A_given <- read_csv("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/men_A_given.csv")
 
 men_A_given <-  getAnalytics_cleaned(indicator_id = "iOUKrRANJwi",
                        months = input$month,
@@ -85,7 +85,7 @@ dbAppendTable(connection, name = "meningitis_age_group", value = meningitis_age_
 ## Men A Stock Analysis & Men A given
 
 ```{r}
-#men_A_received <- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/men_A_Received.csv")
+#men_A_received <- read_csv("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/men_A_Received.csv")
 
 
 men_A_received  <- getAnalytics_cleaned(indicator_id = "yH7RI3urgYi",
@@ -98,7 +98,7 @@ men_A_received  <- getAnalytics_cleaned(indicator_id = "yH7RI3urgYi",
 ```
 
 ```{r}
-#men_A_opening_balance <- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/men_A_OB.csv")
+#men_A_opening_balance <- read_csv("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/men_A_OB.csv")
 
 
 men_A_opening_balance  <-  getAnalytics_cleaned(indicator_id = "BWBsbKHaCrz",
@@ -113,8 +113,7 @@ men_A_opening_balance  <-  getAnalytics_cleaned(indicator_id = "BWBsbKHaCrz",
 ```
 
 ```{r}
-#men_A_opened_used <- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/men_A_Doses_Opened.csv")
-
+#men_A_opened_used <- read_csv("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/men_A_Doses_Opened.csv")
 
 men_A_opened_used  <- getAnalytics_cleaned(indicator_id = "snrl5tiWGLE",
                        months = input$month,
@@ -138,7 +137,7 @@ dbAppendTable(connection, name = "men_A_stock_analysis", value = men_A_stock_ana
 
 ```{r}
 
-#measles1_given <- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/measles1_given.csv")
+#measles1_given <- read_csv("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/measles1_given.csv")
 
 measles1_given <- getAnalytics_cleaned(indicator_id = "j6mCLL1X4yG",
                         months = input$month,
@@ -161,7 +160,7 @@ dbAppendTable(connection, name = "measles_men_A_discrepancy", value = measles_me
 ## Map Confirmed men_A cases, MCV 1 coverage
 
 ```{r}
-#men_A_coverage_annually <- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/meningitis_coverage_annualized.csv")
+#men_A_coverage_annually <- read_csv("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/meningitis_coverage_annualized.csv")
 
 
 men_A_coverage_annually <- getAnalytics_cleaned(indicator_id = "SruoPzzt3ES",
@@ -176,10 +175,7 @@ men_A_coverage_annually <- getAnalytics_cleaned(indicator_id = "SruoPzzt3ES",
 men_A_coverage_map <- get_coverage_map(annual_data = men_A_coverage_annually,
                  monthly_data = men_A_coverage_monthly)
 
-
 dbAppendTable(connection, name = "men_A_coverage_map", value = men_A_coverage_map )
-
-
 
 ```
 

@@ -21,7 +21,7 @@ library(readr)
 
 ```{r}
 
-input <- list(year = "2022", month = "09")
+input <- list(year = "2022", month = "11")
 
 dw <- config::get("development_stream2")
 
@@ -37,12 +37,12 @@ connection <- DBI::dbConnect(RMariaDB::MariaDB(),
 ##  Confirmed Yellow Fever cases, coverage
 
 ```{r}
-sormas_yellow_fever_cleaned <- sormas_cleaner("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/sormas_yf_cases_sep_2022.csv")
+sormas_yellow_fever_cleaned <- sormas_cleaner("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/sormas_yf_cases_nov_2022.csv")
 ```
 
 
 ```{r}
-#yf_coverage_monthly  <- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/yf_coverage_monthly.csv")
+#yf_coverage_monthly  <- read_csv("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/yf_coverage_monthly.csv")
 
 
 yf_coverage_monthly <- getAnalytics_cleaned(indicator_id = "RtXOV3xQvWT",
@@ -54,7 +54,7 @@ yf_coverage_monthly <- getAnalytics_cleaned(indicator_id = "RtXOV3xQvWT",
 
 
 ```{r}
-#yf_given <- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/yf_Vaccine_Given.csv")
+#yf_given <- read_csv("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/yf_Vaccine_Given.csv")
 
 yf_given  <- getAnalytics_cleaned(indicator_id = "KpKx2MosfIV",
                         months = input$month,
@@ -91,7 +91,7 @@ dbAppendTable(connection, name = "yf_age_group", value = yf_age_group )
 ## Yellow Fever Vaccine Stock Analysis & Yellow Fever given
 
 ```{r}
-#yf_received <- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/yf_Received.csv")
+#yf_received <- read_csv("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/yf_Received.csv")
 
 yf_received  <- getAnalytics_cleaned(indicator_id = "GkFMGCF5p4n",
                        months = input$month,
@@ -105,7 +105,7 @@ yf_received  <- getAnalytics_cleaned(indicator_id = "GkFMGCF5p4n",
 
 
 ```{r}
-#yf_opening_balance <- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/yf_OB.csv")
+#yf_opening_balance <- read_csv("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/yf_OB.csv")
 yf_opening_balance  <-  getAnalytics_cleaned(indicator_id = "iKUmaZuN5l0",
                       months = input$month,
                        year = input$year,
@@ -115,7 +115,7 @@ yf_opening_balance  <-  getAnalytics_cleaned(indicator_id = "iKUmaZuN5l0",
 
 
 ```{r}
-#yf_opened_used <- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/yf_Doses_Opened.csv")
+#yf_opened_used <- read_csv("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/yf_Doses_Opened.csv")
 
 yf_opened_used  <-getAnalytics_cleaned(indicator_id = "OiNgd1uT2Mp",
                        months = input$month,
@@ -148,7 +148,7 @@ dbAppendTable(connection, name = "yf_stock_analysis", value = yf_stock_analysis 
 
 
 ```{r}
-#yf_coverage_annually <- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/yf_coverage_annualized.csv")
+#yf_coverage_annually <- read_csv("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/yf_coverage_annualized.csv")
 
 
 yf_coverage_annually <- getAnalytics_cleaned(indicator_id = "RtXOV3xQvWT",

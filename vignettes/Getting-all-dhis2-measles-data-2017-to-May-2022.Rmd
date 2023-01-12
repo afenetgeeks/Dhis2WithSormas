@@ -48,6 +48,7 @@ months_vector <-  c("01","02","03","04","05","06","07","08", "09","10","11","12"
 
 
 ```{r}
+
 measles1_coverage_annualized <-   getAnalytics_cleaned(indicator_id = "hvYqrmR6MPq",
                        months = c(),
                        year = 2017,
@@ -76,7 +77,7 @@ indicator_name <-  datimutils::getAnalytics(dx = "hvYqrmR6MPq",
 
 measles1_coverage_annualized <- measles1_coverage_annualized %>% mutate(Indicator =indicator_name)
 write_csv(x = measles1_coverage_annualized,
-          file = "/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/measles1_coverage_annualized.csv")
+          file = "/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/measles1_coverage_annualized.csv")
 ```
 
 
@@ -114,7 +115,7 @@ measles2_coverage_annualized <- measles2_coverage_annualized%>% mutate(Indicator
 
 
 write_csv(x = measles2_coverage_annualized,
-          file = "/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/measles2_coverage_annualized.csv")
+          file = "/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/measles2_coverage_annualized.csv")
 ```
 
 
@@ -154,7 +155,7 @@ measles1_coverage_monthly <-  measles1_coverage_monthly%>% mutate(Indicator =ind
   
   
 write_csv(x = measles1_coverage_monthly,
-          file = "/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/measles1_coverage_monthly.csv")
+          file = "/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/measles1_coverage_monthly.csv")
 ```
 
 
@@ -190,7 +191,7 @@ measles2_coverage_monthly <-  measles2_coverage_monthly%>% mutate(Indicator =ind
 
 
 write_csv(x = measles2_coverage_monthly, 
-          file = "/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/measles2_coverage_monthly.csv")
+          file = "/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/measles2_coverage_monthly.csv")
 ```
 
 
@@ -229,7 +230,7 @@ measles1_given <- measles1_given%>% mutate(Indicator =indicator_name)
 
 
 write_csv(x = measles1_given,
-          file = "/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/measles1_given.csv")
+          file = "/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/measles1_given.csv")
 ```
 
 
@@ -267,7 +268,7 @@ indicator_name <-  datimutils::getAnalytics(dx =  "oB7SLTRHciH",
 measles2_given <- measles2_given%>% mutate(Indicator =indicator_name)
 
 write_csv(x = measles2_given,
-          file = "/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/measles2_given.csv")
+          file = "/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/measles2_given.csv")
 ```
 
 
@@ -303,7 +304,7 @@ indicator_name <-  datimutils::getAnalytics(dx = "XklyJxzoyxR",
 
 measles_Received <- measles_Received%>% mutate(Indicator =indicator_name)
 
-write_csv(x = measles_Received,file = "/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/measles_Received.csv")
+write_csv(x = measles_Received,file = "/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/measles_Received.csv")
 ```
 
 
@@ -335,7 +336,7 @@ indicator_name <-  datimutils::getAnalytics(dx =  "vtHJVTAguch",
 
 measles_OB <- measles_OB%>% mutate(Indicator =indicator_name)
 
-write_csv(x = measles_OB,file = "/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/measles_OB.csv")
+write_csv(x = measles_OB,file = "/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/measles_OB.csv")
 ```
 
 
@@ -370,7 +371,7 @@ measles_Opened_Used <- measles_Opened_Used%>%
 
 
 write_csv(x = measles_Opened_Used,
-          file = "/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/measles_Opened_Used.csv")
+          file = "/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/measles_Opened_Used.csv")
 
 ```
 
@@ -402,7 +403,7 @@ indicator_name <-  datimutils::getAnalytics(dx = "hvYqrmR6MPq",
 measles1_coverage_annualized_all_time <- measles1_coverage_annualized_all_time%>% mutate(Indicator =indicator_name)
 
 write_csv(x = measles1_coverage_annualized_all_time,
-          file = "/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/measles1_coverage_annualized_all_time.csv")
+          file = "/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/measles1_coverage_annualized_all_time.csv")
 ```
 
 
@@ -433,7 +434,7 @@ measles2_coverage_annualized_all_time <- measles2_coverage_annualized_all_time%>
 
 
 write_csv(x = measles2_coverage_annualized_all_time,
-          file = "/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/measles2_coverage_annualized_all_time.csv")
+          file = "/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/measles2_coverage_annualized_all_time.csv")
 
 ```
 
@@ -466,7 +467,7 @@ write_csv(x = measles2_coverage_annualized_all_time,
 # measles_new_cases_less_5years <- measles_new_cases_less_5years%>% mutate(Indicator =indicator_name)
 # 
 # 
-# write_csv(x = measles_new_cases_less_5years,file = "/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/measles_new_cases_less_5years.csv")
+# write_csv(x = measles_new_cases_less_5years,file = "/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/measles_new_cases_less_5years.csv")
 ```
 
 

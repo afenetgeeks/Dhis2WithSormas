@@ -5,7 +5,7 @@ test_that("multiplication works", {
 
 
 
-measles_sormas_cleaned <- sormas_cleaner("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/sormas_measles.csv")
+measles_sormas_cleaned <- sormas_cleaner("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/sormas_measles.csv")
 
 measles_years <-  c(2017, 2018, 2019, 2020, 2021, 2022)
 

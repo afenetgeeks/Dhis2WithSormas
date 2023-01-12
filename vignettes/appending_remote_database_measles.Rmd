@@ -21,7 +21,7 @@ library(readr)
 
 ```{r}
 
-input <- list(year = "2022", month = "09")
+input <- list(year = "2022", month = "11")
 
 dw <- config::get("development_stream2")
 
@@ -40,9 +40,9 @@ connection <- DBI::dbConnect(RMariaDB::MariaDB(),
 ## Confirmed Measles cases, MCV1, MCV2 and cases
 
 ```{r}
-#measles_sormas_cleaned <- sormas_cleaner("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/sormas_measles.csv")
+#measles_sormas_cleaned <- sormas_cleaner("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/sormas_measles.csv")
 
-measles_sormas_cleaned <- sormas_cleaner("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/sormas_measles_cases_sep_2022.csv")
+measles_sormas_cleaned <- sormas_cleaner("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/sormas_measles_cases_nov_2022.csv")
 
 ```
 
@@ -59,7 +59,7 @@ measles1_coverage_monthly <- getAnalytics_cleaned(indicator_id = "tb5NGUMB9dQ",
 
 
 ```{r}
-#measles2_coverage_monthly <- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/measles2_coverage_monthly.csv")
+#measles2_coverage_monthly <- read_csv("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/measles2_coverage_monthly.csv")
 
 measles2_coverage_monthly <- getAnalytics_cleaned(indicator_id = "qagHWllYle8",
                       months = input$month,
@@ -69,7 +69,7 @@ measles2_coverage_monthly <- getAnalytics_cleaned(indicator_id = "qagHWllYle8",
 
 
 ```{r}
-#measles1_given <- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/measles1_given.csv")
+#measles1_given <- read_csv("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/measles1_given.csv")
 
 measles1_given <- getAnalytics_cleaned(indicator_id = "j6mCLL1X4yG",
                         months = input$month,
@@ -81,7 +81,7 @@ measles1_given <- getAnalytics_cleaned(indicator_id = "j6mCLL1X4yG",
 
 
 ```{r}
-#measles2_given <-read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/measles2_given.csv")
+#measles2_given <-read_csv("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/measles2_given.csv")
 
 measles2_given <- getAnalytics_cleaned(indicator_id = "oB7SLTRHciH",
                       months = input$month,
@@ -119,7 +119,7 @@ dbAppendTable(connection, name = "measles_age_group", value = measles_age_group 
 ```{r}
 measles_1_2_given <- add_measles_1_2_given(measles1_given = measles1_given,measles2_given = measles2_given)
 
-#measles_received <- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/measles_Received.csv")
+#measles_received <- read_csv("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/measles_Received.csv")
 measles_received <-  getAnalytics_cleaned(indicator_id = "XklyJxzoyxR",
                         months = input$month,
                        year = input$year,
@@ -128,7 +128,7 @@ measles_received <-  getAnalytics_cleaned(indicator_id = "XklyJxzoyxR",
 
 
 ```{r}
-#measles_opening_balance <- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/measles_OB.csv")
+#measles_opening_balance <- read_csv("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/measles_OB.csv")
 
 measles_opening_balance <- getAnalytics_cleaned(indicator_id = "vtHJVTAguch",
                           months = input$month,
@@ -138,7 +138,7 @@ measles_opening_balance <- getAnalytics_cleaned(indicator_id = "vtHJVTAguch",
 
 
 ```{r}
-#measles_opened_used <- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/measles_opened_used.csv")
+#measles_opened_used <- read_csv("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/measles_opened_used.csv")
 
 
 measles_opened_used<- getAnalytics_cleaned(indicator_id = "hg1D2tXg3aB",
@@ -178,7 +178,7 @@ dbAppendTable(connection, name = "mcv1_mcv2_dropout_rate", value = mcv1_mcv2_dro
 ## Co-administered Antigen Discrepancy: MCV 1 & Yellow Fever given by State
 
 ```{r}
-#yf_vaccine_given <- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/yf_Vaccine_Given.csv")
+#yf_vaccine_given <- read_csv("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/yf_Vaccine_Given.csv")
 
 yf_vaccine_given <- getAnalytics_cleaned(indicator_id = "KpKx2MosfIV",
                       months = input$month,
@@ -201,9 +201,10 @@ dbAppendTable(connection, name = "measles_yf_discrepancy", value = measles_yf_di
 ## National MCV Coverage (%) by different sources, Nigeria (National)
 
 ```{r}
-#measles1_coverage_annualized_all_time <- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/measles1_coverage_annualized_all_time.csv")
+#measles1_coverage_annualized_all_time <- read_csv("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/measles1_coverage_annualized_all_time.csv")
 
-measles1_coverage_annualized_all_time <- getAnalytics_cleaned(indicator_id = "hvYqrmR6MPq",
+measles1_coverage_annualized_all_time <- getAnalytics_cleaned(
+  indicator_id = "hvYqrmR6MPq",
                        months = c(),
                        year = 2021:input$year,
                        organisation_uint = "LEVEL-1")
@@ -212,12 +213,12 @@ measles1_coverage_annualized_all_time <- getAnalytics_cleaned(indicator_id = "hv
 
 
 ```{r}
-#measles2_coverage_annualized_all_time <- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/measles2_coverage_annualized_all_time.csv")
+#measles2_coverage_annualized_all_time <- read_csv("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/measles2_coverage_annualized_all_time.csv")
 
 measles2_coverage_annualized_all_time <- getAnalytics_cleaned(indicator_id = "Fbj3AkYjCie",
-                                                               months = c(),
+                                                              months = c(),
                                                               year = 2021:input$year,
-                                                               organisation_uint = "LEVEL-1")
+                                                              organisation_uint = "LEVEL-1")
  
 ```
 
@@ -236,9 +237,9 @@ dbWriteTable(connection, name = "mcv_different_sources", value = mcv_different_s
 
 
 ```{r}
-#measles1_coverage_annually <- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/measles1_coverage_annualized.csv")
+#measles1_coverage_annually <- read_csv("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/measles1_coverage_annualized.csv")
 
-measles1_coverage_annually <-getAnalytics_cleaned(indicator_id = "hvYqrmR6MPq",
+measles1_coverage_annually <- getAnalytics_cleaned(indicator_id = "hvYqrmR6MPq",
                        months = c(),
                        year = input$year,
                        organisation_uint = c("LEVEL-1", "LEVEL-2","LEVEL-3")

@@ -4,15 +4,15 @@ test_that("multiplication works", {
 
 
 
-received <- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/measles_Received.csv")
+received <- read_csv("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/measles_Received.csv")
 
-opening_balance <- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/measles_OB.csv")
+opening_balance <- read_csv("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/measles_OB.csv")
 
-opened_used <- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/measles_opened_used.csv")
+opened_used <- read_csv("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/measles_opened_used.csv")
 
-measles1_given <- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/measles1_given.csv")
+measles1_given <- read_csv("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/measles1_given.csv")
 
-measles2_given <- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/measles2_given.csv")
+measles2_given <- read_csv("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/measles2_given.csv")
 
 measles_years <-  c(2017, 2018, 2019, 2020, 2021, 2022)
 
@@ -28,13 +28,13 @@ doses_given <- add_measles_1_2_given(measles1_given = measles1_given, measles2_g
 
 ##############
 library(readr)
-received <- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/yf_Received.csv")
+received <- read_csv("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/yf_Received.csv")
 
-opening_balance <- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/yf_OB.csv")
+opening_balance <- read_csv("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/yf_OB.csv")
 
-opened_used <- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/yf_Doses_Opened.csv")
+opened_used <- read_csv("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/yf_Doses_Opened.csv")
 
-doses_given<- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/yf_Vaccine_Given.csv")
+doses_given<- read_csv("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/yf_Vaccine_Given.csv")
 
 
 

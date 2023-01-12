@@ -42,9 +42,9 @@ months_vector <-  c("01","02","03","04","05","06","07","08", "09","10","11","12"
 dw <- config::get("development_stream2")
 
 loginToDATIM(
-  base_url = "https://dhis2nigeria.org.ng/dhis/",
-  username = dw$dhis2_username,
-  password = dw$dhis2_password
+  base_url = dw$Dhis2_base_url,
+  username = dw$Dhis2_username,
+  password = dw$Dhis2_password
 )
 ```
 
@@ -80,7 +80,7 @@ indicator_name <-  datimutils::getAnalytics(dx =  "SruoPzzt3ES",
 meningitis_coverage_annualized <- meningitis_coverage_annualized %>% mutate(Indicator =indicator_name)
 
 write_csv(x = meningitis_coverage_annualized,
-          file = "/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/meningitis_coverage_annualized.csv")
+          file = "/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/meningitis_coverage_annualized.csv")
 
 ```
 
@@ -112,7 +112,7 @@ indicator_name <-  datimutils::getAnalytics(dx =  "SruoPzzt3ES",
 meningitis_coverage_monthly <- meningitis_coverage_monthly %>% mutate(Indicator =indicator_name)
 
 write_csv(x = meningitis_coverage_monthly,
-          file = "/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/meningitis_coverage_monthly.csv")
+          file = "/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/meningitis_coverage_monthly.csv")
 ```
 
 
@@ -154,7 +154,7 @@ indicator_name <-  datimutils::getAnalytics(dx =  "iOUKrRANJwi",
 men_A_given <- men_A_given %>% mutate(Indicator =indicator_name)
 
 write_csv(x = men_A_given,
-          file = "/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/men_A_given.csv")
+          file = "/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/men_A_given.csv")
 
 ```
 
@@ -191,7 +191,7 @@ men_A_Received <- men_A_Received %>% mutate(Indicator =indicator_name)
 
 
 write_csv(x = men_A_Received,
-          file = "/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/men_A_Received.csv")
+          file = "/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/men_A_Received.csv")
 
 ```
 
@@ -230,7 +230,7 @@ men_A_OB <- men_A_OB %>% mutate(Indicator =indicator_name)
 
 
 write_csv(x = men_A_OB,
-          file = "/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/men_A_OB.csv")
+          file = "/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/men_A_OB.csv")
 
 ```
 
@@ -270,7 +270,7 @@ indicator_name <-  datimutils::getAnalytics(dx =  "snrl5tiWGLE",
 men_A_Doses_Opened <- men_A_Doses_Opened %>% mutate(Indicator =indicator_name)
 
 write_csv(x = men_A_Doses_Opened,
-          file = "/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/men_A_Doses_Opened.csv")
+          file = "/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/men_A_Doses_Opened.csv")
 ```
 
 

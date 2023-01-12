@@ -3,9 +3,9 @@ test_that("multiplication works", {
 })
 
 
-measles1_coverage_annualized_all_time <- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/measles1_coverage_annualized_all_time.csv")
+measles1_coverage_annualized_all_time <- read_csv("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/measles1_coverage_annualized_all_time.csv")
 
-measles2_coverage_annualized_all_time <- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/measles2_coverage_annualized_all_time.csv")
+measles2_coverage_annualized_all_time <- read_csv("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/measles2_coverage_annualized_all_time.csv")
 
 
 # Data aggregated by Year, State

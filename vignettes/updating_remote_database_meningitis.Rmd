@@ -38,7 +38,7 @@ connection <- DBI::dbConnect(RMariaDB::MariaDB(),
 ```{r}
 sormas_meningitis_cleaned <- sormas_cleaner("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/sormas_meningitis.csv")
 
-men_A_coverage_monthly <- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/meningitis_coverage_monthly.csv")
+men_A_coverage_monthly <- read_csv("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/meningitis_coverage_monthly.csv")
 
 men_A_given <- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/men_A_given.csv")
 
@@ -134,7 +134,7 @@ updated_remote_database(
 
 
 ```{r}
-men_A_coverage_annually <- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/meningitis_coverage_annualized.csv")
+men_A_coverage_annually <- read_csv("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/meningitis_coverage_annualized.csv")
 
 ```
 
@@ -144,10 +144,10 @@ men_A_coverage_map <- get_coverage_map(annual_data = men_A_coverage_annually,
                  monthly_data = men_A_coverage_monthly)
 
 
-dbWriteTable(connection, name = "men_A_coverage_map", 
-             value = men_A_coverage_map %>% slice(1:2), overwrite = TRUE)
+#dbWriteTable(connection, name = "men_A_coverage_map", 
+#            value = men_A_coverage_map %>% slice(1:2), overwrite = TRUE)
 
-updated_remote_database(
+updated_remote_database(connection = connection,
   dataset = bind_rows( filter(men_A_coverage_map, State == "Federal Capital Territory"),
                        filter(men_A_coverage_map, State != "Federal Capital Territory") ), 
                      

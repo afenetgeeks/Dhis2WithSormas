@@ -23,7 +23,7 @@ library(tidyr)
 
 
 ```{r}
-measles_sormas_cleaned <-sormas_cleaner("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/sormas_measles.csv")
+measles_sormas_cleaned <-sormas_cleaner("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/sormas_measles.csv")
 
 sormas_cases_by_age_group <- measles_sormas_cleaned  %>%  
   pivot_wider(names_from = `Vaccination status`,

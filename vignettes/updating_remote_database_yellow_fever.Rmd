@@ -114,9 +114,9 @@ updated_remote_database(dataset = bind_rows( filter(yf_stock_analysis, State == 
 
 
 ```{r}
-yf_coverage_annually <- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/yf_coverage_annualized.csv")
+yf_coverage_annually <- read_csv("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/yf_coverage_annualized.csv")
 
-yf_coverage_monthly <- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/yf_coverage_monthly.csv")
+yf_coverage_monthly <- read_csv("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/yf_coverage_monthly.csv")
 ```
 
 
@@ -128,11 +128,11 @@ yf_coverage_map <- get_coverage_map(annual_data = yf_coverage_annually,
 #dbWriteTable(connection, name = "yf_coverage_map", 
 #             value = yf_coverage_map %>% slice(1:2), overwrite = TRUE)
 
-updated_remote_database(
+updated_remote_database(connection = connection,
   dataset = bind_rows( filter(yf_coverage_map, State == "Federal Capital Territory"),
                        filter(yf_coverage_map, State != "Federal Capital Territory") ), 
                      
-                     aws_datatable = "yf_coverage_map",starting_index = 1)
+                     aws_datatable = "yf_coverage_map",starting_index = 9001)
 
 
 ```
@@ -150,7 +150,7 @@ updated_remote_database(connection = connection,
   dataset = bind_rows( filter(yf_cases_map, State == "Federal Capital Territory"),
                        filter(yf_cases_map, State != "Federal Capital Territory") ), 
                      
-                     aws_datatable = "yf_cases_map",starting_index = 1)
+                     aws_datatable = "yf_cases_map",starting_index = 9001)
 
 
 ```

@@ -35,15 +35,15 @@ connection <- DBI::dbConnect(RMariaDB::MariaDB(),
 ## Confirmed Measles cases, MCV1, MCV2 and cases
 
 ```{r}
-measles_sormas_cleaned <- sormas_cleaner("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/sormas_measles.csv")
+measles_sormas_cleaned <- sormas_cleaner("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/sormas_measles.csv")
 
-measles1_coverage_monthly <- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/measles1_coverage_monthly.csv")
+measles1_coverage_monthly <- read_csv("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/measles1_coverage_monthly.csv")
 
-measles2_coverage_monthly <- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/measles2_coverage_monthly.csv")
+measles2_coverage_monthly <- read_csv("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/measles2_coverage_monthly.csv")
 
-measles1_given <- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/measles1_given.csv")
+measles1_given <- read_csv("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/measles1_given.csv")
 
-measles2_given <-read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/measles2_given.csv")
+measles2_given <-read_csv("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/measles2_given.csv")
 ```
 
 
@@ -87,11 +87,11 @@ updated_remote_database(dataset = bind_rows( filter(measles_age_group, State == 
 ```{r}
 measles_1_2_given <- add_measles_1_2_given(measles1_given = measles1_given,measles2_given = measles2_given)
 
-measles_received <- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/measles_Received.csv")
+measles_received <- read_csv("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/measles_Received.csv")
 
-measles_opening_balance <- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/measles_OB.csv")
+measles_opening_balance <- read_csv("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/measles_OB.csv")
 
-measles_opened_used <- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/measles_opened_used.csv")
+measles_opened_used <- read_csv("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/measles_opened_used.csv")
 
 ```
 
@@ -131,7 +131,7 @@ updated_remote_database(
 ## Co-administered Antigen Discrepancy: MCV 1 & Yellow Fever given by State
 
 ```{r}
-yf_vaccine_given <- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/yf_Vaccine_Given.csv")
+yf_vaccine_given <- read_csv("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/yf_Vaccine_Given.csv")
 ```
 
 
@@ -154,9 +154,9 @@ updated_remote_database(
 ## National MCV Coverage (%) by different sources, Nigeria (National)
 
 ```{r}
-measles1_coverage_annualized_all_time <- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/measles1_coverage_annualized_all_time.csv")
+measles1_coverage_annualized_all_time <- read_csv("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/measles1_coverage_annualized_all_time.csv")
 
-measles2_coverage_annualized_all_time <- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/measles2_coverage_annualized_all_time.csv")
+measles2_coverage_annualized_all_time <- read_csv("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/measles2_coverage_annualized_all_time.csv")
 ```
 
 
@@ -174,7 +174,7 @@ dbWriteTable(connection, name = "mcv_different_sources", value = mcv_different_s
 
 
 ```{r}
-measles1_coverage_annually <- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/measles1_coverage_annualized.csv")
+measles1_coverage_annually <- read_csv("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/measles1_coverage_annualized.csv")
 
 ```
 
@@ -187,11 +187,10 @@ measles_coverage_map <- get_coverage_map(annual_data = measles1_coverage_annuall
 #dbWriteTable(connection, name = "measles_coverage_map", 
 #             value = measles_coverage_map %>% slice(1:2), overwrite = TRUE)
 
-updated_remote_database(
+updated_remote_database(connection,
   dataset = bind_rows( filter(measles_coverage_map, State == "Federal Capital Territory"),
-                       filter(measles_coverage_map, State != "Federal Capital Territory") ), 
-                     
-                     aws_datatable = "measles_coverage_map",starting_index = 1)
+                       filter(measles_coverage_map, State != "Federal Capital Territory") ),
+  aws_datatable = "measles_coverage_map",starting_index = 19001)
 
 
 ```
