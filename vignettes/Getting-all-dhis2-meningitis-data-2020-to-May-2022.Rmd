@@ -44,6 +44,7 @@ dw <- config::get("development_stream2")
 loginToDATIM(
   base_url = dw$Dhis2_base_url,
   username = dw$Dhis2_username,
+  username = dw$Dhis2_username,
   password = dw$Dhis2_password
 )
 ```

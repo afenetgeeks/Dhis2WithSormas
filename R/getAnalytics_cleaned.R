@@ -76,9 +76,8 @@ get_ou_str <- function(ou_ids){
 #'
 #' @return a tag
 #' @noRd
-#' @importFrom datimutils getAnalytics
 #' @importFrom tibble tibble
-#' @import stringr XML httr
+#' @import stringr XML httr dhis2r
 #'
 
 
@@ -91,50 +90,20 @@ getAnalytics_cleaned <- function(indicator_id,
                                  ){
 
   period <-  get_periods_str(year = year, months = months)
+
   p_type <- get_period_type(months = months)
 
-  ou_string <- get_ou_str(ou_ids = organisation_uint)
+  # ou_string <- get_ou_str(ou_ids = organisation_uint)
 
-  # indicator_name <-  datimutils::getAnalytics(dx = indicator_id,
-  #                                          ou = "LEVEL-1",
-  #                                          pe = period,
-  #                                          return_names = T,
-  #                                          retry = 3) %>% pull(Data) %>% unique()
+  dhis2_connection <- dhis2r::Dhis2r$new(base_url = "https://dhis2nigeria.org.ng/dhis/",
+                                      username = username,
+                                      password = password,
+                                      api_version_position = "after")
 
-
-  # dhis2_data <-  datimutils::getAnalytics(dx = indicator_id,
-  #                                          ou = organisation_uint,
-  #                                          pe = period,
-  #                                          return_names = F,
-  #                                         retry = 6) %>%tibble()
-
-  ##################################
-  urlAnalytics <- "https://dhis2nigeria.org.ng/dhis/api/29/analytics.xml?"
-  urlIndicatorID <- paste0("dimension=dx:", indicator_id)
-  urlPeriod <- paste0("dimension=pe:", period)
-  urlOU <- paste0("dimension=ou:", ou_string)
-  urlE <- "displayProperty=NAME&hierarchyMeta=true&outputIdScheme=UID"
-
-
-  # URLencode
-  url <- URLencode(paste(paste0(urlAnalytics, urlPeriod),
-                         urlOU, urlIndicatorID,urlE,
-                         sep="&"))
-
-  xml_response <- httr::GET(url, httr::authenticate(dw$Dhis2_username, dw$Dhis2_password))
-
-  resp_content <- httr::content(xml_response)
-
-
-  parsed_content <- XML::xmlParse(resp_content)
-
-  # get the root
-  parsed_xml_root <- XML::xmlRoot(parsed_content)
-
-  # convert xml data to dataframe
-  dhis2_data <- XML::xmlToDataFrame(nodes = XML::xmlChildren(XML::xmlRoot(parsed_content)[["rows"]])) %>%
-    set_names(c("Data", "Period", "Organisation unit", "Value"))%>% tibble()
-
+  dhis2_data <- dhis2_connection$get_analytics(analytic = indicator_id,
+                                 org_unit = organisation_uint,
+                                 period = period) |>
+    set_names(c("Data", "Organisation unit", "Period", "Value"))
 
 #########################
 

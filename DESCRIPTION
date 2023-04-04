@@ -14,6 +14,7 @@ Imports:
     config (>= 0.3.1),
     datimutils (>= 0.3.0),
     DBI,
+    dhis2r (>= 0.1.1),
     dplyr,
     DT,
     glue,
@@ -43,10 +44,11 @@ Suggests:
     tidyverse
 VignetteBuilder: 
     knitr
-Remotes:  
+Remotes: 
     pepfar-datim/datimutils,
-    JohnCoene/waiter
+    JohnCoene/waiter,
+    amanyiraho/dhis2r
 Config/testthat/edition: 3
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 7.1.2
+RoxygenNote: 7.2.3

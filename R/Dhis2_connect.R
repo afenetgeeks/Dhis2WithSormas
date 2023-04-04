@@ -4,7 +4,7 @@
 
 #'
 #' @noRd
-#' @import datimutils odbc RMariaDB DBI
+#' @import odbc RMariaDB DBI
 
 #' @export
 #'
