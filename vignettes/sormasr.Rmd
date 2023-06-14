@@ -1,0 +1,56 @@
+---
+title: "sormasr"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{sormasr}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+
+```{r setup}
+library(Dhis2WithSormas)
+library(dhis2r)
+library(sormasr)
+```
+
+
+```{r}
+sormas_connection<- Sormasr$new()
+
+
+sormas_states <- sormas_connection$get_states(page = 0, size = 37)
+
+state_ids <- sormas_states |>
+  select(state_name, state_id) |>
+  distinct() |>
+  pull(state_id)
+
+
+diseases = c("CSM", "Measles", "YellowFever")
+
+months = c("JANUARY", "FEBRUARY", "MARCH", "APRIL", "MAY", "JUNE", "JULY", "AUGUST", "SEPTEMBER", "OCTOBER", "NOVEMBER", "DECEMBER")
+
+
+years = c( "2021")
+
+#
+
+response_data <- sormas_connection$get_disease_data(disease = "Measles", stateId =  "102324",month ="MARCH",
+                                         year = "2022", page = "0", size = "44")
+#sum(response_data$epiData.totalNoOfConfirmedCases)
+
+
+tf <- sormas_connection$get_age_sex(disease = "Measles", stateId = "102324",month ="MARCH",vaccinationStatus = "true",
+                                    year = "2022", page = "0", size = "44")
+
+sum(tf$confirmed_cases)
+```
+
