@@ -21,7 +21,7 @@ library(readr)
 
 ```{r}
 
-input <- list(year = "2023", month = "01")
+input <- list(year = "2023", month = "05")
 
 dw <- config::get("development_stream2")
 
@@ -37,7 +37,7 @@ connection <- DBI::dbConnect(RMariaDB::MariaDB(),
 ## Confirmed Meningitis cases, Meningitis coverage, Alt D
 
 ```{r}
-sormas_meningitis_cleaned <- sormas_cleaner("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/sormas_meningitis_cases_jan_2023.csv")
+sormas_meningitis_cleaned <- sormas_cleaner("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/sormas_meningitis_cases_May_2023.csv")
 ```
 
 ```{r}
@@ -161,7 +161,6 @@ dbAppendTable(connection, name = "measles_men_A_discrepancy", value = measles_me
 
 ```{r}
 #men_A_coverage_annually <- read_csv("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/meningitis_coverage_annualized.csv")
-
 
 men_A_coverage_annually <- getAnalytics_cleaned(indicator_id = "SruoPzzt3ES",
                        months = c(),

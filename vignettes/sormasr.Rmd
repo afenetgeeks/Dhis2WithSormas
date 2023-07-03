@@ -23,6 +23,7 @@ library(sormasr)
 
 
 ```{r}
+# Create a new object of the Sormasr class and assign it to the sormas_connection variable.
 sormas_connection<- Sormasr$new()
 
 
@@ -34,23 +35,197 @@ state_ids <- sormas_states |>
   pull(state_id)
 
 
-diseases = c("CSM", "Measles", "YellowFever")
+diseases = c("Measles", "CSM", "YellowFever")
 
 months = c("JANUARY", "FEBRUARY", "MARCH", "APRIL", "MAY", "JUNE", "JULY", "AUGUST", "SEPTEMBER", "OCTOBER", "NOVEMBER", "DECEMBER")
 
-
-years = c( "2021")
+years = c( "2022")
+ stateId_sormas =  "102324"
 
 #
 
-response_data <- sormas_connection$get_disease_data(disease = "Measles", stateId =  "102324",month ="MARCH",
-                                         year = "2022", page = "0", size = "44")
-#sum(response_data$epiData.totalNoOfConfirmedCases)
+disease_data <- sormas_connection$get_disease_data(disease = "Measles",
+                                                   stateId =  "100323",
+                                                   month ="JANUARY",
+                                                   year = "2022",
+                                                   page = "0",
+                                                   size = "44") |> 
+                                                    mutate( months = "JANUARY",year = "2022")
 
 
-tf <- sormas_connection$get_age_sex(disease = "Measles", stateId = "102324",month ="MARCH",vaccinationStatus = "true",
-                                    year = "2022", page = "0", size = "44")
 
-sum(tf$confirmed_cases)
+sormas_states_ids <- sort(unique(sormas_states$state_id))
+
+
+for( sormas_states_id in  sormas_states_ids[-1]) {
+  
+        for( month in  months[-1]) {
+           print(month)
+          
+          data_for_that_month <- sormas_connection$get_disease_data(disease = "Measles",
+                                                           stateId =  sormas_states_id,
+                                                           month = month,
+                                                           year = "2022",
+                                                           page = "0",
+                                                           size = "44") |> 
+                                                            mutate( months = month,year = "2022")
+        
+          
+          disease_data <-  bind_rows(disease_data ,    data_for_that_month)
+          
+        }
+}
+  
+ 
+disease_data_lga <- disease_data |>
+   group_by(state, months, year,  lga) |> 
+   summarise(confirmed_cases = sum(confirmed_cases), .groups = "drop")
+
+ 
+disease_data_state <- disease_data |>
+   group_by(state, months, year) |> 
+   summarise(confirmed_cases = sum(confirmed_cases), .groups = "drop") |> 
+  mutate(lga = "State level data") |> 
+  select(state, months, year,  lga, confirmed_cases)
+
+
+# Add the totals row to the dataframe
+disease_data_binded <- rbind(disease_data_state, disease_data_lga) |> 
+  mutate(state = case_when(state == "Fct" ~ "Federal Capital Territory", TRUE ~as.character(state)),
+         months = stringr::str_to_sentence(stringr::str_trunc(months,3, ellipsis = "")))
+
+
+disease_data_binded
 ```
+
+
+```{r}
+# disease_data <- sormas_connection$get_disease_data(disease = "Measles", 
+#                                                     stateId = stateId_sormas[1],
+#                                                     month = months[1],
+#                                                     year = years[1], 
+#                                                     page = "0",
+#                                                     size = "44")
+
+
+age_sex_data <- sormas_connection$get_age_sex(disease = "Measles", 
+                                    stateId =  "117185",
+                                    month = "JANUARY",
+                                    vaccinationStatus = "true",
+                                    year = "2022",
+                                    page = "0", 
+                                    size = "44")|> 
+                                    mutate( months = "JANUARY",year = "2022")
+
+
+for( month in  months[-1]) {
+   print(month)
+  
+  age_sex_month_data <- age_sex_data <- sormas_connection$get_age_sex(disease = "Measles", 
+                                    stateId =  "117185",
+                                    month = month,
+                                    vaccinationStatus = "true",
+                                    year = "2022",
+                                    page = "0", 
+                                    size = "44")|> 
+                                    mutate( months = month,year = "2022")
+
+  
+  age_sex_data  <-  bind_rows(age_sex_data  ,  age_sex_month_data)
+  
+}
+
+age_sex_data_lga  <- age_sex_data|> 
+  group_by(state, lga,age_group, vaccination_status, months, year) |> 
+   summarise(confirmed_cases = sum(confirmed_cases), .groups = "drop")
+
+age_sex_data_state  <- age_sex_data|> 
+  group_by(state,age_group, vaccination_status, months, year) |> 
+   summarise(confirmed_cases = sum(confirmed_cases), .groups = "drop") |> 
+   mutate(lga = "State level data") |> 
+   select(state,lga, age_group, vaccination_status, months, year,  confirmed_cases)
+
+
+age_sex_data_binded <- rbind(age_sex_data_state , age_sex_data_lga ) |> 
+  mutate(state = case_when(state == "Fct" ~ "Federal Capital Territory", TRUE ~as.character(state)),
+         months = stringr::str_to_sentence(stringr::str_trunc(months,3, ellipsis = "")))
+```
+
+
+```{r}
+ dhis2_connection <- dhis2r::Dhis2r$new(base_url = "https://dhis2nigeria.org.ng/dhis/",
+                                      username = dw$Dhis2_username,
+                                      password = dw$Dhis2_password,
+                                      api_version_position = "after")
+
+
+organisation_uints_cleaned
+
+input <- list(year = "2022", month = c("01", "02", "04", "05", "06", "07", "08", "09", "10", "11", "12"))
+
+measles1_coverage_monthly <- getAnalytics_cleaned(indicator_id = "tb5NGUMB9dQ",
+                       months = input$month,
+                       year = input$year,
+                       organisation_uint = c("LEVEL-1","LEVEL-2","LEVEL-3")
+                       )
+
+
+coverage_data <- measles1_coverage_monthly |> 
+    filter(State == "Katsina") |> 
+    select(-Indicator) |> 
+    rename_all(tolower) |> 
+    rename(coverage = values) |> 
+   mutate(year = as.character(year))
+```
+
+
+```{r}
+library(stringr)
+plot_data <- coverage_data |> 
+  left_join(disease_data_binded, by = c("state", "lga", "months", "year")) |> 
+  mutate(across(c(state, lga), as.factor), 
+         date= str_c("01",months, year, sep = "-"),
+         date = dmy(date),
+         months = month(date,label = T, abbr =T))
+```
+
+```{r}
+library(ggplot2)
+
+plot_data |> 
+  filter(lga == "State level data") |> 
+  ggplot(aes(x = date))+
+  geom_col(aes(y = confirmed_cases), fill = "orange")+
+  geom_line(aes(y = coverage), col = "navyblue")+
+  geom_line(aes(y = coverage), col = "navyblue")+
+  scale_y_continuous(
+    
+    # Features of the first axis
+    name = "Coverage",
+    
+    # Add a second axis and specify its features
+    sec.axis = sec_axis( trans=~., name="Confirmed cases")
+  )+
+  scale_x_date(date_breaks = "2 months", date_labels = "%b")
+  
+```
+
+
+```{r}
+library(ggplot2)
+
+
+age_sex_data_binded  |> 
+  filter(lga == "State level data") |> 
+  ggplot(aes(x = age_group))+
+  geom_col(aes(y = confirmed_cases, fill = vaccination_status))
+  
+```
+
+```{r}
+coverage_data |> 
+  anti_join(disease_data_binded, by = c("state", "lga", "months", "year"))
+  
+```
+
 
