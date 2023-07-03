@@ -21,7 +21,7 @@ library(readr)
 
 ```{r}
 
-input <- list(year = "2023", month = "01")
+input <- list(year = "2023", month = "05")
 
 dw <- config::get("development_stream2")
 
@@ -37,7 +37,7 @@ connection <- DBI::dbConnect(RMariaDB::MariaDB(),
 ##  Confirmed Yellow Fever cases, coverage
 
 ```{r}
-sormas_yellow_fever_cleaned <- sormas_cleaner("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/sormas_yf_cases_jan_2023.csv")
+sormas_yellow_fever_cleaned <- sormas_cleaner("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/sormas_yf_cases_May_2023.csv")
 ```
 
 
@@ -70,6 +70,7 @@ yf_alt_denominator <- get_alt_denominator(coverage = yf_coverage_monthly,
                     sormas_cleaned = sormas_yellow_fever_cleaned ,
                     doses_given = yf_given, 
                     denominator_data = denominator_data)
+
 
 dbAppendTable(connection , name = "yf_alt_denominator", value = yf_alt_denominator )
 
@@ -164,7 +165,7 @@ yf_coverage_map <- get_coverage_map(annual_data = yf_coverage_annually,
                  monthly_data = yf_coverage_monthly)
 
 
-dbAppendTable(connection, name = "yf_coverage_map", value = yf_coverage_map )
+dbAppendTable(connection, name = "yf_coverage_map", value = yf_coverage_map)
 
 
 
