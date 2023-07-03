@@ -16,5 +16,6 @@ You can install the development version of Dhis2WithSormas from
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("amanyiraho/Dhis2WithSormas")
+devtools::install_github("geeks-projects
+/Dhis2WithSormas")
 ```
