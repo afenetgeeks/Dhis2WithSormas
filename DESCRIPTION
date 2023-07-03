@@ -5,8 +5,8 @@ Authors@R:
     person("firstname", "lastname", , "your@email.com", role = c("aut", "cre"))
 Description: What the package does (one paragraph).
 License: What license is it under?
-URL: https://github.com/afenetgeeks/Dhis2WithSormas, https://github.com/amanyiraho/Dhis2WithSormas
-BugReports: https://github.com/amanyiraho/Dhis2WithSormas/issues
+URL: https://github.com/afenetgeeks/Dhis2WithSormas, https://github.com/amanyiraho/Dhis2WithSormas, https://github.com/geeks-projects/Dhis2WithSormas
+BugReports: https://github.com/geeks-projects/Dhis2WithSormas/issues
 Depends: 
     R (>= 2.10)
 Imports: 
