@@ -19,6 +19,7 @@ knitr::opts_chunk$set(
 library(Dhis2WithSormas)
 library(dhis2r)
 library(sormasr)
+library(lubridate)
 ```
 
 
@@ -37,9 +38,11 @@ state_ids <- sormas_states |>
 
 diseases = c("Measles", "CSM", "YellowFever")
 
-months = c("JANUARY", "FEBRUARY", "MARCH", "APRIL", "MAY", "JUNE", "JULY", "AUGUST", "SEPTEMBER", "OCTOBER", "NOVEMBER", "DECEMBER")
+#months = c("JANUARY", "FEBRUARY", "MARCH", "APRIL", "MAY", "JUNE", "JULY", "AUGUST", "SEPTEMBER", "OCTOBER", "NOVEMBER", "DECEMBER")
 
-years = c( "2022")
+months = c("JANUARY", "FEBRUARY", "MARCH", "APRIL", "MAY")
+
+years = c( "2023")
  stateId_sormas =  "102324"
 
 #
@@ -47,10 +50,10 @@ years = c( "2022")
 disease_data <- sormas_connection$get_disease_data(disease = "Measles",
                                                    stateId =  "100323",
                                                    month ="JANUARY",
-                                                   year = "2022",
+                                                   year = "2023",
                                                    page = "0",
                                                    size = "44") |> 
-                                                    mutate( months = "JANUARY",year = "2022")
+                                                    mutate( months = "JANUARY",year = "2023")
 
 
 
@@ -65,10 +68,11 @@ for( sormas_states_id in  sormas_states_ids[-1]) {
           data_for_that_month <- sormas_connection$get_disease_data(disease = "Measles",
                                                            stateId =  sormas_states_id,
                                                            month = month,
-                                                           year = "2022",
+                                                           year = "2023",
                                                            page = "0",
                                                            size = "44") |> 
-                                                            mutate( months = month,year = "2022")
+                                                            mutate( months = month,
+                                                                    year = "2023")
         
           
           disease_data <-  bind_rows(disease_data ,    data_for_that_month)
@@ -77,22 +81,31 @@ for( sormas_states_id in  sormas_states_ids[-1]) {
 }
   
  
-disease_data_lga <- disease_data |>
-   group_by(state, months, year,  lga) |> 
-   summarise(confirmed_cases = sum(confirmed_cases), .groups = "drop")
+# disease_data_lga <- disease_data |>
+#    group_by(state, months, year,  lga) |> 
+#    summarise(confirmed_cases = sum(confirmed_cases), .groups = "drop")
+# 
+#  
+# disease_data_state <- disease_data |>
+#    group_by(state, months, year) |> 
+#    summarise(confirmed_cases = sum(confirmed_cases), .groups = "drop") |> 
+#   mutate(lga = "State level data") |> 
+#   select(state, months, year,  lga, confirmed_cases)
+# 
+# 
+# # Add the totals row to the dataframe
+# disease_data_binded <- rbind(disease_data_state, disease_data_lga) |> 
+#   mutate(state = case_when(state == "Fct" ~ "Federal Capital Territory", TRUE ~as.character(state)),
+#          months = stringr::str_to_sentence(stringr::str_trunc(months,3, ellipsis = ""))) |> 
+#   setNames(c("State", "Months", "Year", "LGA","Confirmed_cases"))
 
- 
-disease_data_state <- disease_data |>
-   group_by(state, months, year) |> 
-   summarise(confirmed_cases = sum(confirmed_cases), .groups = "drop") |> 
-  mutate(lga = "State level data") |> 
-  select(state, months, year,  lga, confirmed_cases)
 
-
-# Add the totals row to the dataframe
-disease_data_binded <- rbind(disease_data_state, disease_data_lga) |> 
-  mutate(state = case_when(state == "Fct" ~ "Federal Capital Territory", TRUE ~as.character(state)),
-         months = stringr::str_to_sentence(stringr::str_trunc(months,3, ellipsis = "")))
+ disease_data_cleaned <-  disease_data |> 
+   mutate(state = case_when(state == "Fct" ~ "Federal Capital Territory", TRUE ~as.character(state)),
+         months = stringr::str_to_sentence(stringr::str_trunc(months,3, ellipsis = "")),
+         year = as.numeric(year)) |> 
+   select(-c(state_id, lga_id )) |> 
+  setNames(c("State", "LGA", "Confirmed_cases","Months", "Year"))
 
 
 disease_data_binded
@@ -112,10 +125,10 @@ age_sex_data <- sormas_connection$get_age_sex(disease = "Measles",
                                     stateId =  "117185",
                                     month = "JANUARY",
                                     vaccinationStatus = "true",
-                                    year = "2022",
+                                    year = "2023",
                                     page = "0", 
                                     size = "44")|> 
-                                    mutate( months = "JANUARY",year = "2022")
+                                    mutate( months = "JANUARY",year = "2023")
 
 
 for( month in  months[-1]) {
@@ -125,10 +138,10 @@ for( month in  months[-1]) {
                                     stateId =  "117185",
                                     month = month,
                                     vaccinationStatus = "true",
-                                    year = "2022",
+                                    year = "2023",
                                     page = "0", 
                                     size = "44")|> 
-                                    mutate( months = month,year = "2022")
+                                    mutate( months = month,year = "2023")
 
   
   age_sex_data  <-  bind_rows(age_sex_data  ,  age_sex_month_data)
@@ -161,7 +174,9 @@ age_sex_data_binded <- rbind(age_sex_data_state , age_sex_data_lga ) |>
 
 organisation_uints_cleaned
 
-input <- list(year = "2022", month = c("01", "02", "04", "05", "06", "07", "08", "09", "10", "11", "12"))
+#input <- list(year = "2023", month = c("01", "02", "04", "05", "06", "07", "08", "09", "10", "11", "12"))
+
+input <- list(year = "2023", month = c("01", "02", "04", "05"))
 
 measles1_coverage_monthly <- getAnalytics_cleaned(indicator_id = "tb5NGUMB9dQ",
                        months = input$month,
@@ -169,9 +184,15 @@ measles1_coverage_monthly <- getAnalytics_cleaned(indicator_id = "tb5NGUMB9dQ",
                        organisation_uint = c("LEVEL-1","LEVEL-2","LEVEL-3")
                        )
 
+measles2_coverage_monthly <- getAnalytics_cleaned(indicator_id = "qagHWllYle8",
+                       months = input$month,
+                       year = input$year,
+                       organisation_uint = c("LEVEL-1","LEVEL-2","LEVEL-3")
+                       )
+
 
 coverage_data <- measles1_coverage_monthly |> 
-    filter(State == "Katsina") |> 
+ #   filter(State == "Katsina") |> 
     select(-Indicator) |> 
     rename_all(tolower) |> 
     rename(coverage = values) |> 

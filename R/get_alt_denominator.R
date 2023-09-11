@@ -29,21 +29,23 @@ calc_alt_denominator_monthly <- function(ind_value, denominator){
 
 get_measles_alt_denominator <- function(sormas_cleaned,mcv1, mcv2, measles1_given, measles2_given, denominator_data){
 
-  cases_cleaned_federal <- sormas_cleaned%>%
+  # cases_cleaned_federal <- sormas_cleaned%>%
+  #   group_by(Months,Year) %>%
+  #   summarise(`Measles Cases (CaseBased)` = n())
+
+  cases_cleaned_federal <- sormas_cleaned|>
     group_by(Months,Year) %>%
-    summarise(`Measles Cases (CaseBased)` = n())
+    summarise(`Measles Cases (CaseBased)` = sum(Confirmed_cases), .groups = "drop")
 
 
-  cases_cleaned_states_state_level <- sormas_cleaned%>%
+  cases_cleaned_states_state_level <-  sormas_cleaned  %>%
     group_by(Year, Months, State) %>%
-    summarise(Cases = n()) %>%
-    rename(`Measles Cases (CaseBased)` = Cases) %>%
+    summarise(`Measles Cases (CaseBased)` = sum(Confirmed_cases), .groups = "drop") |>
     mutate(LGA = "State level data")
 
   cases_cleaned_lga <- sormas_cleaned%>%
     group_by(Year, Months, State, LGA) %>%
-    summarise(Cases = n()) %>%
-    rename(`Measles Cases (CaseBased)` = Cases)
+    summarise(`Measles Cases (CaseBased)` = sum(Confirmed_cases),.groups = "drop")
 
 
   cases_cleaned_states <- bind_rows(cases_cleaned_states_state_level,cases_cleaned_lga)

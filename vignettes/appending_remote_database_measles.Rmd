@@ -21,6 +21,7 @@ library(readr)
 
 ```{r}
 
+
 input <- list(year = "2023", month = "07")
 
 dw <- config::get("development_stream2")
@@ -41,6 +42,7 @@ connection <- DBI::dbConnect(RMariaDB::MariaDB(),
 
 ```{r}
 #measles_sormas_cleaned <- sormas_cleaner("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/sormas_measles.csv")
+
 
 measles_sormas_cleaned <- sormas_cleaner("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/sormas_measles_cases_Jul_2023.csv")
 
