@@ -1,0 +1,46 @@
+---
+title: "appending_remote_database_diphtheria"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{appending_remote_database_diphtheria}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(Dhis2WithSormas)
+library(readr)
+```
+
+```{r}
+
+input <- list(year = "2023", month = "08")
+
+dw <- config::get("development_stream2")
+
+connection <- DBI::dbConnect(RMariaDB::MariaDB(),
+               username = dw$DB_user,
+               password = dw$DB_password,
+               host     = dw$DB_host,
+               port     = dw$DB_port,
+               dbname   = dw$DB_name
+            )
+
+```
+
+
+
+## Confirmed diphtheria cases, Penta 1, Penta 3
+
+```{r}
+
+diphtheria_sormas_cleaned <- sormas_cleaner("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/sormas_diphtheria_cases_August_2023.csv")
+
+```

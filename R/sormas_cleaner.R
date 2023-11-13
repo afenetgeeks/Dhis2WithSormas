@@ -11,9 +11,13 @@
 #' @export
 
 
-sormas_cleaner  <- function(file, skip = 2) {
+sormas_cleaner  <- function(file, skip = 2, disease = c("diphtheria")) {
 
-  sormas_lgas_cleaned <- vroom::vroom(file = file,skip = skip)%>%
+  sormas_lgas <- vroom::vroom(file = file,skip = skip)
+
+  sormas_lgas_cleaned <-  sormas_lgas |>
+  mutate(`Disease name` = str_to_lower(`Disease name`)) |>
+    filter(`Disease name` == disease) |>
     mutate(`Responsible state` = str_replace(`Responsible state`,pattern = "Fct" ,replacement = "Federal Capital Territory")) %>%
     mutate(LGA = as.character(case_when(
       `Responsible LGA`  == "Ibeju Lekki" ~ "Ibeju/Lekki",
