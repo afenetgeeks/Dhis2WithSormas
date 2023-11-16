@@ -21,7 +21,7 @@ library(readr)
 
 ```{r}
 
-input <- list(year = "2023", month = "06")
+input <- list(year = "2023", month = "08")
 
 dw <- config::get("development_stream2")
 
@@ -42,7 +42,7 @@ connection <- DBI::dbConnect(RMariaDB::MariaDB(),
 ```{r}
 #measles_sormas_cleaned <- sormas_cleaner("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/sormas_measles.csv")
 
-measles_sormas_cleaned <- sormas_cleaner("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/sormas_measles_cases_August_2023.csv")
+measles_sormas_cleaned <- sormas_cleaner("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/sormas_measles_cases_2017_August_2023.csv", disease = "measles")
 
 ```
 
@@ -59,7 +59,7 @@ measles1_coverage_monthly <- getAnalytics_cleaned(indicator_id = "tb5NGUMB9dQ",
 
 
 ```{r}
-#measles2_coverage_monthly <- read_csv("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/measles2_coverage_monthly.csv")
+
 
 measles2_coverage_monthly <- getAnalytics_cleaned(indicator_id = "qagHWllYle8",
                       months = input$month,
@@ -69,7 +69,6 @@ measles2_coverage_monthly <- getAnalytics_cleaned(indicator_id = "qagHWllYle8",
 
 
 ```{r}
-#measles1_given <- read_csv("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/measles1_given.csv")
 
 measles1_given <- getAnalytics_cleaned(indicator_id = "j6mCLL1X4yG",
                         months = input$month,
@@ -91,12 +90,18 @@ measles2_given <- getAnalytics_cleaned(indicator_id = "oB7SLTRHciH",
 
 
 ```{r}
-measles_alt_denominator <- get_measles_alt_denominator(sormas_cleaned = measles_sormas_cleaned,
-                            mcv1 =measles1_coverage_monthly,
-                            mcv2 = measles2_coverage_monthly,
-                            measles1_given = measles1_given,
-                            measles2_given = measles2_given,
-                            denominator_data = denominator_data)
+measles_alt_denominator <- get_2_dose_alt_denominator(sormas_cleaned = measles_sormas_cleaned,
+                                                       first_dose = measles1_coverage_monthly,
+                                                       later_dose = measles2_coverage_monthly,
+                                                       first_dose_given = measles1_given,
+                                                       later_dose_given = measles2_given,
+                                                       denominator_data = denominator_data)
+
+# [1] "Measles 1 given"           "State"                     "LGA"                       "Months"                   
+#  [5] "Year"                      "Measles 2 given"           "MCV 1 Alt Denominator"     "MCV 2 Alt Denominator"    
+#  [9] "MCV 1"                     "MCV 2"                     "Measles Cases (CaseBased)"
+
+
 
 dbAppendTable(connection , name = "measles_alt_denominator", value = measles_alt_denominator )
 

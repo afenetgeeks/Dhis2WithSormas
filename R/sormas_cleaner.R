@@ -11,14 +11,16 @@
 #' @export
 
 
-sormas_cleaner  <- function(file, skip = 2, disease = c("diphtheria")) {
+sormas_cleaner  <- function(file, skip = 2, disease = c("diphtheria", "measles", "yellow fever", "meningitis (csm)")) {
 
-  sormas_lgas <- vroom::vroom(file = file,skip = skip)
+  disease <- match.arg(disease)
+   sormas_lgas <- vroom::vroom(file = file,skip = skip)
 
-  sormas_lgas_cleaned <-  sormas_lgas |>
-  mutate(`Disease name` = str_to_lower(`Disease name`)) |>
-    filter(`Disease name` == disease) |>
-    mutate(`Responsible state` = str_replace(`Responsible state`,pattern = "Fct" ,replacement = "Federal Capital Territory")) %>%
+  sormas_lgas_cleaned <-  sormas_lgas  |>
+  mutate(`Disease name` = str_to_lower(`Disease name`),
+         `Disease` = str_to_lower(`Disease`)) |>
+    filter(`Disease name` == disease | `Disease` == disease) |>
+    mutate(`Responsible state` = str_replace(`Responsible state`, pattern = "Fct" ,replacement = "Federal Capital Territory")) %>%
     mutate(LGA = as.character(case_when(
       `Responsible LGA`  == "Ibeju Lekki" ~ "Ibeju/Lekki",
       `Responsible LGA`  == "Orire" ~ "Ori Ire",

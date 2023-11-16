@@ -16,6 +16,6 @@ a dataframe.
 Calculate Alternative denominator
 }
 \examples{
-cleaned_measles_data <- "sormas_cleaner(file = "path")"
+cleaned_2_dose_data <- "sormas_cleaner(file = "path")"
 
 }

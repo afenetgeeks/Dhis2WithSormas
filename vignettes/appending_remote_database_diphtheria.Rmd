@@ -41,6 +41,58 @@ connection <- DBI::dbConnect(RMariaDB::MariaDB(),
 
 ```{r}
 
-diphtheria_sormas_cleaned <- sormas_cleaner("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/sormas_diphtheria_cases_August_2023.csv")
+diphtheria_sormas_cleaned <- sormas_cleaner("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/sormas_diphtheria_cases_August_2023.csv", disease = "diphtheria")
+
+```
+
+
+```{r}
+
+penta1_coverage_monthly <- getAnalytics_cleaned(indicator_id = "yHw3A23QqP8",
+                       months = input$month,
+                       year = input$year,
+                       organisation_uint = c("LEVEL-1","LEVEL-2","LEVEL-3")
+                       )
+
+```
+
+
+```{r}
+
+penta3_coverage_monthly <- getAnalytics_cleaned(indicator_id = "VRycpXG44y1",
+                      months = input$month,
+                       year = input$year,
+                       organisation_uint = c("LEVEL-1", "LEVEL-2","LEVEL-3"))
+```
+
+
+```{r}
+penta1_given <- getAnalytics_cleaned(indicator_id = "b6X0aWFCb2E",
+                        months = input$month,
+                       year = input$year,
+                       organisation_uint = c("LEVEL-1", "LEVEL-2","LEVEL-3"))
+
+
+```
+
+
+```{r}
+
+penta3_given <- getAnalytics_cleaned(indicator_id = "BFeSKtHhPKi",
+                      months = input$month,
+                       year = input$year,
+                       organisation_uint = c("LEVEL-1", "LEVEL-2","LEVEL-3"))
+```
+
+
+```{r}
+diphtheria_alt_denominator <- get_2_dose_alt_denominator(sormas_cleaned = diphtheria_sormas_cleaned,
+                            first_dose = penta1_coverage_monthly,
+                            later_dose = penta3_coverage_monthly,
+                            first_dose_given = penta1_given,
+                            later_dose_given = penta3_given,
+                            denominator_data = denominator_data)
+
+dbAppendTable(connection , name = "diphtheria_alt_denominator", value = diphtheria_alt_denominator )
 
 ```

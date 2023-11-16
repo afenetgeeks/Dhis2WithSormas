@@ -38,8 +38,8 @@ loginToDATIM(
 # measles2_years <- c(2022)
 
 
-measles1_years <-  c(2018, 2019, 2020, 2021, 2022)
-measles2_years <-  c(2020, 2021, 2022)
+measles1_years <-  c(2018, 2019, 2020, 2021, 2022, 2023)
+measles2_years <-  c(2020, 2021, 2022, 2023)
 
 months_vector <-  c("01","02","03","04","05","06","07","08", "09","10","11","12")
 

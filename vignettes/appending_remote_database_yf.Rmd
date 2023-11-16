@@ -37,7 +37,7 @@ connection <- DBI::dbConnect(RMariaDB::MariaDB(),
 ##  Confirmed Yellow Fever cases, coverage
 
 ```{r}
-sormas_yellow_fever_cleaned <- sormas_cleaner("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/sormas_yf_cases_May_2023.csv")
+sormas_yellow_fever_cleaned <- sormas_cleaner("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/sormas_yf_cases_May_2023.csv", disease = "Yellow Fever")
 ```
 
 

@@ -7,7 +7,7 @@
 #' @return a dataframe.
 #'
 #' @examples
-#' cleaned_measles_data <- "sormas_cleaner(file = "path")"
+#' cleaned_2_dose_data <- "sormas_cleaner(file = "path")"
 #'
 calc_alt_denominator_monthly <- function(ind_value, denominator){
 
@@ -16,72 +16,77 @@ calc_alt_denominator_monthly <- function(ind_value, denominator){
   alt_den_val
 }
 
-#' Get alternative denominator for measles only
+#' Get alternative denominator for 2 dose antigen e.g Measles, Penta
 #' @import stringr
 #' @param string a dataframe from sormas
+#' @param first_dose the earlier dose coverage e.g Measles 1 coverage
+#' @param later_dose the later dose coverage e.g Measles 2 coverage
+#' @param first_dose_given the earlier dose given e.g Measles 1 given
+#' @param later_dose_given the later dose given e.g Measles 2 given
+#' @param denominator_data alternative denominator data
 #' @inheritParams stringr::str_split
 #'
 #' @return a dataframe.
 #' @export
 #'
 #' @examples
-#' cleaned_measles_data <- "sormas_cleaner(file = "path")"
+#' cleaned_2_dose_data <- "sormas_cleaner(file = "path")"
 
-get_measles_alt_denominator <- function(sormas_cleaned,mcv1, mcv2, measles1_given, measles2_given, denominator_data){
+get_2_dose_alt_denominator <- function(sormas_cleaned,first_dose, later_dose,first_dose_given, later_dose_given, denominator_data){
 
   # cases_cleaned_federal <- sormas_cleaned%>%
   #   group_by(Months,Year) %>%
-  #   summarise(`Measles Cases (CaseBased)` = n())
+  #   summarise(`Cases (CaseBased)` = n())
 
   cases_cleaned_federal <- sormas_cleaned|>
     group_by(Months,Year) %>%
-    summarise(`Measles Cases (CaseBased)` = sum(Confirmed_cases), .groups = "drop")
+    summarise(`Cases (CaseBased)` = n(), .groups = "drop")
 
 
   cases_cleaned_states_state_level <-  sormas_cleaned  %>%
     group_by(Year, Months, State) %>%
-    summarise(`Measles Cases (CaseBased)` = sum(Confirmed_cases), .groups = "drop") |>
+    summarise(`Cases (CaseBased)` = n(), .groups = "drop") |>
     mutate(LGA = "State level data")
 
   cases_cleaned_lga <- sormas_cleaned%>%
     group_by(Year, Months, State, LGA) %>%
-    summarise(`Measles Cases (CaseBased)` = sum(Confirmed_cases),.groups = "drop")
+    summarise(`Cases (CaseBased)` = n(),.groups = "drop")
 
 
   cases_cleaned_states <- bind_rows(cases_cleaned_states_state_level,cases_cleaned_lga)
 
 
-  measles1_coverage_monthly_df <- mcv1 %>%
-    rename("MCV 1" = Values) %>%
+  first_dose_coverage_monthly_df <- first_dose %>%
+    rename("first dose coverage" = Values) %>%
     select(!c( Indicator))
 
 
-  measles2_coverage_monthly_df <- mcv2 %>%
-    rename("MCV 2" = Values) %>%
+  second_dose_coverage_monthly_df <- later_dose %>%
+    rename("later dose coverage" = Values) %>%
     select(!c( Indicator))
 
-  mcv_monthly_df <-   measles1_coverage_monthly_df %>%
-    left_join(measles2_coverage_monthly_df,
+  coverage_monthly_df <-   first_dose_coverage_monthly_df %>%
+    left_join(second_dose_coverage_monthly_df,
               by =c("Months" = "Months", "Year" = "Year", "State" = "State", "LGA" = "LGA"))
 
   ####################
 
-  mcv_monthly_f <- mcv_monthly_df %>%
+  coverage_monthly_f <- coverage_monthly_df %>%
     filter(State == "Federal Government")
 
 
-  mcv_monthly_s <- mcv_monthly_df  %>%
+  coverage_monthly_s <- coverage_monthly_df  %>%
     filter(State != "Federal Government")
 
   #######
-  combined_by_federal <- mcv_monthly_f %>%
+  combined_by_federal <- coverage_monthly_f %>%
     left_join(cases_cleaned_federal , by=c("Months" = "Months", "Year" = "Year"))
 
   ##################################################################################################################
 
   # States
 
-  combined_by_states <- mcv_monthly_s %>%
+  combined_by_states <- coverage_monthly_s %>%
     left_join(cases_cleaned_states ,
               by=c("Months" = "Months", "Year" = "Year", "State" = "State", "LGA" = "LGA"))
 
@@ -90,29 +95,29 @@ get_measles_alt_denominator <- function(sormas_cleaned,mcv1, mcv2, measles1_give
 
   ####
 
-  measles1_given_edited <- measles1_given %>%
-    rename("Measles 1 given" = Values) %>%
+ first_dose_given_edited <- first_dose_given %>%
+    rename("first dose given"= Values) %>%
     select(-Indicator)
 
 
-  measles1_given_f <- measles1_given_edited %>%
+ first_dose_given_f <-first_dose_given_edited %>%
     filter(State == "Federal Government")
 
-  measles1_given_s <-  measles1_given_edited %>%
+ first_dose_given_s <- first_dose_given_edited %>%
     filter(State != "Federal Government")
 
   ####
 
-  measles2_given_edited <- measles2_given %>%
-    rename("Measles 2 given" = Values) %>%
+  later_dose_given_edited <- later_dose_given %>%
+    rename("later dose given" = Values) %>%
     select(-Indicator)
 
 
-  measles2_given_f <- measles2_given_edited %>%
+  later_dose_given_f <- later_dose_given_edited %>%
     filter(State == "Federal Government")
 
 
-  measles2_given_s <-  measles2_given_edited %>%
+  later_dose_given_s <-  later_dose_given_edited %>%
     filter(State != "Federal Government")
 
   ##
@@ -127,8 +132,8 @@ get_measles_alt_denominator <- function(sormas_cleaned,mcv1, mcv2, measles1_give
            State = str_replace(State, "Akwa Ibom", "Akwa-Ibom"),
            Year = as.numeric(Year))
 
-  combined_measles1_given_altden_states <- measles1_given_s %>%
-    left_join(measles2_given_s, by = c("State" = "State",
+  combined_first_dose_given_altden_states <- first_dose_given_s %>%
+    left_join(later_dose_given_s, by = c("State" = "State",
                                        "Year" = "Year",
                                        "LGA" = "LGA",
                                        "Months" = "Months")) %>%
@@ -136,8 +141,8 @@ get_measles_alt_denominator <- function(sormas_cleaned,mcv1, mcv2, measles1_give
                                      "Year" = "Year",
                                      "LGA" = "LGA")) %>%
 
-    mutate("MCV 1 Alt Denominator" = round(calc_alt_denominator_monthly(`Measles 1 given`, Denominator))) %>%
-    mutate("MCV 2 Alt Denominator" = round(calc_alt_denominator_monthly(`Measles 2 given`, Denominator))) %>%
+    mutate("first dose coverage alt denominator" = round(calc_alt_denominator_monthly(`first dose given`, Denominator))) %>%
+    mutate("later dose coverage alt denominator" = round(calc_alt_denominator_monthly(`later dose given`, Denominator))) %>%
     select(!c(Denominator))
 
 
@@ -148,17 +153,17 @@ get_measles_alt_denominator <- function(sormas_cleaned,mcv1, mcv2, measles1_give
     group_by(Year) %>%
     summarise(Denominator = sum(Denominator))
 
-  combined_measles1_given_altden_federal <- measles1_given_f %>%
-    left_join(measles2_given_f, by = c("State" = "State",
+  combined_first_dose_given_f_altden_federal <- first_dose_given_f %>%
+    left_join(later_dose_given_f, by = c("State" = "State",
                                        "Year" = "Year",
                                        "LGA" = "LGA",
                                        "Months" = "Months") ) %>%
     left_join(alt_den_long_f, by = c("Year" = "Year")) %>%
-    mutate("MCV 1 Alt Denominator" = round(calc_alt_denominator_monthly(`Measles 1 given`, Denominator))) %>%
-    mutate("MCV 2 Alt Denominator" = round(calc_alt_denominator_monthly(`Measles 2 given`, Denominator))) %>%
+    mutate("first dose coverage alt denominator" = round(calc_alt_denominator_monthly(`first dose given`, Denominator))) %>%
+    mutate("later dose coverage alt denominator" = round(calc_alt_denominator_monthly(`later dose given`, Denominator))) %>%
     select(!c(Denominator))
 
-  alt_den <- bind_rows(combined_measles1_given_altden_federal, combined_measles1_given_altden_states)
+  alt_den <- bind_rows(combined_first_dose_given_f_altden_federal, combined_first_dose_given_altden_states)
 
 
    alt_den %>%
@@ -188,7 +193,7 @@ get_measles_alt_denominator <- function(sormas_cleaned,mcv1, mcv2, measles1_give
 #' @export
 #'
 #' @examples
-#' cleaned_measles_data <- "sormas_cleaner(file = "path")"
+#' cleaned_2_dose_data <- "sormas_cleaner(file = "path")"
 
 get_alt_denominator <- function(coverage, sormas_cleaned,  doses_given, denominator_data){
 

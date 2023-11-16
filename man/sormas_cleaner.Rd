@@ -4,7 +4,11 @@
 \alias{sormas_cleaner}
 \title{Clean sormas data}
 \usage{
-sormas_cleaner(file, skip = 2)
+sormas_cleaner(
+  file,
+  skip = 2,
+  disease = c("diphtheria", "measles", "yellow fever", "meningitis (csm)")
+)
 }
 \arguments{
 \item{string}{a dataframe from sormas}
