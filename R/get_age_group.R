@@ -6,7 +6,7 @@
 get_age_group <- function(sormas_cleaned){
 
   sormas_cases_by_age_group <-   distinct(sormas_cleaned)  %>%
-    select(-c(state_id, lga_id)) |>
+    select(-c(State_id, LGA_id)) |>
     mutate(state = case_when(state == "Fct" ~ "Federal Capital Territory", TRUE ~as.character(state)),
            months = stringr::str_to_sentence(stringr::str_trunc(months,3, ellipsis = ""))) |>
     pivot_wider(names_from = vaccination_status, values_from = confirmed_cases, values_fn = sum) |>
