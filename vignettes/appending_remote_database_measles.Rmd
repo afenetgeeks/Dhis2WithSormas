@@ -22,7 +22,7 @@ library(readr)
 ```{r}
 
 
-input <- list(year = "2023", month = "08")
+input <- list(year = "2023", month = "10")
 
 dw <- config::get("development_stream2")
 
@@ -44,7 +44,7 @@ connection <- DBI::dbConnect(RMariaDB::MariaDB(),
 #measles_sormas_cleaned <- sormas_cleaner("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/sormas_measles.csv")
 
 
-measles_sormas_cleaned <- sormas_cleaner("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/sormas_measles_cases_Aug_Sep_2023.csv")
+measles_sormas_cleaned <- sormas_cleaner("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/sormas_measles_cases_oct_2023.csv")
 
 ```
 
@@ -100,8 +100,7 @@ measles_alt_denominator <- get_measles_alt_denominator(sormas_cleaned = measles_
                             measles2_given = measles2_given,
                             denominator_data = denominator_data)
 
-dbAppendTable(connection , name = "measles_alt_denominator",
-              value = measles_alt_denominator )
+dbAppendTable(connection , name = "measles_alt_denominator", value = measles_alt_denominator )
 
 ```
 
