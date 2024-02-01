@@ -37,13 +37,52 @@ get_mcv_different_sources <- function(mcv1_annualized_all_time, mcv2_annualized_
              Year == "2021" ~ 27,
              TRUE~ `Dhis2 (MCV2)`))
 
-
-
-
 }
 
 
+#' add Penta
+#' @import dplyr stringr
+#' @export
+#'
+#'
+#'
 
+get_penta_different_sources <- function(penta1_coverage_annualized_all_time, penta3_coverage_annualized_all_time){
+
+  penta_annualized_f <- bind_rows( penta1_coverage_annualized_all_time, penta3_coverage_annualized_all_time)%>%
+  filter(State  == "Federal Government") %>%
+  select(-c( Months, LGA)) %>%
+  pivot_wider(names_from = Indicator, values_from = Values,id_cols = Year) |>
+  rename("DHIS2 (Penta1)" = `Penta 1 Coverage`,
+         "DHIS2 (Penta3)" = `Penta 3 Coverage (Monthly)`)
+
+  Dhis2WithSormas::penta_different_sources %>%
+    dplyr::full_join(penta_annualized_f, by=c("Year" = "Year")) %>%
+    arrange(Year) %>%
+    mutate(`DHIS2 (Penta1)` = case_when(
+                                      Year == "2015" ~ NA,
+                                      Year == "2016" ~ 82.8,
+                                      Year == "2017" ~ 91.2,
+                                      Year == "2018" ~ 86.9,
+                                      Year == "2019" ~ 88.0,
+                                      Year == "2020" ~ 81.7,
+                                      Year == "2021" ~ 77.0,
+                                      Year == "2022" ~ 82.3,
+                                      Year == "2023" ~ 89.0,
+                                      TRUE~ `DHIS2 (Penta1)`),
+           `DHIS2 (Penta3)` = case_when(
+             Year == "2015" ~ 65.7,
+             Year == "2016" ~ 75.4,
+             Year == "2017" ~ 84.4,
+             Year == "2018" ~ 79.9,
+             Year == "2019" ~ 82.0,
+             Year == "2020" ~ 76.9,
+             Year == "2021" ~ 72.7,
+             Year == "2022" ~ 77.1,
+             Year == "2023" ~ 84.0,
+             TRUE~ `DHIS2 (Penta3)`))
+
+}
 
 
 

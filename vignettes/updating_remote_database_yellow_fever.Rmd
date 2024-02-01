@@ -34,11 +34,11 @@ connection <- DBI::dbConnect(RMariaDB::MariaDB(),
 ##  Confirmed Yellow Fever cases, coverage
 
 ```{r}
-sormas_yellow_fever_cleaned <- sormas_cleaner("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/sormas_yellow_fever.csv")
+sormas_yellow_fever_cleaned <- sormas_cleaner("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/sormas_yf_cases_2017_2023.csv",disease = "yellow fever")
 
-yf_coverage_monthly  <- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/yf_coverage_monthly.csv")
+yf_coverage_monthly  <- read_csv("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/yf_coverage_monthly.csv")
 
-yf_given <- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/yf_Vaccine_Given.csv")
+yf_given <- read_csv("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/yf_Vaccine_Given.csv")
 
 ```
 
@@ -49,13 +49,14 @@ yf_alt_denominator <- get_alt_denominator(coverage = yf_coverage_monthly,
                     doses_given = yf_given, 
                     denominator_data = denominator_data)
 
-#dbWriteTable(connection , name = "yf_alt_denominator", value = yf_alt_denominator %>% slice(1:2), overwrite = TRUE)
+dbWriteTable(connection , name = "yf_alt_denominator2", value = yf_alt_denominator %>% slice(1:2), overwrite = TRUE)
 
 updated_remote_database(connection = connection,
                         dataset = bind_rows( filter(yf_alt_denominator, State == "Federal Capital Territory"),
                                              filter(yf_alt_denominator, State != "Federal Capital Territory") ),
-                        aws_datatable = "yf_alt_denominator", 
-                       starting_index = 1)
+                        aws_datatable = "yf_alt_denominator2", 
+                       starting_index = 0)
+## done
 ```
 
 
@@ -80,11 +81,11 @@ updated_remote_database(connection = connection,
 
 ```{r}
 
-yf_received <- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/yf_Received.csv")
+yf_received <- read_csv("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/yf_Received.csv")
 
-yf_opening_balance <- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/yf_OB.csv")
+yf_opening_balance <- read_csv("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/yf_OB.csv")
 
-yf_opened_used <- read_csv("/Volumes/Robinson/Afenet-projects/Dhis2WithSormas/data-raw/yf_Doses_Opened.csv")
+yf_opened_used <- read_csv("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/yf_Doses_Opened.csv")
 
 ```
 
@@ -96,12 +97,14 @@ yf_stock_analysis <- get_stock_analysis(doses_given = yf_given,
                                         opening_balance = yf_opening_balance,
                                         opened_used = yf_opened_used)
 
-#dbWriteTable(connection, name = "yf_stock_analysis", value = yf_stock_analysis %>% slice(1:2), overwrite = TRUE)
+dbWriteTable(connection, name = "yf_stock_analysis", value = yf_stock_analysis %>% slice(1:2), overwrite = TRUE)
 
-updated_remote_database(dataset = bind_rows( filter(yf_stock_analysis, State == "Federal Capital Territory"), filter(yf_stock_analysis, State != "Federal Capital Territory") ), 
-                     
-                     aws_datatable = "yf_stock_analysis",starting_index = 1)
+updated_remote_database(connection = connection,
+                        dataset = bind_rows( filter(yf_stock_analysis, State == "Federal Capital Territory"),
+                                             filter(yf_stock_analysis, State != "Federal Capital Territory")),
+                        aws_datatable = "yf_stock_analysis",starting_index = 2001)
 
+#finished 
 ```
 
 
@@ -125,16 +128,16 @@ yf_coverage_map <- get_coverage_map(annual_data = yf_coverage_annually,
                  monthly_data = yf_coverage_monthly)
 
 
-#dbWriteTable(connection, name = "yf_coverage_map", 
-#             value = yf_coverage_map %>% slice(1:2), overwrite = TRUE)
+dbWriteTable(connection, name = "yf_coverage_map", 
+             value = yf_coverage_map %>% slice(1:2), overwrite = TRUE)
 
 updated_remote_database(connection = connection,
   dataset = bind_rows( filter(yf_coverage_map, State == "Federal Capital Territory"),
                        filter(yf_coverage_map, State != "Federal Capital Territory") ), 
                      
-                     aws_datatable = "yf_coverage_map",starting_index = 9001)
+                     aws_datatable = "yf_coverage_map",starting_index = 26001)
 
-
+#finished
 ```
 
 
@@ -143,14 +146,14 @@ yf_cases_map <- sormas_yellow_fever_cleaned %>%
   select("##Case ID","Disease", "Long", "Lat", "Months", "Year", "State", "LGA")
 
 
-#dbWriteTable(connection, name = "yf_cases_map", 
-#            value = yf_cases_map %>% slice(1:2), overwrite = TRUE)
+dbWriteTable(connection, name = "yf_cases_map", 
+            value = yf_cases_map %>% slice(1:2), overwrite = TRUE)
 
 updated_remote_database(connection = connection,
   dataset = bind_rows( filter(yf_cases_map, State == "Federal Capital Territory"),
                        filter(yf_cases_map, State != "Federal Capital Territory") ), 
                      
-                     aws_datatable = "yf_cases_map",starting_index = 9001)
+                     aws_datatable = "yf_cases_map",starting_index = 1)
 
 
 ```

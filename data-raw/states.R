@@ -5,19 +5,19 @@
 
 library(dplyr)
 library(stringr)
-library(datimutils)
 
 
 dw <- config::get("development_stream2")
 
-loginToDATIM(
-  base_url = "https://dhis2nigeria.org.ng/dhis/",
-  username = dw$dhis2_username,
-  password = dw$dhis2_password
-)
-
+dhis2_connection <- dhis2r::Dhis2r$new(base_url = "https://dhis2nigeria.org.ng/dhis/",
+                                       username= dw$Dhis2_username,
+                                       password= dw$Dhis2_password,
+                                       api_version_position = "after")
 
 ########################################################
+
+
+states <- dhis2_connection$get_metadata(endpoint = "organisationUnits", fields = c("id","name", "level" ,"parent")) |>
 
 states <- getMetadata(organisationUnits,
                       "level:eq:2",

@@ -1,0 +1,538 @@
+---
+title: "Getting-all-dhis2-diphtheria-data-2017-to-Nov-2023"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Getting-all-dhis2-diphtheria-data-2017-to-Nov-2023}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(Dhis2WithSormas)
+library(purrr)
+library(readr)
+library(dhis2r)
+
+ dhis2_connection_small <- dhis2r::Dhis2r$new(base_url = "https://dhis2nigeria.org.ng/dhis/",
+                                      username= dw$Dhis2_username,
+                                      password= dw$Dhis2_password,
+                                      api_version_position = "after")
+
+ 
+```
+
+```{r}
+dw <- config::get("development_stream2")
+
+
+# months_vector <- c("05")
+# 
+# penta_years <- c(2022)
+# 
+# penta_years <- c(2022)
+
+
+penta_years <-  c(2018, 2019, 2020, 2021, 2022, 2023)
+#diphtheria_years <-  c(2020, 2021, 2022, 2023)
+
+months_vector <-  c("01","02","03","04","05","06","07","08", "09","10","11","12")
+
+```
+
+
+```{r}
+
+penta1_coverage_annualized <-   getAnalytics_cleaned(indicator_id =  "yHw3A23QqP8",
+                       months = c(),
+                       year = 2017,
+                       organisation_uint = c("LEVEL-1", "LEVEL-2","LEVEL-3")
+                       )
+
+
+for( year in  penta_years) {
+   print(year)
+  
+  data_for_that_year <- getAnalytics_cleaned(indicator_id =  "yHw3A23QqP8",
+                       months = c(),
+                       year = year,
+                       organisation_uint = c("LEVEL-1", "LEVEL-2","LEVEL-3")
+                       )
+  
+  penta1_coverage_annualized <-  bind_rows(penta1_coverage_annualized,  data_for_that_year)
+  
+}
+
+
+indicator_name <-  dhis2_connection_small$get_analytics(analytic ="yHw3A23QqP8",
+                                 org_unit = "LEVEL-1",
+                                 period = "202005",
+                                  output_scheme = "NAME"
+                                 )   |> pull(analytic) |>  unique() |> as.character()
+
+
+penta1_coverage_annualized <- penta1_coverage_annualized %>% mutate(Indicator =indicator_name)
+write_csv(x = penta1_coverage_annualized,
+          file = "/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/penta1_coverage_annualized.csv")
+```
+
+
+
+
+
+```{r}
+penta3_coverage_annualized <-  getAnalytics_cleaned(indicator_id = "VRycpXG44y1",
+                       months = c(),
+                       year = 2017,
+                       organisation_uint = c("LEVEL-1", "LEVEL-2","LEVEL-3")
+                       )
+
+
+for( year in penta_years) {
+  
+  print(year)
+  
+  data_for_that_year <- getAnalytics_cleaned(indicator_id = "VRycpXG44y1",
+                       months = c(),
+                       year = year,
+                       organisation_uint = c("LEVEL-1", "LEVEL-2","LEVEL-3")
+                       )
+  
+   penta3_coverage_annualized <-  bind_rows(penta3_coverage_annualized,  data_for_that_year)
+  }
+  
+
+indicator_name <-  dhis2_connection_small$get_analytics(analytic ="ahcgdMr6xYw",
+                                 org_unit = "LEVEL-1",
+                                 period = "202005",
+                                  output_scheme = "NAME"
+                                 )   |> pull(analytic) |>  unique() |> as.character()
+                
+
+penta3_coverage_annualized <- penta3_coverage_annualized%>% mutate(Indicator =indicator_name) 
+
+
+write_csv(x = penta3_coverage_annualized,
+          file = "/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/penta3_coverage_annualized.csv")
+```
+
+
+
+
+
+```{r}
+penta1_coverage_monthly <- getAnalytics_cleaned(indicator_id = "yHw3A23QqP8",
+                       months = months_vector,
+                       year = 2017,
+                       organisation_uint = c("LEVEL-1", "LEVEL-2","LEVEL-3")
+                       )
+
+
+
+for( year in  penta_years) {
+   print(year)
+  
+  data_for_that_year <- getAnalytics_cleaned(indicator_id = "yHw3A23QqP8",
+                       months = months_vector,
+                       year = year,
+                       organisation_uint = c("LEVEL-1", "LEVEL-2","LEVEL-3")
+                       )
+  
+  penta1_coverage_monthly <-  bind_rows(penta1_coverage_monthly,  data_for_that_year)
+  
+}
+
+
+indicator_name <-  dhis2_connection_small$get_analytics(analytic ="yHw3A23QqP8",
+                                 org_unit = "LEVEL-1",
+                                 period = "202005",
+                                  output_scheme = "NAME"
+                                 )   |> pull(analytic) |>  unique() |> as.character()
+
+
+penta1_coverage_monthly <-  penta1_coverage_monthly%>% mutate(Indicator =indicator_name)
+  
+  
+write_csv(x = penta1_coverage_monthly,
+          file = "/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/penta1_coverage_monthly.csv")
+```
+
+
+```{r}
+penta3_coverage_monthly <- getAnalytics_cleaned(indicator_id = "VRycpXG44y1",
+                       months = months_vector,
+                       year = 2017,
+                       organisation_uint = c("LEVEL-1", "LEVEL-2","LEVEL-3"))
+
+
+
+for( year in penta_years) {
+  
+  print(year)
+  
+  data_for_that_year <- getAnalytics_cleaned(indicator_id =  "VRycpXG44y1",
+                       months = months_vector,
+                       year = year,
+                       organisation_uint = c("LEVEL-1", "LEVEL-2","LEVEL-3")
+                       )
+  
+   penta3_coverage_monthly <-  bind_rows(penta3_coverage_monthly,  data_for_that_year)
+}
+
+
+
+indicator_name <-  dhis2_connection_small$get_analytics(analytic ="VRycpXG44y1",
+                                 org_unit = "LEVEL-1",
+                                 period = "202005",
+                                  output_scheme = "NAME"
+                                 )   |> pull(analytic) |>  unique() |> as.character()
+
+penta3_coverage_monthly <-  penta3_coverage_monthly%>% mutate(Indicator =indicator_name)
+
+
+write_csv(x = penta3_coverage_monthly, 
+          file = "/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/penta3_coverage_monthly.csv")
+```
+
+
+
+
+
+```{r}
+penta1_given <- getAnalytics_cleaned(indicator_id = "b6X0aWFCb2E",
+                       months = months_vector,
+                       year = 2017,
+                       organisation_uint = c("LEVEL-1", "LEVEL-2","LEVEL-3"))
+
+
+
+for( year in  penta_years) {
+   print(year)
+  
+  data_for_that_year <- getAnalytics_cleaned(indicator_id = "b6X0aWFCb2E",
+                       months = months_vector,
+                       year = year,
+                       organisation_uint = c("LEVEL-1", "LEVEL-2","LEVEL-3")
+    )
+  
+  penta1_given <-  bind_rows(penta1_given,  data_for_that_year)
+  
+}
+
+
+
+indicator_name <-  dhis2_connection_small$get_analytics(analytic ="b6X0aWFCb2E",
+                                 org_unit = "LEVEL-1",
+                                 period = "202005",
+                                  output_scheme = "NAME"
+                                 )   |> pull(analytic) |>  unique() |> as.character()
+
+
+penta1_given <- penta1_given%>% mutate(Indicator =indicator_name)
+
+
+write_csv(x = penta1_given,
+          file = "/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/penta1_given.csv")
+```
+
+```{r}
+penta2_given <- getAnalytics_cleaned(indicator_id = "x4HgjBU1kCq",
+                       months = months_vector,
+                       year = 2017,
+                       organisation_uint = c("LEVEL-1", "LEVEL-2","LEVEL-3"))
+
+
+
+for( year in  penta_years) {
+   print(year)
+  
+  data_for_that_year <- getAnalytics_cleaned(indicator_id = "x4HgjBU1kCq",
+                       months = months_vector,
+                       year = year,
+                       organisation_uint = c("LEVEL-1", "LEVEL-2","LEVEL-3")
+    )
+  
+  penta2_given <-  bind_rows(penta2_given,  data_for_that_year)
+  
+}
+
+
+
+indicator_name <-  dhis2_connection_small$get_analytics(analytic ="x4HgjBU1kCq",
+                                 org_unit = "LEVEL-1",
+                                 period = "202005",
+                                  output_scheme = "NAME"
+                                 )   |> pull(analytic) |>  unique() |> as.character()
+
+
+penta2_given <- penta2_given%>% mutate(Indicator =indicator_name)
+
+
+write_csv(x = penta2_given,
+          file = "/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/penta2_given.csv")
+```
+
+
+```{r}
+
+penta3_given <- getAnalytics_cleaned(indicator_id = "BFeSKtHhPKi",
+                       months = months_vector,
+                       year = 2017,
+                       organisation_uint = c("LEVEL-1", "LEVEL-2","LEVEL-3"))
+
+
+
+for( year in penta_years) {
+  
+  print(year)
+  
+  data_for_that_year <- getAnalytics_cleaned(indicator_id =  "BFeSKtHhPKi",
+                       months = months_vector,
+                       year = year,
+                       organisation_uint = c("LEVEL-1", "LEVEL-2","LEVEL-3")
+                       )
+  
+   penta3_given <-  bind_rows(penta3_given,  data_for_that_year)
+}
+
+
+
+
+indicator_name <-  dhis2_connection_small$get_analytics(analytic ="BFeSKtHhPKi",
+                                 org_unit = "LEVEL-1",
+                                 period = "202005",
+                                  output_scheme = "NAME"
+                                 )   |> pull(analytic) |>  unique() |> as.character()
+
+
+
+penta3_given <- penta3_given%>% mutate(Indicator =indicator_name)
+
+write_csv(x = penta3_given,
+          file = "/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/penta3_given.csv")
+```
+
+
+
+
+```{r}
+penta_Received <-  getAnalytics_cleaned(indicator_id = "KrI2GAlgMsI",
+                       months = months_vector,
+                       year = "2017",
+                       organisation_uint = c("LEVEL-1", "LEVEL-2","LEVEL-3"))
+
+
+
+
+for( year in   penta_years) {
+   print(year)
+  
+  data_for_that_year <-  getAnalytics_cleaned(indicator_id = "KrI2GAlgMsI",
+                       months = months_vector,
+                       year = year,
+                       organisation_uint = c("LEVEL-1", "LEVEL-2","LEVEL-3")
+    )
+  
+  penta_Received  <-  bind_rows(penta_Received ,  data_for_that_year)
+  
+}
+
+
+
+indicator_name <-  dhis2_connection_small$get_analytics(analytic ="KrI2GAlgMsI",
+                                 org_unit = "LEVEL-1",
+                                 period = "202005",
+                                  output_scheme = "NAME"
+                                 )   |> pull(analytic) |>  unique() |> as.character()
+
+penta_Received <- penta_Received%>% mutate(Indicator =indicator_name)
+
+write_csv(x = penta_Received,file = "/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/penta_Received.csv")
+```
+
+
+```{r}
+penta_OB <- getAnalytics_cleaned(indicator_id = "XeEhY1acJ7p",
+                       months = months_vector,
+                       year = 2017,
+                       organisation_uint = c("LEVEL-1", "LEVEL-2","LEVEL-3"))
+
+
+
+for( year in  penta_years) {
+   print(year)
+  
+  data_for_that_year <-  getAnalytics_cleaned(indicator_id = "XeEhY1acJ7p",
+                       months = months_vector,
+                       year = year,
+                       organisation_uint = c("LEVEL-1", "LEVEL-2","LEVEL-3"))
+  
+  penta_OB <-  bind_rows(penta_OB,  data_for_that_year)
+  
+}
+
+
+
+indicator_name <-  dhis2_connection_small$get_analytics(analytic ="XeEhY1acJ7p",
+                                 org_unit = "LEVEL-1",
+                                 period = "202005",
+                                  output_scheme = "NAME"
+                                 )   |> pull(analytic) |>  unique() |> as.character()
+
+penta_OB <- penta_OB%>% mutate(Indicator =indicator_name)
+
+write_csv(x = penta_OB,file = "/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/penta_OB.csv")
+```
+
+
+```{r}
+penta_Opened_Used <- getAnalytics_cleaned(indicator_id = "P6zdm7C653N",
+                       months = months_vector,
+                       year = 2017,
+                       organisation_uint = c("LEVEL-1", "LEVEL-2","LEVEL-3"))
+
+
+
+for( year in  penta_years) {
+   print(year)
+  
+  data_for_that_year <-  getAnalytics_cleaned(indicator_id = "P6zdm7C653N",
+                       months = months_vector,
+                       year = year,
+                       organisation_uint = c("LEVEL-1", "LEVEL-2","LEVEL-3"))
+  
+  penta_Opened_Used <-  bind_rows(penta_Opened_Used,  data_for_that_year)
+  
+}
+
+
+indicator_name <-  dhis2_connection_small$get_analytics(analytic ="P6zdm7C653N",
+                                 org_unit = "LEVEL-1",
+                                 period = "202005",
+                                  output_scheme = "NAME"
+                                 )   |> pull(analytic) |>  unique() |> as.character()
+
+penta_Opened_Used <- penta_Opened_Used%>%
+  mutate(Indicator =indicator_name)
+
+
+
+write_csv(x = penta_Opened_Used,
+          file = "/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/penta_Opened_Used.csv")
+
+```
+
+
+```{r}
+opv1_given <- getAnalytics_cleaned(indicator_id = "HhWjY78dECn",
+                       months = months_vector,
+                       year = 2017,
+                       organisation_uint = c("LEVEL-1", "LEVEL-2","LEVEL-3"))
+
+
+
+for( year in  penta_years) {
+   print(year)
+  
+  data_for_that_year <- getAnalytics_cleaned(indicator_id = "HhWjY78dECn",
+                       months = months_vector,
+                       year = year,
+                       organisation_uint = c("LEVEL-1", "LEVEL-2","LEVEL-3")
+    )
+  
+  opv1_given <-  bind_rows(opv1_given,  data_for_that_year)
+  
+}
+
+
+
+indicator_name <-  dhis2_connection_small$get_analytics(analytic ="HhWjY78dECn",
+                                 org_unit = "LEVEL-1",
+                                 period = "202005",
+                                  output_scheme = "NAME"
+                                 )   |> pull(analytic) |>  unique() |> as.character()
+
+
+opv1_given <- opv1_given%>% mutate(Indicator =indicator_name)
+
+
+write_csv(x = opv1_given,
+          file = "/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/opv1_given.csv")
+```
+
+
+
+
+
+
+
+
+
+```{r}
+penta1_coverage_annualized_all_time <-  map_dfr(.x = 2015:penta_years[length(penta_years)], function(year){
+  
+  print(year)
+  
+  getAnalytics_cleaned(indicator_id =  "yHw3A23QqP8",
+                       months = c(),
+                       year = year,
+                       organisation_uint = "LEVEL-1"
+                       )
+  
+  
+  }
+  
+)
+
+
+indicator_name <-  dhis2_connection_small$get_analytics(analytic ="yHw3A23QqP8",
+                                 org_unit = "LEVEL-1",
+                                 period = "202005",
+                                  output_scheme = "NAME"
+                                 )   |> pull(analytic) |>  unique() |> as.character()
+
+
+penta1_coverage_annualized_all_time <- penta1_coverage_annualized_all_time%>% mutate(Indicator =indicator_name)
+
+write_csv(x = penta1_coverage_annualized_all_time,
+          file = "/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/penta1_coverage_annualized_all_time.csv")
+```
+
+
+```{r}
+penta3_coverage_annualized_all_time <-  map_dfr(.x = 2015:penta_years[length(penta_years)], function(year){
+  
+  print(year)
+  
+   getAnalytics_cleaned(indicator_id = "VRycpXG44y1",
+                       months = c(),
+                       year = year,
+                       organisation_uint = "LEVEL-1"
+                       )
+  
+  }
+  
+)
+
+
+indicator_name <-  dhis2_connection_small$get_analytics(analytic ="VRycpXG44y1",
+                                 org_unit = "LEVEL-1",
+                                 period = "202005",
+                                  output_scheme = "NAME"
+                                 )   |> pull(analytic) |>  unique() |> as.character()
+
+
+penta3_coverage_annualized_all_time <- penta3_coverage_annualized_all_time%>% mutate(Indicator =indicator_name)
+
+
+write_csv(x = penta3_coverage_annualized_all_time,
+          file = "/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/penta3_coverage_annualized_all_time.csv")
+
+```
+

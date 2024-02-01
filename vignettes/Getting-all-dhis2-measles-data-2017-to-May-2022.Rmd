@@ -15,9 +15,11 @@ knitr::opts_chunk$set(
 ```
 
 ```{r setup}
+
 library(Dhis2WithSormas)
 library(purrr)
 library(readr)
+library(dhis2r)
 ```
 
 ```{r}
@@ -25,11 +27,22 @@ library(readr)
 
 dw <- config::get("development_stream2")
 
-loginToDATIM(
-  base_url = dw$Dhis2_base_url,
-  username = dw$Dhis2_username,
-  password = dw$Dhis2_password
-)
+
+ dhis2_connection_small <- dhis2r::Dhis2r$new(base_url = "https://dhis2nigeria.org.ng/dhis/",
+                                      username= dw$Dhis2_username,
+                                      password= dw$Dhis2_password,
+                                      api_version_position = "after")
+ 
+ get_indicator_name <-function(id){
+   
+   dhis2_connection_small$get_analytics(analytic = id,
+                                 org_unit = "LEVEL-1",
+                                 period = "202005",
+                                  output_scheme = "NAME"
+                                 )   |> pull(analytic) |>  unique() |> as.character()
+
+   
+ }  
 
 # months_vector <- c("05")
 # 
@@ -69,10 +82,8 @@ for( year in  measles1_years) {
   
 }
 
-indicator_name <-  datimutils::getAnalytics(dx = "hvYqrmR6MPq",
-                                         ou = "LEVEL-1",
-                                         pe = "202005",
-                                         return_names = T) %>% pull(Data) %>% unique()
+indicator_name <-  get_indicator_name(id = "hvYqrmR6MPq")
+
 
 
 measles1_coverage_annualized <- measles1_coverage_annualized %>% mutate(Indicator =indicator_name)
@@ -106,10 +117,7 @@ for( year in measles2_years) {
   }
   
 
-indicator_name <-  datimutils::getAnalytics(dx = "Fbj3AkYjCie",
-                                         ou = "LEVEL-1",
-                                         pe = "202005",
-                                         return_names = T) %>% pull(Data) %>% unique()
+indicator_name <-  get_indicator_name(id = "Fbj3AkYjCie")
 
 measles2_coverage_annualized <- measles2_coverage_annualized%>% mutate(Indicator =indicator_name) 
 
@@ -145,10 +153,7 @@ for( year in  measles1_years) {
 }
 
 
-indicator_name <-  datimutils::getAnalytics(dx = "tb5NGUMB9dQ",
-                                         ou = "LEVEL-1",
-                                         pe = "202005",
-                                         return_names = T) %>% pull(Data) %>% unique()
+indicator_name <-  get_indicator_name(id = "tb5NGUMB9dQ")
 
 
 measles1_coverage_monthly <-  measles1_coverage_monthly%>% mutate(Indicator =indicator_name)
@@ -182,10 +187,7 @@ for( year in measles2_years) {
 
 
 
-indicator_name <-  datimutils::getAnalytics(dx = "qagHWllYle8",
-                                         ou = "LEVEL-1",
-                                         pe = "202005",
-                                         return_names = T) %>% pull(Data) %>% unique()
+indicator_name <-  get_indicator_name(id =  "qagHWllYle8")
 
 measles2_coverage_monthly <-  measles2_coverage_monthly%>% mutate(Indicator =indicator_name)
 
@@ -220,10 +222,7 @@ for( year in  measles1_years) {
 }
 
 
-indicator_name <-  datimutils::getAnalytics(dx = "j6mCLL1X4yG",
-                                         ou = "LEVEL-1",
-                                         pe = "202005",
-                                         return_names = T) %>% pull(Data) %>% unique()
+indicator_name <-  get_indicator_name(id =  "j6mCLL1X4yG")
 
 
 measles1_given <- measles1_given%>% mutate(Indicator =indicator_name)
@@ -258,10 +257,7 @@ for( year in measles2_years) {
 
 
 
-indicator_name <-  datimutils::getAnalytics(dx =  "oB7SLTRHciH",
-                                         ou = "LEVEL-1",
-                                         pe = "202005",
-                                         return_names = T) %>% pull(Data) %>% unique()
+indicator_name <-  get_indicator_name(id =  "oB7SLTRHciH")
 
 
 
@@ -296,11 +292,7 @@ for( year in   measles1_years) {
   
 }
 
-
-indicator_name <-  datimutils::getAnalytics(dx = "XklyJxzoyxR",
-                                         ou = "LEVEL-1",
-                                         pe = "202005",
-                                         return_names = T) %>% pull(Data) %>% unique()
+indicator_name <-  get_indicator_name(id =  "XklyJxzoyxR")
 
 measles_Received <- measles_Received%>% mutate(Indicator =indicator_name)
 
@@ -329,10 +321,7 @@ for( year in  measles1_years) {
 }
 
 
-indicator_name <-  datimutils::getAnalytics(dx =  "vtHJVTAguch",
-                                         ou = "LEVEL-1",
-                                         pe = "202005",
-                                         return_names = T) %>% pull(Data) %>% unique()
+indicator_name <-  get_indicator_name(id =  "vtHJVTAguch")
 
 measles_OB <- measles_OB%>% mutate(Indicator =indicator_name)
 
@@ -360,10 +349,7 @@ for( year in  measles1_years) {
   
 }
 
-indicator_name <-  datimutils::getAnalytics(dx = "hg1D2tXg3aB",
-                                         ou = "LEVEL-1",
-                                         pe = "202005",
-                                         return_names = T) %>% pull(Data) %>% unique()
+indicator_name <-  get_indicator_name(id =  "hg1D2tXg3aB")
 
 measles_Opened_Used <- measles_Opened_Used%>%
   mutate(Indicator =indicator_name)
@@ -394,13 +380,10 @@ measles1_coverage_annualized_all_time <-  map_dfr(.x = 2021:measles1_years[lengt
   
 )
 
-indicator_name <-  datimutils::getAnalytics(dx = "hvYqrmR6MPq",
-                                         ou = "LEVEL-1",
-                                         pe = "202005",
-                                         return_names = T) %>% pull(Data) %>% unique()
+#indicator_name <-  get_indicator_name(id =  "hvYqrmR6MPq")
+#indicator_name <-  "hvYqrmR6MPq"
 
-
-measles1_coverage_annualized_all_time <- measles1_coverage_annualized_all_time%>% mutate(Indicator =indicator_name)
+#measles1_coverage_annualized_all_time <- measles1_coverage_annualized_all_time%>% mutate(Indicator =indicator_name)
 
 write_csv(x = measles1_coverage_annualized_all_time,
           file = "/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/measles1_coverage_annualized_all_time.csv")
@@ -422,16 +405,10 @@ measles2_coverage_annualized_all_time <-  map_dfr(.x = 2021:measles1_years[lengt
   
 )
 
-indicator_name <-  datimutils::getAnalytics(dx = "Fbj3AkYjCie",
-                                         ou = "LEVEL-1",
-                                         pe = "202005",
-                                         return_names = T) %>% pull(Data) %>% unique()
+#indicator_name <-  get_indicator_name(id =  "Fbj3AkYjCie")
+#indicator_name <-  "Fbj3AkYjCie"
 
-
-measles2_coverage_annualized_all_time <- measles2_coverage_annualized_all_time%>% mutate(Indicator =indicator_name)
-
-
-
+#measles2_coverage_annualized_all_time <- measles2_coverage_annualized_all_time%>% mutate(Indicator =indicator_name)
 
 write_csv(x = measles2_coverage_annualized_all_time,
           file = "/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/measles2_coverage_annualized_all_time.csv")

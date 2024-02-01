@@ -1,0 +1,10 @@
+"CaseData","CaseData","CaseData","Person","Person","Person","CaseData","CaseData","CaseData","CaseData","CaseData","CaseData"
+"uuid","disease","diseaseDetails","person.sex","person.approximateAge","person.ageGroup","reportDate","responsibleRegion","responsibleDistrict","caseClassification","addressGpsCoordinates","vaccinationStatus"
+##Case ID,Disease,Disease name,Sex,Age,Age group,Date of report (dd/MM/yyyy),Responsible state,Responsible LGA,Case classification,GPS coordinates of the address,Vaccination status
+"WJECHS-LGYCNW-F2KAGA-ZDUHKOGY","Measles","","Male","17","15--19","08/12/2023","Ekiti","Ekiti South West","Confirmed case","",""
+"WJHHIF-ZVQEXN-HLPGAX-6MQ3CBWQ","Measles","","Female","8","5--9","07/12/2023","Oyo","Atisbo","Confirmed case","",""
+"S3L67D-BHU2RV-NMOP5I-UY672PQI","Measles","","Female","8","5--9","07/12/2023","Oyo","Atisbo","Confirmed case","",""
+"Q3RHPI-F4ANLF-QGLNC7-FSBIKHTM","Measles","","Female","15","15--19","07/12/2023","Oyo","Atisbo","Confirmed case","5.03307, 6.31611",""
+"VMFYFC-2UTGRG-J5CKIM-CC7XKAMA","Measles","","Female","7","5--9","07/12/2023","Oyo","Atisbo","Confirmed case","5.03307, 6.31611",""
+"THUG47-CMKMX2-3JKO7E-HQYGSG3Y","Measles","","Female","1","0--4","05/12/2023","Oyo","Atisbo","Confirmed case","5.03307, 6.31611","Unknown"
+"XIASTU-QZXCXG-EJFNGL-YDDOCNIE","Measles","","Male","1","0--4","04/12/2023","Ekiti","Ijero","Confirmed case","","Vaccinated"

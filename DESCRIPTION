@@ -12,7 +12,6 @@ Depends:
 Imports: 
     attempt,
     config (>= 0.3.1),
-    datimutils (>= 0.3.0),
     DBI,
     dhis2r (>= 0.1.1),
     dplyr,
@@ -23,6 +22,7 @@ Imports:
     lubridate,
     magrittr,
     odbc,
+    pool,
     purrr,
     reactable,
     readr,
@@ -33,7 +33,7 @@ Imports:
     stringr,
     tidyr,
     vroom,
-    waiter (>= 0.2.5.9000)
+    XML
 Suggests: 
     httptest,
     httr,
@@ -45,8 +45,6 @@ Suggests:
 VignetteBuilder: 
     knitr
 Remotes: 
-    pepfar-datim/datimutils,
-    JohnCoene/waiter,
     amanyiraho/dhis2r
 Config/testthat/edition: 3
 Encoding: UTF-8

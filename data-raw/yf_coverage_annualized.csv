@@ -1,6 +1,6 @@
 Indicator,Year,Values,State,LGA,Months
-Yellow Fever Coverage,2020,25,Anambra,State level data,NA
 Yellow Fever Coverage,2020,39.6,Adamawa,State level data,NA
+Yellow Fever Coverage,2020,25,Anambra,State level data,NA
 Yellow Fever Coverage,2020,15.7,Bauchi,State level data,NA
 Yellow Fever Coverage,2020,14.2,Borno,State level data,NA
 Yellow Fever Coverage,2020,0.01,Bayelsa,State level data,NA
@@ -485,10 +485,10 @@ Yellow Fever Coverage,2020,55.5,Yobe,Potiskum,NA
 Yellow Fever Coverage,2020,41,Yobe,Tarmuwa,NA
 Yellow Fever Coverage,2020,22.3,Yobe,Yunusari,NA
 Yellow Fever Coverage,2020,50.1,Yobe,Yusufari,NA
-Yellow Fever Coverage,2021,77.7,Anambra,State level data,NA
 Yellow Fever Coverage,2021,61.4,Abia,State level data,NA
 Yellow Fever Coverage,2021,91.8,Adamawa,State level data,NA
 Yellow Fever Coverage,2021,50.3,Akwa-Ibom,State level data,NA
+Yellow Fever Coverage,2021,77.7,Anambra,State level data,NA
 Yellow Fever Coverage,2021,55.8,Bauchi,State level data,NA
 Yellow Fever Coverage,2021,53.3,Benue,State level data,NA
 Yellow Fever Coverage,2021,57.5,Borno,State level data,NA
@@ -681,13 +681,13 @@ Yellow Fever Coverage,2021,213.7,Borno,Monguno,NA
 Yellow Fever Coverage,2021,32,Borno,Ngala,NA
 Yellow Fever Coverage,2021,62.3,Borno,Nganzai,NA
 Yellow Fever Coverage,2021,70,Borno,Shani,NA
-Yellow Fever Coverage,2021,29,Bayelsa,Brass,NA
+Yellow Fever Coverage,2021,29.1,Bayelsa,Brass,NA
 Yellow Fever Coverage,2021,24.1,Bayelsa,Ekeremor,NA
 Yellow Fever Coverage,2021,14.1,Bayelsa,Kolokuma/Opokuma,NA
 Yellow Fever Coverage,2021,28.9,Bayelsa,Nembe,NA
 Yellow Fever Coverage,2021,15.9,Bayelsa,Ogbia,NA
 Yellow Fever Coverage,2021,14,Bayelsa,Sagbama,NA
-Yellow Fever Coverage,2021,15.4,Bayelsa,Southern Ijaw,NA
+Yellow Fever Coverage,2021,15.3,Bayelsa,Southern Ijaw,NA
 Yellow Fever Coverage,2021,36.2,Bayelsa,Yenagoa,NA
 Yellow Fever Coverage,2021,95.7,Cross River,Abi,NA
 Yellow Fever Coverage,2021,83.1,Cross River,Akamkpa,NA
@@ -1030,17 +1030,17 @@ Yellow Fever Coverage,2021,40.4,Lagos,Agege,NA
 Yellow Fever Coverage,2021,57.7,Lagos,Ajeromi/Ifelodun,NA
 Yellow Fever Coverage,2021,52.1,Lagos,Alimosho,NA
 Yellow Fever Coverage,2021,43.3,Lagos,Amuwo Odofin,NA
-Yellow Fever Coverage,2021,54.5,Lagos,Apapa,NA
+Yellow Fever Coverage,2021,54.3,Lagos,Apapa,NA
 Yellow Fever Coverage,2021,68.6,Lagos,Badagry,NA
-Yellow Fever Coverage,2021,69.3,Lagos,Epe,NA
-Yellow Fever Coverage,2021,59.8,Lagos,Eti-Osa,NA
+Yellow Fever Coverage,2021,72.6,Lagos,Epe,NA
+Yellow Fever Coverage,2021,59.7,Lagos,Eti-Osa,NA
 Yellow Fever Coverage,2021,90.5,Lagos,Ibeju/Lekki,NA
 Yellow Fever Coverage,2021,44,Lagos,Ifako/Ijaye,NA
 Yellow Fever Coverage,2021,60.7,Lagos,Ikeja,NA
-Yellow Fever Coverage,2021,72.8,Lagos,Ikorodu,NA
+Yellow Fever Coverage,2021,72.9,Lagos,Ikorodu,NA
 Yellow Fever Coverage,2021,37,Lagos,Kosofe,NA
 Yellow Fever Coverage,2021,43.3,Lagos,Lagos Island,NA
-Yellow Fever Coverage,2021,28.4,Lagos,Lagos Mainland,NA
+Yellow Fever Coverage,2021,26.6,Lagos,Lagos Mainland,NA
 Yellow Fever Coverage,2021,59.7,Lagos,Mushin,NA
 Yellow Fever Coverage,2021,55,Lagos,Ojo,NA
 Yellow Fever Coverage,2021,63.5,Lagos,Oshodi/Isolo,NA
@@ -1295,814 +1295,1625 @@ Yellow Fever Coverage,2021,55.4,Zamfara,Shinkafi,NA
 Yellow Fever Coverage,2021,48.5,Zamfara,Talata Mafara,NA
 Yellow Fever Coverage,2021,42.9,Zamfara,Tsafe,NA
 Yellow Fever Coverage,2021,40.3,Zamfara,Zurmi,NA
-Yellow Fever Coverage,2022,52.2,Anambra,State level data,NA
-Yellow Fever Coverage,2022,42.8,Abia,State level data,NA
-Yellow Fever Coverage,2022,69.9,Adamawa,State level data,NA
-Yellow Fever Coverage,2022,45.6,Akwa-Ibom,State level data,NA
-Yellow Fever Coverage,2022,48.1,Bauchi,State level data,NA
-Yellow Fever Coverage,2022,44.2,Benue,State level data,NA
-Yellow Fever Coverage,2022,49.9,Borno,State level data,NA
-Yellow Fever Coverage,2022,22.8,Bayelsa,State level data,NA
-Yellow Fever Coverage,2022,60,Cross River,State level data,NA
-Yellow Fever Coverage,2022,48.7,Delta,State level data,NA
-Yellow Fever Coverage,2022,55.2,Ebonyi,State level data,NA
-Yellow Fever Coverage,2022,34.8,Edo,State level data,NA
-Yellow Fever Coverage,2022,37.2,Ekiti,State level data,NA
-Yellow Fever Coverage,2022,35.6,Enugu,State level data,NA
-Yellow Fever Coverage,2022,77.5,Federal Capital Territory,State level data,NA
-Yellow Fever Coverage,2022,67,Gombe,State level data,NA
-Yellow Fever Coverage,2022,49,Imo,State level data,NA
-Yellow Fever Coverage,2022,62,Jigawa,State level data,NA
-Yellow Fever Coverage,2022,57.2,Kaduna,State level data,NA
-Yellow Fever Coverage,2022,56.4,Kebbi,State level data,NA
-Yellow Fever Coverage,2022,55.8,Kano,State level data,NA
-Yellow Fever Coverage,2022,39.9,Kogi,State level data,NA
-Yellow Fever Coverage,2022,53.8,Katsina,State level data,NA
-Yellow Fever Coverage,2022,44,Kwara,State level data,NA
-Yellow Fever Coverage,2022,47.4,Lagos,State level data,NA
-Yellow Fever Coverage,2022,70.8,Nasarawa,State level data,NA
-Yellow Fever Coverage,2022,50.2,Federal Government,State level data,NA
-Yellow Fever Coverage,2022,50.4,Niger,State level data,NA
-Yellow Fever Coverage,2022,43.3,Ogun,State level data,NA
-Yellow Fever Coverage,2022,58.9,Ondo,State level data,NA
-Yellow Fever Coverage,2022,33.1,Osun,State level data,NA
-Yellow Fever Coverage,2022,44.9,Oyo,State level data,NA
-Yellow Fever Coverage,2022,40.9,Plateau,State level data,NA
-Yellow Fever Coverage,2022,52.5,Rivers,State level data,NA
-Yellow Fever Coverage,2022,41.8,Sokoto,State level data,NA
-Yellow Fever Coverage,2022,56.9,Taraba,State level data,NA
-Yellow Fever Coverage,2022,58.5,Yobe,State level data,NA
-Yellow Fever Coverage,2022,54.6,Zamfara,State level data,NA
-Yellow Fever Coverage,2022,44.2,Abia,Aba North,NA
-Yellow Fever Coverage,2022,37.7,Abia,Aba South,NA
-Yellow Fever Coverage,2022,45.1,Abia,Arochukwu,NA
-Yellow Fever Coverage,2022,28.4,Abia,Bende,NA
-Yellow Fever Coverage,2022,28.6,Abia,Ikwuano,NA
-Yellow Fever Coverage,2022,55.7,Abia,Isiala-Ngwa North,NA
-Yellow Fever Coverage,2022,59.1,Abia,Isiala-Ngwa South,NA
-Yellow Fever Coverage,2022,30.9,Abia,Isuikwuato,NA
-Yellow Fever Coverage,2022,42.7,Abia,Obi Nwga,NA
-Yellow Fever Coverage,2022,40.2,Abia,Ohafia,NA
-Yellow Fever Coverage,2022,47.4,Abia,Osisioma Ngwa,NA
-Yellow Fever Coverage,2022,45.9,Abia,Ugwunagbo,NA
-Yellow Fever Coverage,2022,61.8,Abia,Ukwa East,NA
-Yellow Fever Coverage,2022,52.7,Abia,Ukwa West,NA
-Yellow Fever Coverage,2022,54.1,Abia,Umuahia North,NA
-Yellow Fever Coverage,2022,41.4,Abia,Umuahia South,NA
-Yellow Fever Coverage,2022,33.4,Abia,Umunneochi,NA
-Yellow Fever Coverage,2022,82.5,Adamawa,Demsa,NA
-Yellow Fever Coverage,2022,73.2,Adamawa,Fufore,NA
-Yellow Fever Coverage,2022,72,Adamawa,Ganye,NA
-Yellow Fever Coverage,2022,60.6,Adamawa,Girei,NA
-Yellow Fever Coverage,2022,62.4,Adamawa,Gombi,NA
-Yellow Fever Coverage,2022,60.1,Adamawa,Guyuk,NA
-Yellow Fever Coverage,2022,86.4,Adamawa,Hong,NA
-Yellow Fever Coverage,2022,78.4,Adamawa,Jada,NA
-Yellow Fever Coverage,2022,78,Adamawa,Lamurde,NA
-Yellow Fever Coverage,2022,57,Adamawa,Madagali,NA
-Yellow Fever Coverage,2022,73.8,Adamawa,Maiha,NA
-Yellow Fever Coverage,2022,56.2,Adamawa,Mayo-Belwa,NA
-Yellow Fever Coverage,2022,73.1,Adamawa,Michika,NA
-Yellow Fever Coverage,2022,72.9,Adamawa,Mubi North,NA
-Yellow Fever Coverage,2022,63.8,Adamawa,Mubi South,NA
-Yellow Fever Coverage,2022,53.2,Adamawa,Numan,NA
-Yellow Fever Coverage,2022,69.5,Adamawa,Shelleng,NA
-Yellow Fever Coverage,2022,60.7,Adamawa,Song,NA
-Yellow Fever Coverage,2022,114.7,Adamawa,Toungo,NA
-Yellow Fever Coverage,2022,71.6,Adamawa,Yola North,NA
-Yellow Fever Coverage,2022,67.6,Adamawa,Yola South,NA
-Yellow Fever Coverage,2022,53.4,Akwa-Ibom,Abak,NA
-Yellow Fever Coverage,2022,62.9,Akwa-Ibom,Eastern Obolo,NA
-Yellow Fever Coverage,2022,47.2,Akwa-Ibom,Eket,NA
-Yellow Fever Coverage,2022,43.3,Akwa-Ibom,Esit Eket,NA
-Yellow Fever Coverage,2022,60.3,Akwa-Ibom,Essien Udim,NA
-Yellow Fever Coverage,2022,44.7,Akwa-Ibom,Etim Ekpo,NA
-Yellow Fever Coverage,2022,34.7,Akwa-Ibom,Etinan,NA
-Yellow Fever Coverage,2022,47.3,Akwa-Ibom,Ibeno,NA
-Yellow Fever Coverage,2022,28.7,Akwa-Ibom,Ibesikpo Asutan,NA
-Yellow Fever Coverage,2022,26.5,Akwa-Ibom,Ibiono Ibom,NA
-Yellow Fever Coverage,2022,59.4,Akwa-Ibom,Ika,NA
-Yellow Fever Coverage,2022,51.1,Akwa-Ibom,Ikono,NA
-Yellow Fever Coverage,2022,48.4,Akwa-Ibom,Ikot Abasi,NA
-Yellow Fever Coverage,2022,57.8,Akwa-Ibom,Ikot Ekpene,NA
-Yellow Fever Coverage,2022,63.6,Akwa-Ibom,Ini,NA
-Yellow Fever Coverage,2022,52,Akwa-Ibom,Itu,NA
-Yellow Fever Coverage,2022,45.5,Akwa-Ibom,Mbo,NA
-Yellow Fever Coverage,2022,52.4,Akwa-Ibom,Mkpat Enin,NA
-Yellow Fever Coverage,2022,64.6,Akwa-Ibom,Nsit Atai,NA
-Yellow Fever Coverage,2022,66.6,Akwa-Ibom,Nsit Ibom,NA
-Yellow Fever Coverage,2022,23.1,Akwa-Ibom,Nsit Ubium,NA
-Yellow Fever Coverage,2022,50.9,Akwa-Ibom,Obot Akara,NA
-Yellow Fever Coverage,2022,40.4,Akwa-Ibom,Okobo,NA
-Yellow Fever Coverage,2022,46.3,Akwa-Ibom,Onna,NA
-Yellow Fever Coverage,2022,46.3,Akwa-Ibom,Oron,NA
-Yellow Fever Coverage,2022,44.8,Akwa-Ibom,Oruk Anam,NA
-Yellow Fever Coverage,2022,18.9,Akwa-Ibom,Udung Uko,NA
-Yellow Fever Coverage,2022,27.4,Akwa-Ibom,Ukanafun,NA
-Yellow Fever Coverage,2022,35.6,Akwa-Ibom,Uruan,NA
-Yellow Fever Coverage,2022,54.7,Akwa-Ibom,Urue-Offong/Oruko,NA
-Yellow Fever Coverage,2022,39.8,Akwa-Ibom,Uyo,NA
-Yellow Fever Coverage,2022,37.7,Anambra,Aguata,NA
-Yellow Fever Coverage,2022,55.9,Anambra,Anambra East,NA
-Yellow Fever Coverage,2022,35.5,Anambra,Anambra West,NA
-Yellow Fever Coverage,2022,42.2,Anambra,Anaocha,NA
-Yellow Fever Coverage,2022,61.8,Anambra,Awka North,NA
-Yellow Fever Coverage,2022,78.4,Anambra,Awka South,NA
-Yellow Fever Coverage,2022,34.8,Anambra,Ayamelum,NA
-Yellow Fever Coverage,2022,57.6,Anambra,Dunukofia,NA
-Yellow Fever Coverage,2022,63.6,Anambra,Ekwusigo,NA
-Yellow Fever Coverage,2022,39.6,Anambra,Idemili North,NA
-Yellow Fever Coverage,2022,52.9,Anambra,Idemili South,NA
-Yellow Fever Coverage,2022,47.2,Anambra,Ihiala,NA
-Yellow Fever Coverage,2022,46.5,Anambra,Njikoka,NA
-Yellow Fever Coverage,2022,66.9,Anambra,Nnewi North,NA
-Yellow Fever Coverage,2022,82.1,Anambra,Nnewi South,NA
-Yellow Fever Coverage,2022,91.1,Anambra,Ogbaru,NA
-Yellow Fever Coverage,2022,61.2,Anambra,Onitsha North,NA
-Yellow Fever Coverage,2022,72.1,Anambra,Onitsha South,NA
-Yellow Fever Coverage,2022,36,Anambra,Orumba North,NA
-Yellow Fever Coverage,2022,31.9,Anambra,Orumba South,NA
-Yellow Fever Coverage,2022,49.7,Anambra,Oyi,NA
-Yellow Fever Coverage,2022,48.7,Bauchi,Alkaleri,NA
-Yellow Fever Coverage,2022,51.7,Bauchi,Bauchi,NA
-Yellow Fever Coverage,2022,59.2,Bauchi,Bogoro,NA
-Yellow Fever Coverage,2022,46.3,Bauchi,Dambam,NA
-Yellow Fever Coverage,2022,42.1,Bauchi,Darazo,NA
-Yellow Fever Coverage,2022,66.9,Bauchi,Dass,NA
-Yellow Fever Coverage,2022,41.5,Bauchi,Gamawa,NA
-Yellow Fever Coverage,2022,67.1,Bauchi,Ganjuwa,NA
-Yellow Fever Coverage,2022,42.7,Bauchi,Giade,NA
-Yellow Fever Coverage,2022,32.5,Bauchi,Itas/Gadau,NA
-Yellow Fever Coverage,2022,40.5,Bauchi,Jama'are,NA
-Yellow Fever Coverage,2022,38.2,Bauchi,Katagum,NA
-Yellow Fever Coverage,2022,32.8,Bauchi,Kirfi,NA
-Yellow Fever Coverage,2022,39.6,Bauchi,Misau,NA
-Yellow Fever Coverage,2022,39.1,Bauchi,Ningi,NA
-Yellow Fever Coverage,2022,34.4,Bauchi,Shira,NA
-Yellow Fever Coverage,2022,55.9,Bauchi,Tafawa-Balewa,NA
-Yellow Fever Coverage,2022,65.6,Bauchi,Toro,NA
-Yellow Fever Coverage,2022,50.1,Bauchi,Warji,NA
-Yellow Fever Coverage,2022,74.2,Bauchi,Zaki,NA
-Yellow Fever Coverage,2022,48,Benue,Ado,NA
-Yellow Fever Coverage,2022,29.1,Benue,Agatu,NA
-Yellow Fever Coverage,2022,42.9,Benue,Apa,NA
-Yellow Fever Coverage,2022,32.3,Benue,Buruku,NA
-Yellow Fever Coverage,2022,48.7,Benue,Gboko,NA
-Yellow Fever Coverage,2022,40.9,Benue,Guma,NA
-Yellow Fever Coverage,2022,35,Benue,Gwer East,NA
-Yellow Fever Coverage,2022,84.5,Benue,Gwer West,NA
-Yellow Fever Coverage,2022,41.2,Benue,Katsina-Ala,NA
-Yellow Fever Coverage,2022,18,Benue,Konshisha,NA
-Yellow Fever Coverage,2022,50.8,Benue,Kwande,NA
-Yellow Fever Coverage,2022,58.2,Benue,Logo,NA
-Yellow Fever Coverage,2022,50.6,Benue,Makurdi,NA
-Yellow Fever Coverage,2022,58.2,Benue,Obi,NA
-Yellow Fever Coverage,2022,30.2,Benue,Ogbadibo,NA
-Yellow Fever Coverage,2022,94.6,Benue,Ohimini,NA
-Yellow Fever Coverage,2022,42.6,Benue,Oju,NA
-Yellow Fever Coverage,2022,28.9,Benue,Okpokwu,NA
-Yellow Fever Coverage,2022,39.1,Benue,Otukpo,NA
-Yellow Fever Coverage,2022,38,Benue,Tarka,NA
-Yellow Fever Coverage,2022,60.3,Benue,Ukum,NA
-Yellow Fever Coverage,2022,36.8,Benue,Ushongo,NA
-Yellow Fever Coverage,2022,40.9,Benue,Vandeikya,NA
-Yellow Fever Coverage,2022,0.58,Borno,Abadam,NA
-Yellow Fever Coverage,2022,69.1,Borno,Askira/Uba,NA
-Yellow Fever Coverage,2022,25.7,Borno,Bama,NA
-Yellow Fever Coverage,2022,88.4,Borno,Bayo,NA
-Yellow Fever Coverage,2022,87.9,Borno,Biu,NA
-Yellow Fever Coverage,2022,95.8,Borno,Chibok,NA
-Yellow Fever Coverage,2022,43.4,Borno,Damboa,NA
-Yellow Fever Coverage,2022,47.3,Borno,Dikwa,NA
-Yellow Fever Coverage,2022,48.1,Borno,Gubio,NA
-Yellow Fever Coverage,2022,33,Borno,Gwoza,NA
-Yellow Fever Coverage,2022,60.1,Borno,Hawul,NA
-Yellow Fever Coverage,2022,97.3,Borno,Jere,NA
-Yellow Fever Coverage,2022,38.1,Borno,Kaga,NA
-Yellow Fever Coverage,2022,32.1,Borno,Kala/Balge,NA
-Yellow Fever Coverage,2022,55.1,Borno,Konduga,NA
-Yellow Fever Coverage,2022,11.9,Borno,Kukawa,NA
-Yellow Fever Coverage,2022,132.1,Borno,Kwaya Kusar,NA
-Yellow Fever Coverage,2022,78.1,Borno,Mafa,NA
-Yellow Fever Coverage,2022,32.6,Borno,Magumeri,NA
-Yellow Fever Coverage,2022,34,Borno,Maiduguri,NA
-Yellow Fever Coverage,2022,7.1,Borno,Marte,NA
-Yellow Fever Coverage,2022,46.8,Borno,Mobbar,NA
-Yellow Fever Coverage,2022,181.6,Borno,Monguno,NA
-Yellow Fever Coverage,2022,30.1,Borno,Ngala,NA
-Yellow Fever Coverage,2022,48.9,Borno,Nganzai,NA
-Yellow Fever Coverage,2022,78.4,Borno,Shani,NA
-Yellow Fever Coverage,2022,21.2,Bayelsa,Brass,NA
-Yellow Fever Coverage,2022,28.5,Bayelsa,Ekeremor,NA
-Yellow Fever Coverage,2022,8.8,Bayelsa,Kolokuma/Opokuma,NA
-Yellow Fever Coverage,2022,27.7,Bayelsa,Nembe,NA
-Yellow Fever Coverage,2022,16.7,Bayelsa,Ogbia,NA
-Yellow Fever Coverage,2022,14.4,Bayelsa,Sagbama,NA
-Yellow Fever Coverage,2022,14.9,Bayelsa,Southern Ijaw,NA
-Yellow Fever Coverage,2022,35,Bayelsa,Yenagoa,NA
-Yellow Fever Coverage,2022,75.1,Cross River,Abi,NA
-Yellow Fever Coverage,2022,81.9,Cross River,Akamkpa,NA
-Yellow Fever Coverage,2022,54.3,Cross River,Akpabuyo,NA
-Yellow Fever Coverage,2022,78.8,Cross River,Bakassi,NA
-Yellow Fever Coverage,2022,49.8,Cross River,Bekwarra,NA
-Yellow Fever Coverage,2022,66.3,Cross River,Biase,NA
-Yellow Fever Coverage,2022,64.6,Cross River,Boki,NA
-Yellow Fever Coverage,2022,44.2,Cross River,Calabar Municipal,NA
-Yellow Fever Coverage,2022,52.5,Cross River,Calabar South,NA
-Yellow Fever Coverage,2022,76.9,Cross River,Etung,NA
-Yellow Fever Coverage,2022,37.8,Cross River,Ikom,NA
-Yellow Fever Coverage,2022,46.3,Cross River,Obanliku,NA
-Yellow Fever Coverage,2022,63.8,Cross River,Obubra,NA
-Yellow Fever Coverage,2022,62.4,Cross River,Obudu,NA
-Yellow Fever Coverage,2022,55.6,Cross River,Odukpani,NA
-Yellow Fever Coverage,2022,67.3,Cross River,Ogoja,NA
-Yellow Fever Coverage,2022,70.1,Cross River,Yakurr,NA
-Yellow Fever Coverage,2022,56.1,Cross River,Yala,NA
-Yellow Fever Coverage,2022,70.8,Delta,Aniocha North,NA
-Yellow Fever Coverage,2022,46.6,Delta,Aniocha South,NA
-Yellow Fever Coverage,2022,73.9,Delta,Bomadi,NA
-Yellow Fever Coverage,2022,29.3,Delta,Burutu,NA
-Yellow Fever Coverage,2022,48,Delta,Ethiope East,NA
-Yellow Fever Coverage,2022,53.6,Delta,Ethiope West,NA
-Yellow Fever Coverage,2022,66.2,Delta,Ika North East,NA
-Yellow Fever Coverage,2022,52.1,Delta,Ika South,NA
-Yellow Fever Coverage,2022,50.1,Delta,Isoko North,NA
-Yellow Fever Coverage,2022,41.9,Delta,Isoko South,NA
-Yellow Fever Coverage,2022,34.8,Delta,Ndokwa East,NA
-Yellow Fever Coverage,2022,37.8,Delta,Ndokwa West,NA
-Yellow Fever Coverage,2022,52.2,Delta,Okpe,NA
-Yellow Fever Coverage,2022,59.3,Delta,Oshimili North,NA
-Yellow Fever Coverage,2022,68.2,Delta,Oshimili South,NA
-Yellow Fever Coverage,2022,27.2,Delta,Patani,NA
-Yellow Fever Coverage,2022,39.4,Delta,Sapele,NA
-Yellow Fever Coverage,2022,49.6,Delta,Udu,NA
-Yellow Fever Coverage,2022,54.2,Delta,Ughelli North,NA
-Yellow Fever Coverage,2022,38.4,Delta,Ughelli South,NA
-Yellow Fever Coverage,2022,50.6,Delta,Ukwuani,NA
-Yellow Fever Coverage,2022,52.7,Delta,Uvwie,NA
-Yellow Fever Coverage,2022,49.7,Delta,Warri North,NA
-Yellow Fever Coverage,2022,96.6,Delta,Warri South,NA
-Yellow Fever Coverage,2022,21.1,Delta,Warri South West,NA
-Yellow Fever Coverage,2022,55.5,Ebonyi,Abakaliki,NA
-Yellow Fever Coverage,2022,67.2,Ebonyi,Afikpo North,NA
-Yellow Fever Coverage,2022,56.8,Ebonyi,Afikpo South,NA
-Yellow Fever Coverage,2022,109.5,Ebonyi,Ebonyi,NA
-Yellow Fever Coverage,2022,39,Ebonyi,Ezza North,NA
-Yellow Fever Coverage,2022,40.2,Ebonyi,Ezza South,NA
-Yellow Fever Coverage,2022,46.4,Ebonyi,Ikwo,NA
-Yellow Fever Coverage,2022,41.7,Ebonyi,Ishielu,NA
-Yellow Fever Coverage,2022,43.6,Ebonyi,Ivo,NA
-Yellow Fever Coverage,2022,67.2,Ebonyi,Izzi,NA
-Yellow Fever Coverage,2022,67.2,Ebonyi,Ohaozara,NA
-Yellow Fever Coverage,2022,31.6,Ebonyi,Ohaukwu,NA
-Yellow Fever Coverage,2022,58.3,Ebonyi,Onicha,NA
-Yellow Fever Coverage,2022,35,Edo,Akoko-Edo,NA
-Yellow Fever Coverage,2022,36,Edo,Egor,NA
-Yellow Fever Coverage,2022,28,Edo,Esan Central,NA
-Yellow Fever Coverage,2022,31,Edo,Esan North-East,NA
-Yellow Fever Coverage,2022,48.3,Edo,Esan South-East,NA
-Yellow Fever Coverage,2022,27.1,Edo,Esan West,NA
-Yellow Fever Coverage,2022,47.4,Edo,Etsako Central,NA
-Yellow Fever Coverage,2022,23,Edo,Etsako East,NA
-Yellow Fever Coverage,2022,40.1,Edo,Etsako West,NA
-Yellow Fever Coverage,2022,21,Edo,Igueben,NA
-Yellow Fever Coverage,2022,52.1,Edo,Ikpoba-Okha,NA
-Yellow Fever Coverage,2022,33.2,Edo,Oredo,NA
-Yellow Fever Coverage,2022,12.4,Edo,Orhionmwon,NA
-Yellow Fever Coverage,2022,36.9,Edo,Ovia North-East,NA
-Yellow Fever Coverage,2022,36.5,Edo,Ovia South-West,NA
-Yellow Fever Coverage,2022,17.9,Edo,Owan East,NA
-Yellow Fever Coverage,2022,20.8,Edo,Owan West,NA
-Yellow Fever Coverage,2022,48,Edo,Uhunmwonde,NA
-Yellow Fever Coverage,2022,59.4,Ekiti,Ado Ekiti,NA
-Yellow Fever Coverage,2022,26.4,Ekiti,Aiyekire (Gbonyin),NA
-Yellow Fever Coverage,2022,66.7,Ekiti,Efon,NA
-Yellow Fever Coverage,2022,26,Ekiti,Ekiti East,NA
-Yellow Fever Coverage,2022,35.9,Ekiti,Ekiti South West,NA
-Yellow Fever Coverage,2022,27.1,Ekiti,Ekiti West,NA
-Yellow Fever Coverage,2022,52.3,Ekiti,Emure,NA
-Yellow Fever Coverage,2022,24.9,Ekiti,Ido-Osi,NA
-Yellow Fever Coverage,2022,38.1,Ekiti,Ijero,NA
-Yellow Fever Coverage,2022,25.6,Ekiti,Ikere,NA
-Yellow Fever Coverage,2022,19.7,Ekiti,Ikole,NA
-Yellow Fever Coverage,2022,24.1,Ekiti,Ilejemeje,NA
-Yellow Fever Coverage,2022,26.3,Ekiti,Irepodun/Ifelodun,NA
-Yellow Fever Coverage,2022,57.9,Ekiti,Ise/Orun,NA
-Yellow Fever Coverage,2022,44.5,Ekiti,Moba,NA
-Yellow Fever Coverage,2022,31.7,Ekiti,Oye,NA
-Yellow Fever Coverage,2022,8.9,Enugu,Aninri,NA
-Yellow Fever Coverage,2022,42.5,Enugu,Awgu,NA
-Yellow Fever Coverage,2022,50.6,Enugu,Enugu East,NA
-Yellow Fever Coverage,2022,43.5,Enugu,Enugu North,NA
-Yellow Fever Coverage,2022,14.8,Enugu,Enugu South,NA
-Yellow Fever Coverage,2022,60.3,Enugu,Ezeagu,NA
-Yellow Fever Coverage,2022,41.2,Enugu,Igbo-Etiti,NA
-Yellow Fever Coverage,2022,38.7,Enugu,Igbo-Eze North,NA
-Yellow Fever Coverage,2022,48.7,Enugu,Igbo-Eze South,NA
-Yellow Fever Coverage,2022,12.7,Enugu,Isi-Uzo,NA
-Yellow Fever Coverage,2022,25.1,Enugu,Nkanu East,NA
-Yellow Fever Coverage,2022,32.3,Enugu,Nkanu West,NA
-Yellow Fever Coverage,2022,32,Enugu,Nsukka,NA
-Yellow Fever Coverage,2022,26.7,Enugu,Oji River,NA
-Yellow Fever Coverage,2022,46.3,Enugu,Udenu,NA
-Yellow Fever Coverage,2022,35.1,Enugu,Udi,NA
-Yellow Fever Coverage,2022,19.2,Enugu,Uzo-Uwani,NA
-Yellow Fever Coverage,2022,102,Federal Capital Territory,Abaji,NA
-Yellow Fever Coverage,2022,62.1,Federal Capital Territory,Abuja Municipal,NA
-Yellow Fever Coverage,2022,91.1,Federal Capital Territory,Bwari,NA
-Yellow Fever Coverage,2022,91.5,Federal Capital Territory,Gwagwalada,NA
-Yellow Fever Coverage,2022,127.7,Federal Capital Territory,Kuje,NA
-Yellow Fever Coverage,2022,82.2,Federal Capital Territory,Kwali,NA
-Yellow Fever Coverage,2022,59,Gombe,Akko,NA
-Yellow Fever Coverage,2022,80.3,Gombe,Balanga,NA
-Yellow Fever Coverage,2022,36.4,Gombe,Billiri,NA
-Yellow Fever Coverage,2022,81.6,Gombe,Dukku,NA
-Yellow Fever Coverage,2022,70.3,Gombe,Funakaye,NA
-Yellow Fever Coverage,2022,94,Gombe,Gombe,NA
-Yellow Fever Coverage,2022,57,Gombe,Kaltungo,NA
-Yellow Fever Coverage,2022,61.2,Gombe,Kwami,NA
-Yellow Fever Coverage,2022,70.4,Gombe,Nafada,NA
-Yellow Fever Coverage,2022,28.8,Gombe,Shongom,NA
-Yellow Fever Coverage,2022,79,Gombe,Yamaltu/Deba,NA
-Yellow Fever Coverage,2022,34.7,Imo,Aboh-Mbaise,NA
-Yellow Fever Coverage,2022,44.6,Imo,Ahiazu-Mbaise,NA
-Yellow Fever Coverage,2022,61.4,Imo,Ehime-Mbano,NA
-Yellow Fever Coverage,2022,57.3,Imo,Ezinihitte-Mbaise,NA
-Yellow Fever Coverage,2022,33.7,Imo,Ideato North,NA
-Yellow Fever Coverage,2022,33.7,Imo,Ideato South,NA
-Yellow Fever Coverage,2022,66,Imo,Ihitte/Uboma,NA
-Yellow Fever Coverage,2022,84.1,Imo,Ikeduru,NA
-Yellow Fever Coverage,2022,68.8,Imo,Isiala Mbano,NA
-Yellow Fever Coverage,2022,36.4,Imo,Isu,NA
-Yellow Fever Coverage,2022,50.7,Imo,Mbaitoli,NA
-Yellow Fever Coverage,2022,34.3,Imo,Ngor-Okpala,NA
-Yellow Fever Coverage,2022,42.6,Imo,Njaba,NA
-Yellow Fever Coverage,2022,43.9,Imo,Nkwerre,NA
-Yellow Fever Coverage,2022,42.7,Imo,Nwangele,NA
-Yellow Fever Coverage,2022,86.3,Imo,Obowo,NA
-Yellow Fever Coverage,2022,19.9,Imo,Oguta,NA
-Yellow Fever Coverage,2022,33.4,Imo,Ohaji/Egbema,NA
-Yellow Fever Coverage,2022,27.2,Imo,Okigwe,NA
-Yellow Fever Coverage,2022,54.9,Imo,Onuimo,NA
-Yellow Fever Coverage,2022,54.5,Imo,Orlu,NA
-Yellow Fever Coverage,2022,20.6,Imo,Orsu,NA
-Yellow Fever Coverage,2022,30.1,Imo,Oru East,NA
-Yellow Fever Coverage,2022,47.1,Imo,Oru West,NA
-Yellow Fever Coverage,2022,83,Imo,Owerri Municipal,NA
-Yellow Fever Coverage,2022,61,Imo,Owerri North,NA
-Yellow Fever Coverage,2022,85.3,Imo,Owerri West,NA
-Yellow Fever Coverage,2022,41.5,Jigawa,Auyo,NA
-Yellow Fever Coverage,2022,65.4,Jigawa,Babura,NA
-Yellow Fever Coverage,2022,55.8,Jigawa,Birnin Kudu,NA
-Yellow Fever Coverage,2022,50.5,Jigawa,Birniwa,NA
-Yellow Fever Coverage,2022,74.2,Jigawa,Buji,NA
-Yellow Fever Coverage,2022,61.3,Jigawa,Dutse,NA
-Yellow Fever Coverage,2022,83.5,Jigawa,Gagarawa,NA
-Yellow Fever Coverage,2022,71.9,Jigawa,Garki,NA
-Yellow Fever Coverage,2022,50,Jigawa,Gumel,NA
-Yellow Fever Coverage,2022,47.2,Jigawa,Guri,NA
-Yellow Fever Coverage,2022,62,Jigawa,Gwaram,NA
-Yellow Fever Coverage,2022,52.6,Jigawa,Gwiwa,NA
-Yellow Fever Coverage,2022,41.2,Jigawa,Hadejia,NA
-Yellow Fever Coverage,2022,55.1,Jigawa,Jahun,NA
-Yellow Fever Coverage,2022,39.8,Jigawa,Kafin Hausa,NA
-Yellow Fever Coverage,2022,79.5,Jigawa,Kaugama,NA
-Yellow Fever Coverage,2022,55.5,Jigawa,Kazaure,NA
-Yellow Fever Coverage,2022,60.9,Jigawa,Kiri Kasamma,NA
-Yellow Fever Coverage,2022,86.3,Jigawa,Kiyawa,NA
-Yellow Fever Coverage,2022,75.2,Jigawa,Maigatari,NA
-Yellow Fever Coverage,2022,52.9,Jigawa,Malam Madori,NA
-Yellow Fever Coverage,2022,58.9,Jigawa,Miga,NA
-Yellow Fever Coverage,2022,62.9,Jigawa,Ringim,NA
-Yellow Fever Coverage,2022,81.4,Jigawa,Roni,NA
-Yellow Fever Coverage,2022,77.9,Jigawa,Sule-Tankarkar,NA
-Yellow Fever Coverage,2022,87.2,Jigawa,Taura,NA
-Yellow Fever Coverage,2022,86.7,Jigawa,Yankwashi,NA
-Yellow Fever Coverage,2022,76.9,Kaduna,Birnin Gwari,NA
-Yellow Fever Coverage,2022,51.4,Kaduna,Chikun,NA
-Yellow Fever Coverage,2022,77.2,Kaduna,Giwa,NA
-Yellow Fever Coverage,2022,53.7,Kaduna,Igabi,NA
-Yellow Fever Coverage,2022,82.8,Kaduna,Ikara,NA
-Yellow Fever Coverage,2022,45.7,Kaduna,Jaba,NA
-Yellow Fever Coverage,2022,31,Kaduna,Jema'a,NA
-Yellow Fever Coverage,2022,40.5,Kaduna,Kachia,NA
-Yellow Fever Coverage,2022,34.7,Kaduna,Kaduna North,NA
-Yellow Fever Coverage,2022,34.6,Kaduna,Kaduna South,NA
-Yellow Fever Coverage,2022,42.2,Kaduna,Kagarko,NA
-Yellow Fever Coverage,2022,56.5,Kaduna,Kajuru,NA
-Yellow Fever Coverage,2022,56.9,Kaduna,Kaura,NA
-Yellow Fever Coverage,2022,72.4,Kaduna,Kauru,NA
-Yellow Fever Coverage,2022,79.6,Kaduna,Kubau,NA
-Yellow Fever Coverage,2022,53.1,Kaduna,Kudan,NA
-Yellow Fever Coverage,2022,68.8,Kaduna,Lere,NA
-Yellow Fever Coverage,2022,71.6,Kaduna,Makarfi,NA
-Yellow Fever Coverage,2022,83.5,Kaduna,Sabon Gari,NA
-Yellow Fever Coverage,2022,51,Kaduna,Sanga,NA
-Yellow Fever Coverage,2022,85.1,Kaduna,Soba,NA
-Yellow Fever Coverage,2022,45.3,Kaduna,Zangon Kataf,NA
-Yellow Fever Coverage,2022,49.2,Kaduna,Zaria,NA
-Yellow Fever Coverage,2022,78.7,Kebbi,Aleiro,NA
-Yellow Fever Coverage,2022,31.4,Kebbi,Arewa,NA
-Yellow Fever Coverage,2022,59.8,Kebbi,Argungu,NA
-Yellow Fever Coverage,2022,37.7,Kebbi,Augie,NA
-Yellow Fever Coverage,2022,50,Kebbi,Bagudo,NA
-Yellow Fever Coverage,2022,42,Kebbi,Birnin Kebbi,NA
-Yellow Fever Coverage,2022,50.3,Kebbi,Bunza,NA
-Yellow Fever Coverage,2022,39.3,Kebbi,Dandi,NA
-Yellow Fever Coverage,2022,74,Kebbi,Danko/Wasagu,NA
-Yellow Fever Coverage,2022,63.1,Kebbi,Fakai,NA
-Yellow Fever Coverage,2022,53.2,Kebbi,Gwandu,NA
-Yellow Fever Coverage,2022,46.9,Kebbi,Jega,NA
-Yellow Fever Coverage,2022,56.7,Kebbi,Kalgo,NA
-Yellow Fever Coverage,2022,83.1,Kebbi,Koko/Besse,NA
-Yellow Fever Coverage,2022,60.9,Kebbi,Maiyama,NA
-Yellow Fever Coverage,2022,60.4,Kebbi,Ngaski,NA
-Yellow Fever Coverage,2022,66.8,Kebbi,Sakaba,NA
-Yellow Fever Coverage,2022,74.1,Kebbi,Shanga,NA
-Yellow Fever Coverage,2022,40,Kebbi,Suru,NA
-Yellow Fever Coverage,2022,55.6,Kebbi,Yauri,NA
-Yellow Fever Coverage,2022,81.5,Kebbi,Zuru,NA
-Yellow Fever Coverage,2022,54.5,Kano,Ajingi,NA
-Yellow Fever Coverage,2022,63.3,Kano,Albasu,NA
-Yellow Fever Coverage,2022,41.5,Kano,Bagwai,NA
-Yellow Fever Coverage,2022,53.5,Kano,Bebeji,NA
-Yellow Fever Coverage,2022,42.4,Kano,Bichi,NA
-Yellow Fever Coverage,2022,66.9,Kano,Bunkure,NA
-Yellow Fever Coverage,2022,46.1,Kano,Dala,NA
-Yellow Fever Coverage,2022,57.2,Kano,Danbatta,NA
-Yellow Fever Coverage,2022,63.6,Kano,Dawakin Kudu,NA
-Yellow Fever Coverage,2022,42.4,Kano,Dawakin Tofa,NA
-Yellow Fever Coverage,2022,65.7,Kano,Doguwa,NA
-Yellow Fever Coverage,2022,53.3,Kano,Fagge,NA
-Yellow Fever Coverage,2022,57,Kano,Gabasawa,NA
-Yellow Fever Coverage,2022,62.5,Kano,Garko,NA
-Yellow Fever Coverage,2022,49.6,Kano,Garum Mallam,NA
-Yellow Fever Coverage,2022,69.1,Kano,Gaya,NA
-Yellow Fever Coverage,2022,57.5,Kano,Gezawa,NA
-Yellow Fever Coverage,2022,60.5,Kano,Gwale,NA
-Yellow Fever Coverage,2022,61.6,Kano,Gwarzo,NA
-Yellow Fever Coverage,2022,53.9,Kano,Kabo,NA
-Yellow Fever Coverage,2022,44,Kano,Kano Municipal,NA
-Yellow Fever Coverage,2022,41.1,Kano,Karaye,NA
-Yellow Fever Coverage,2022,48.2,Kano,Kibiya,NA
-Yellow Fever Coverage,2022,55.8,Kano,Kiru,NA
-Yellow Fever Coverage,2022,56.7,Kano,Kumbotso,NA
-Yellow Fever Coverage,2022,53.8,Kano,Kunchi,NA
-Yellow Fever Coverage,2022,66,Kano,Kura,NA
-Yellow Fever Coverage,2022,58.5,Kano,Madobi,NA
-Yellow Fever Coverage,2022,56.3,Kano,Makoda,NA
-Yellow Fever Coverage,2022,45.9,Kano,Minjibir,NA
-Yellow Fever Coverage,2022,63.3,Kano,Nasarawa,NA
-Yellow Fever Coverage,2022,57.4,Kano,Rano,NA
-Yellow Fever Coverage,2022,48.2,Kano,Rimin Gado,NA
-Yellow Fever Coverage,2022,56.2,Kano,Rogo,NA
-Yellow Fever Coverage,2022,55.4,Kano,Shanono,NA
-Yellow Fever Coverage,2022,54.8,Kano,Sumaila,NA
-Yellow Fever Coverage,2022,71.7,Kano,Takai,NA
-Yellow Fever Coverage,2022,59.9,Kano,Tarauni,NA
-Yellow Fever Coverage,2022,47,Kano,Tofa,NA
-Yellow Fever Coverage,2022,44.2,Kano,Tsanyawa,NA
-Yellow Fever Coverage,2022,60.1,Kano,Tudun Wada,NA
-Yellow Fever Coverage,2022,62.2,Kano,Ungogo,NA
-Yellow Fever Coverage,2022,53.8,Kano,Warawa,NA
-Yellow Fever Coverage,2022,57.9,Kano,Wudil,NA
-Yellow Fever Coverage,2022,38.3,Kogi,Adavi,NA
-Yellow Fever Coverage,2022,43.7,Kogi,Ajaokuta,NA
-Yellow Fever Coverage,2022,59.6,Kogi,Ankpa,NA
-Yellow Fever Coverage,2022,19.6,Kogi,Bassa,NA
-Yellow Fever Coverage,2022,21,Kogi,Dekina,NA
-Yellow Fever Coverage,2022,26.5,Kogi,Ibaji,NA
-Yellow Fever Coverage,2022,85.8,Kogi,Idah,NA
-Yellow Fever Coverage,2022,43,Kogi,Igalamela-Odolu,NA
-Yellow Fever Coverage,2022,36.5,Kogi,Ijumu,NA
-Yellow Fever Coverage,2022,34.2,Kogi,Kabba/Bunu,NA
-Yellow Fever Coverage,2022,21.3,Kogi,Kogi,NA
-Yellow Fever Coverage,2022,35.5,Kogi,Lokoja,NA
-Yellow Fever Coverage,2022,61.9,Kogi,Mopa-Muro,NA
-Yellow Fever Coverage,2022,16.3,Kogi,Ofu,NA
-Yellow Fever Coverage,2022,36.8,Kogi,Ogori/Magongo,NA
-Yellow Fever Coverage,2022,57.5,Kogi,Okehi,NA
-Yellow Fever Coverage,2022,57.6,Kogi,Okene,NA
-Yellow Fever Coverage,2022,41.6,Kogi,Olamaboro,NA
-Yellow Fever Coverage,2022,46.8,Kogi,Omala,NA
-Yellow Fever Coverage,2022,40.7,Kogi,Yagba East,NA
-Yellow Fever Coverage,2022,22.1,Kogi,Yagba West,NA
-Yellow Fever Coverage,2022,108.9,Katsina,Bakori,NA
-Yellow Fever Coverage,2022,49,Katsina,Batagarawa,NA
-Yellow Fever Coverage,2022,57,Katsina,Batsari,NA
-Yellow Fever Coverage,2022,26.8,Katsina,Baure,NA
-Yellow Fever Coverage,2022,51.1,Katsina,Bindawa,NA
-Yellow Fever Coverage,2022,31.1,Katsina,Charanchi,NA
-Yellow Fever Coverage,2022,51.5,Katsina,Dan Musa,NA
-Yellow Fever Coverage,2022,79.1,Katsina,Dandume,NA
-Yellow Fever Coverage,2022,81.7,Katsina,Danja,NA
-Yellow Fever Coverage,2022,40.4,Katsina,Daura,NA
-Yellow Fever Coverage,2022,60.2,Katsina,Dutsi,NA
-Yellow Fever Coverage,2022,105.1,Katsina,Dutsin-Ma,NA
-Yellow Fever Coverage,2022,44.4,Katsina,Faskari,NA
-Yellow Fever Coverage,2022,56.9,Katsina,Funtua,NA
-Yellow Fever Coverage,2022,30,Katsina,Ingawa,NA
-Yellow Fever Coverage,2022,37.8,Katsina,Jibia,NA
-Yellow Fever Coverage,2022,75,Katsina,Kafur,NA
-Yellow Fever Coverage,2022,48,Katsina,Kaita,NA
-Yellow Fever Coverage,2022,48.4,Katsina,Kankara,NA
-Yellow Fever Coverage,2022,47.4,Katsina,Kankia,NA
-Yellow Fever Coverage,2022,56.6,Katsina,Katsina,NA
-Yellow Fever Coverage,2022,48,Katsina,Kurfi,NA
-Yellow Fever Coverage,2022,58.6,Katsina,Kusada,NA
-Yellow Fever Coverage,2022,28.4,Katsina,Mai'Adua,NA
-Yellow Fever Coverage,2022,88.2,Katsina,Malumfashi,NA
-Yellow Fever Coverage,2022,26.3,Katsina,Mani,NA
-Yellow Fever Coverage,2022,56.4,Katsina,Mashi,NA
-Yellow Fever Coverage,2022,66.4,Katsina,Matazu,NA
-Yellow Fever Coverage,2022,48.2,Katsina,Musawa,NA
-Yellow Fever Coverage,2022,67.2,Katsina,Rimi,NA
-Yellow Fever Coverage,2022,49.5,Katsina,Sabuwa,NA
-Yellow Fever Coverage,2022,55,Katsina,Safana,NA
-Yellow Fever Coverage,2022,29.9,Katsina,Sandamu,NA
-Yellow Fever Coverage,2022,40.8,Katsina,Zango,NA
-Yellow Fever Coverage,2022,53.6,Kwara,Asa,NA
-Yellow Fever Coverage,2022,25.4,Kwara,Baruten,NA
-Yellow Fever Coverage,2022,47.7,Kwara,Edu,NA
-Yellow Fever Coverage,2022,63.8,Kwara,Ekiti,NA
-Yellow Fever Coverage,2022,29.4,Kwara,Ifelodun,NA
-Yellow Fever Coverage,2022,31.1,Kwara,Ilorin East,NA
-Yellow Fever Coverage,2022,63.6,Kwara,Ilorin South,NA
-Yellow Fever Coverage,2022,44.7,Kwara,Ilorin West,NA
-Yellow Fever Coverage,2022,56.3,Kwara,Irepodun,NA
-Yellow Fever Coverage,2022,51.2,Kwara,Isin,NA
-Yellow Fever Coverage,2022,48.1,Kwara,Kaiama,NA
-Yellow Fever Coverage,2022,34,Kwara,Moro,NA
-Yellow Fever Coverage,2022,47.1,Kwara,Offa,NA
-Yellow Fever Coverage,2022,29.7,Kwara,Oke-Ero,NA
-Yellow Fever Coverage,2022,52.9,Kwara,Oyun,NA
-Yellow Fever Coverage,2022,46.5,Kwara,Pategi,NA
-Yellow Fever Coverage,2022,33.3,Lagos,Agege,NA
-Yellow Fever Coverage,2022,53.7,Lagos,Ajeromi/Ifelodun,NA
-Yellow Fever Coverage,2022,45.1,Lagos,Alimosho,NA
-Yellow Fever Coverage,2022,38.7,Lagos,Amuwo Odofin,NA
-Yellow Fever Coverage,2022,51.1,Lagos,Apapa,NA
-Yellow Fever Coverage,2022,75.6,Lagos,Badagry,NA
-Yellow Fever Coverage,2022,59.6,Lagos,Epe,NA
-Yellow Fever Coverage,2022,58.4,Lagos,Eti-Osa,NA
-Yellow Fever Coverage,2022,79.9,Lagos,Ibeju/Lekki,NA
-Yellow Fever Coverage,2022,39.1,Lagos,Ifako/Ijaye,NA
-Yellow Fever Coverage,2022,49.9,Lagos,Ikeja,NA
-Yellow Fever Coverage,2022,59.4,Lagos,Ikorodu,NA
-Yellow Fever Coverage,2022,35.8,Lagos,Kosofe,NA
-Yellow Fever Coverage,2022,47.6,Lagos,Lagos Island,NA
-Yellow Fever Coverage,2022,34.5,Lagos,Lagos Mainland,NA
-Yellow Fever Coverage,2022,42.5,Lagos,Mushin,NA
-Yellow Fever Coverage,2022,48.7,Lagos,Ojo,NA
-Yellow Fever Coverage,2022,51.6,Lagos,Oshodi/Isolo,NA
-Yellow Fever Coverage,2022,49.6,Lagos,Shomolu,NA
-Yellow Fever Coverage,2022,43.4,Lagos,Surulere,NA
-Yellow Fever Coverage,2022,52.5,Nasarawa,Akwanga,NA
-Yellow Fever Coverage,2022,74.6,Nasarawa,Awe,NA
-Yellow Fever Coverage,2022,51.4,Nasarawa,Doma,NA
-Yellow Fever Coverage,2022,115.4,Nasarawa,Karu,NA
-Yellow Fever Coverage,2022,53.7,Nasarawa,Keana,NA
-Yellow Fever Coverage,2022,69.5,Nasarawa,Keffi,NA
-Yellow Fever Coverage,2022,54.9,Nasarawa,Kokona,NA
-Yellow Fever Coverage,2022,70.7,Nasarawa,Lafia,NA
-Yellow Fever Coverage,2022,64.6,Nasarawa,Nasarawa Eggon,NA
-Yellow Fever Coverage,2022,65.7,Nasarawa,Nasarawa,NA
-Yellow Fever Coverage,2022,100.7,Nasarawa,Obi,NA
-Yellow Fever Coverage,2022,49.1,Nasarawa,Toto,NA
-Yellow Fever Coverage,2022,48.8,Nasarawa,Wamba,NA
-Yellow Fever Coverage,2022,76.7,Niger,Agaie,NA
-Yellow Fever Coverage,2022,98.2,Niger,Agwara,NA
-Yellow Fever Coverage,2022,56.9,Niger,Bida,NA
-Yellow Fever Coverage,2022,85.3,Niger,Borgu,NA
-Yellow Fever Coverage,2022,56.2,Niger,Bosso,NA
-Yellow Fever Coverage,2022,47.5,Niger,Chanchaga,NA
-Yellow Fever Coverage,2022,69.7,Niger,Edati,NA
-Yellow Fever Coverage,2022,47.6,Niger,Gbako,NA
-Yellow Fever Coverage,2022,56.3,Niger,Gurara,NA
-Yellow Fever Coverage,2022,59.9,Niger,Katcha,NA
-Yellow Fever Coverage,2022,51.9,Niger,Kontagora,NA
-Yellow Fever Coverage,2022,63.5,Niger,Lapai,NA
-Yellow Fever Coverage,2022,63,Niger,Lavun,NA
-Yellow Fever Coverage,2022,30.3,Niger,Magama,NA
-Yellow Fever Coverage,2022,36.9,Niger,Mariga,NA
-Yellow Fever Coverage,2022,25.1,Niger,Mashegu,NA
-Yellow Fever Coverage,2022,65.1,Niger,Mokwa,NA
-Yellow Fever Coverage,2022,29.4,Niger,Muya,NA
-Yellow Fever Coverage,2022,40.9,Niger,Paikoro,NA
-Yellow Fever Coverage,2022,33.1,Niger,Rafi,NA
-Yellow Fever Coverage,2022,41.4,Niger,Rijau,NA
-Yellow Fever Coverage,2022,45.9,Niger,Shiroro,NA
-Yellow Fever Coverage,2022,38.8,Niger,Suleja,NA
-Yellow Fever Coverage,2022,37.9,Niger,Tafa,NA
-Yellow Fever Coverage,2022,37,Niger,Wushishi,NA
-Yellow Fever Coverage,2022,44.8,Ogun,Abeokuta North,NA
-Yellow Fever Coverage,2022,33.9,Ogun,Abeokuta South,NA
-Yellow Fever Coverage,2022,34.1,Ogun,Ado Odo/Ota,NA
-Yellow Fever Coverage,2022,44.8,Ogun,Ewekoro,NA
-Yellow Fever Coverage,2022,38.6,Ogun,Ifo,NA
-Yellow Fever Coverage,2022,51.4,Ogun,Ijebu East,NA
-Yellow Fever Coverage,2022,12,Ogun,Ijebu North East,NA
-Yellow Fever Coverage,2022,167.2,Ogun,Ijebu North,NA
-Yellow Fever Coverage,2022,68.3,Ogun,Ijebu Ode,NA
-Yellow Fever Coverage,2022,61.9,Ogun,Ikenne,NA
-Yellow Fever Coverage,2022,44.2,Ogun,Imeko Afon,NA
-Yellow Fever Coverage,2022,54.1,Ogun,Ipokia,NA
-Yellow Fever Coverage,2022,26.7,Ogun,Obafemi Owode,NA
-Yellow Fever Coverage,2022,37.9,Ogun,Odeda,NA
-Yellow Fever Coverage,2022,59,Ogun,Odogbolu,NA
-Yellow Fever Coverage,2022,37.4,Ogun,Ogun Waterside,NA
-Yellow Fever Coverage,2022,44.7,Ogun,Remo North,NA
-Yellow Fever Coverage,2022,54.4,Ogun,Sagamu,NA
-Yellow Fever Coverage,2022,38.2,Ogun,Yewa North,NA
-Yellow Fever Coverage,2022,54.9,Ogun,Yewa South,NA
-Yellow Fever Coverage,2022,31,Ondo,Akoko North East,NA
-Yellow Fever Coverage,2022,46.4,Ondo,Akoko North West,NA
-Yellow Fever Coverage,2022,44.8,Ondo,Akoko South East,NA
-Yellow Fever Coverage,2022,24.7,Ondo,Akoko South West,NA
-Yellow Fever Coverage,2022,80,Ondo,Akure North,NA
-Yellow Fever Coverage,2022,91.8,Ondo,Akure South,NA
-Yellow Fever Coverage,2022,68.4,Ondo,Ese Odo,NA
-Yellow Fever Coverage,2022,57.2,Ondo,Idanre,NA
-Yellow Fever Coverage,2022,14.2,Ondo,Ifedore,NA
-Yellow Fever Coverage,2022,66.9,Ondo,Ilaje,NA
-Yellow Fever Coverage,2022,58.8,Ondo,Ile-Oluji/Okeigbo,NA
-Yellow Fever Coverage,2022,63.7,Ondo,Irele,NA
-Yellow Fever Coverage,2022,114.2,Ondo,Odigbo,NA
-Yellow Fever Coverage,2022,74.4,Ondo,Okitipupa,NA
-Yellow Fever Coverage,2022,58,Ondo,Ondo East,NA
-Yellow Fever Coverage,2022,55.7,Ondo,Ondo West,NA
-Yellow Fever Coverage,2022,29.7,Ondo,Ose,NA
-Yellow Fever Coverage,2022,37,Ondo,Owo,NA
-Yellow Fever Coverage,2022,22,Osun,Atakumosa East,NA
-Yellow Fever Coverage,2022,43.7,Osun,Atakumosa West,NA
-Yellow Fever Coverage,2022,34.5,Osun,Ayedaade,NA
-Yellow Fever Coverage,2022,26.1,Osun,Ayedire,NA
-Yellow Fever Coverage,2022,23.2,Osun,Boluwaduro,NA
-Yellow Fever Coverage,2022,33.4,Osun,Boripe,NA
-Yellow Fever Coverage,2022,33,Osun,Ede North,NA
-Yellow Fever Coverage,2022,38.8,Osun,Ede South,NA
-Yellow Fever Coverage,2022,44.7,Osun,Egbedore,NA
-Yellow Fever Coverage,2022,25.6,Osun,Ejigbo,NA
-Yellow Fever Coverage,2022,27,Osun,Ife Central,NA
-Yellow Fever Coverage,2022,41.8,Osun,Ife East,NA
-Yellow Fever Coverage,2022,55.4,Osun,Ife North,NA
-Yellow Fever Coverage,2022,29.7,Osun,Ife South,NA
-Yellow Fever Coverage,2022,53,Osun,Ifedayo,NA
-Yellow Fever Coverage,2022,40.2,Osun,Ifelodun,NA
-Yellow Fever Coverage,2022,42.1,Osun,Ila,NA
-Yellow Fever Coverage,2022,14.5,Osun,Ilesa East,NA
-Yellow Fever Coverage,2022,34.2,Osun,Ilesa West,NA
-Yellow Fever Coverage,2022,25.7,Osun,Irepodun,NA
-Yellow Fever Coverage,2022,24.6,Osun,Irewole,NA
-Yellow Fever Coverage,2022,21.1,Osun,Isokan,NA
-Yellow Fever Coverage,2022,46.4,Osun,Iwo,NA
-Yellow Fever Coverage,2022,41,Osun,Obokun,NA
-Yellow Fever Coverage,2022,29,Osun,Odo Otin,NA
-Yellow Fever Coverage,2022,20.8,Osun,Ola-Oluwa,NA
-Yellow Fever Coverage,2022,32.1,Osun,Olorunda,NA
-Yellow Fever Coverage,2022,16.7,Osun,Oriade,NA
-Yellow Fever Coverage,2022,36.8,Osun,Orolu,NA
-Yellow Fever Coverage,2022,38.1,Osun,Osogbo,NA
-Yellow Fever Coverage,2022,51.7,Oyo,Afijio,NA
-Yellow Fever Coverage,2022,66.4,Oyo,Akinyele,NA
-Yellow Fever Coverage,2022,41.1,Oyo,Atiba,NA
-Yellow Fever Coverage,2022,44.2,Oyo,Atisbo,NA
-Yellow Fever Coverage,2022,51.3,Oyo,Egbeda,NA
-Yellow Fever Coverage,2022,36.8,Oyo,Ibadan North East,NA
-Yellow Fever Coverage,2022,38,Oyo,Ibadan North,NA
-Yellow Fever Coverage,2022,43.8,Oyo,Ibadan North West,NA
-Yellow Fever Coverage,2022,49.4,Oyo,Ibadan South East,NA
-Yellow Fever Coverage,2022,61.9,Oyo,Ibadan South West,NA
-Yellow Fever Coverage,2022,29.2,Oyo,Ibarapa Central,NA
-Yellow Fever Coverage,2022,43.1,Oyo,Ibarapa East,NA
-Yellow Fever Coverage,2022,25.1,Oyo,Ibarapa North,NA
-Yellow Fever Coverage,2022,53.1,Oyo,Ido,NA
-Yellow Fever Coverage,2022,69.6,Oyo,Irepo,NA
-Yellow Fever Coverage,2022,28.4,Oyo,Iseyin,NA
-Yellow Fever Coverage,2022,45.8,Oyo,Itesiwaju,NA
-Yellow Fever Coverage,2022,38.6,Oyo,Iwajowa,NA
-Yellow Fever Coverage,2022,28.7,Oyo,Kajola,NA
-Yellow Fever Coverage,2022,45.8,Oyo,Lagelu,NA
-Yellow Fever Coverage,2022,44.9,Oyo,Ogbomosho North,NA
-Yellow Fever Coverage,2022,30.7,Oyo,Ogbomosho South,NA
-Yellow Fever Coverage,2022,39.4,Oyo,Ogo Oluwa,NA
-Yellow Fever Coverage,2022,53.9,Oyo,Olorunsogo,NA
-Yellow Fever Coverage,2022,53.1,Oyo,Oluyole,NA
-Yellow Fever Coverage,2022,34,Oyo,Ona Ara,NA
-Yellow Fever Coverage,2022,61.5,Oyo,Orelope,NA
-Yellow Fever Coverage,2022,50.2,Oyo,Ori Ire,NA
-Yellow Fever Coverage,2022,62,Oyo,Oyo East,NA
-Yellow Fever Coverage,2022,40.2,Oyo,Oyo West,NA
-Yellow Fever Coverage,2022,60.2,Oyo,Saki East,NA
-Yellow Fever Coverage,2022,38.4,Oyo,Saki West,NA
-Yellow Fever Coverage,2022,35.4,Oyo,Surulere,NA
-Yellow Fever Coverage,2022,52,Plateau,Barkin Ladi,NA
-Yellow Fever Coverage,2022,39.3,Plateau,Bassa,NA
-Yellow Fever Coverage,2022,37.6,Plateau,Bokkos,NA
-Yellow Fever Coverage,2022,34.8,Plateau,Jos East,NA
-Yellow Fever Coverage,2022,43.8,Plateau,Jos North,NA
-Yellow Fever Coverage,2022,46.1,Plateau,Jos South,NA
-Yellow Fever Coverage,2022,79.1,Plateau,Kanam,NA
-Yellow Fever Coverage,2022,34.4,Plateau,Kanke,NA
-Yellow Fever Coverage,2022,33,Plateau,Langtang North,NA
-Yellow Fever Coverage,2022,35.5,Plateau,Langtang South,NA
-Yellow Fever Coverage,2022,33.2,Plateau,Mangu,NA
-Yellow Fever Coverage,2022,32.4,Plateau,Mikang,NA
-Yellow Fever Coverage,2022,30.8,Plateau,Pankshin,NA
-Yellow Fever Coverage,2022,35.1,Plateau,Qua'an Pan,NA
-Yellow Fever Coverage,2022,42.5,Plateau,Riyom,NA
-Yellow Fever Coverage,2022,38.1,Plateau,Shendam,NA
-Yellow Fever Coverage,2022,36.6,Plateau,Wase,NA
-Yellow Fever Coverage,2022,43.6,Rivers,Abua/Odual,NA
-Yellow Fever Coverage,2022,67,Rivers,Ahoada East,NA
-Yellow Fever Coverage,2022,37.3,Rivers,Ahoada West,NA
-Yellow Fever Coverage,2022,38.4,Rivers,Akuku Toru,NA
-Yellow Fever Coverage,2022,58.5,Rivers,Andoni,NA
-Yellow Fever Coverage,2022,30.4,Rivers,Asari-Toru,NA
-Yellow Fever Coverage,2022,43.7,Rivers,Bonny,NA
-Yellow Fever Coverage,2022,30.7,Rivers,Degema,NA
-Yellow Fever Coverage,2022,39.2,Rivers,Eleme,NA
-Yellow Fever Coverage,2022,43.5,Rivers,Emohua,NA
-Yellow Fever Coverage,2022,56.5,Rivers,Etche,NA
-Yellow Fever Coverage,2022,58,Rivers,Gokana,NA
-Yellow Fever Coverage,2022,46.7,Rivers,Ikwerre,NA
-Yellow Fever Coverage,2022,62.7,Rivers,Khana,NA
-Yellow Fever Coverage,2022,80.3,Rivers,Obio/Akpor,NA
-Yellow Fever Coverage,2022,44.3,Rivers,Ogba/Egbema/Ndoni,NA
-Yellow Fever Coverage,2022,68.5,Rivers,Ogu/Bolo,NA
-Yellow Fever Coverage,2022,51.4,Rivers,Okrika,NA
-Yellow Fever Coverage,2022,72.2,Rivers,Omumma,NA
-Yellow Fever Coverage,2022,71.6,Rivers,Opobo/Nkoro,NA
-Yellow Fever Coverage,2022,64.4,Rivers,Oyigbo,NA
-Yellow Fever Coverage,2022,46.9,Rivers,Port-Harcourt,NA
-Yellow Fever Coverage,2022,74.8,Rivers,Tai,NA
-Yellow Fever Coverage,2022,29.3,Sokoto,Binji,NA
-Yellow Fever Coverage,2022,40,Sokoto,Bodinga,NA
-Yellow Fever Coverage,2022,37,Sokoto,Dange-Shuni,NA
-Yellow Fever Coverage,2022,47,Sokoto,Gada,NA
-Yellow Fever Coverage,2022,27.2,Sokoto,Goronyo,NA
-Yellow Fever Coverage,2022,36.7,Sokoto,Gudu,NA
-Yellow Fever Coverage,2022,30.7,Sokoto,Gwadabawa,NA
-Yellow Fever Coverage,2022,39.1,Sokoto,Illela,NA
-Yellow Fever Coverage,2022,42.9,Sokoto,Isa,NA
-Yellow Fever Coverage,2022,28.3,Sokoto,Kebbe,NA
-Yellow Fever Coverage,2022,46.6,Sokoto,Kware,NA
-Yellow Fever Coverage,2022,53.4,Sokoto,Rabah,NA
-Yellow Fever Coverage,2022,69.4,Sokoto,Sabon Birni,NA
-Yellow Fever Coverage,2022,44.6,Sokoto,Shagari,NA
-Yellow Fever Coverage,2022,31.5,Sokoto,Silame,NA
-Yellow Fever Coverage,2022,30.4,Sokoto,Sokoto North,NA
-Yellow Fever Coverage,2022,26.6,Sokoto,Sokoto South,NA
-Yellow Fever Coverage,2022,57.6,Sokoto,Tambuwal,NA
-Yellow Fever Coverage,2022,45.2,Sokoto,Tangaza,NA
-Yellow Fever Coverage,2022,59.2,Sokoto,Tureta,NA
-Yellow Fever Coverage,2022,45.1,Sokoto,Wamako,NA
-Yellow Fever Coverage,2022,47,Sokoto,Wurno,NA
-Yellow Fever Coverage,2022,47.8,Sokoto,Yabo,NA
-Yellow Fever Coverage,2022,63.5,Taraba,Ardo-Kola,NA
-Yellow Fever Coverage,2022,58.9,Taraba,Bali,NA
-Yellow Fever Coverage,2022,55.2,Taraba,Donga,NA
-Yellow Fever Coverage,2022,37.2,Taraba,Gashaka,NA
-Yellow Fever Coverage,2022,55.8,Taraba,Gassol,NA
-Yellow Fever Coverage,2022,75.2,Taraba,Ibi,NA
-Yellow Fever Coverage,2022,68.6,Taraba,Jalingo,NA
-Yellow Fever Coverage,2022,45.7,Taraba,Karim-Lamido,NA
-Yellow Fever Coverage,2022,44.5,Taraba,Kurmi,NA
-Yellow Fever Coverage,2022,52.6,Taraba,Lau,NA
-Yellow Fever Coverage,2022,71.4,Taraba,Sardauna,NA
-Yellow Fever Coverage,2022,57.2,Taraba,Takum,NA
-Yellow Fever Coverage,2022,57.7,Taraba,Ussa,NA
-Yellow Fever Coverage,2022,51.4,Taraba,Wukari,NA
-Yellow Fever Coverage,2022,65.3,Taraba,Yorro,NA
-Yellow Fever Coverage,2022,49.9,Taraba,Zing,NA
-Yellow Fever Coverage,2022,60.6,Yobe,Bade,NA
-Yellow Fever Coverage,2022,56.9,Yobe,Busari,NA
-Yellow Fever Coverage,2022,71.7,Yobe,Damaturu,NA
-Yellow Fever Coverage,2022,74.4,Yobe,Fika,NA
-Yellow Fever Coverage,2022,40.4,Yobe,Fune,NA
-Yellow Fever Coverage,2022,67.9,Yobe,Geidam,NA
-Yellow Fever Coverage,2022,44.2,Yobe,Gujba,NA
-Yellow Fever Coverage,2022,56,Yobe,Gulani,NA
-Yellow Fever Coverage,2022,58.1,Yobe,Jakusko,NA
-Yellow Fever Coverage,2022,61.4,Yobe,Karasuwa,NA
-Yellow Fever Coverage,2022,83.4,Yobe,Machina,NA
-Yellow Fever Coverage,2022,57.2,Yobe,Nangere,NA
-Yellow Fever Coverage,2022,45.1,Yobe,Nguru,NA
-Yellow Fever Coverage,2022,78.5,Yobe,Potiskum,NA
-Yellow Fever Coverage,2022,65,Yobe,Tarmuwa,NA
-Yellow Fever Coverage,2022,35.9,Yobe,Yunusari,NA
-Yellow Fever Coverage,2022,70.6,Yobe,Yusufari,NA
-Yellow Fever Coverage,2022,76,Zamfara,Anka,NA
-Yellow Fever Coverage,2022,44.5,Zamfara,Bakura,NA
-Yellow Fever Coverage,2022,59.2,Zamfara,Birnin Magaji,NA
-Yellow Fever Coverage,2022,59.9,Zamfara,Bukkuyum,NA
-Yellow Fever Coverage,2022,74.7,Zamfara,Bungudu,NA
-Yellow Fever Coverage,2022,50.6,Zamfara,Gummi,NA
-Yellow Fever Coverage,2022,40.6,Zamfara,Gusau,NA
-Yellow Fever Coverage,2022,51.7,Zamfara,Kaura Namoda,NA
-Yellow Fever Coverage,2022,61,Zamfara,Maradun,NA
-Yellow Fever Coverage,2022,58,Zamfara,Maru,NA
-Yellow Fever Coverage,2022,55.7,Zamfara,Shinkafi,NA
-Yellow Fever Coverage,2022,50,Zamfara,Talata Mafara,NA
-Yellow Fever Coverage,2022,55.1,Zamfara,Tsafe,NA
-Yellow Fever Coverage,2022,44.1,Zamfara,Zurmi,NA
+Yellow Fever Coverage,2022,59.5,Abia,State level data,NA
+Yellow Fever Coverage,2022,98.7,Adamawa,State level data,NA
+Yellow Fever Coverage,2022,61.1,Akwa-Ibom,State level data,NA
+Yellow Fever Coverage,2022,73.8,Anambra,State level data,NA
+Yellow Fever Coverage,2022,64.6,Bauchi,State level data,NA
+Yellow Fever Coverage,2022,59.9,Benue,State level data,NA
+Yellow Fever Coverage,2022,69.2,Borno,State level data,NA
+Yellow Fever Coverage,2022,31.1,Bayelsa,State level data,NA
+Yellow Fever Coverage,2022,78.3,Cross River,State level data,NA
+Yellow Fever Coverage,2022,65.2,Delta,State level data,NA
+Yellow Fever Coverage,2022,75.3,Ebonyi,State level data,NA
+Yellow Fever Coverage,2022,45.6,Edo,State level data,NA
+Yellow Fever Coverage,2022,51.3,Ekiti,State level data,NA
+Yellow Fever Coverage,2022,54.2,Enugu,State level data,NA
+Yellow Fever Coverage,2022,106.2,Federal Capital Territory,State level data,NA
+Yellow Fever Coverage,2022,96.6,Gombe,State level data,NA
+Yellow Fever Coverage,2022,66.6,Imo,State level data,NA
+Yellow Fever Coverage,2022,86.7,Jigawa,State level data,NA
+Yellow Fever Coverage,2022,76.9,Kaduna,State level data,NA
+Yellow Fever Coverage,2022,79.7,Kebbi,State level data,NA
+Yellow Fever Coverage,2022,75.4,Kano,State level data,NA
+Yellow Fever Coverage,2022,56.2,Kogi,State level data,NA
+Yellow Fever Coverage,2022,76.3,Katsina,State level data,NA
+Yellow Fever Coverage,2022,59.4,Kwara,State level data,NA
+Yellow Fever Coverage,2022,63.7,Lagos,State level data,NA
+Yellow Fever Coverage,2022,94.8,Nasarawa,State level data,NA
+Yellow Fever Coverage,2022,69,Federal Government,State level data,NA
+Yellow Fever Coverage,2022,75.1,Niger,State level data,NA
+Yellow Fever Coverage,2022,61.9,Ogun,State level data,NA
+Yellow Fever Coverage,2022,78.3,Ondo,State level data,NA
+Yellow Fever Coverage,2022,46.5,Osun,State level data,NA
+Yellow Fever Coverage,2022,60.9,Oyo,State level data,NA
+Yellow Fever Coverage,2022,54.2,Plateau,State level data,NA
+Yellow Fever Coverage,2022,69.6,Rivers,State level data,NA
+Yellow Fever Coverage,2022,56.9,Sokoto,State level data,NA
+Yellow Fever Coverage,2022,79.3,Taraba,State level data,NA
+Yellow Fever Coverage,2022,81.1,Yobe,State level data,NA
+Yellow Fever Coverage,2022,76,Zamfara,State level data,NA
+Yellow Fever Coverage,2022,74.8,Abia,Aba North,NA
+Yellow Fever Coverage,2022,52.2,Abia,Aba South,NA
+Yellow Fever Coverage,2022,64.4,Abia,Arochukwu,NA
+Yellow Fever Coverage,2022,39.3,Abia,Bende,NA
+Yellow Fever Coverage,2022,39.8,Abia,Ikwuano,NA
+Yellow Fever Coverage,2022,67.3,Abia,Isiala-Ngwa North,NA
+Yellow Fever Coverage,2022,78.4,Abia,Isiala-Ngwa South,NA
+Yellow Fever Coverage,2022,43.8,Abia,Isuikwuato,NA
+Yellow Fever Coverage,2022,58.7,Abia,Obi Nwga,NA
+Yellow Fever Coverage,2022,59,Abia,Ohafia,NA
+Yellow Fever Coverage,2022,67.6,Abia,Osisioma Ngwa,NA
+Yellow Fever Coverage,2022,64.9,Abia,Ugwunagbo,NA
+Yellow Fever Coverage,2022,84.7,Abia,Ukwa East,NA
+Yellow Fever Coverage,2022,71.1,Abia,Ukwa West,NA
+Yellow Fever Coverage,2022,73.4,Abia,Umuahia North,NA
+Yellow Fever Coverage,2022,57.8,Abia,Umuahia South,NA
+Yellow Fever Coverage,2022,47.4,Abia,Umunneochi,NA
+Yellow Fever Coverage,2022,111.9,Adamawa,Demsa,NA
+Yellow Fever Coverage,2022,101.6,Adamawa,Fufore,NA
+Yellow Fever Coverage,2022,95.5,Adamawa,Ganye,NA
+Yellow Fever Coverage,2022,131.7,Adamawa,Girei,NA
+Yellow Fever Coverage,2022,88,Adamawa,Gombi,NA
+Yellow Fever Coverage,2022,82.1,Adamawa,Guyuk,NA
+Yellow Fever Coverage,2022,116.2,Adamawa,Hong,NA
+Yellow Fever Coverage,2022,106.1,Adamawa,Jada,NA
+Yellow Fever Coverage,2022,104.3,Adamawa,Lamurde,NA
+Yellow Fever Coverage,2022,68.9,Adamawa,Madagali,NA
+Yellow Fever Coverage,2022,98.3,Adamawa,Maiha,NA
+Yellow Fever Coverage,2022,79.1,Adamawa,Mayo-Belwa,NA
+Yellow Fever Coverage,2022,118.9,Adamawa,Michika,NA
+Yellow Fever Coverage,2022,103,Adamawa,Mubi North,NA
+Yellow Fever Coverage,2022,88.8,Adamawa,Mubi South,NA
+Yellow Fever Coverage,2022,72.4,Adamawa,Numan,NA
+Yellow Fever Coverage,2022,94.3,Adamawa,Shelleng,NA
+Yellow Fever Coverage,2022,88.6,Adamawa,Song,NA
+Yellow Fever Coverage,2022,153.3,Adamawa,Toungo,NA
+Yellow Fever Coverage,2022,103.8,Adamawa,Yola North,NA
+Yellow Fever Coverage,2022,91.1,Adamawa,Yola South,NA
+Yellow Fever Coverage,2022,71.2,Akwa-Ibom,Abak,NA
+Yellow Fever Coverage,2022,83.7,Akwa-Ibom,Eastern Obolo,NA
+Yellow Fever Coverage,2022,63.4,Akwa-Ibom,Eket,NA
+Yellow Fever Coverage,2022,60.9,Akwa-Ibom,Esit Eket,NA
+Yellow Fever Coverage,2022,80.3,Akwa-Ibom,Essien Udim,NA
+Yellow Fever Coverage,2022,61.7,Akwa-Ibom,Etim Ekpo,NA
+Yellow Fever Coverage,2022,46.3,Akwa-Ibom,Etinan,NA
+Yellow Fever Coverage,2022,64,Akwa-Ibom,Ibeno,NA
+Yellow Fever Coverage,2022,40.2,Akwa-Ibom,Ibesikpo Asutan,NA
+Yellow Fever Coverage,2022,35.2,Akwa-Ibom,Ibiono Ibom,NA
+Yellow Fever Coverage,2022,74.8,Akwa-Ibom,Ika,NA
+Yellow Fever Coverage,2022,66.5,Akwa-Ibom,Ikono,NA
+Yellow Fever Coverage,2022,63.7,Akwa-Ibom,Ikot Abasi,NA
+Yellow Fever Coverage,2022,76.3,Akwa-Ibom,Ikot Ekpene,NA
+Yellow Fever Coverage,2022,81.6,Akwa-Ibom,Ini,NA
+Yellow Fever Coverage,2022,70.2,Akwa-Ibom,Itu,NA
+Yellow Fever Coverage,2022,59.8,Akwa-Ibom,Mbo,NA
+Yellow Fever Coverage,2022,70.5,Akwa-Ibom,Mkpat Enin,NA
+Yellow Fever Coverage,2022,84.9,Akwa-Ibom,Nsit Atai,NA
+Yellow Fever Coverage,2022,87.7,Akwa-Ibom,Nsit Ibom,NA
+Yellow Fever Coverage,2022,31.7,Akwa-Ibom,Nsit Ubium,NA
+Yellow Fever Coverage,2022,69.5,Akwa-Ibom,Obot Akara,NA
+Yellow Fever Coverage,2022,54.8,Akwa-Ibom,Okobo,NA
+Yellow Fever Coverage,2022,58.9,Akwa-Ibom,Onna,NA
+Yellow Fever Coverage,2022,60.9,Akwa-Ibom,Oron,NA
+Yellow Fever Coverage,2022,70.3,Akwa-Ibom,Oruk Anam,NA
+Yellow Fever Coverage,2022,26,Akwa-Ibom,Udung Uko,NA
+Yellow Fever Coverage,2022,34.3,Akwa-Ibom,Ukanafun,NA
+Yellow Fever Coverage,2022,47.3,Akwa-Ibom,Uruan,NA
+Yellow Fever Coverage,2022,77.6,Akwa-Ibom,Urue-Offong/Oruko,NA
+Yellow Fever Coverage,2022,51.5,Akwa-Ibom,Uyo,NA
+Yellow Fever Coverage,2022,53,Anambra,Aguata,NA
+Yellow Fever Coverage,2022,83.8,Anambra,Anambra East,NA
+Yellow Fever Coverage,2022,50.3,Anambra,Anambra West,NA
+Yellow Fever Coverage,2022,66,Anambra,Anaocha,NA
+Yellow Fever Coverage,2022,85.7,Anambra,Awka North,NA
+Yellow Fever Coverage,2022,94.8,Anambra,Awka South,NA
+Yellow Fever Coverage,2022,46.9,Anambra,Ayamelum,NA
+Yellow Fever Coverage,2022,79.4,Anambra,Dunukofia,NA
+Yellow Fever Coverage,2022,86.3,Anambra,Ekwusigo,NA
+Yellow Fever Coverage,2022,59.2,Anambra,Idemili North,NA
+Yellow Fever Coverage,2022,74,Anambra,Idemili South,NA
+Yellow Fever Coverage,2022,68.2,Anambra,Ihiala,NA
+Yellow Fever Coverage,2022,65.5,Anambra,Njikoka,NA
+Yellow Fever Coverage,2022,93.4,Anambra,Nnewi North,NA
+Yellow Fever Coverage,2022,112.7,Anambra,Nnewi South,NA
+Yellow Fever Coverage,2022,127.8,Anambra,Ogbaru,NA
+Yellow Fever Coverage,2022,87.4,Anambra,Onitsha North,NA
+Yellow Fever Coverage,2022,106.7,Anambra,Onitsha South,NA
+Yellow Fever Coverage,2022,53.9,Anambra,Orumba North,NA
+Yellow Fever Coverage,2022,43.5,Anambra,Orumba South,NA
+Yellow Fever Coverage,2022,72.2,Anambra,Oyi,NA
+Yellow Fever Coverage,2022,64.9,Bauchi,Alkaleri,NA
+Yellow Fever Coverage,2022,70.3,Bauchi,Bauchi,NA
+Yellow Fever Coverage,2022,79.5,Bauchi,Bogoro,NA
+Yellow Fever Coverage,2022,64,Bauchi,Dambam,NA
+Yellow Fever Coverage,2022,56,Bauchi,Darazo,NA
+Yellow Fever Coverage,2022,88.4,Bauchi,Dass,NA
+Yellow Fever Coverage,2022,54.8,Bauchi,Gamawa,NA
+Yellow Fever Coverage,2022,86.6,Bauchi,Ganjuwa,NA
+Yellow Fever Coverage,2022,57.1,Bauchi,Giade,NA
+Yellow Fever Coverage,2022,43.6,Bauchi,Itas/Gadau,NA
+Yellow Fever Coverage,2022,54.7,Bauchi,Jama'are,NA
+Yellow Fever Coverage,2022,52.3,Bauchi,Katagum,NA
+Yellow Fever Coverage,2022,43.2,Bauchi,Kirfi,NA
+Yellow Fever Coverage,2022,52.4,Bauchi,Misau,NA
+Yellow Fever Coverage,2022,52,Bauchi,Ningi,NA
+Yellow Fever Coverage,2022,45.8,Bauchi,Shira,NA
+Yellow Fever Coverage,2022,76.6,Bauchi,Tafawa-Balewa,NA
+Yellow Fever Coverage,2022,89.8,Bauchi,Toro,NA
+Yellow Fever Coverage,2022,65.8,Bauchi,Warji,NA
+Yellow Fever Coverage,2022,103.2,Bauchi,Zaki,NA
+Yellow Fever Coverage,2022,57.5,Benue,Ado,NA
+Yellow Fever Coverage,2022,47.3,Benue,Agatu,NA
+Yellow Fever Coverage,2022,80.5,Benue,Apa,NA
+Yellow Fever Coverage,2022,44.3,Benue,Buruku,NA
+Yellow Fever Coverage,2022,66.1,Benue,Gboko,NA
+Yellow Fever Coverage,2022,51.8,Benue,Guma,NA
+Yellow Fever Coverage,2022,44.1,Benue,Gwer East,NA
+Yellow Fever Coverage,2022,111.7,Benue,Gwer West,NA
+Yellow Fever Coverage,2022,54.6,Benue,Katsina-Ala,NA
+Yellow Fever Coverage,2022,24.7,Benue,Konshisha,NA
+Yellow Fever Coverage,2022,81.2,Benue,Kwande,NA
+Yellow Fever Coverage,2022,76.7,Benue,Logo,NA
+Yellow Fever Coverage,2022,68.7,Benue,Makurdi,NA
+Yellow Fever Coverage,2022,84.4,Benue,Obi,NA
+Yellow Fever Coverage,2022,44.5,Benue,Ogbadibo,NA
+Yellow Fever Coverage,2022,122.4,Benue,Ohimini,NA
+Yellow Fever Coverage,2022,59,Benue,Oju,NA
+Yellow Fever Coverage,2022,37.8,Benue,Okpokwu,NA
+Yellow Fever Coverage,2022,48.6,Benue,Otukpo,NA
+Yellow Fever Coverage,2022,52.4,Benue,Tarka,NA
+Yellow Fever Coverage,2022,72.8,Benue,Ukum,NA
+Yellow Fever Coverage,2022,50.1,Benue,Ushongo,NA
+Yellow Fever Coverage,2022,55.7,Benue,Vandeikya,NA
+Yellow Fever Coverage,2022,3.6,Borno,Abadam,NA
+Yellow Fever Coverage,2022,93.2,Borno,Askira/Uba,NA
+Yellow Fever Coverage,2022,40.2,Borno,Bama,NA
+Yellow Fever Coverage,2022,117.3,Borno,Bayo,NA
+Yellow Fever Coverage,2022,120.3,Borno,Biu,NA
+Yellow Fever Coverage,2022,129.3,Borno,Chibok,NA
+Yellow Fever Coverage,2022,56.1,Borno,Damboa,NA
+Yellow Fever Coverage,2022,63.8,Borno,Dikwa,NA
+Yellow Fever Coverage,2022,59.3,Borno,Gubio,NA
+Yellow Fever Coverage,2022,42.6,Borno,Gwoza,NA
+Yellow Fever Coverage,2022,83.1,Borno,Hawul,NA
+Yellow Fever Coverage,2022,145.1,Borno,Jere,NA
+Yellow Fever Coverage,2022,53.2,Borno,Kaga,NA
+Yellow Fever Coverage,2022,43.4,Borno,Kala/Balge,NA
+Yellow Fever Coverage,2022,80.8,Borno,Konduga,NA
+Yellow Fever Coverage,2022,17.4,Borno,Kukawa,NA
+Yellow Fever Coverage,2022,203.2,Borno,Kwaya Kusar,NA
+Yellow Fever Coverage,2022,123.6,Borno,Mafa,NA
+Yellow Fever Coverage,2022,44.7,Borno,Magumeri,NA
+Yellow Fever Coverage,2022,46.9,Borno,Maiduguri,NA
+Yellow Fever Coverage,2022,9.1,Borno,Marte,NA
+Yellow Fever Coverage,2022,60.1,Borno,Mobbar,NA
+Yellow Fever Coverage,2022,254.1,Borno,Monguno,NA
+Yellow Fever Coverage,2022,38.1,Borno,Ngala,NA
+Yellow Fever Coverage,2022,58.7,Borno,Nganzai,NA
+Yellow Fever Coverage,2022,108.9,Borno,Shani,NA
+Yellow Fever Coverage,2022,33.2,Bayelsa,Brass,NA
+Yellow Fever Coverage,2022,38.4,Bayelsa,Ekeremor,NA
+Yellow Fever Coverage,2022,11.9,Bayelsa,Kolokuma/Opokuma,NA
+Yellow Fever Coverage,2022,38.3,Bayelsa,Nembe,NA
+Yellow Fever Coverage,2022,20.1,Bayelsa,Ogbia,NA
+Yellow Fever Coverage,2022,19.4,Bayelsa,Sagbama,NA
+Yellow Fever Coverage,2022,20.6,Bayelsa,Southern Ijaw,NA
+Yellow Fever Coverage,2022,47.1,Bayelsa,Yenagoa,NA
+Yellow Fever Coverage,2022,98.7,Cross River,Abi,NA
+Yellow Fever Coverage,2022,110.7,Cross River,Akamkpa,NA
+Yellow Fever Coverage,2022,71.9,Cross River,Akpabuyo,NA
+Yellow Fever Coverage,2022,101.7,Cross River,Bakassi,NA
+Yellow Fever Coverage,2022,63.3,Cross River,Bekwarra,NA
+Yellow Fever Coverage,2022,88.7,Cross River,Biase,NA
+Yellow Fever Coverage,2022,85.7,Cross River,Boki,NA
+Yellow Fever Coverage,2022,52.6,Cross River,Calabar Municipal,NA
+Yellow Fever Coverage,2022,69.7,Cross River,Calabar South,NA
+Yellow Fever Coverage,2022,102.1,Cross River,Etung,NA
+Yellow Fever Coverage,2022,50.2,Cross River,Ikom,NA
+Yellow Fever Coverage,2022,59.4,Cross River,Obanliku,NA
+Yellow Fever Coverage,2022,82,Cross River,Obubra,NA
+Yellow Fever Coverage,2022,81.9,Cross River,Obudu,NA
+Yellow Fever Coverage,2022,74.4,Cross River,Odukpani,NA
+Yellow Fever Coverage,2022,81.3,Cross River,Ogoja,NA
+Yellow Fever Coverage,2022,91.3,Cross River,Yakurr,NA
+Yellow Fever Coverage,2022,74,Cross River,Yala,NA
+Yellow Fever Coverage,2022,94.9,Delta,Aniocha North,NA
+Yellow Fever Coverage,2022,61.1,Delta,Aniocha South,NA
+Yellow Fever Coverage,2022,92.1,Delta,Bomadi,NA
+Yellow Fever Coverage,2022,36.3,Delta,Burutu,NA
+Yellow Fever Coverage,2022,64.3,Delta,Ethiope East,NA
+Yellow Fever Coverage,2022,70.9,Delta,Ethiope West,NA
+Yellow Fever Coverage,2022,86.7,Delta,Ika North East,NA
+Yellow Fever Coverage,2022,70.9,Delta,Ika South,NA
+Yellow Fever Coverage,2022,70.6,Delta,Isoko North,NA
+Yellow Fever Coverage,2022,59.7,Delta,Isoko South,NA
+Yellow Fever Coverage,2022,42.7,Delta,Ndokwa East,NA
+Yellow Fever Coverage,2022,49.1,Delta,Ndokwa West,NA
+Yellow Fever Coverage,2022,69.2,Delta,Okpe,NA
+Yellow Fever Coverage,2022,80.7,Delta,Oshimili North,NA
+Yellow Fever Coverage,2022,91.8,Delta,Oshimili South,NA
+Yellow Fever Coverage,2022,35.2,Delta,Patani,NA
+Yellow Fever Coverage,2022,51.9,Delta,Sapele,NA
+Yellow Fever Coverage,2022,64.5,Delta,Udu,NA
+Yellow Fever Coverage,2022,75.5,Delta,Ughelli North,NA
+Yellow Fever Coverage,2022,50.9,Delta,Ughelli South,NA
+Yellow Fever Coverage,2022,67.3,Delta,Ukwuani,NA
+Yellow Fever Coverage,2022,70.7,Delta,Uvwie,NA
+Yellow Fever Coverage,2022,66.9,Delta,Warri North,NA
+Yellow Fever Coverage,2022,130,Delta,Warri South,NA
+Yellow Fever Coverage,2022,29.5,Delta,Warri South West,NA
+Yellow Fever Coverage,2022,76.5,Ebonyi,Abakaliki,NA
+Yellow Fever Coverage,2022,87.8,Ebonyi,Afikpo North,NA
+Yellow Fever Coverage,2022,78.9,Ebonyi,Afikpo South,NA
+Yellow Fever Coverage,2022,141.3,Ebonyi,Ebonyi,NA
+Yellow Fever Coverage,2022,52,Ebonyi,Ezza North,NA
+Yellow Fever Coverage,2022,55.8,Ebonyi,Ezza South,NA
+Yellow Fever Coverage,2022,62.2,Ebonyi,Ikwo,NA
+Yellow Fever Coverage,2022,58.6,Ebonyi,Ishielu,NA
+Yellow Fever Coverage,2022,63.9,Ebonyi,Ivo,NA
+Yellow Fever Coverage,2022,91.9,Ebonyi,Izzi,NA
+Yellow Fever Coverage,2022,92.6,Ebonyi,Ohaozara,NA
+Yellow Fever Coverage,2022,42.3,Ebonyi,Ohaukwu,NA
+Yellow Fever Coverage,2022,82.4,Ebonyi,Onicha,NA
+Yellow Fever Coverage,2022,45.3,Edo,Akoko-Edo,NA
+Yellow Fever Coverage,2022,48,Edo,Egor,NA
+Yellow Fever Coverage,2022,40.1,Edo,Esan Central,NA
+Yellow Fever Coverage,2022,39.1,Edo,Esan North-East,NA
+Yellow Fever Coverage,2022,55.8,Edo,Esan South-East,NA
+Yellow Fever Coverage,2022,36,Edo,Esan West,NA
+Yellow Fever Coverage,2022,63.1,Edo,Etsako Central,NA
+Yellow Fever Coverage,2022,29.7,Edo,Etsako East,NA
+Yellow Fever Coverage,2022,49.6,Edo,Etsako West,NA
+Yellow Fever Coverage,2022,26.6,Edo,Igueben,NA
+Yellow Fever Coverage,2022,69.9,Edo,Ikpoba-Okha,NA
+Yellow Fever Coverage,2022,43.4,Edo,Oredo,NA
+Yellow Fever Coverage,2022,16.3,Edo,Orhionmwon,NA
+Yellow Fever Coverage,2022,50.2,Edo,Ovia North-East,NA
+Yellow Fever Coverage,2022,49.9,Edo,Ovia South-West,NA
+Yellow Fever Coverage,2022,21.2,Edo,Owan East,NA
+Yellow Fever Coverage,2022,27.4,Edo,Owan West,NA
+Yellow Fever Coverage,2022,68.7,Edo,Uhunmwonde,NA
+Yellow Fever Coverage,2022,78.6,Ekiti,Ado Ekiti,NA
+Yellow Fever Coverage,2022,37.7,Ekiti,Aiyekire (Gbonyin),NA
+Yellow Fever Coverage,2022,87.3,Ekiti,Efon,NA
+Yellow Fever Coverage,2022,36,Ekiti,Ekiti East,NA
+Yellow Fever Coverage,2022,55.3,Ekiti,Ekiti South West,NA
+Yellow Fever Coverage,2022,36.8,Ekiti,Ekiti West,NA
+Yellow Fever Coverage,2022,70.8,Ekiti,Emure,NA
+Yellow Fever Coverage,2022,36.8,Ekiti,Ido-Osi,NA
+Yellow Fever Coverage,2022,53,Ekiti,Ijero,NA
+Yellow Fever Coverage,2022,35.7,Ekiti,Ikere,NA
+Yellow Fever Coverage,2022,27.5,Ekiti,Ikole,NA
+Yellow Fever Coverage,2022,37.4,Ekiti,Ilejemeje,NA
+Yellow Fever Coverage,2022,35.5,Ekiti,Irepodun/Ifelodun,NA
+Yellow Fever Coverage,2022,78.5,Ekiti,Ise/Orun,NA
+Yellow Fever Coverage,2022,62.6,Ekiti,Moba,NA
+Yellow Fever Coverage,2022,43.3,Ekiti,Oye,NA
+Yellow Fever Coverage,2022,15.2,Enugu,Aninri,NA
+Yellow Fever Coverage,2022,66.2,Enugu,Awgu,NA
+Yellow Fever Coverage,2022,66.9,Enugu,Enugu East,NA
+Yellow Fever Coverage,2022,80.5,Enugu,Enugu North,NA
+Yellow Fever Coverage,2022,50.9,Enugu,Enugu South,NA
+Yellow Fever Coverage,2022,81.2,Enugu,Ezeagu,NA
+Yellow Fever Coverage,2022,62,Enugu,Igbo-Etiti,NA
+Yellow Fever Coverage,2022,57.4,Enugu,Igbo-Eze North,NA
+Yellow Fever Coverage,2022,63.4,Enugu,Igbo-Eze South,NA
+Yellow Fever Coverage,2022,18.4,Enugu,Isi-Uzo,NA
+Yellow Fever Coverage,2022,36.6,Enugu,Nkanu East,NA
+Yellow Fever Coverage,2022,49.6,Enugu,Nkanu West,NA
+Yellow Fever Coverage,2022,44.7,Enugu,Nsukka,NA
+Yellow Fever Coverage,2022,50.1,Enugu,Oji River,NA
+Yellow Fever Coverage,2022,62.5,Enugu,Udenu,NA
+Yellow Fever Coverage,2022,50.9,Enugu,Udi,NA
+Yellow Fever Coverage,2022,26,Enugu,Uzo-Uwani,NA
+Yellow Fever Coverage,2022,136.3,Federal Capital Territory,Abaji,NA
+Yellow Fever Coverage,2022,83.5,Federal Capital Territory,Abuja Municipal,NA
+Yellow Fever Coverage,2022,125.2,Federal Capital Territory,Bwari,NA
+Yellow Fever Coverage,2022,122.1,Federal Capital Territory,Gwagwalada,NA
+Yellow Fever Coverage,2022,171.2,Federal Capital Territory,Kuje,NA
+Yellow Fever Coverage,2022,137.9,Federal Capital Territory,Kwali,NA
+Yellow Fever Coverage,2022,81.7,Gombe,Akko,NA
+Yellow Fever Coverage,2022,102.5,Gombe,Balanga,NA
+Yellow Fever Coverage,2022,49.1,Gombe,Billiri,NA
+Yellow Fever Coverage,2022,166.8,Gombe,Dukku,NA
+Yellow Fever Coverage,2022,107.2,Gombe,Funakaye,NA
+Yellow Fever Coverage,2022,118.6,Gombe,Gombe,NA
+Yellow Fever Coverage,2022,77.7,Gombe,Kaltungo,NA
+Yellow Fever Coverage,2022,88,Gombe,Kwami,NA
+Yellow Fever Coverage,2022,97.7,Gombe,Nafada,NA
+Yellow Fever Coverage,2022,44.6,Gombe,Shongom,NA
+Yellow Fever Coverage,2022,107.5,Gombe,Yamaltu/Deba,NA
+Yellow Fever Coverage,2022,46.7,Imo,Aboh-Mbaise,NA
+Yellow Fever Coverage,2022,61,Imo,Ahiazu-Mbaise,NA
+Yellow Fever Coverage,2022,83.8,Imo,Ehime-Mbano,NA
+Yellow Fever Coverage,2022,77.8,Imo,Ezinihitte-Mbaise,NA
+Yellow Fever Coverage,2022,45.6,Imo,Ideato North,NA
+Yellow Fever Coverage,2022,44.4,Imo,Ideato South,NA
+Yellow Fever Coverage,2022,86,Imo,Ihitte/Uboma,NA
+Yellow Fever Coverage,2022,114.4,Imo,Ikeduru,NA
+Yellow Fever Coverage,2022,92.6,Imo,Isiala Mbano,NA
+Yellow Fever Coverage,2022,41.8,Imo,Isu,NA
+Yellow Fever Coverage,2022,69.1,Imo,Mbaitoli,NA
+Yellow Fever Coverage,2022,51.6,Imo,Ngor-Okpala,NA
+Yellow Fever Coverage,2022,58.6,Imo,Njaba,NA
+Yellow Fever Coverage,2022,62.6,Imo,Nkwerre,NA
+Yellow Fever Coverage,2022,57.1,Imo,Nwangele,NA
+Yellow Fever Coverage,2022,117.6,Imo,Obowo,NA
+Yellow Fever Coverage,2022,30.2,Imo,Oguta,NA
+Yellow Fever Coverage,2022,42.2,Imo,Ohaji/Egbema,NA
+Yellow Fever Coverage,2022,48.4,Imo,Okigwe,NA
+Yellow Fever Coverage,2022,69,Imo,Onuimo,NA
+Yellow Fever Coverage,2022,76.7,Imo,Orlu,NA
+Yellow Fever Coverage,2022,30.2,Imo,Orsu,NA
+Yellow Fever Coverage,2022,52.6,Imo,Oru East,NA
+Yellow Fever Coverage,2022,66.1,Imo,Oru West,NA
+Yellow Fever Coverage,2022,110,Imo,Owerri Municipal,NA
+Yellow Fever Coverage,2022,80.7,Imo,Owerri North,NA
+Yellow Fever Coverage,2022,106.1,Imo,Owerri West,NA
+Yellow Fever Coverage,2022,64.6,Jigawa,Auyo,NA
+Yellow Fever Coverage,2022,94.9,Jigawa,Babura,NA
+Yellow Fever Coverage,2022,80,Jigawa,Birnin Kudu,NA
+Yellow Fever Coverage,2022,70,Jigawa,Birniwa,NA
+Yellow Fever Coverage,2022,92.4,Jigawa,Buji,NA
+Yellow Fever Coverage,2022,86.2,Jigawa,Dutse,NA
+Yellow Fever Coverage,2022,106.2,Jigawa,Gagarawa,NA
+Yellow Fever Coverage,2022,107.2,Jigawa,Garki,NA
+Yellow Fever Coverage,2022,69.4,Jigawa,Gumel,NA
+Yellow Fever Coverage,2022,72.2,Jigawa,Guri,NA
+Yellow Fever Coverage,2022,89.4,Jigawa,Gwaram,NA
+Yellow Fever Coverage,2022,68.3,Jigawa,Gwiwa,NA
+Yellow Fever Coverage,2022,61.8,Jigawa,Hadejia,NA
+Yellow Fever Coverage,2022,76.7,Jigawa,Jahun,NA
+Yellow Fever Coverage,2022,64.6,Jigawa,Kafin Hausa,NA
+Yellow Fever Coverage,2022,106.2,Jigawa,Kaugama,NA
+Yellow Fever Coverage,2022,73,Jigawa,Kazaure,NA
+Yellow Fever Coverage,2022,81.3,Jigawa,Kiri Kasamma,NA
+Yellow Fever Coverage,2022,114.9,Jigawa,Kiyawa,NA
+Yellow Fever Coverage,2022,101.6,Jigawa,Maigatari,NA
+Yellow Fever Coverage,2022,76.5,Jigawa,Malam Madori,NA
+Yellow Fever Coverage,2022,90.4,Jigawa,Miga,NA
+Yellow Fever Coverage,2022,95.9,Jigawa,Ringim,NA
+Yellow Fever Coverage,2022,110.6,Jigawa,Roni,NA
+Yellow Fever Coverage,2022,96.1,Jigawa,Sule-Tankarkar,NA
+Yellow Fever Coverage,2022,116.4,Jigawa,Taura,NA
+Yellow Fever Coverage,2022,109,Jigawa,Yankwashi,NA
+Yellow Fever Coverage,2022,104.4,Kaduna,Birnin Gwari,NA
+Yellow Fever Coverage,2022,67.7,Kaduna,Chikun,NA
+Yellow Fever Coverage,2022,104.2,Kaduna,Giwa,NA
+Yellow Fever Coverage,2022,68,Kaduna,Igabi,NA
+Yellow Fever Coverage,2022,108.8,Kaduna,Ikara,NA
+Yellow Fever Coverage,2022,61.2,Kaduna,Jaba,NA
+Yellow Fever Coverage,2022,42.8,Kaduna,Jema'a,NA
+Yellow Fever Coverage,2022,54.7,Kaduna,Kachia,NA
+Yellow Fever Coverage,2022,46.8,Kaduna,Kaduna North,NA
+Yellow Fever Coverage,2022,44.7,Kaduna,Kaduna South,NA
+Yellow Fever Coverage,2022,56.4,Kaduna,Kagarko,NA
+Yellow Fever Coverage,2022,87.6,Kaduna,Kajuru,NA
+Yellow Fever Coverage,2022,77.4,Kaduna,Kaura,NA
+Yellow Fever Coverage,2022,97.3,Kaduna,Kauru,NA
+Yellow Fever Coverage,2022,111.5,Kaduna,Kubau,NA
+Yellow Fever Coverage,2022,70.9,Kaduna,Kudan,NA
+Yellow Fever Coverage,2022,94.7,Kaduna,Lere,NA
+Yellow Fever Coverage,2022,99.3,Kaduna,Makarfi,NA
+Yellow Fever Coverage,2022,112.5,Kaduna,Sabon Gari,NA
+Yellow Fever Coverage,2022,69.6,Kaduna,Sanga,NA
+Yellow Fever Coverage,2022,107.9,Kaduna,Soba,NA
+Yellow Fever Coverage,2022,62.1,Kaduna,Zangon Kataf,NA
+Yellow Fever Coverage,2022,66.6,Kaduna,Zaria,NA
+Yellow Fever Coverage,2022,111.8,Kebbi,Aleiro,NA
+Yellow Fever Coverage,2022,49.1,Kebbi,Arewa,NA
+Yellow Fever Coverage,2022,84,Kebbi,Argungu,NA
+Yellow Fever Coverage,2022,51.4,Kebbi,Augie,NA
+Yellow Fever Coverage,2022,73.9,Kebbi,Bagudo,NA
+Yellow Fever Coverage,2022,60.5,Kebbi,Birnin Kebbi,NA
+Yellow Fever Coverage,2022,69.9,Kebbi,Bunza,NA
+Yellow Fever Coverage,2022,56.7,Kebbi,Dandi,NA
+Yellow Fever Coverage,2022,103.6,Kebbi,Danko/Wasagu,NA
+Yellow Fever Coverage,2022,87.7,Kebbi,Fakai,NA
+Yellow Fever Coverage,2022,76.2,Kebbi,Gwandu,NA
+Yellow Fever Coverage,2022,65.6,Kebbi,Jega,NA
+Yellow Fever Coverage,2022,81.5,Kebbi,Kalgo,NA
+Yellow Fever Coverage,2022,118,Kebbi,Koko/Besse,NA
+Yellow Fever Coverage,2022,86.6,Kebbi,Maiyama,NA
+Yellow Fever Coverage,2022,83.7,Kebbi,Ngaski,NA
+Yellow Fever Coverage,2022,93.1,Kebbi,Sakaba,NA
+Yellow Fever Coverage,2022,105,Kebbi,Shanga,NA
+Yellow Fever Coverage,2022,55.6,Kebbi,Suru,NA
+Yellow Fever Coverage,2022,76.4,Kebbi,Yauri,NA
+Yellow Fever Coverage,2022,108.8,Kebbi,Zuru,NA
+Yellow Fever Coverage,2022,74.3,Kano,Ajingi,NA
+Yellow Fever Coverage,2022,86.5,Kano,Albasu,NA
+Yellow Fever Coverage,2022,58.6,Kano,Bagwai,NA
+Yellow Fever Coverage,2022,70.9,Kano,Bebeji,NA
+Yellow Fever Coverage,2022,59.2,Kano,Bichi,NA
+Yellow Fever Coverage,2022,89,Kano,Bunkure,NA
+Yellow Fever Coverage,2022,64,Kano,Dala,NA
+Yellow Fever Coverage,2022,76.1,Kano,Danbatta,NA
+Yellow Fever Coverage,2022,86.1,Kano,Dawakin Kudu,NA
+Yellow Fever Coverage,2022,57.7,Kano,Dawakin Tofa,NA
+Yellow Fever Coverage,2022,87.8,Kano,Doguwa,NA
+Yellow Fever Coverage,2022,71.1,Kano,Fagge,NA
+Yellow Fever Coverage,2022,77.9,Kano,Gabasawa,NA
+Yellow Fever Coverage,2022,84.2,Kano,Garko,NA
+Yellow Fever Coverage,2022,66,Kano,Garum Mallam,NA
+Yellow Fever Coverage,2022,94.6,Kano,Gaya,NA
+Yellow Fever Coverage,2022,78.6,Kano,Gezawa,NA
+Yellow Fever Coverage,2022,77.6,Kano,Gwale,NA
+Yellow Fever Coverage,2022,82.6,Kano,Gwarzo,NA
+Yellow Fever Coverage,2022,73.1,Kano,Kabo,NA
+Yellow Fever Coverage,2022,61.2,Kano,Kano Municipal,NA
+Yellow Fever Coverage,2022,58,Kano,Karaye,NA
+Yellow Fever Coverage,2022,65.2,Kano,Kibiya,NA
+Yellow Fever Coverage,2022,78.7,Kano,Kiru,NA
+Yellow Fever Coverage,2022,78.7,Kano,Kumbotso,NA
+Yellow Fever Coverage,2022,69.5,Kano,Kunchi,NA
+Yellow Fever Coverage,2022,89.4,Kano,Kura,NA
+Yellow Fever Coverage,2022,78.4,Kano,Madobi,NA
+Yellow Fever Coverage,2022,75.6,Kano,Makoda,NA
+Yellow Fever Coverage,2022,62.8,Kano,Minjibir,NA
+Yellow Fever Coverage,2022,81.8,Kano,Nasarawa,NA
+Yellow Fever Coverage,2022,78.4,Kano,Rano,NA
+Yellow Fever Coverage,2022,62.8,Kano,Rimin Gado,NA
+Yellow Fever Coverage,2022,74.8,Kano,Rogo,NA
+Yellow Fever Coverage,2022,73.1,Kano,Shanono,NA
+Yellow Fever Coverage,2022,75.1,Kano,Sumaila,NA
+Yellow Fever Coverage,2022,109.5,Kano,Takai,NA
+Yellow Fever Coverage,2022,76.7,Kano,Tarauni,NA
+Yellow Fever Coverage,2022,66.1,Kano,Tofa,NA
+Yellow Fever Coverage,2022,60.6,Kano,Tsanyawa,NA
+Yellow Fever Coverage,2022,78.9,Kano,Tudun Wada,NA
+Yellow Fever Coverage,2022,83.2,Kano,Ungogo,NA
+Yellow Fever Coverage,2022,73.6,Kano,Warawa,NA
+Yellow Fever Coverage,2022,78.3,Kano,Wudil,NA
+Yellow Fever Coverage,2022,67.3,Kogi,Adavi,NA
+Yellow Fever Coverage,2022,57.1,Kogi,Ajaokuta,NA
+Yellow Fever Coverage,2022,74.8,Kogi,Ankpa,NA
+Yellow Fever Coverage,2022,37.1,Kogi,Bassa,NA
+Yellow Fever Coverage,2022,34.1,Kogi,Dekina,NA
+Yellow Fever Coverage,2022,32.2,Kogi,Ibaji,NA
+Yellow Fever Coverage,2022,124.6,Kogi,Idah,NA
+Yellow Fever Coverage,2022,60.6,Kogi,Igalamela-Odolu,NA
+Yellow Fever Coverage,2022,51.9,Kogi,Ijumu,NA
+Yellow Fever Coverage,2022,50,Kogi,Kabba/Bunu,NA
+Yellow Fever Coverage,2022,29.1,Kogi,Kogi,NA
+Yellow Fever Coverage,2022,46.7,Kogi,Lokoja,NA
+Yellow Fever Coverage,2022,85.8,Kogi,Mopa-Muro,NA
+Yellow Fever Coverage,2022,26.3,Kogi,Ofu,NA
+Yellow Fever Coverage,2022,62.9,Kogi,Ogori/Magongo,NA
+Yellow Fever Coverage,2022,76.8,Kogi,Okehi,NA
+Yellow Fever Coverage,2022,74,Kogi,Okene,NA
+Yellow Fever Coverage,2022,51.9,Kogi,Olamaboro,NA
+Yellow Fever Coverage,2022,72.4,Kogi,Omala,NA
+Yellow Fever Coverage,2022,58.7,Kogi,Yagba East,NA
+Yellow Fever Coverage,2022,38.2,Kogi,Yagba West,NA
+Yellow Fever Coverage,2022,136.5,Katsina,Bakori,NA
+Yellow Fever Coverage,2022,65.8,Katsina,Batagarawa,NA
+Yellow Fever Coverage,2022,73.8,Katsina,Batsari,NA
+Yellow Fever Coverage,2022,36.7,Katsina,Baure,NA
+Yellow Fever Coverage,2022,69.6,Katsina,Bindawa,NA
+Yellow Fever Coverage,2022,53.2,Katsina,Charanchi,NA
+Yellow Fever Coverage,2022,72.4,Katsina,Dan Musa,NA
+Yellow Fever Coverage,2022,122.6,Katsina,Dandume,NA
+Yellow Fever Coverage,2022,121.1,Katsina,Danja,NA
+Yellow Fever Coverage,2022,53.9,Katsina,Daura,NA
+Yellow Fever Coverage,2022,79.9,Katsina,Dutsi,NA
+Yellow Fever Coverage,2022,154.7,Katsina,Dutsin-Ma,NA
+Yellow Fever Coverage,2022,68.2,Katsina,Faskari,NA
+Yellow Fever Coverage,2022,88.4,Katsina,Funtua,NA
+Yellow Fever Coverage,2022,47.8,Katsina,Ingawa,NA
+Yellow Fever Coverage,2022,64.2,Katsina,Jibia,NA
+Yellow Fever Coverage,2022,106.6,Katsina,Kafur,NA
+Yellow Fever Coverage,2022,70.2,Katsina,Kaita,NA
+Yellow Fever Coverage,2022,65.2,Katsina,Kankara,NA
+Yellow Fever Coverage,2022,70.1,Katsina,Kankia,NA
+Yellow Fever Coverage,2022,72.9,Katsina,Katsina,NA
+Yellow Fever Coverage,2022,66.1,Katsina,Kurfi,NA
+Yellow Fever Coverage,2022,86.8,Katsina,Kusada,NA
+Yellow Fever Coverage,2022,43.3,Katsina,Mai'Adua,NA
+Yellow Fever Coverage,2022,115.7,Katsina,Malumfashi,NA
+Yellow Fever Coverage,2022,43.1,Katsina,Mani,NA
+Yellow Fever Coverage,2022,77.4,Katsina,Mashi,NA
+Yellow Fever Coverage,2022,95.1,Katsina,Matazu,NA
+Yellow Fever Coverage,2022,70.9,Katsina,Musawa,NA
+Yellow Fever Coverage,2022,94.7,Katsina,Rimi,NA
+Yellow Fever Coverage,2022,71.5,Katsina,Sabuwa,NA
+Yellow Fever Coverage,2022,73,Katsina,Safana,NA
+Yellow Fever Coverage,2022,44.8,Katsina,Sandamu,NA
+Yellow Fever Coverage,2022,55.6,Katsina,Zango,NA
+Yellow Fever Coverage,2022,75.2,Kwara,Asa,NA
+Yellow Fever Coverage,2022,35.9,Kwara,Baruten,NA
+Yellow Fever Coverage,2022,64,Kwara,Edu,NA
+Yellow Fever Coverage,2022,85.4,Kwara,Ekiti,NA
+Yellow Fever Coverage,2022,41.8,Kwara,Ifelodun,NA
+Yellow Fever Coverage,2022,40.7,Kwara,Ilorin East,NA
+Yellow Fever Coverage,2022,82,Kwara,Ilorin South,NA
+Yellow Fever Coverage,2022,61.2,Kwara,Ilorin West,NA
+Yellow Fever Coverage,2022,72.4,Kwara,Irepodun,NA
+Yellow Fever Coverage,2022,64.7,Kwara,Isin,NA
+Yellow Fever Coverage,2022,67.5,Kwara,Kaiama,NA
+Yellow Fever Coverage,2022,47.6,Kwara,Moro,NA
+Yellow Fever Coverage,2022,59.7,Kwara,Offa,NA
+Yellow Fever Coverage,2022,44.5,Kwara,Oke-Ero,NA
+Yellow Fever Coverage,2022,74.5,Kwara,Oyun,NA
+Yellow Fever Coverage,2022,60.3,Kwara,Pategi,NA
+Yellow Fever Coverage,2022,43.8,Lagos,Agege,NA
+Yellow Fever Coverage,2022,75.2,Lagos,Ajeromi/Ifelodun,NA
+Yellow Fever Coverage,2022,59.2,Lagos,Alimosho,NA
+Yellow Fever Coverage,2022,57.8,Lagos,Amuwo Odofin,NA
+Yellow Fever Coverage,2022,65.8,Lagos,Apapa,NA
+Yellow Fever Coverage,2022,94,Lagos,Badagry,NA
+Yellow Fever Coverage,2022,87.5,Lagos,Epe,NA
+Yellow Fever Coverage,2022,77.9,Lagos,Eti-Osa,NA
+Yellow Fever Coverage,2022,106.9,Lagos,Ibeju/Lekki,NA
+Yellow Fever Coverage,2022,53,Lagos,Ifako/Ijaye,NA
+Yellow Fever Coverage,2022,71.8,Lagos,Ikeja,NA
+Yellow Fever Coverage,2022,80.1,Lagos,Ikorodu,NA
+Yellow Fever Coverage,2022,51.5,Lagos,Kosofe,NA
+Yellow Fever Coverage,2022,63.9,Lagos,Lagos Island,NA
+Yellow Fever Coverage,2022,44.9,Lagos,Lagos Mainland,NA
+Yellow Fever Coverage,2022,54.9,Lagos,Mushin,NA
+Yellow Fever Coverage,2022,63.3,Lagos,Ojo,NA
+Yellow Fever Coverage,2022,69.9,Lagos,Oshodi/Isolo,NA
+Yellow Fever Coverage,2022,64.6,Lagos,Shomolu,NA
+Yellow Fever Coverage,2022,56.3,Lagos,Surulere,NA
+Yellow Fever Coverage,2022,69,Nasarawa,Akwanga,NA
+Yellow Fever Coverage,2022,98.2,Nasarawa,Awe,NA
+Yellow Fever Coverage,2022,70.8,Nasarawa,Doma,NA
+Yellow Fever Coverage,2022,152.7,Nasarawa,Karu,NA
+Yellow Fever Coverage,2022,72.9,Nasarawa,Keana,NA
+Yellow Fever Coverage,2022,92.5,Nasarawa,Keffi,NA
+Yellow Fever Coverage,2022,73.1,Nasarawa,Kokona,NA
+Yellow Fever Coverage,2022,97.5,Nasarawa,Lafia,NA
+Yellow Fever Coverage,2022,86.2,Nasarawa,Nasarawa Eggon,NA
+Yellow Fever Coverage,2022,90,Nasarawa,Nasarawa,NA
+Yellow Fever Coverage,2022,129.3,Nasarawa,Obi,NA
+Yellow Fever Coverage,2022,66,Nasarawa,Toto,NA
+Yellow Fever Coverage,2022,66.8,Nasarawa,Wamba,NA
+Yellow Fever Coverage,2022,105,Niger,Agaie,NA
+Yellow Fever Coverage,2022,151.4,Niger,Agwara,NA
+Yellow Fever Coverage,2022,80.7,Niger,Bida,NA
+Yellow Fever Coverage,2022,119.7,Niger,Borgu,NA
+Yellow Fever Coverage,2022,78.6,Niger,Bosso,NA
+Yellow Fever Coverage,2022,65.7,Niger,Chanchaga,NA
+Yellow Fever Coverage,2022,97.8,Niger,Edati,NA
+Yellow Fever Coverage,2022,80.5,Niger,Gbako,NA
+Yellow Fever Coverage,2022,77.3,Niger,Gurara,NA
+Yellow Fever Coverage,2022,92.4,Niger,Katcha,NA
+Yellow Fever Coverage,2022,72.4,Niger,Kontagora,NA
+Yellow Fever Coverage,2022,98.4,Niger,Lapai,NA
+Yellow Fever Coverage,2022,95,Niger,Lavun,NA
+Yellow Fever Coverage,2022,49.2,Niger,Magama,NA
+Yellow Fever Coverage,2022,62.8,Niger,Mariga,NA
+Yellow Fever Coverage,2022,43.7,Niger,Mashegu,NA
+Yellow Fever Coverage,2022,94.3,Niger,Mokwa,NA
+Yellow Fever Coverage,2022,51.6,Niger,Muya,NA
+Yellow Fever Coverage,2022,55.2,Niger,Paikoro,NA
+Yellow Fever Coverage,2022,52.1,Niger,Rafi,NA
+Yellow Fever Coverage,2022,68.3,Niger,Rijau,NA
+Yellow Fever Coverage,2022,69.2,Niger,Shiroro,NA
+Yellow Fever Coverage,2022,57.4,Niger,Suleja,NA
+Yellow Fever Coverage,2022,61.6,Niger,Tafa,NA
+Yellow Fever Coverage,2022,50.3,Niger,Wushishi,NA
+Yellow Fever Coverage,2022,61.4,Ogun,Abeokuta North,NA
+Yellow Fever Coverage,2022,45.4,Ogun,Abeokuta South,NA
+Yellow Fever Coverage,2022,53.7,Ogun,Ado Odo/Ota,NA
+Yellow Fever Coverage,2022,70.1,Ogun,Ewekoro,NA
+Yellow Fever Coverage,2022,55.5,Ogun,Ifo,NA
+Yellow Fever Coverage,2022,72.5,Ogun,Ijebu East,NA
+Yellow Fever Coverage,2022,18.6,Ogun,Ijebu North East,NA
+Yellow Fever Coverage,2022,253.7,Ogun,Ijebu North,NA
+Yellow Fever Coverage,2022,95.4,Ogun,Ijebu Ode,NA
+Yellow Fever Coverage,2022,85.1,Ogun,Ikenne,NA
+Yellow Fever Coverage,2022,64.6,Ogun,Imeko Afon,NA
+Yellow Fever Coverage,2022,69.2,Ogun,Ipokia,NA
+Yellow Fever Coverage,2022,42.8,Ogun,Obafemi Owode,NA
+Yellow Fever Coverage,2022,58.8,Ogun,Odeda,NA
+Yellow Fever Coverage,2022,79.7,Ogun,Odogbolu,NA
+Yellow Fever Coverage,2022,55.4,Ogun,Ogun Waterside,NA
+Yellow Fever Coverage,2022,66.5,Ogun,Remo North,NA
+Yellow Fever Coverage,2022,74.2,Ogun,Sagamu,NA
+Yellow Fever Coverage,2022,49.2,Ogun,Yewa North,NA
+Yellow Fever Coverage,2022,74.1,Ogun,Yewa South,NA
+Yellow Fever Coverage,2022,42.5,Ondo,Akoko North East,NA
+Yellow Fever Coverage,2022,62.6,Ondo,Akoko North West,NA
+Yellow Fever Coverage,2022,59.6,Ondo,Akoko South East,NA
+Yellow Fever Coverage,2022,33.1,Ondo,Akoko South West,NA
+Yellow Fever Coverage,2022,107.6,Ondo,Akure North,NA
+Yellow Fever Coverage,2022,119.6,Ondo,Akure South,NA
+Yellow Fever Coverage,2022,90.3,Ondo,Ese Odo,NA
+Yellow Fever Coverage,2022,73.3,Ondo,Idanre,NA
+Yellow Fever Coverage,2022,19,Ondo,Ifedore,NA
+Yellow Fever Coverage,2022,89.3,Ondo,Ilaje,NA
+Yellow Fever Coverage,2022,78.5,Ondo,Ile-Oluji/Okeigbo,NA
+Yellow Fever Coverage,2022,84.9,Ondo,Irele,NA
+Yellow Fever Coverage,2022,155.4,Ondo,Odigbo,NA
+Yellow Fever Coverage,2022,97.9,Ondo,Okitipupa,NA
+Yellow Fever Coverage,2022,77.7,Ondo,Ondo East,NA
+Yellow Fever Coverage,2022,73.3,Ondo,Ondo West,NA
+Yellow Fever Coverage,2022,39.5,Ondo,Ose,NA
+Yellow Fever Coverage,2022,48.8,Ondo,Owo,NA
+Yellow Fever Coverage,2022,28.6,Osun,Atakumosa East,NA
+Yellow Fever Coverage,2022,57.9,Osun,Atakumosa West,NA
+Yellow Fever Coverage,2022,49.3,Osun,Ayedaade,NA
+Yellow Fever Coverage,2022,34.3,Osun,Ayedire,NA
+Yellow Fever Coverage,2022,33.2,Osun,Boluwaduro,NA
+Yellow Fever Coverage,2022,51.5,Osun,Boripe,NA
+Yellow Fever Coverage,2022,47.4,Osun,Ede North,NA
+Yellow Fever Coverage,2022,81.9,Osun,Ede South,NA
+Yellow Fever Coverage,2022,61,Osun,Egbedore,NA
+Yellow Fever Coverage,2022,34.9,Osun,Ejigbo,NA
+Yellow Fever Coverage,2022,35.5,Osun,Ife Central,NA
+Yellow Fever Coverage,2022,55.1,Osun,Ife East,NA
+Yellow Fever Coverage,2022,79.5,Osun,Ife North,NA
+Yellow Fever Coverage,2022,44,Osun,Ife South,NA
+Yellow Fever Coverage,2022,73.5,Osun,Ifedayo,NA
+Yellow Fever Coverage,2022,56.1,Osun,Ifelodun,NA
+Yellow Fever Coverage,2022,56.1,Osun,Ila,NA
+Yellow Fever Coverage,2022,20.7,Osun,Ilesa East,NA
+Yellow Fever Coverage,2022,46.9,Osun,Ilesa West,NA
+Yellow Fever Coverage,2022,36.3,Osun,Irepodun,NA
+Yellow Fever Coverage,2022,33.6,Osun,Irewole,NA
+Yellow Fever Coverage,2022,27.5,Osun,Isokan,NA
+Yellow Fever Coverage,2022,60.2,Osun,Iwo,NA
+Yellow Fever Coverage,2022,52.9,Osun,Obokun,NA
+Yellow Fever Coverage,2022,58.9,Osun,Odo Otin,NA
+Yellow Fever Coverage,2022,25.3,Osun,Ola-Oluwa,NA
+Yellow Fever Coverage,2022,41.4,Osun,Olorunda,NA
+Yellow Fever Coverage,2022,22.4,Osun,Oriade,NA
+Yellow Fever Coverage,2022,47.6,Osun,Orolu,NA
+Yellow Fever Coverage,2022,50.1,Osun,Osogbo,NA
+Yellow Fever Coverage,2022,69.9,Oyo,Afijio,NA
+Yellow Fever Coverage,2022,93.2,Oyo,Akinyele,NA
+Yellow Fever Coverage,2022,54,Oyo,Atiba,NA
+Yellow Fever Coverage,2022,61.4,Oyo,Atisbo,NA
+Yellow Fever Coverage,2022,70.8,Oyo,Egbeda,NA
+Yellow Fever Coverage,2022,48.6,Oyo,Ibadan North East,NA
+Yellow Fever Coverage,2022,48.8,Oyo,Ibadan North,NA
+Yellow Fever Coverage,2022,56.2,Oyo,Ibadan North West,NA
+Yellow Fever Coverage,2022,64.7,Oyo,Ibadan South East,NA
+Yellow Fever Coverage,2022,79.5,Oyo,Ibadan South West,NA
+Yellow Fever Coverage,2022,38.3,Oyo,Ibarapa Central,NA
+Yellow Fever Coverage,2022,58,Oyo,Ibarapa East,NA
+Yellow Fever Coverage,2022,35.1,Oyo,Ibarapa North,NA
+Yellow Fever Coverage,2022,72,Oyo,Ido,NA
+Yellow Fever Coverage,2022,88.1,Oyo,Irepo,NA
+Yellow Fever Coverage,2022,38.2,Oyo,Iseyin,NA
+Yellow Fever Coverage,2022,60.7,Oyo,Itesiwaju,NA
+Yellow Fever Coverage,2022,58.4,Oyo,Iwajowa,NA
+Yellow Fever Coverage,2022,40.4,Oyo,Kajola,NA
+Yellow Fever Coverage,2022,61.3,Oyo,Lagelu,NA
+Yellow Fever Coverage,2022,66.4,Oyo,Ogbomosho North,NA
+Yellow Fever Coverage,2022,38.8,Oyo,Ogbomosho South,NA
+Yellow Fever Coverage,2022,56,Oyo,Ogo Oluwa,NA
+Yellow Fever Coverage,2022,72.9,Oyo,Olorunsogo,NA
+Yellow Fever Coverage,2022,72,Oyo,Oluyole,NA
+Yellow Fever Coverage,2022,47.7,Oyo,Ona Ara,NA
+Yellow Fever Coverage,2022,82.6,Oyo,Orelope,NA
+Yellow Fever Coverage,2022,71.2,Oyo,Ori Ire,NA
+Yellow Fever Coverage,2022,85.4,Oyo,Oyo East,NA
+Yellow Fever Coverage,2022,60.8,Oyo,Oyo West,NA
+Yellow Fever Coverage,2022,91.6,Oyo,Saki East,NA
+Yellow Fever Coverage,2022,50.3,Oyo,Saki West,NA
+Yellow Fever Coverage,2022,46.6,Oyo,Surulere,NA
+Yellow Fever Coverage,2022,66.8,Plateau,Barkin Ladi,NA
+Yellow Fever Coverage,2022,53.3,Plateau,Bassa,NA
+Yellow Fever Coverage,2022,49.6,Plateau,Bokkos,NA
+Yellow Fever Coverage,2022,47.5,Plateau,Jos East,NA
+Yellow Fever Coverage,2022,56.5,Plateau,Jos North,NA
+Yellow Fever Coverage,2022,62.1,Plateau,Jos South,NA
+Yellow Fever Coverage,2022,100,Plateau,Kanam,NA
+Yellow Fever Coverage,2022,44,Plateau,Kanke,NA
+Yellow Fever Coverage,2022,43.1,Plateau,Langtang North,NA
+Yellow Fever Coverage,2022,48.1,Plateau,Langtang South,NA
+Yellow Fever Coverage,2022,51.3,Plateau,Mangu,NA
+Yellow Fever Coverage,2022,34.3,Plateau,Mikang,NA
+Yellow Fever Coverage,2022,39.6,Plateau,Pankshin,NA
+Yellow Fever Coverage,2022,46,Plateau,Qua'an Pan,NA
+Yellow Fever Coverage,2022,53.5,Plateau,Riyom,NA
+Yellow Fever Coverage,2022,49.8,Plateau,Shendam,NA
+Yellow Fever Coverage,2022,53.7,Plateau,Wase,NA
+Yellow Fever Coverage,2022,56.3,Rivers,Abua/Odual,NA
+Yellow Fever Coverage,2022,87.1,Rivers,Ahoada East,NA
+Yellow Fever Coverage,2022,43.3,Rivers,Ahoada West,NA
+Yellow Fever Coverage,2022,50.2,Rivers,Akuku Toru,NA
+Yellow Fever Coverage,2022,75.7,Rivers,Andoni,NA
+Yellow Fever Coverage,2022,38.1,Rivers,Asari-Toru,NA
+Yellow Fever Coverage,2022,59.8,Rivers,Bonny,NA
+Yellow Fever Coverage,2022,39.5,Rivers,Degema,NA
+Yellow Fever Coverage,2022,52.2,Rivers,Eleme,NA
+Yellow Fever Coverage,2022,57.1,Rivers,Emohua,NA
+Yellow Fever Coverage,2022,76.8,Rivers,Etche,NA
+Yellow Fever Coverage,2022,77.1,Rivers,Gokana,NA
+Yellow Fever Coverage,2022,62,Rivers,Ikwerre,NA
+Yellow Fever Coverage,2022,84.2,Rivers,Khana,NA
+Yellow Fever Coverage,2022,107.1,Rivers,Obio/Akpor,NA
+Yellow Fever Coverage,2022,63.1,Rivers,Ogba/Egbema/Ndoni,NA
+Yellow Fever Coverage,2022,88.9,Rivers,Ogu/Bolo,NA
+Yellow Fever Coverage,2022,68.4,Rivers,Okrika,NA
+Yellow Fever Coverage,2022,97.5,Rivers,Omumma,NA
+Yellow Fever Coverage,2022,101.3,Rivers,Opobo/Nkoro,NA
+Yellow Fever Coverage,2022,83.3,Rivers,Oyigbo,NA
+Yellow Fever Coverage,2022,61.9,Rivers,Port-Harcourt,NA
+Yellow Fever Coverage,2022,98.9,Rivers,Tai,NA
+Yellow Fever Coverage,2022,38.8,Sokoto,Binji,NA
+Yellow Fever Coverage,2022,54.2,Sokoto,Bodinga,NA
+Yellow Fever Coverage,2022,50.7,Sokoto,Dange-Shuni,NA
+Yellow Fever Coverage,2022,58.5,Sokoto,Gada,NA
+Yellow Fever Coverage,2022,38.4,Sokoto,Goronyo,NA
+Yellow Fever Coverage,2022,50.1,Sokoto,Gudu,NA
+Yellow Fever Coverage,2022,39.3,Sokoto,Gwadabawa,NA
+Yellow Fever Coverage,2022,52.8,Sokoto,Illela,NA
+Yellow Fever Coverage,2022,65.9,Sokoto,Isa,NA
+Yellow Fever Coverage,2022,40.6,Sokoto,Kebbe,NA
+Yellow Fever Coverage,2022,70.5,Sokoto,Kware,NA
+Yellow Fever Coverage,2022,74.9,Sokoto,Rabah,NA
+Yellow Fever Coverage,2022,94.8,Sokoto,Sabon Birni,NA
+Yellow Fever Coverage,2022,55.2,Sokoto,Shagari,NA
+Yellow Fever Coverage,2022,46.1,Sokoto,Silame,NA
+Yellow Fever Coverage,2022,42,Sokoto,Sokoto North,NA
+Yellow Fever Coverage,2022,36.4,Sokoto,Sokoto South,NA
+Yellow Fever Coverage,2022,76.5,Sokoto,Tambuwal,NA
+Yellow Fever Coverage,2022,62.8,Sokoto,Tangaza,NA
+Yellow Fever Coverage,2022,78.8,Sokoto,Tureta,NA
+Yellow Fever Coverage,2022,57.7,Sokoto,Wamako,NA
+Yellow Fever Coverage,2022,63.9,Sokoto,Wurno,NA
+Yellow Fever Coverage,2022,69.2,Sokoto,Yabo,NA
+Yellow Fever Coverage,2022,84.1,Taraba,Ardo-Kola,NA
+Yellow Fever Coverage,2022,84.8,Taraba,Bali,NA
+Yellow Fever Coverage,2022,81.1,Taraba,Donga,NA
+Yellow Fever Coverage,2022,54.8,Taraba,Gashaka,NA
+Yellow Fever Coverage,2022,76.8,Taraba,Gassol,NA
+Yellow Fever Coverage,2022,104.1,Taraba,Ibi,NA
+Yellow Fever Coverage,2022,92.4,Taraba,Jalingo,NA
+Yellow Fever Coverage,2022,69.8,Taraba,Karim-Lamido,NA
+Yellow Fever Coverage,2022,65.3,Taraba,Kurmi,NA
+Yellow Fever Coverage,2022,67.7,Taraba,Lau,NA
+Yellow Fever Coverage,2022,97.7,Taraba,Sardauna,NA
+Yellow Fever Coverage,2022,74.3,Taraba,Takum,NA
+Yellow Fever Coverage,2022,81.4,Taraba,Ussa,NA
+Yellow Fever Coverage,2022,68.6,Taraba,Wukari,NA
+Yellow Fever Coverage,2022,93.8,Taraba,Yorro,NA
+Yellow Fever Coverage,2022,71.2,Taraba,Zing,NA
+Yellow Fever Coverage,2022,78.9,Yobe,Bade,NA
+Yellow Fever Coverage,2022,81,Yobe,Busari,NA
+Yellow Fever Coverage,2022,95.1,Yobe,Damaturu,NA
+Yellow Fever Coverage,2022,102.8,Yobe,Fika,NA
+Yellow Fever Coverage,2022,57.4,Yobe,Fune,NA
+Yellow Fever Coverage,2022,96.5,Yobe,Geidam,NA
+Yellow Fever Coverage,2022,61.2,Yobe,Gujba,NA
+Yellow Fever Coverage,2022,78.9,Yobe,Gulani,NA
+Yellow Fever Coverage,2022,80.5,Yobe,Jakusko,NA
+Yellow Fever Coverage,2022,84.2,Yobe,Karasuwa,NA
+Yellow Fever Coverage,2022,110.9,Yobe,Machina,NA
+Yellow Fever Coverage,2022,75.8,Yobe,Nangere,NA
+Yellow Fever Coverage,2022,63.2,Yobe,Nguru,NA
+Yellow Fever Coverage,2022,108,Yobe,Potiskum,NA
+Yellow Fever Coverage,2022,89.4,Yobe,Tarmuwa,NA
+Yellow Fever Coverage,2022,54.3,Yobe,Yunusari,NA
+Yellow Fever Coverage,2022,98.7,Yobe,Yusufari,NA
+Yellow Fever Coverage,2022,97.7,Zamfara,Anka,NA
+Yellow Fever Coverage,2022,56.5,Zamfara,Bakura,NA
+Yellow Fever Coverage,2022,94.5,Zamfara,Birnin Magaji,NA
+Yellow Fever Coverage,2022,79,Zamfara,Bukkuyum,NA
+Yellow Fever Coverage,2022,98.6,Zamfara,Bungudu,NA
+Yellow Fever Coverage,2022,70.2,Zamfara,Gummi,NA
+Yellow Fever Coverage,2022,59.6,Zamfara,Gusau,NA
+Yellow Fever Coverage,2022,68,Zamfara,Kaura Namoda,NA
+Yellow Fever Coverage,2022,89.2,Zamfara,Maradun,NA
+Yellow Fever Coverage,2022,82,Zamfara,Maru,NA
+Yellow Fever Coverage,2022,80,Zamfara,Shinkafi,NA
+Yellow Fever Coverage,2022,69.2,Zamfara,Talata Mafara,NA
+Yellow Fever Coverage,2022,76.5,Zamfara,Tsafe,NA
+Yellow Fever Coverage,2022,65.1,Zamfara,Zurmi,NA
+Yellow Fever Coverage,2023,55.2,Abia,State level data,NA
+Yellow Fever Coverage,2023,94.4,Adamawa,State level data,NA
+Yellow Fever Coverage,2023,43,Akwa-Ibom,State level data,NA
+Yellow Fever Coverage,2023,92.6,Anambra,State level data,NA
+Yellow Fever Coverage,2023,75.5,Bauchi,State level data,NA
+Yellow Fever Coverage,2023,57.1,Benue,State level data,NA
+Yellow Fever Coverage,2023,81.8,Borno,State level data,NA
+Yellow Fever Coverage,2023,44.6,Bayelsa,State level data,NA
+Yellow Fever Coverage,2023,79.8,Cross River,State level data,NA
+Yellow Fever Coverage,2023,68.8,Delta,State level data,NA
+Yellow Fever Coverage,2023,77.8,Ebonyi,State level data,NA
+Yellow Fever Coverage,2023,48.7,Edo,State level data,NA
+Yellow Fever Coverage,2023,67.5,Ekiti,State level data,NA
+Yellow Fever Coverage,2023,63,Enugu,State level data,NA
+Yellow Fever Coverage,2023,104.3,Federal Capital Territory,State level data,NA
+Yellow Fever Coverage,2023,82.9,Gombe,State level data,NA
+Yellow Fever Coverage,2023,55.2,Imo,State level data,NA
+Yellow Fever Coverage,2023,91,Jigawa,State level data,NA
+Yellow Fever Coverage,2023,90.9,Kaduna,State level data,NA
+Yellow Fever Coverage,2023,91.4,Kebbi,State level data,NA
+Yellow Fever Coverage,2023,71.2,Kano,State level data,NA
+Yellow Fever Coverage,2023,67,Kogi,State level data,NA
+Yellow Fever Coverage,2023,86.4,Katsina,State level data,NA
+Yellow Fever Coverage,2023,65.1,Kwara,State level data,NA
+Yellow Fever Coverage,2023,70.1,Lagos,State level data,NA
+Yellow Fever Coverage,2023,91,Nasarawa,State level data,NA
+Yellow Fever Coverage,2023,73.6,Federal Government,State level data,NA
+Yellow Fever Coverage,2023,95.6,Niger,State level data,NA
+Yellow Fever Coverage,2023,75.2,Ogun,State level data,NA
+Yellow Fever Coverage,2023,78.4,Ondo,State level data,NA
+Yellow Fever Coverage,2023,48.1,Osun,State level data,NA
+Yellow Fever Coverage,2023,65.9,Oyo,State level data,NA
+Yellow Fever Coverage,2023,50,Plateau,State level data,NA
+Yellow Fever Coverage,2023,65.9,Rivers,State level data,NA
+Yellow Fever Coverage,2023,64.6,Sokoto,State level data,NA
+Yellow Fever Coverage,2023,98.4,Taraba,State level data,NA
+Yellow Fever Coverage,2023,91.5,Yobe,State level data,NA
+Yellow Fever Coverage,2023,89.6,Zamfara,State level data,NA
+Yellow Fever Coverage,2023,117.6,Abia,Aba North,NA
+Yellow Fever Coverage,2023,50,Abia,Aba South,NA
+Yellow Fever Coverage,2023,56.4,Abia,Arochukwu,NA
+Yellow Fever Coverage,2023,37.5,Abia,Bende,NA
+Yellow Fever Coverage,2023,43.5,Abia,Ikwuano,NA
+Yellow Fever Coverage,2023,44.4,Abia,Isiala-Ngwa North,NA
+Yellow Fever Coverage,2023,74.1,Abia,Isiala-Ngwa South,NA
+Yellow Fever Coverage,2023,43.2,Abia,Isuikwuato,NA
+Yellow Fever Coverage,2023,50.9,Abia,Obi Nwga,NA
+Yellow Fever Coverage,2023,52.6,Abia,Ohafia,NA
+Yellow Fever Coverage,2023,60.4,Abia,Osisioma Ngwa,NA
+Yellow Fever Coverage,2023,48.7,Abia,Ugwunagbo,NA
+Yellow Fever Coverage,2023,77.7,Abia,Ukwa East,NA
+Yellow Fever Coverage,2023,79.9,Abia,Ukwa West,NA
+Yellow Fever Coverage,2023,54.6,Abia,Umuahia North,NA
+Yellow Fever Coverage,2023,58.1,Abia,Umuahia South,NA
+Yellow Fever Coverage,2023,41.6,Abia,Umunneochi,NA
+Yellow Fever Coverage,2023,109.1,Adamawa,Demsa,NA
+Yellow Fever Coverage,2023,94.3,Adamawa,Fufore,NA
+Yellow Fever Coverage,2023,94.3,Adamawa,Ganye,NA
+Yellow Fever Coverage,2023,84.4,Adamawa,Girei,NA
+Yellow Fever Coverage,2023,80.8,Adamawa,Gombi,NA
+Yellow Fever Coverage,2023,81.3,Adamawa,Guyuk,NA
+Yellow Fever Coverage,2023,101.1,Adamawa,Hong,NA
+Yellow Fever Coverage,2023,102.8,Adamawa,Jada,NA
+Yellow Fever Coverage,2023,101,Adamawa,Lamurde,NA
+Yellow Fever Coverage,2023,78.9,Adamawa,Madagali,NA
+Yellow Fever Coverage,2023,88.7,Adamawa,Maiha,NA
+Yellow Fever Coverage,2023,94.2,Adamawa,Mayo-Belwa,NA
+Yellow Fever Coverage,2023,99.5,Adamawa,Michika,NA
+Yellow Fever Coverage,2023,100.7,Adamawa,Mubi North,NA
+Yellow Fever Coverage,2023,86.6,Adamawa,Mubi South,NA
+Yellow Fever Coverage,2023,83.8,Adamawa,Numan,NA
+Yellow Fever Coverage,2023,92.8,Adamawa,Shelleng,NA
+Yellow Fever Coverage,2023,98.1,Adamawa,Song,NA
+Yellow Fever Coverage,2023,171.8,Adamawa,Toungo,NA
+Yellow Fever Coverage,2023,85.2,Adamawa,Yola North,NA
+Yellow Fever Coverage,2023,93.9,Adamawa,Yola South,NA
+Yellow Fever Coverage,2023,51.5,Akwa-Ibom,Abak,NA
+Yellow Fever Coverage,2023,38.3,Akwa-Ibom,Eastern Obolo,NA
+Yellow Fever Coverage,2023,40.7,Akwa-Ibom,Eket,NA
+Yellow Fever Coverage,2023,42,Akwa-Ibom,Esit Eket,NA
+Yellow Fever Coverage,2023,52.7,Akwa-Ibom,Essien Udim,NA
+Yellow Fever Coverage,2023,41.6,Akwa-Ibom,Etim Ekpo,NA
+Yellow Fever Coverage,2023,27.5,Akwa-Ibom,Etinan,NA
+Yellow Fever Coverage,2023,41.1,Akwa-Ibom,Ibeno,NA
+Yellow Fever Coverage,2023,30.3,Akwa-Ibom,Ibesikpo Asutan,NA
+Yellow Fever Coverage,2023,32,Akwa-Ibom,Ibiono Ibom,NA
+Yellow Fever Coverage,2023,52.8,Akwa-Ibom,Ika,NA
+Yellow Fever Coverage,2023,40.1,Akwa-Ibom,Ikono,NA
+Yellow Fever Coverage,2023,36.8,Akwa-Ibom,Ikot Abasi,NA
+Yellow Fever Coverage,2023,55.1,Akwa-Ibom,Ikot Ekpene,NA
+Yellow Fever Coverage,2023,40.6,Akwa-Ibom,Ini,NA
+Yellow Fever Coverage,2023,54.1,Akwa-Ibom,Itu,NA
+Yellow Fever Coverage,2023,44.2,Akwa-Ibom,Mbo,NA
+Yellow Fever Coverage,2023,58.4,Akwa-Ibom,Mkpat Enin,NA
+Yellow Fever Coverage,2023,44.7,Akwa-Ibom,Nsit Atai,NA
+Yellow Fever Coverage,2023,65.5,Akwa-Ibom,Nsit Ibom,NA
+Yellow Fever Coverage,2023,29,Akwa-Ibom,Nsit Ubium,NA
+Yellow Fever Coverage,2023,49.4,Akwa-Ibom,Obot Akara,NA
+Yellow Fever Coverage,2023,41.3,Akwa-Ibom,Okobo,NA
+Yellow Fever Coverage,2023,49.8,Akwa-Ibom,Onna,NA
+Yellow Fever Coverage,2023,49,Akwa-Ibom,Oron,NA
+Yellow Fever Coverage,2023,36.7,Akwa-Ibom,Oruk Anam,NA
+Yellow Fever Coverage,2023,33.7,Akwa-Ibom,Udung Uko,NA
+Yellow Fever Coverage,2023,17.3,Akwa-Ibom,Ukanafun,NA
+Yellow Fever Coverage,2023,32.3,Akwa-Ibom,Uruan,NA
+Yellow Fever Coverage,2023,56.4,Akwa-Ibom,Urue-Offong/Oruko,NA
+Yellow Fever Coverage,2023,47.6,Akwa-Ibom,Uyo,NA
+Yellow Fever Coverage,2023,73.1,Anambra,Aguata,NA
+Yellow Fever Coverage,2023,107.1,Anambra,Anambra East,NA
+Yellow Fever Coverage,2023,45.6,Anambra,Anambra West,NA
+Yellow Fever Coverage,2023,82.8,Anambra,Anaocha,NA
+Yellow Fever Coverage,2023,109.9,Anambra,Awka North,NA
+Yellow Fever Coverage,2023,108,Anambra,Awka South,NA
+Yellow Fever Coverage,2023,49.3,Anambra,Ayamelum,NA
+Yellow Fever Coverage,2023,105.7,Anambra,Dunukofia,NA
+Yellow Fever Coverage,2023,104.2,Anambra,Ekwusigo,NA
+Yellow Fever Coverage,2023,89.9,Anambra,Idemili North,NA
+Yellow Fever Coverage,2023,85.6,Anambra,Idemili South,NA
+Yellow Fever Coverage,2023,78.5,Anambra,Ihiala,NA
+Yellow Fever Coverage,2023,94.4,Anambra,Njikoka,NA
+Yellow Fever Coverage,2023,98.3,Anambra,Nnewi North,NA
+Yellow Fever Coverage,2023,129.1,Anambra,Nnewi South,NA
+Yellow Fever Coverage,2023,158.3,Anambra,Ogbaru,NA
+Yellow Fever Coverage,2023,105.5,Anambra,Onitsha North,NA
+Yellow Fever Coverage,2023,154.4,Anambra,Onitsha South,NA
+Yellow Fever Coverage,2023,64.3,Anambra,Orumba North,NA
+Yellow Fever Coverage,2023,53.2,Anambra,Orumba South,NA
+Yellow Fever Coverage,2023,104.3,Anambra,Oyi,NA
+Yellow Fever Coverage,2023,75.7,Bauchi,Alkaleri,NA
+Yellow Fever Coverage,2023,82,Bauchi,Bauchi,NA
+Yellow Fever Coverage,2023,91.2,Bauchi,Bogoro,NA
+Yellow Fever Coverage,2023,81.9,Bauchi,Dambam,NA
+Yellow Fever Coverage,2023,76,Bauchi,Darazo,NA
+Yellow Fever Coverage,2023,96.1,Bauchi,Dass,NA
+Yellow Fever Coverage,2023,60.1,Bauchi,Gamawa,NA
+Yellow Fever Coverage,2023,97.6,Bauchi,Ganjuwa,NA
+Yellow Fever Coverage,2023,58.3,Bauchi,Giade,NA
+Yellow Fever Coverage,2023,54.4,Bauchi,Itas/Gadau,NA
+Yellow Fever Coverage,2023,71.4,Bauchi,Jama'are,NA
+Yellow Fever Coverage,2023,57.5,Bauchi,Katagum,NA
+Yellow Fever Coverage,2023,66.1,Bauchi,Kirfi,NA
+Yellow Fever Coverage,2023,59,Bauchi,Misau,NA
+Yellow Fever Coverage,2023,60.3,Bauchi,Ningi,NA
+Yellow Fever Coverage,2023,56.8,Bauchi,Shira,NA
+Yellow Fever Coverage,2023,87.2,Bauchi,Tafawa-Balewa,NA
+Yellow Fever Coverage,2023,105.3,Bauchi,Toro,NA
+Yellow Fever Coverage,2023,72.1,Bauchi,Warji,NA
+Yellow Fever Coverage,2023,113.4,Bauchi,Zaki,NA
+Yellow Fever Coverage,2023,36.8,Benue,Ado,NA
+Yellow Fever Coverage,2023,80.3,Benue,Agatu,NA
+Yellow Fever Coverage,2023,130.6,Benue,Apa,NA
+Yellow Fever Coverage,2023,47.6,Benue,Buruku,NA
+Yellow Fever Coverage,2023,67.3,Benue,Gboko,NA
+Yellow Fever Coverage,2023,31.6,Benue,Guma,NA
+Yellow Fever Coverage,2023,43.8,Benue,Gwer East,NA
+Yellow Fever Coverage,2023,81.2,Benue,Gwer West,NA
+Yellow Fever Coverage,2023,48.1,Benue,Katsina-Ala,NA
+Yellow Fever Coverage,2023,37.2,Benue,Konshisha,NA
+Yellow Fever Coverage,2023,53.8,Benue,Kwande,NA
+Yellow Fever Coverage,2023,76.7,Benue,Logo,NA
+Yellow Fever Coverage,2023,70.4,Benue,Makurdi,NA
+Yellow Fever Coverage,2023,117.4,Benue,Obi,NA
+Yellow Fever Coverage,2023,59.2,Benue,Ogbadibo,NA
+Yellow Fever Coverage,2023,93.1,Benue,Ohimini,NA
+Yellow Fever Coverage,2023,70.4,Benue,Oju,NA
+Yellow Fever Coverage,2023,18.4,Benue,Okpokwu,NA
+Yellow Fever Coverage,2023,64.1,Benue,Otukpo,NA
+Yellow Fever Coverage,2023,50.5,Benue,Tarka,NA
+Yellow Fever Coverage,2023,51,Benue,Ukum,NA
+Yellow Fever Coverage,2023,47.1,Benue,Ushongo,NA
+Yellow Fever Coverage,2023,31.7,Benue,Vandeikya,NA
+Yellow Fever Coverage,2023,22.1,Borno,Abadam,NA
+Yellow Fever Coverage,2023,92.7,Borno,Askira/Uba,NA
+Yellow Fever Coverage,2023,128.6,Borno,Bama,NA
+Yellow Fever Coverage,2023,148.5,Borno,Bayo,NA
+Yellow Fever Coverage,2023,99.4,Borno,Biu,NA
+Yellow Fever Coverage,2023,134.9,Borno,Chibok,NA
+Yellow Fever Coverage,2023,44.5,Borno,Damboa,NA
+Yellow Fever Coverage,2023,47.3,Borno,Dikwa,NA
+Yellow Fever Coverage,2023,89.4,Borno,Gubio,NA
+Yellow Fever Coverage,2023,46,Borno,Gwoza,NA
+Yellow Fever Coverage,2023,80.4,Borno,Hawul,NA
+Yellow Fever Coverage,2023,197.1,Borno,Jere,NA
+Yellow Fever Coverage,2023,57.6,Borno,Kaga,NA
+Yellow Fever Coverage,2023,70.2,Borno,Kala/Balge,NA
+Yellow Fever Coverage,2023,103.7,Borno,Konduga,NA
+Yellow Fever Coverage,2023,26,Borno,Kukawa,NA
+Yellow Fever Coverage,2023,211.9,Borno,Kwaya Kusar,NA
+Yellow Fever Coverage,2023,143,Borno,Mafa,NA
+Yellow Fever Coverage,2023,66.8,Borno,Magumeri,NA
+Yellow Fever Coverage,2023,56.1,Borno,Maiduguri,NA
+Yellow Fever Coverage,2023,12.5,Borno,Marte,NA
+Yellow Fever Coverage,2023,62.4,Borno,Mobbar,NA
+Yellow Fever Coverage,2023,200.8,Borno,Monguno,NA
+Yellow Fever Coverage,2023,42.7,Borno,Ngala,NA
+Yellow Fever Coverage,2023,76,Borno,Nganzai,NA
+Yellow Fever Coverage,2023,115.9,Borno,Shani,NA
+Yellow Fever Coverage,2023,72.2,Bayelsa,Brass,NA
+Yellow Fever Coverage,2023,55.4,Bayelsa,Ekeremor,NA
+Yellow Fever Coverage,2023,22.7,Bayelsa,Kolokuma/Opokuma,NA
+Yellow Fever Coverage,2023,53.7,Bayelsa,Nembe,NA
+Yellow Fever Coverage,2023,27.4,Bayelsa,Ogbia,NA
+Yellow Fever Coverage,2023,28.8,Bayelsa,Sagbama,NA
+Yellow Fever Coverage,2023,32.7,Bayelsa,Southern Ijaw,NA
+Yellow Fever Coverage,2023,51.4,Bayelsa,Yenagoa,NA
+Yellow Fever Coverage,2023,95.3,Cross River,Abi,NA
+Yellow Fever Coverage,2023,117.6,Cross River,Akamkpa,NA
+Yellow Fever Coverage,2023,66.6,Cross River,Akpabuyo,NA
+Yellow Fever Coverage,2023,105.5,Cross River,Bakassi,NA
+Yellow Fever Coverage,2023,68.3,Cross River,Bekwarra,NA
+Yellow Fever Coverage,2023,94.3,Cross River,Biase,NA
+Yellow Fever Coverage,2023,83.7,Cross River,Boki,NA
+Yellow Fever Coverage,2023,56.8,Cross River,Calabar Municipal,NA
+Yellow Fever Coverage,2023,75.2,Cross River,Calabar South,NA
+Yellow Fever Coverage,2023,107.9,Cross River,Etung,NA
+Yellow Fever Coverage,2023,48.7,Cross River,Ikom,NA
+Yellow Fever Coverage,2023,71.9,Cross River,Obanliku,NA
+Yellow Fever Coverage,2023,76.9,Cross River,Obubra,NA
+Yellow Fever Coverage,2023,81.5,Cross River,Obudu,NA
+Yellow Fever Coverage,2023,85.8,Cross River,Odukpani,NA
+Yellow Fever Coverage,2023,69.6,Cross River,Ogoja,NA
+Yellow Fever Coverage,2023,95.1,Cross River,Yakurr,NA
+Yellow Fever Coverage,2023,76.6,Cross River,Yala,NA
+Yellow Fever Coverage,2023,78.8,Delta,Aniocha North,NA
+Yellow Fever Coverage,2023,56.6,Delta,Aniocha South,NA
+Yellow Fever Coverage,2023,67.1,Delta,Bomadi,NA
+Yellow Fever Coverage,2023,45.3,Delta,Burutu,NA
+Yellow Fever Coverage,2023,71.7,Delta,Ethiope East,NA
+Yellow Fever Coverage,2023,69.6,Delta,Ethiope West,NA
+Yellow Fever Coverage,2023,96.1,Delta,Ika North East,NA
+Yellow Fever Coverage,2023,68.1,Delta,Ika South,NA
+Yellow Fever Coverage,2023,83.6,Delta,Isoko North,NA
+Yellow Fever Coverage,2023,78.3,Delta,Isoko South,NA
+Yellow Fever Coverage,2023,49.2,Delta,Ndokwa East,NA
+Yellow Fever Coverage,2023,53.9,Delta,Ndokwa West,NA
+Yellow Fever Coverage,2023,68.1,Delta,Okpe,NA
+Yellow Fever Coverage,2023,81.8,Delta,Oshimili North,NA
+Yellow Fever Coverage,2023,96.4,Delta,Oshimili South,NA
+Yellow Fever Coverage,2023,46.4,Delta,Patani,NA
+Yellow Fever Coverage,2023,53.4,Delta,Sapele,NA
+Yellow Fever Coverage,2023,65.4,Delta,Udu,NA
+Yellow Fever Coverage,2023,79.4,Delta,Ughelli North,NA
+Yellow Fever Coverage,2023,50.4,Delta,Ughelli South,NA
+Yellow Fever Coverage,2023,78.9,Delta,Ukwuani,NA
+Yellow Fever Coverage,2023,67,Delta,Uvwie,NA
+Yellow Fever Coverage,2023,77.7,Delta,Warri North,NA
+Yellow Fever Coverage,2023,137.7,Delta,Warri South,NA
+Yellow Fever Coverage,2023,34.3,Delta,Warri South West,NA
+Yellow Fever Coverage,2023,80.7,Ebonyi,Abakaliki,NA
+Yellow Fever Coverage,2023,74.1,Ebonyi,Afikpo North,NA
+Yellow Fever Coverage,2023,95.2,Ebonyi,Afikpo South,NA
+Yellow Fever Coverage,2023,125.3,Ebonyi,Ebonyi,NA
+Yellow Fever Coverage,2023,66.5,Ebonyi,Ezza North,NA
+Yellow Fever Coverage,2023,56.7,Ebonyi,Ezza South,NA
+Yellow Fever Coverage,2023,65.4,Ebonyi,Ikwo,NA
+Yellow Fever Coverage,2023,56.6,Ebonyi,Ishielu,NA
+Yellow Fever Coverage,2023,83.3,Ebonyi,Ivo,NA
+Yellow Fever Coverage,2023,84.4,Ebonyi,Izzi,NA
+Yellow Fever Coverage,2023,115.6,Ebonyi,Ohaozara,NA
+Yellow Fever Coverage,2023,42.8,Ebonyi,Ohaukwu,NA
+Yellow Fever Coverage,2023,81.4,Ebonyi,Onicha,NA
+Yellow Fever Coverage,2023,48.4,Edo,Akoko-Edo,NA
+Yellow Fever Coverage,2023,45.6,Edo,Egor,NA
+Yellow Fever Coverage,2023,34,Edo,Esan Central,NA
+Yellow Fever Coverage,2023,35.9,Edo,Esan North-East,NA
+Yellow Fever Coverage,2023,55.4,Edo,Esan South-East,NA
+Yellow Fever Coverage,2023,38,Edo,Esan West,NA
+Yellow Fever Coverage,2023,78.9,Edo,Etsako Central,NA
+Yellow Fever Coverage,2023,31.1,Edo,Etsako East,NA
+Yellow Fever Coverage,2023,58.8,Edo,Etsako West,NA
+Yellow Fever Coverage,2023,31,Edo,Igueben,NA
+Yellow Fever Coverage,2023,71.4,Edo,Ikpoba-Okha,NA
+Yellow Fever Coverage,2023,51.1,Edo,Oredo,NA
+Yellow Fever Coverage,2023,15.3,Edo,Orhionmwon,NA
+Yellow Fever Coverage,2023,57.8,Edo,Ovia North-East,NA
+Yellow Fever Coverage,2023,47.7,Edo,Ovia South-West,NA
+Yellow Fever Coverage,2023,26.5,Edo,Owan East,NA
+Yellow Fever Coverage,2023,30.7,Edo,Owan West,NA
+Yellow Fever Coverage,2023,82.9,Edo,Uhunmwonde,NA
+Yellow Fever Coverage,2023,75.7,Ekiti,Ado Ekiti,NA
+Yellow Fever Coverage,2023,51.6,Ekiti,Aiyekire (Gbonyin),NA
+Yellow Fever Coverage,2023,89.6,Ekiti,Efon,NA
+Yellow Fever Coverage,2023,55.7,Ekiti,Ekiti East,NA
+Yellow Fever Coverage,2023,83.2,Ekiti,Ekiti South West,NA
+Yellow Fever Coverage,2023,61.6,Ekiti,Ekiti West,NA
+Yellow Fever Coverage,2023,84.9,Ekiti,Emure,NA
+Yellow Fever Coverage,2023,73.8,Ekiti,Ido-Osi,NA
+Yellow Fever Coverage,2023,77.1,Ekiti,Ijero,NA
+Yellow Fever Coverage,2023,50.6,Ekiti,Ikere,NA
+Yellow Fever Coverage,2023,41.3,Ekiti,Ikole,NA
+Yellow Fever Coverage,2023,77.5,Ekiti,Ilejemeje,NA
+Yellow Fever Coverage,2023,34.5,Ekiti,Irepodun/Ifelodun,NA
+Yellow Fever Coverage,2023,78.8,Ekiti,Ise/Orun,NA
+Yellow Fever Coverage,2023,84.2,Ekiti,Moba,NA
+Yellow Fever Coverage,2023,68.4,Ekiti,Oye,NA
+Yellow Fever Coverage,2023,36.9,Enugu,Aninri,NA
+Yellow Fever Coverage,2023,85.3,Enugu,Awgu,NA
+Yellow Fever Coverage,2023,81.7,Enugu,Enugu East,NA
+Yellow Fever Coverage,2023,70.2,Enugu,Enugu North,NA
+Yellow Fever Coverage,2023,69.4,Enugu,Enugu South,NA
+Yellow Fever Coverage,2023,83.3,Enugu,Ezeagu,NA
+Yellow Fever Coverage,2023,68.3,Enugu,Igbo-Etiti,NA
+Yellow Fever Coverage,2023,48.1,Enugu,Igbo-Eze North,NA
+Yellow Fever Coverage,2023,104.6,Enugu,Igbo-Eze South,NA
+Yellow Fever Coverage,2023,27.9,Enugu,Isi-Uzo,NA
+Yellow Fever Coverage,2023,39.8,Enugu,Nkanu East,NA
+Yellow Fever Coverage,2023,61.2,Enugu,Nkanu West,NA
+Yellow Fever Coverage,2023,59,Enugu,Nsukka,NA
+Yellow Fever Coverage,2023,57,Enugu,Oji River,NA
+Yellow Fever Coverage,2023,71.1,Enugu,Udenu,NA
+Yellow Fever Coverage,2023,52.2,Enugu,Udi,NA
+Yellow Fever Coverage,2023,30.3,Enugu,Uzo-Uwani,NA
+Yellow Fever Coverage,2023,163.6,Federal Capital Territory,Abaji,NA
+Yellow Fever Coverage,2023,81.8,Federal Capital Territory,Abuja Municipal,NA
+Yellow Fever Coverage,2023,117.8,Federal Capital Territory,Bwari,NA
+Yellow Fever Coverage,2023,129,Federal Capital Territory,Gwagwalada,NA
+Yellow Fever Coverage,2023,153.2,Federal Capital Territory,Kuje,NA
+Yellow Fever Coverage,2023,130.4,Federal Capital Territory,Kwali,NA
+Yellow Fever Coverage,2023,82.3,Gombe,Akko,NA
+Yellow Fever Coverage,2023,79.4,Gombe,Balanga,NA
+Yellow Fever Coverage,2023,56.4,Gombe,Billiri,NA
+Yellow Fever Coverage,2023,90.1,Gombe,Dukku,NA
+Yellow Fever Coverage,2023,83.7,Gombe,Funakaye,NA
+Yellow Fever Coverage,2023,109.3,Gombe,Gombe,NA
+Yellow Fever Coverage,2023,63.6,Gombe,Kaltungo,NA
+Yellow Fever Coverage,2023,92.1,Gombe,Kwami,NA
+Yellow Fever Coverage,2023,72.4,Gombe,Nafada,NA
+Yellow Fever Coverage,2023,52.5,Gombe,Shongom,NA
+Yellow Fever Coverage,2023,101.5,Gombe,Yamaltu/Deba,NA
+Yellow Fever Coverage,2023,39.9,Imo,Aboh-Mbaise,NA
+Yellow Fever Coverage,2023,30.1,Imo,Ahiazu-Mbaise,NA
+Yellow Fever Coverage,2023,69.4,Imo,Ehime-Mbano,NA
+Yellow Fever Coverage,2023,45.5,Imo,Ezinihitte-Mbaise,NA
+Yellow Fever Coverage,2023,32.2,Imo,Ideato North,NA
+Yellow Fever Coverage,2023,40.6,Imo,Ideato South,NA
+Yellow Fever Coverage,2023,80.3,Imo,Ihitte/Uboma,NA
+Yellow Fever Coverage,2023,74.3,Imo,Ikeduru,NA
+Yellow Fever Coverage,2023,81.4,Imo,Isiala Mbano,NA
+Yellow Fever Coverage,2023,31.3,Imo,Isu,NA
+Yellow Fever Coverage,2023,53.3,Imo,Mbaitoli,NA
+Yellow Fever Coverage,2023,39.6,Imo,Ngor-Okpala,NA
+Yellow Fever Coverage,2023,50.6,Imo,Njaba,NA
+Yellow Fever Coverage,2023,45.3,Imo,Nkwerre,NA
+Yellow Fever Coverage,2023,42,Imo,Nwangele,NA
+Yellow Fever Coverage,2023,110.5,Imo,Obowo,NA
+Yellow Fever Coverage,2023,68.5,Imo,Oguta,NA
+Yellow Fever Coverage,2023,38.7,Imo,Ohaji/Egbema,NA
+Yellow Fever Coverage,2023,42.4,Imo,Okigwe,NA
+Yellow Fever Coverage,2023,91.8,Imo,Onuimo,NA
+Yellow Fever Coverage,2023,60.7,Imo,Orlu,NA
+Yellow Fever Coverage,2023,17.3,Imo,Orsu,NA
+Yellow Fever Coverage,2023,57,Imo,Oru East,NA
+Yellow Fever Coverage,2023,48.8,Imo,Oru West,NA
+Yellow Fever Coverage,2023,95.2,Imo,Owerri Municipal,NA
+Yellow Fever Coverage,2023,65.4,Imo,Owerri North,NA
+Yellow Fever Coverage,2023,75.5,Imo,Owerri West,NA
+Yellow Fever Coverage,2023,92.1,Jigawa,Auyo,NA
+Yellow Fever Coverage,2023,98.2,Jigawa,Babura,NA
+Yellow Fever Coverage,2023,82.4,Jigawa,Birnin Kudu,NA
+Yellow Fever Coverage,2023,81.4,Jigawa,Birniwa,NA
+Yellow Fever Coverage,2023,95.7,Jigawa,Buji,NA
+Yellow Fever Coverage,2023,103.1,Jigawa,Dutse,NA
+Yellow Fever Coverage,2023,107.3,Jigawa,Gagarawa,NA
+Yellow Fever Coverage,2023,98.5,Jigawa,Garki,NA
+Yellow Fever Coverage,2023,74.1,Jigawa,Gumel,NA
+Yellow Fever Coverage,2023,79.3,Jigawa,Guri,NA
+Yellow Fever Coverage,2023,89.4,Jigawa,Gwaram,NA
+Yellow Fever Coverage,2023,78.5,Jigawa,Gwiwa,NA
+Yellow Fever Coverage,2023,90.2,Jigawa,Hadejia,NA
+Yellow Fever Coverage,2023,82.3,Jigawa,Jahun,NA
+Yellow Fever Coverage,2023,81.1,Jigawa,Kafin Hausa,NA
+Yellow Fever Coverage,2023,101.8,Jigawa,Kaugama,NA
+Yellow Fever Coverage,2023,72.5,Jigawa,Kazaure,NA
+Yellow Fever Coverage,2023,69.6,Jigawa,Kiri Kasamma,NA
+Yellow Fever Coverage,2023,135.7,Jigawa,Kiyawa,NA
+Yellow Fever Coverage,2023,97.4,Jigawa,Maigatari,NA
+Yellow Fever Coverage,2023,80.2,Jigawa,Malam Madori,NA
+Yellow Fever Coverage,2023,96.8,Jigawa,Miga,NA
+Yellow Fever Coverage,2023,104.1,Jigawa,Ringim,NA
+Yellow Fever Coverage,2023,102.1,Jigawa,Roni,NA
+Yellow Fever Coverage,2023,99,Jigawa,Sule-Tankarkar,NA
+Yellow Fever Coverage,2023,95.6,Jigawa,Taura,NA
+Yellow Fever Coverage,2023,81.8,Jigawa,Yankwashi,NA
+Yellow Fever Coverage,2023,132,Kaduna,Birnin Gwari,NA
+Yellow Fever Coverage,2023,69.5,Kaduna,Chikun,NA
+Yellow Fever Coverage,2023,127.2,Kaduna,Giwa,NA
+Yellow Fever Coverage,2023,104.6,Kaduna,Igabi,NA
+Yellow Fever Coverage,2023,107.2,Kaduna,Ikara,NA
+Yellow Fever Coverage,2023,64.7,Kaduna,Jaba,NA
+Yellow Fever Coverage,2023,43.8,Kaduna,Jema'a,NA
+Yellow Fever Coverage,2023,54.8,Kaduna,Kachia,NA
+Yellow Fever Coverage,2023,44.5,Kaduna,Kaduna North,NA
+Yellow Fever Coverage,2023,42.1,Kaduna,Kaduna South,NA
+Yellow Fever Coverage,2023,55.6,Kaduna,Kagarko,NA
+Yellow Fever Coverage,2023,142.1,Kaduna,Kajuru,NA
+Yellow Fever Coverage,2023,66.4,Kaduna,Kaura,NA
+Yellow Fever Coverage,2023,99.5,Kaduna,Kauru,NA
+Yellow Fever Coverage,2023,171.6,Kaduna,Kubau,NA
+Yellow Fever Coverage,2023,82.7,Kaduna,Kudan,NA
+Yellow Fever Coverage,2023,152.6,Kaduna,Lere,NA
+Yellow Fever Coverage,2023,120.2,Kaduna,Makarfi,NA
+Yellow Fever Coverage,2023,123,Kaduna,Sabon Gari,NA
+Yellow Fever Coverage,2023,77.2,Kaduna,Sanga,NA
+Yellow Fever Coverage,2023,108.6,Kaduna,Soba,NA
+Yellow Fever Coverage,2023,72.5,Kaduna,Zangon Kataf,NA
+Yellow Fever Coverage,2023,77.4,Kaduna,Zaria,NA
+Yellow Fever Coverage,2023,113.9,Kebbi,Aleiro,NA
+Yellow Fever Coverage,2023,64.6,Kebbi,Arewa,NA
+Yellow Fever Coverage,2023,84.8,Kebbi,Argungu,NA
+Yellow Fever Coverage,2023,93.4,Kebbi,Augie,NA
+Yellow Fever Coverage,2023,81.7,Kebbi,Bagudo,NA
+Yellow Fever Coverage,2023,90.5,Kebbi,Birnin Kebbi,NA
+Yellow Fever Coverage,2023,105.5,Kebbi,Bunza,NA
+Yellow Fever Coverage,2023,76.1,Kebbi,Dandi,NA
+Yellow Fever Coverage,2023,223.4,Kebbi,Danko/Wasagu,NA
+Yellow Fever Coverage,2023,67.9,Kebbi,Fakai,NA
+Yellow Fever Coverage,2023,90.4,Kebbi,Gwandu,NA
+Yellow Fever Coverage,2023,172,Kebbi,Jega,NA
+Yellow Fever Coverage,2023,55.4,Kebbi,Kalgo,NA
+Yellow Fever Coverage,2023,101.5,Kebbi,Koko/Besse,NA
+Yellow Fever Coverage,2023,151.3,Kebbi,Maiyama,NA
+Yellow Fever Coverage,2023,124.6,Kebbi,Ngaski,NA
+Yellow Fever Coverage,2023,64.1,Kebbi,Sakaba,NA
+Yellow Fever Coverage,2023,97.8,Kebbi,Shanga,NA
+Yellow Fever Coverage,2023,31.4,Kebbi,Suru,NA
+Yellow Fever Coverage,2023,85,Kebbi,Yauri,NA
+Yellow Fever Coverage,2023,96.2,Kebbi,Zuru,NA
+Yellow Fever Coverage,2023,65.9,Kano,Ajingi,NA
+Yellow Fever Coverage,2023,82.1,Kano,Albasu,NA
+Yellow Fever Coverage,2023,61,Kano,Bagwai,NA
+Yellow Fever Coverage,2023,69.3,Kano,Bebeji,NA
+Yellow Fever Coverage,2023,60.2,Kano,Bichi,NA
+Yellow Fever Coverage,2023,75.8,Kano,Bunkure,NA
+Yellow Fever Coverage,2023,60.8,Kano,Dala,NA
+Yellow Fever Coverage,2023,65.7,Kano,Danbatta,NA
+Yellow Fever Coverage,2023,80.6,Kano,Dawakin Kudu,NA
+Yellow Fever Coverage,2023,61,Kano,Dawakin Tofa,NA
+Yellow Fever Coverage,2023,80.4,Kano,Doguwa,NA
+Yellow Fever Coverage,2023,60.8,Kano,Fagge,NA
+Yellow Fever Coverage,2023,65.9,Kano,Gabasawa,NA
+Yellow Fever Coverage,2023,64.7,Kano,Garko,NA
+Yellow Fever Coverage,2023,61.9,Kano,Garum Mallam,NA
+Yellow Fever Coverage,2023,80.1,Kano,Gaya,NA
+Yellow Fever Coverage,2023,64.2,Kano,Gezawa,NA
+Yellow Fever Coverage,2023,70.8,Kano,Gwale,NA
+Yellow Fever Coverage,2023,85.2,Kano,Gwarzo,NA
+Yellow Fever Coverage,2023,62.7,Kano,Kabo,NA
+Yellow Fever Coverage,2023,54.6,Kano,Kano Municipal,NA
+Yellow Fever Coverage,2023,61.2,Kano,Karaye,NA
+Yellow Fever Coverage,2023,66.9,Kano,Kibiya,NA
+Yellow Fever Coverage,2023,83.4,Kano,Kiru,NA
+Yellow Fever Coverage,2023,89.5,Kano,Kumbotso,NA
+Yellow Fever Coverage,2023,64.1,Kano,Kunchi,NA
+Yellow Fever Coverage,2023,77.8,Kano,Kura,NA
+Yellow Fever Coverage,2023,75.4,Kano,Madobi,NA
+Yellow Fever Coverage,2023,62.6,Kano,Makoda,NA
+Yellow Fever Coverage,2023,58.6,Kano,Minjibir,NA
+Yellow Fever Coverage,2023,86.5,Kano,Nasarawa,NA
+Yellow Fever Coverage,2023,73.2,Kano,Rano,NA
+Yellow Fever Coverage,2023,59.3,Kano,Rimin Gado,NA
+Yellow Fever Coverage,2023,66.8,Kano,Rogo,NA
+Yellow Fever Coverage,2023,73,Kano,Shanono,NA
+Yellow Fever Coverage,2023,76.4,Kano,Sumaila,NA
+Yellow Fever Coverage,2023,84.8,Kano,Takai,NA
+Yellow Fever Coverage,2023,70,Kano,Tarauni,NA
+Yellow Fever Coverage,2023,68.1,Kano,Tofa,NA
+Yellow Fever Coverage,2023,69,Kano,Tsanyawa,NA
+Yellow Fever Coverage,2023,73.4,Kano,Tudun Wada,NA
+Yellow Fever Coverage,2023,80.1,Kano,Ungogo,NA
+Yellow Fever Coverage,2023,69.3,Kano,Warawa,NA
+Yellow Fever Coverage,2023,77.5,Kano,Wudil,NA
+Yellow Fever Coverage,2023,77.1,Kogi,Adavi,NA
+Yellow Fever Coverage,2023,55.5,Kogi,Ajaokuta,NA
+Yellow Fever Coverage,2023,47.4,Kogi,Ankpa,NA
+Yellow Fever Coverage,2023,42.3,Kogi,Bassa,NA
+Yellow Fever Coverage,2023,64,Kogi,Dekina,NA
+Yellow Fever Coverage,2023,51.9,Kogi,Ibaji,NA
+Yellow Fever Coverage,2023,157.1,Kogi,Idah,NA
+Yellow Fever Coverage,2023,77.1,Kogi,Igalamela-Odolu,NA
+Yellow Fever Coverage,2023,75.2,Kogi,Ijumu,NA
+Yellow Fever Coverage,2023,74.7,Kogi,Kabba/Bunu,NA
+Yellow Fever Coverage,2023,38.9,Kogi,Kogi,NA
+Yellow Fever Coverage,2023,51.6,Kogi,Lokoja,NA
+Yellow Fever Coverage,2023,97.5,Kogi,Mopa-Muro,NA
+Yellow Fever Coverage,2023,47.5,Kogi,Ofu,NA
+Yellow Fever Coverage,2023,60.1,Kogi,Ogori/Magongo,NA
+Yellow Fever Coverage,2023,89.8,Kogi,Okehi,NA
+Yellow Fever Coverage,2023,75.7,Kogi,Okene,NA
+Yellow Fever Coverage,2023,38,Kogi,Olamaboro,NA
+Yellow Fever Coverage,2023,91,Kogi,Omala,NA
+Yellow Fever Coverage,2023,80,Kogi,Yagba East,NA
+Yellow Fever Coverage,2023,79.9,Kogi,Yagba West,NA
+Yellow Fever Coverage,2023,150.1,Katsina,Bakori,NA
+Yellow Fever Coverage,2023,90.6,Katsina,Batagarawa,NA
+Yellow Fever Coverage,2023,87.9,Katsina,Batsari,NA
+Yellow Fever Coverage,2023,77.8,Katsina,Baure,NA
+Yellow Fever Coverage,2023,73,Katsina,Bindawa,NA
+Yellow Fever Coverage,2023,83.9,Katsina,Charanchi,NA
+Yellow Fever Coverage,2023,71.2,Katsina,Dan Musa,NA
+Yellow Fever Coverage,2023,136.6,Katsina,Dandume,NA
+Yellow Fever Coverage,2023,141.5,Katsina,Danja,NA
+Yellow Fever Coverage,2023,48.1,Katsina,Daura,NA
+Yellow Fever Coverage,2023,62.3,Katsina,Dutsi,NA
+Yellow Fever Coverage,2023,127.1,Katsina,Dutsin-Ma,NA
+Yellow Fever Coverage,2023,71.7,Katsina,Faskari,NA
+Yellow Fever Coverage,2023,113.1,Katsina,Funtua,NA
+Yellow Fever Coverage,2023,63.8,Katsina,Ingawa,NA
+Yellow Fever Coverage,2023,70.9,Katsina,Jibia,NA
+Yellow Fever Coverage,2023,99.9,Katsina,Kafur,NA
+Yellow Fever Coverage,2023,96.8,Katsina,Kaita,NA
+Yellow Fever Coverage,2023,80.6,Katsina,Kankara,NA
+Yellow Fever Coverage,2023,81,Katsina,Kankia,NA
+Yellow Fever Coverage,2023,85.5,Katsina,Katsina,NA
+Yellow Fever Coverage,2023,71,Katsina,Kurfi,NA
+Yellow Fever Coverage,2023,86.8,Katsina,Kusada,NA
+Yellow Fever Coverage,2023,53,Katsina,Mai'Adua,NA
+Yellow Fever Coverage,2023,107,Katsina,Malumfashi,NA
+Yellow Fever Coverage,2023,76.2,Katsina,Mani,NA
+Yellow Fever Coverage,2023,83.7,Katsina,Mashi,NA
+Yellow Fever Coverage,2023,96.6,Katsina,Matazu,NA
+Yellow Fever Coverage,2023,70.4,Katsina,Musawa,NA
+Yellow Fever Coverage,2023,116.6,Katsina,Rimi,NA
+Yellow Fever Coverage,2023,70.1,Katsina,Sabuwa,NA
+Yellow Fever Coverage,2023,97.2,Katsina,Safana,NA
+Yellow Fever Coverage,2023,62.3,Katsina,Sandamu,NA
+Yellow Fever Coverage,2023,48.9,Katsina,Zango,NA
+Yellow Fever Coverage,2023,75.6,Kwara,Asa,NA
+Yellow Fever Coverage,2023,61.6,Kwara,Baruten,NA
+Yellow Fever Coverage,2023,57.5,Kwara,Edu,NA
+Yellow Fever Coverage,2023,77.9,Kwara,Ekiti,NA
+Yellow Fever Coverage,2023,56,Kwara,Ifelodun,NA
+Yellow Fever Coverage,2023,45.2,Kwara,Ilorin East,NA
+Yellow Fever Coverage,2023,84.5,Kwara,Ilorin South,NA
+Yellow Fever Coverage,2023,64.4,Kwara,Ilorin West,NA
+Yellow Fever Coverage,2023,74.7,Kwara,Irepodun,NA
+Yellow Fever Coverage,2023,57.1,Kwara,Isin,NA
+Yellow Fever Coverage,2023,74.4,Kwara,Kaiama,NA
+Yellow Fever Coverage,2023,76.1,Kwara,Moro,NA
+Yellow Fever Coverage,2023,66.1,Kwara,Offa,NA
+Yellow Fever Coverage,2023,54.1,Kwara,Oke-Ero,NA
+Yellow Fever Coverage,2023,82.2,Kwara,Oyun,NA
+Yellow Fever Coverage,2023,47.2,Kwara,Pategi,NA
+Yellow Fever Coverage,2023,60.2,Lagos,Agege,NA
+Yellow Fever Coverage,2023,79.4,Lagos,Ajeromi/Ifelodun,NA
+Yellow Fever Coverage,2023,66.1,Lagos,Alimosho,NA
+Yellow Fever Coverage,2023,76.1,Lagos,Amuwo Odofin,NA
+Yellow Fever Coverage,2023,61.1,Lagos,Apapa,NA
+Yellow Fever Coverage,2023,73.3,Lagos,Badagry,NA
+Yellow Fever Coverage,2023,79.1,Lagos,Epe,NA
+Yellow Fever Coverage,2023,80.4,Lagos,Eti-Osa,NA
+Yellow Fever Coverage,2023,108.5,Lagos,Ibeju/Lekki,NA
+Yellow Fever Coverage,2023,72.8,Lagos,Ifako/Ijaye,NA
+Yellow Fever Coverage,2023,78.9,Lagos,Ikeja,NA
+Yellow Fever Coverage,2023,86.6,Lagos,Ikorodu,NA
+Yellow Fever Coverage,2023,57,Lagos,Kosofe,NA
+Yellow Fever Coverage,2023,62.4,Lagos,Lagos Island,NA
+Yellow Fever Coverage,2023,48.6,Lagos,Lagos Mainland,NA
+Yellow Fever Coverage,2023,68.1,Lagos,Mushin,NA
+Yellow Fever Coverage,2023,67.1,Lagos,Ojo,NA
+Yellow Fever Coverage,2023,78.4,Lagos,Oshodi/Isolo,NA
+Yellow Fever Coverage,2023,69,Lagos,Shomolu,NA
+Yellow Fever Coverage,2023,61.7,Lagos,Surulere,NA
+Yellow Fever Coverage,2023,56,Nasarawa,Akwanga,NA
+Yellow Fever Coverage,2023,92.9,Nasarawa,Awe,NA
+Yellow Fever Coverage,2023,67.7,Nasarawa,Doma,NA
+Yellow Fever Coverage,2023,149.5,Nasarawa,Karu,NA
+Yellow Fever Coverage,2023,67.2,Nasarawa,Keana,NA
+Yellow Fever Coverage,2023,91.7,Nasarawa,Keffi,NA
+Yellow Fever Coverage,2023,73.7,Nasarawa,Kokona,NA
+Yellow Fever Coverage,2023,94.8,Nasarawa,Lafia,NA
+Yellow Fever Coverage,2023,88,Nasarawa,Nasarawa Eggon,NA
+Yellow Fever Coverage,2023,81.7,Nasarawa,Nasarawa,NA
+Yellow Fever Coverage,2023,116.1,Nasarawa,Obi,NA
+Yellow Fever Coverage,2023,65.8,Nasarawa,Toto,NA
+Yellow Fever Coverage,2023,75.6,Nasarawa,Wamba,NA
+Yellow Fever Coverage,2023,129,Niger,Agaie,NA
+Yellow Fever Coverage,2023,213.9,Niger,Agwara,NA
+Yellow Fever Coverage,2023,89,Niger,Bida,NA
+Yellow Fever Coverage,2023,144.1,Niger,Borgu,NA
+Yellow Fever Coverage,2023,96.7,Niger,Bosso,NA
+Yellow Fever Coverage,2023,65.4,Niger,Chanchaga,NA
+Yellow Fever Coverage,2023,93.1,Niger,Edati,NA
+Yellow Fever Coverage,2023,120.3,Niger,Gbako,NA
+Yellow Fever Coverage,2023,92.1,Niger,Gurara,NA
+Yellow Fever Coverage,2023,128.2,Niger,Katcha,NA
+Yellow Fever Coverage,2023,102,Niger,Kontagora,NA
+Yellow Fever Coverage,2023,127.4,Niger,Lapai,NA
+Yellow Fever Coverage,2023,109,Niger,Lavun,NA
+Yellow Fever Coverage,2023,67.4,Niger,Magama,NA
+Yellow Fever Coverage,2023,94.1,Niger,Mariga,NA
+Yellow Fever Coverage,2023,78.6,Niger,Mashegu,NA
+Yellow Fever Coverage,2023,104.3,Niger,Mokwa,NA
+Yellow Fever Coverage,2023,91.9,Niger,Muya,NA
+Yellow Fever Coverage,2023,65.9,Niger,Paikoro,NA
+Yellow Fever Coverage,2023,64,Niger,Rafi,NA
+Yellow Fever Coverage,2023,110,Niger,Rijau,NA
+Yellow Fever Coverage,2023,80.8,Niger,Shiroro,NA
+Yellow Fever Coverage,2023,62.2,Niger,Suleja,NA
+Yellow Fever Coverage,2023,125.4,Niger,Tafa,NA
+Yellow Fever Coverage,2023,61.5,Niger,Wushishi,NA
+Yellow Fever Coverage,2023,74.3,Ogun,Abeokuta North,NA
+Yellow Fever Coverage,2023,61.2,Ogun,Abeokuta South,NA
+Yellow Fever Coverage,2023,78.9,Ogun,Ado Odo/Ota,NA
+Yellow Fever Coverage,2023,88.7,Ogun,Ewekoro,NA
+Yellow Fever Coverage,2023,61.3,Ogun,Ifo,NA
+Yellow Fever Coverage,2023,68.8,Ogun,Ijebu East,NA
+Yellow Fever Coverage,2023,22.3,Ogun,Ijebu North East,NA
+Yellow Fever Coverage,2023,355.3,Ogun,Ijebu North,NA
+Yellow Fever Coverage,2023,105.4,Ogun,Ijebu Ode,NA
+Yellow Fever Coverage,2023,97.5,Ogun,Ikenne,NA
+Yellow Fever Coverage,2023,91.6,Ogun,Imeko Afon,NA
+Yellow Fever Coverage,2023,67.2,Ogun,Ipokia,NA
+Yellow Fever Coverage,2023,56.2,Ogun,Obafemi Owode,NA
+Yellow Fever Coverage,2023,84.4,Ogun,Odeda,NA
+Yellow Fever Coverage,2023,82.4,Ogun,Odogbolu,NA
+Yellow Fever Coverage,2023,70.8,Ogun,Ogun Waterside,NA
+Yellow Fever Coverage,2023,92.3,Ogun,Remo North,NA
+Yellow Fever Coverage,2023,75.4,Ogun,Sagamu,NA
+Yellow Fever Coverage,2023,73.4,Ogun,Yewa North,NA
+Yellow Fever Coverage,2023,73.6,Ogun,Yewa South,NA
+Yellow Fever Coverage,2023,49.5,Ondo,Akoko North East,NA
+Yellow Fever Coverage,2023,64.9,Ondo,Akoko North West,NA
+Yellow Fever Coverage,2023,61.6,Ondo,Akoko South East,NA
+Yellow Fever Coverage,2023,40.3,Ondo,Akoko South West,NA
+Yellow Fever Coverage,2023,116.7,Ondo,Akure North,NA
+Yellow Fever Coverage,2023,112.8,Ondo,Akure South,NA
+Yellow Fever Coverage,2023,79.1,Ondo,Ese Odo,NA
+Yellow Fever Coverage,2023,71.4,Ondo,Idanre,NA
+Yellow Fever Coverage,2023,18,Ondo,Ifedore,NA
+Yellow Fever Coverage,2023,85.6,Ondo,Ilaje,NA
+Yellow Fever Coverage,2023,77.6,Ondo,Ile-Oluji/Okeigbo,NA
+Yellow Fever Coverage,2023,94.3,Ondo,Irele,NA
+Yellow Fever Coverage,2023,155.4,Ondo,Odigbo,NA
+Yellow Fever Coverage,2023,102.6,Ondo,Okitipupa,NA
+Yellow Fever Coverage,2023,76.6,Ondo,Ondo East,NA
+Yellow Fever Coverage,2023,71.9,Ondo,Ondo West,NA
+Yellow Fever Coverage,2023,39.2,Ondo,Ose,NA
+Yellow Fever Coverage,2023,46.7,Ondo,Owo,NA
+Yellow Fever Coverage,2023,27.3,Osun,Atakumosa East,NA
+Yellow Fever Coverage,2023,53.9,Osun,Atakumosa West,NA
+Yellow Fever Coverage,2023,58.9,Osun,Ayedaade,NA
+Yellow Fever Coverage,2023,34.8,Osun,Ayedire,NA
+Yellow Fever Coverage,2023,43.3,Osun,Boluwaduro,NA
+Yellow Fever Coverage,2023,78.6,Osun,Boripe,NA
+Yellow Fever Coverage,2023,50.2,Osun,Ede North,NA
+Yellow Fever Coverage,2023,54.1,Osun,Ede South,NA
+Yellow Fever Coverage,2023,53.5,Osun,Egbedore,NA
+Yellow Fever Coverage,2023,40.8,Osun,Ejigbo,NA
+Yellow Fever Coverage,2023,33.1,Osun,Ife Central,NA
+Yellow Fever Coverage,2023,59.9,Osun,Ife East,NA
+Yellow Fever Coverage,2023,72.7,Osun,Ife North,NA
+Yellow Fever Coverage,2023,49.6,Osun,Ife South,NA
+Yellow Fever Coverage,2023,66,Osun,Ifedayo,NA
+Yellow Fever Coverage,2023,54.4,Osun,Ifelodun,NA
+Yellow Fever Coverage,2023,67.9,Osun,Ila,NA
+Yellow Fever Coverage,2023,38.2,Osun,Ilesa East,NA
+Yellow Fever Coverage,2023,54.6,Osun,Ilesa West,NA
+Yellow Fever Coverage,2023,37.2,Osun,Irepodun,NA
+Yellow Fever Coverage,2023,42.1,Osun,Irewole,NA
+Yellow Fever Coverage,2023,26.8,Osun,Isokan,NA
+Yellow Fever Coverage,2023,53.3,Osun,Iwo,NA
+Yellow Fever Coverage,2023,53,Osun,Obokun,NA
+Yellow Fever Coverage,2023,35.2,Osun,Odo Otin,NA
+Yellow Fever Coverage,2023,28.2,Osun,Ola-Oluwa,NA
+Yellow Fever Coverage,2023,44.1,Osun,Olorunda,NA
+Yellow Fever Coverage,2023,24.5,Osun,Oriade,NA
+Yellow Fever Coverage,2023,44.9,Osun,Orolu,NA
+Yellow Fever Coverage,2023,55.3,Osun,Osogbo,NA
+Yellow Fever Coverage,2023,72.2,Oyo,Afijio,NA
+Yellow Fever Coverage,2023,98.7,Oyo,Akinyele,NA
+Yellow Fever Coverage,2023,64,Oyo,Atiba,NA
+Yellow Fever Coverage,2023,61.4,Oyo,Atisbo,NA
+Yellow Fever Coverage,2023,76.4,Oyo,Egbeda,NA
+Yellow Fever Coverage,2023,58.3,Oyo,Ibadan North East,NA
+Yellow Fever Coverage,2023,39.6,Oyo,Ibadan North,NA
+Yellow Fever Coverage,2023,59,Oyo,Ibadan North West,NA
+Yellow Fever Coverage,2023,62.7,Oyo,Ibadan South East,NA
+Yellow Fever Coverage,2023,75.2,Oyo,Ibadan South West,NA
+Yellow Fever Coverage,2023,30.5,Oyo,Ibarapa Central,NA
+Yellow Fever Coverage,2023,58.2,Oyo,Ibarapa East,NA
+Yellow Fever Coverage,2023,45.8,Oyo,Ibarapa North,NA
+Yellow Fever Coverage,2023,96.9,Oyo,Ido,NA
+Yellow Fever Coverage,2023,91.3,Oyo,Irepo,NA
+Yellow Fever Coverage,2023,43.4,Oyo,Iseyin,NA
+Yellow Fever Coverage,2023,79.7,Oyo,Itesiwaju,NA
+Yellow Fever Coverage,2023,86.2,Oyo,Iwajowa,NA
+Yellow Fever Coverage,2023,46.4,Oyo,Kajola,NA
+Yellow Fever Coverage,2023,55.6,Oyo,Lagelu,NA
+Yellow Fever Coverage,2023,79.8,Oyo,Ogbomosho North,NA
+Yellow Fever Coverage,2023,59.7,Oyo,Ogbomosho South,NA
+Yellow Fever Coverage,2023,74,Oyo,Ogo Oluwa,NA
+Yellow Fever Coverage,2023,75.9,Oyo,Olorunsogo,NA
+Yellow Fever Coverage,2023,78.3,Oyo,Oluyole,NA
+Yellow Fever Coverage,2023,54.2,Oyo,Ona Ara,NA
+Yellow Fever Coverage,2023,81.3,Oyo,Orelope,NA
+Yellow Fever Coverage,2023,79.4,Oyo,Ori Ire,NA
+Yellow Fever Coverage,2023,90,Oyo,Oyo East,NA
+Yellow Fever Coverage,2023,78.1,Oyo,Oyo West,NA
+Yellow Fever Coverage,2023,81.5,Oyo,Saki East,NA
+Yellow Fever Coverage,2023,53.5,Oyo,Saki West,NA
+Yellow Fever Coverage,2023,53.3,Oyo,Surulere,NA
+Yellow Fever Coverage,2023,60.6,Plateau,Barkin Ladi,NA
+Yellow Fever Coverage,2023,57.8,Plateau,Bassa,NA
+Yellow Fever Coverage,2023,38.3,Plateau,Bokkos,NA
+Yellow Fever Coverage,2023,43.9,Plateau,Jos East,NA
+Yellow Fever Coverage,2023,54.7,Plateau,Jos North,NA
+Yellow Fever Coverage,2023,50.5,Plateau,Jos South,NA
+Yellow Fever Coverage,2023,83.5,Plateau,Kanam,NA
+Yellow Fever Coverage,2023,30.9,Plateau,Kanke,NA
+Yellow Fever Coverage,2023,36.4,Plateau,Langtang North,NA
+Yellow Fever Coverage,2023,40.7,Plateau,Langtang South,NA
+Yellow Fever Coverage,2023,44.4,Plateau,Mangu,NA
+Yellow Fever Coverage,2023,31.8,Plateau,Mikang,NA
+Yellow Fever Coverage,2023,35.7,Plateau,Pankshin,NA
+Yellow Fever Coverage,2023,61.3,Plateau,Qua'an Pan,NA
+Yellow Fever Coverage,2023,43.1,Plateau,Riyom,NA
+Yellow Fever Coverage,2023,54.3,Plateau,Shendam,NA
+Yellow Fever Coverage,2023,55.2,Plateau,Wase,NA
+Yellow Fever Coverage,2023,55.4,Rivers,Abua/Odual,NA
+Yellow Fever Coverage,2023,77.9,Rivers,Ahoada East,NA
+Yellow Fever Coverage,2023,49.8,Rivers,Ahoada West,NA
+Yellow Fever Coverage,2023,55.8,Rivers,Akuku Toru,NA
+Yellow Fever Coverage,2023,55.1,Rivers,Andoni,NA
+Yellow Fever Coverage,2023,67.8,Rivers,Asari-Toru,NA
+Yellow Fever Coverage,2023,50.7,Rivers,Bonny,NA
+Yellow Fever Coverage,2023,33.6,Rivers,Degema,NA
+Yellow Fever Coverage,2023,43.9,Rivers,Eleme,NA
+Yellow Fever Coverage,2023,48.2,Rivers,Emohua,NA
+Yellow Fever Coverage,2023,71.2,Rivers,Etche,NA
+Yellow Fever Coverage,2023,81.6,Rivers,Gokana,NA
+Yellow Fever Coverage,2023,57.1,Rivers,Ikwerre,NA
+Yellow Fever Coverage,2023,83.4,Rivers,Khana,NA
+Yellow Fever Coverage,2023,86.9,Rivers,Obio/Akpor,NA
+Yellow Fever Coverage,2023,82.4,Rivers,Ogba/Egbema/Ndoni,NA
+Yellow Fever Coverage,2023,79.2,Rivers,Ogu/Bolo,NA
+Yellow Fever Coverage,2023,63.1,Rivers,Okrika,NA
+Yellow Fever Coverage,2023,90.2,Rivers,Omumma,NA
+Yellow Fever Coverage,2023,80.1,Rivers,Opobo/Nkoro,NA
+Yellow Fever Coverage,2023,81.7,Rivers,Oyigbo,NA
+Yellow Fever Coverage,2023,55,Rivers,Port-Harcourt,NA
+Yellow Fever Coverage,2023,95.5,Rivers,Tai,NA
+Yellow Fever Coverage,2023,42.6,Sokoto,Binji,NA
+Yellow Fever Coverage,2023,52.9,Sokoto,Bodinga,NA
+Yellow Fever Coverage,2023,54.3,Sokoto,Dange-Shuni,NA
+Yellow Fever Coverage,2023,70.9,Sokoto,Gada,NA
+Yellow Fever Coverage,2023,68.1,Sokoto,Goronyo,NA
+Yellow Fever Coverage,2023,61.3,Sokoto,Gudu,NA
+Yellow Fever Coverage,2023,46.2,Sokoto,Gwadabawa,NA
+Yellow Fever Coverage,2023,66.8,Sokoto,Illela,NA
+Yellow Fever Coverage,2023,68.8,Sokoto,Isa,NA
+Yellow Fever Coverage,2023,55.6,Sokoto,Kebbe,NA
+Yellow Fever Coverage,2023,81.4,Sokoto,Kware,NA
+Yellow Fever Coverage,2023,97.6,Sokoto,Rabah,NA
+Yellow Fever Coverage,2023,98.6,Sokoto,Sabon Birni,NA
+Yellow Fever Coverage,2023,42.8,Sokoto,Shagari,NA
+Yellow Fever Coverage,2023,47.2,Sokoto,Silame,NA
+Yellow Fever Coverage,2023,48.6,Sokoto,Sokoto North,NA
+Yellow Fever Coverage,2023,65.7,Sokoto,Sokoto South,NA
+Yellow Fever Coverage,2023,70,Sokoto,Tambuwal,NA
+Yellow Fever Coverage,2023,72.3,Sokoto,Tangaza,NA
+Yellow Fever Coverage,2023,92.5,Sokoto,Tureta,NA
+Yellow Fever Coverage,2023,62.1,Sokoto,Wamako,NA
+Yellow Fever Coverage,2023,59.1,Sokoto,Wurno,NA
+Yellow Fever Coverage,2023,71,Sokoto,Yabo,NA
+Yellow Fever Coverage,2023,93.7,Taraba,Ardo-Kola,NA
+Yellow Fever Coverage,2023,108.5,Taraba,Bali,NA
+Yellow Fever Coverage,2023,100.3,Taraba,Donga,NA
+Yellow Fever Coverage,2023,68.6,Taraba,Gashaka,NA
+Yellow Fever Coverage,2023,107.9,Taraba,Gassol,NA
+Yellow Fever Coverage,2023,166.2,Taraba,Ibi,NA
+Yellow Fever Coverage,2023,101.3,Taraba,Jalingo,NA
+Yellow Fever Coverage,2023,85.1,Taraba,Karim-Lamido,NA
+Yellow Fever Coverage,2023,85.5,Taraba,Kurmi,NA
+Yellow Fever Coverage,2023,110.5,Taraba,Lau,NA
+Yellow Fever Coverage,2023,90.6,Taraba,Sardauna,NA
+Yellow Fever Coverage,2023,98.6,Taraba,Takum,NA
+Yellow Fever Coverage,2023,96.8,Taraba,Ussa,NA
+Yellow Fever Coverage,2023,80.8,Taraba,Wukari,NA
+Yellow Fever Coverage,2023,116.3,Taraba,Yorro,NA
+Yellow Fever Coverage,2023,93.4,Taraba,Zing,NA
+Yellow Fever Coverage,2023,78.9,Yobe,Bade,NA
+Yellow Fever Coverage,2023,87.1,Yobe,Busari,NA
+Yellow Fever Coverage,2023,100.5,Yobe,Damaturu,NA
+Yellow Fever Coverage,2023,115.9,Yobe,Fika,NA
+Yellow Fever Coverage,2023,72.9,Yobe,Fune,NA
+Yellow Fever Coverage,2023,118.6,Yobe,Geidam,NA
+Yellow Fever Coverage,2023,69.6,Yobe,Gujba,NA
+Yellow Fever Coverage,2023,107.1,Yobe,Gulani,NA
+Yellow Fever Coverage,2023,87.4,Yobe,Jakusko,NA
+Yellow Fever Coverage,2023,96.7,Yobe,Karasuwa,NA
+Yellow Fever Coverage,2023,89.6,Yobe,Machina,NA
+Yellow Fever Coverage,2023,87.1,Yobe,Nangere,NA
+Yellow Fever Coverage,2023,72.5,Yobe,Nguru,NA
+Yellow Fever Coverage,2023,116.2,Yobe,Potiskum,NA
+Yellow Fever Coverage,2023,101.9,Yobe,Tarmuwa,NA
+Yellow Fever Coverage,2023,64.8,Yobe,Yunusari,NA
+Yellow Fever Coverage,2023,108.4,Yobe,Yusufari,NA
+Yellow Fever Coverage,2023,96,Zamfara,Anka,NA
+Yellow Fever Coverage,2023,71.4,Zamfara,Bakura,NA
+Yellow Fever Coverage,2023,87.5,Zamfara,Birnin Magaji,NA
+Yellow Fever Coverage,2023,80.5,Zamfara,Bukkuyum,NA
+Yellow Fever Coverage,2023,106.3,Zamfara,Bungudu,NA
+Yellow Fever Coverage,2023,109.3,Zamfara,Gummi,NA
+Yellow Fever Coverage,2023,94.1,Zamfara,Gusau,NA
+Yellow Fever Coverage,2023,94.9,Zamfara,Kaura Namoda,NA
+Yellow Fever Coverage,2023,89.6,Zamfara,Maradun,NA
+Yellow Fever Coverage,2023,94.2,Zamfara,Maru,NA
+Yellow Fever Coverage,2023,87.9,Zamfara,Shinkafi,NA
+Yellow Fever Coverage,2023,84.1,Zamfara,Talata Mafara,NA
+Yellow Fever Coverage,2023,81.5,Zamfara,Tsafe,NA
+Yellow Fever Coverage,2023,73.7,Zamfara,Zurmi,NA

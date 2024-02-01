@@ -16,7 +16,9 @@ knitr::opts_chunk$set(
 
 ```{r setup}
 library(Dhis2WithSormas)
+library(purrr)
 library(readr)
+library(dhis2r)
 ```
 
 
@@ -30,7 +32,7 @@ library(readr)
 
 meningitis_first_year <- 2020
 
-meningitis_years <-  c(2021, 2022)
+meningitis_years <-  c(2021, 2022, 2023)
 
 months_vector <-  c("01","02","03","04","05","06","07","08", "09","10","11","12")
 
@@ -41,12 +43,23 @@ months_vector <-  c("01","02","03","04","05","06","07","08", "09","10","11","12"
 
 dw <- config::get("development_stream2")
 
-loginToDATIM(
-  base_url = dw$Dhis2_base_url,
-  username = dw$Dhis2_username,
-  username = dw$Dhis2_username,
-  password = dw$Dhis2_password
-)
+
+ dhis2_connection_small <- dhis2r::Dhis2r$new(base_url = "https://dhis2nigeria.org.ng/dhis/",
+                                      username= dw$Dhis2_username,
+                                      password= dw$Dhis2_password,
+                                      api_version_position = "after")
+ 
+ get_indicator_name <-function(id){
+   
+   dhis2_connection_small$get_analytics(analytic = id,
+                                 org_unit = "LEVEL-1",
+                                 period = "202205",
+                                  output_scheme = "NAME"
+                                 )   |> pull(analytic) |>  unique() |> as.character()
+
+   
+ }  
+
 ```
 
 
@@ -72,10 +85,7 @@ for( year in meningitis_years) {
   
 }
 
-indicator_name <-  datimutils::getAnalytics(dx =  "SruoPzzt3ES",
-                                         ou = "LEVEL-1",
-                                         pe = "2020",
-                                         return_names = T) %>% pull(Data) %>% unique()
+indicator_name <-  get_indicator_name(id = "SruoPzzt3ES")
 
 
 meningitis_coverage_annualized <- meningitis_coverage_annualized %>% mutate(Indicator =indicator_name)
@@ -104,10 +114,7 @@ for( year in meningitis_years) {
   
   meningitis_coverage_monthly <-  bind_rows(meningitis_coverage_monthly,  data_for_that_year)}
 
-indicator_name <-  datimutils::getAnalytics(dx =  "SruoPzzt3ES",
-                                         ou = "LEVEL-1",
-                                         pe = "2020",
-                                         return_names = T) %>% pull(Data) %>% unique()
+indicator_name <-  get_indicator_name(id = "SruoPzzt3ES")
 
 
 meningitis_coverage_monthly <- meningitis_coverage_monthly %>% mutate(Indicator =indicator_name)
@@ -142,15 +149,7 @@ for( year in meningitis_years) {
   
   men_A_given <-  bind_rows(men_A_given,  data_for_that_year)}
 
-
-
-indicator_name <-  datimutils::getAnalytics(dx =  "iOUKrRANJwi",
-                                         ou = "LEVEL-1",
-                                         pe = "2020",
-                                         return_names = T) %>% pull(Data) %>% unique()
-
-
-
+indicator_name <-  get_indicator_name(id = "iOUKrRANJwi")
 
 men_A_given <- men_A_given %>% mutate(Indicator =indicator_name)
 
@@ -182,10 +181,7 @@ for( year in meningitis_years) {
   
 }
 
-indicator_name <-  datimutils::getAnalytics(dx = "yH7RI3urgYi",
-                                         ou = "LEVEL-1",
-                                         pe = "2020",
-                                         return_names = T) %>% pull(Data) %>% unique()
+indicator_name <-  get_indicator_name(id = "yH7RI3urgYi")
 
 
 men_A_Received <- men_A_Received %>% mutate(Indicator =indicator_name)
@@ -221,10 +217,7 @@ for( year in meningitis_years) {
   
 }
 
-indicator_name <-  datimutils::getAnalytics(dx = "BWBsbKHaCrz",
-                                         ou = "LEVEL-1",
-                                         pe = "2020",
-                                         return_names = T) %>% pull(Data) %>% unique()
+indicator_name <-  get_indicator_name(id = "BWBsbKHaCrz")
 
 
 men_A_OB <- men_A_OB %>% mutate(Indicator =indicator_name)
@@ -261,11 +254,7 @@ for( year in meningitis_years) {
   men_A_Doses_Opened <-  bind_rows(men_A_Doses_Opened,  data_for_that_year)
   
 }
-
-indicator_name <-  datimutils::getAnalytics(dx =  "snrl5tiWGLE",
-                                         ou = "LEVEL-1",
-                                         pe = "2020",
-                                         return_names = T) %>% pull(Data) %>% unique()
+indicator_name <-  get_indicator_name(id = "snrl5tiWGLE")
 
 
 men_A_Doses_Opened <- men_A_Doses_Opened %>% mutate(Indicator =indicator_name)

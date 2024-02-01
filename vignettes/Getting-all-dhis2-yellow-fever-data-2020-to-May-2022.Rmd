@@ -18,10 +18,32 @@ knitr::opts_chunk$set(
 library(Dhis2WithSormas)
 library(purrr)
 library(readr)
-library(dplyr)
+library(dhis2r)
 ```
 
 ```{r}
+
+
+
+dw <- config::get("development_stream2")
+
+
+ dhis2_connection_small <- dhis2r::Dhis2r$new(base_url = "https://dhis2nigeria.org.ng/dhis/",
+                                      username= dw$Dhis2_username,
+                                      password= dw$Dhis2_password,
+                                      api_version_position = "after")
+ 
+ get_indicator_name <-function(id){
+   
+   dhis2_connection_small$get_analytics(analytic = id,
+                                 org_unit = "LEVEL-1",
+                                 period = "202205",
+                                  output_scheme = "NAME"
+                                 )   |> pull(analytic) |>  unique() |> as.character()
+
+   
+ }  
+
 
 # months_vector <- c("05")
 # 
@@ -30,7 +52,7 @@ library(dplyr)
 
 yf_first_year <- 2020
 
-yf_years <-  c(2021, 2022)
+yf_years <-  c(2021, 2022, 2023)
 
 months_vector <-  c("01","02","03","04","05","06","07","08", "09","10","11","12")
 
@@ -39,12 +61,6 @@ months_vector <-  c("01","02","03","04","05","06","07","08", "09","10","11","12"
 ```{r}
 
 dw <- config::get("development_stream2")
-
-loginToDATIM(
-  base_url = dw$Dhis2_base_url,
-  username = dw$Dhis2_username,
-  password = dw$Dhis2_password
-)
 ```
 
 
@@ -71,10 +87,7 @@ for( year in  yf_years) {
   
 }
 
-indicator_name <-  datimutils::getAnalytics(dx = "RtXOV3xQvWT",
-                                         ou = "LEVEL-1",
-                                         pe = "2020",
-                                         return_names = T) %>% pull(Data) %>% unique()
+indicator_name <-  get_indicator_name(id = "RtXOV3xQvWT")
 
 
 yf_coverage_annualized <- yf_coverage_annualized %>% mutate(Indicator =indicator_name)
@@ -105,10 +118,7 @@ for( year in  yf_years) {
   
 }
 
-indicator_name <-  datimutils::getAnalytics(dx = "RtXOV3xQvWT",
-                                         ou = "LEVEL-1",
-                                         pe = "2020",
-                                         return_names = T) %>% pull(Data) %>% unique()
+indicator_name <-  get_indicator_name(id = "RtXOV3xQvWT")
 
 
 yf_coverage_monthly <- yf_coverage_monthly %>% mutate(Indicator =indicator_name)
@@ -142,10 +152,7 @@ for( year in yf_years) {
   
 }
 
-indicator_name <-  datimutils::getAnalytics(dx =  "KpKx2MosfIV",
-                                         ou = "LEVEL-1",
-                                         pe = "2020",
-                                         return_names = T) %>% pull(Data) %>% unique()
+indicator_name <-  get_indicator_name(id = "KpKx2MosfIV")
 
 
 yf_Vaccine_Given <- yf_Vaccine_Given %>% mutate(Indicator =indicator_name)
@@ -179,10 +186,7 @@ for( year in yf_years) {
   
 }
 
-indicator_name <-  datimutils::getAnalytics(dx = "GkFMGCF5p4n",
-                                         ou = "LEVEL-1",
-                                         pe = "2020",
-                                         return_names = T) %>% pull(Data) %>% unique()
+indicator_name <-  get_indicator_name(id = "GkFMGCF5p4n")
 
 
 yf_Received <- yf_Received %>% mutate(Indicator =indicator_name)
@@ -217,10 +221,7 @@ for( year in yf_years) {
   
 }
 
-indicator_name <-  datimutils::getAnalytics(dx = "iKUmaZuN5l0",
-                                         ou = "LEVEL-1",
-                                         pe = "2020",
-                                         return_names = T) %>% pull(Data) %>% unique()
+indicator_name <-  get_indicator_name(id = "iKUmaZuN5l0")
 
 
 yf_OB <- yf_OB %>% mutate(Indicator =indicator_name)
@@ -255,11 +256,7 @@ for( year in yf_years) {
   
 }
 
-indicator_name <-  datimutils::getAnalytics(dx =  "OiNgd1uT2Mp",
-                                         ou = "LEVEL-1",
-                                         pe = "2020",
-                                         return_names = T) %>% pull(Data) %>% unique()
-
+indicator_name <-  get_indicator_name(id = "OiNgd1uT2Mp")
 
 yf_Doses_Opened <- yf_Doses_Opened %>% mutate(Indicator =indicator_name)
 

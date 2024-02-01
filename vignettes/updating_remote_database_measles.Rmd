@@ -35,7 +35,7 @@ connection <- DBI::dbConnect(RMariaDB::MariaDB(),
 ## Confirmed Measles cases, MCV1, MCV2 and cases
 
 ```{r}
-measles_sormas_cleaned <- sormas_cleaner("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/sormas_measles.csv")
+measles_sormas_cleaned <- sormas_cleaner("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/sormas_measles_cases_2017_2023.csv", disease = "measles")
 
 measles1_coverage_monthly <- read_csv("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/measles1_coverage_monthly.csv")
 
@@ -48,20 +48,22 @@ measles2_given <-read_csv("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis
 
 
 ```{r}
-measles_alt_denominator <- get_measles_alt_denominator(sormas_cleaned = measles_sormas_cleaned,
-                            mcv1 =measles1_coverage_monthly,
-                            mcv2 = measles2_coverage_monthly,
-                            measles1_given = measles1_given,
-                            measles2_given = measles2_given,
+
+measles_alt_denominator <- get_2_dose_alt_denominator(sormas_cleaned =  measles_sormas_cleaned,
+                            first_dose = measles1_coverage_monthly,
+                            later_dose = measles2_coverage_monthly,
+                            first_dose_given = measles1_given,
+                            later_dose_given = measles2_given,
                             denominator_data = denominator_data)
 
-#dbWriteTable(connection , name = "measles_alt_denominator", value = measles_alt_denominator %>% slice(1:2), overwrite = TRUE)
+#dbWriteTable(connection , name = "measles_alt_denominator2", value = measles_alt_denominator %>% slice(1:2), overwrite = TRUE)
 
 updated_remote_database(connection = connection,
                         dataset = bind_rows( filter(measles_alt_denominator, State == "Federal Capital Territory"),
                                              filter(measles_alt_denominator, State != "Federal Capital Territory") ),
-                        aws_datatable = "measles_alt_denominator", 
-                       starting_index = 1)
+                        aws_datatable = "measles_alt_denominator2", 
+                       starting_index = 38001)
+# we stopped on 34001
 
 ```
 
@@ -71,12 +73,14 @@ updated_remote_database(connection = connection,
 
 measles_age_group <- get_age_group(sormas_cleaned = measles_sormas_cleaned)
 
-#dbWriteTable(connection, name = "measles_age_group", value = measles_age_group %>% slice(1:2), overwrite = TRUE)
 
-updated_remote_database(dataset = bind_rows( filter(measles_age_group, State == "Federal Capital Territory"), filter(measles_age_group, State != "Federal Capital Territory") ), 
-                     
-                     aws_datatable = "measles_age_group",starting_index = 1)
+dbWriteTable(connection, name = "measles_age_group2", value = measles_age_group %>% slice(1:2), overwrite = TRUE)
 
+updated_remote_database(connection = connection,
+                        dataset = bind_rows( filter(measles_age_group, State == "Federal Capital Territory"),
+                                                 filter(measles_age_group, State != "Federal Capital Territory") ), 
+                            aws_datatable = "measles_age_group2",
+                            starting_index = 1)
 
 
 ```
@@ -85,7 +89,9 @@ updated_remote_database(dataset = bind_rows( filter(measles_age_group, State == 
 
 
 ```{r}
-measles_1_2_given <- add_measles_1_2_given(measles1_given = measles1_given,measles2_given = measles2_given)
+measles_1_2_given <- add_two_dose_antigen_given(first_dose_given = measles1_given,
+                                                second_dose_given = measles2_given,
+                                                        antigen = "Measles")
 
 measles_received <- read_csv("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/measles_Received.csv")
 
@@ -103,11 +109,11 @@ measles_stock_analysis <- get_stock_analysis(doses_given = measles_1_2_given,
                                         opening_balance = measles_opening_balance,
                                         opened_used = measles_opened_used)
 
-#dbWriteTable(connection, name = "measles_stock_analysis", value = measles_stock_analysis %>% slice(1:2), overwrite = TRUE)
+dbWriteTable(connection, name = "measles_stock_analysis2", value = measles_stock_analysis %>% slice(1:2), overwrite = TRUE)
 
-updated_remote_database(dataset = bind_rows( filter(measles_stock_analysis, State == "Federal Capital Territory"), filter(measles_stock_analysis, State != "Federal Capital Territory") ), 
+updated_remote_database(connection, dataset = bind_rows( filter(measles_stock_analysis, State == "Federal Capital Territory"), filter(measles_stock_analysis, State != "Federal Capital Territory") ), 
                      
-                     aws_datatable = "measles_stock_analysis",starting_index = 1)
+                     aws_datatable = "measles_stock_analysis2",starting_index = 26001)
 
 ```
 
@@ -116,15 +122,15 @@ updated_remote_database(dataset = bind_rows( filter(measles_stock_analysis, Stat
 
 ```{r}
 mcv1_mcv2_dropout_rate <- get_drop_out_rate(first_dose  = measles1_coverage_monthly,
-                                            second_dose =  measles2_coverage_monthly)
+                                            later_dose =  measles2_coverage_monthly)
 
-#dbWriteTable(connection, name = "mcv1_mcv2_dropout_rate", value = mcv1_mcv2_dropout_rate %>% slice(1:2), overwrite = TRUE)
+dbWriteTable(connection, name = "mcv1_mcv2_dropout_rate2", value = mcv1_mcv2_dropout_rate %>% slice(1:2), overwrite = TRUE)
 
-updated_remote_database(
+updated_remote_database(connection,
   dataset = bind_rows( filter(mcv1_mcv2_dropout_rate, State == "Federal Capital Territory"),
                        filter(mcv1_mcv2_dropout_rate, State != "Federal Capital Territory") ), 
-  aws_datatable = "mcv1_mcv2_dropout_rate",
-  starting_index = 1)
+  aws_datatable = "mcv1_mcv2_dropout_rate2",
+  starting_index = 63001)
 
 ```
 
@@ -141,14 +147,14 @@ measles_yf_discrepancy <- get_discrepancy(main_vaccine_given = measles1_given,
                                                         other_vaccine_given = yf_vaccine_given)
 
 
-#dbWriteTable(connection, name = "measles_yf_discrepancy", 
+#dbWriteTable(connection, name = "measles_yf_discrepancy2", 
  #            value = measles_yf_discrepancy %>% slice(1:2), overwrite = TRUE)
 
-updated_remote_database(
+updated_remote_database(connection,
   dataset = bind_rows( filter(measles_yf_discrepancy, State == "Federal Capital Territory"),
                        filter(measles_yf_discrepancy, State != "Federal Capital Territory") ), 
                      
-                     aws_datatable = "measles_yf_discrepancy",starting_index = 1)
+                     aws_datatable = "measles_yf_discrepancy2",starting_index = 63001)
 ```
 
 ## National MCV Coverage (%) by different sources, Nigeria (National)
@@ -184,22 +190,22 @@ measles_coverage_map <- get_coverage_map(annual_data = measles1_coverage_annuall
                  monthly_data = measles1_coverage_monthly)
 
 
-#dbWriteTable(connection, name = "measles_coverage_map", 
+#dbWriteTable(connection, name = "measles_coverage_map2", 
 #             value = measles_coverage_map %>% slice(1:2), overwrite = TRUE)
 
 updated_remote_database(connection,
   dataset = bind_rows( filter(measles_coverage_map, State == "Federal Capital Territory"),
                        filter(measles_coverage_map, State != "Federal Capital Territory") ),
-  aws_datatable = "measles_coverage_map",starting_index = 19001)
+  aws_datatable = "measles_coverage_map2",starting_index = 42000)
 
-
+## Double entered record 10000
+## start with 35000
 ```
 
 
 ```{r}
 measles_cases_map <- measles_sormas_cleaned%>%
   select("##Case ID","Disease", "Long", "Lat", "Months", "Year", "State", "LGA")
-
 
 #dbWriteTable(connection, name = "measles_cases_map", 
 #             value = measles_cases_map %>% slice(1:2), overwrite = TRUE)

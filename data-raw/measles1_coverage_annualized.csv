@@ -1,8 +1,8 @@
 Indicator,Year,Values,State,LGA,Months
-Measles 1 Dose Coverage (Annualized),2017,96.4,Anambra,State level data,NA
 Measles 1 Dose Coverage (Annualized),2017,67.7,Abia,State level data,NA
 Measles 1 Dose Coverage (Annualized),2017,110.2,Adamawa,State level data,NA
 Measles 1 Dose Coverage (Annualized),2017,78.8,Akwa-Ibom,State level data,NA
+Measles 1 Dose Coverage (Annualized),2017,96.4,Anambra,State level data,NA
 Measles 1 Dose Coverage (Annualized),2017,90.7,Bauchi,State level data,NA
 Measles 1 Dose Coverage (Annualized),2017,65.3,Benue,State level data,NA
 Measles 1 Dose Coverage (Annualized),2017,66.1,Borno,State level data,NA
@@ -209,10 +209,10 @@ Measles 1 Dose Coverage (Annualized),2017,80.2,Cross River,Akpabuyo,NA
 Measles 1 Dose Coverage (Annualized),2017,130.6,Cross River,Bakassi,NA
 Measles 1 Dose Coverage (Annualized),2017,71.8,Cross River,Bekwarra,NA
 Measles 1 Dose Coverage (Annualized),2017,82.4,Cross River,Biase,NA
-Measles 1 Dose Coverage (Annualized),2017,73,Cross River,Boki,NA
+Measles 1 Dose Coverage (Annualized),2017,73.2,Cross River,Boki,NA
 Measles 1 Dose Coverage (Annualized),2017,63.6,Cross River,Calabar Municipal,NA
 Measles 1 Dose Coverage (Annualized),2017,70.3,Cross River,Calabar South,NA
-Measles 1 Dose Coverage (Annualized),2017,89.5,Cross River,Etung,NA
+Measles 1 Dose Coverage (Annualized),2017,88.9,Cross River,Etung,NA
 Measles 1 Dose Coverage (Annualized),2017,69.4,Cross River,Ikom,NA
 Measles 1 Dose Coverage (Annualized),2017,56.9,Cross River,Obanliku,NA
 Measles 1 Dose Coverage (Annualized),2017,67.8,Cross River,Obubra,NA
@@ -540,18 +540,18 @@ Measles 1 Dose Coverage (Annualized),2017,105.7,Kwara,Offa,NA
 Measles 1 Dose Coverage (Annualized),2017,93.7,Kwara,Oke-Ero,NA
 Measles 1 Dose Coverage (Annualized),2017,69.5,Kwara,Oyun,NA
 Measles 1 Dose Coverage (Annualized),2017,63.5,Kwara,Pategi,NA
-Measles 1 Dose Coverage (Annualized),2017,65.5,Lagos,Agege,NA
+Measles 1 Dose Coverage (Annualized),2017,64.6,Lagos,Agege,NA
 Measles 1 Dose Coverage (Annualized),2017,53.5,Lagos,Ajeromi/Ifelodun,NA
 Measles 1 Dose Coverage (Annualized),2017,62.5,Lagos,Alimosho,NA
 Measles 1 Dose Coverage (Annualized),2017,54.4,Lagos,Amuwo Odofin,NA
-Measles 1 Dose Coverage (Annualized),2017,31.9,Lagos,Apapa,NA
+Measles 1 Dose Coverage (Annualized),2017,31.7,Lagos,Apapa,NA
 Measles 1 Dose Coverage (Annualized),2017,87.5,Lagos,Badagry,NA
 Measles 1 Dose Coverage (Annualized),2017,51,Lagos,Epe,NA
 Measles 1 Dose Coverage (Annualized),2017,85.4,Lagos,Eti-Osa,NA
 Measles 1 Dose Coverage (Annualized),2017,94.9,Lagos,Ibeju/Lekki,NA
-Measles 1 Dose Coverage (Annualized),2017,63.4,Lagos,Ifako/Ijaye,NA
+Measles 1 Dose Coverage (Annualized),2017,64.4,Lagos,Ifako/Ijaye,NA
 Measles 1 Dose Coverage (Annualized),2017,69.7,Lagos,Ikeja,NA
-Measles 1 Dose Coverage (Annualized),2017,97,Lagos,Ikorodu,NA
+Measles 1 Dose Coverage (Annualized),2017,97.1,Lagos,Ikorodu,NA
 Measles 1 Dose Coverage (Annualized),2017,50.5,Lagos,Kosofe,NA
 Measles 1 Dose Coverage (Annualized),2017,80.8,Lagos,Lagos Island,NA
 Measles 1 Dose Coverage (Annualized),2017,63.3,Lagos,Lagos Mainland,NA
@@ -809,10 +809,10 @@ Measles 1 Dose Coverage (Annualized),2017,93.4,Zamfara,Shinkafi,NA
 Measles 1 Dose Coverage (Annualized),2017,64.1,Zamfara,Talata Mafara,NA
 Measles 1 Dose Coverage (Annualized),2017,71.7,Zamfara,Tsafe,NA
 Measles 1 Dose Coverage (Annualized),2017,55.9,Zamfara,Zurmi,NA
-Measles 1 Dose Coverage (Annualized),2018,86.3,Anambra,State level data,NA
 Measles 1 Dose Coverage (Annualized),2018,61.9,Abia,State level data,NA
 Measles 1 Dose Coverage (Annualized),2018,87,Adamawa,State level data,NA
 Measles 1 Dose Coverage (Annualized),2018,66.4,Akwa-Ibom,State level data,NA
+Measles 1 Dose Coverage (Annualized),2018,86.3,Anambra,State level data,NA
 Measles 1 Dose Coverage (Annualized),2018,61.6,Bauchi,State level data,NA
 Measles 1 Dose Coverage (Annualized),2018,48.9,Benue,State level data,NA
 Measles 1 Dose Coverage (Annualized),2018,114.1,Borno,State level data,NA
@@ -1005,13 +1005,13 @@ Measles 1 Dose Coverage (Annualized),2018,407.3,Borno,Monguno,NA
 Measles 1 Dose Coverage (Annualized),2018,67.6,Borno,Ngala,NA
 Measles 1 Dose Coverage (Annualized),2018,38.9,Borno,Nganzai,NA
 Measles 1 Dose Coverage (Annualized),2018,254.3,Borno,Shani,NA
-Measles 1 Dose Coverage (Annualized),2018,60.6,Bayelsa,Brass,NA
+Measles 1 Dose Coverage (Annualized),2018,60.8,Bayelsa,Brass,NA
 Measles 1 Dose Coverage (Annualized),2018,56.4,Bayelsa,Ekeremor,NA
 Measles 1 Dose Coverage (Annualized),2018,35.3,Bayelsa,Kolokuma/Opokuma,NA
 Measles 1 Dose Coverage (Annualized),2018,49.4,Bayelsa,Nembe,NA
 Measles 1 Dose Coverage (Annualized),2018,46.8,Bayelsa,Ogbia,NA
 Measles 1 Dose Coverage (Annualized),2018,47.6,Bayelsa,Sagbama,NA
-Measles 1 Dose Coverage (Annualized),2018,45,Bayelsa,Southern Ijaw,NA
+Measles 1 Dose Coverage (Annualized),2018,44.9,Bayelsa,Southern Ijaw,NA
 Measles 1 Dose Coverage (Annualized),2018,65.9,Bayelsa,Yenagoa,NA
 Measles 1 Dose Coverage (Annualized),2018,117,Cross River,Abi,NA
 Measles 1 Dose Coverage (Annualized),2018,89.3,Cross River,Akamkpa,NA
@@ -1350,21 +1350,21 @@ Measles 1 Dose Coverage (Annualized),2018,85.7,Kwara,Offa,NA
 Measles 1 Dose Coverage (Annualized),2018,70.9,Kwara,Oke-Ero,NA
 Measles 1 Dose Coverage (Annualized),2018,72.5,Kwara,Oyun,NA
 Measles 1 Dose Coverage (Annualized),2018,73.1,Kwara,Pategi,NA
-Measles 1 Dose Coverage (Annualized),2018,68.6,Lagos,Agege,NA
+Measles 1 Dose Coverage (Annualized),2018,67.7,Lagos,Agege,NA
 Measles 1 Dose Coverage (Annualized),2018,59.9,Lagos,Ajeromi/Ifelodun,NA
 Measles 1 Dose Coverage (Annualized),2018,74.7,Lagos,Alimosho,NA
 Measles 1 Dose Coverage (Annualized),2018,61,Lagos,Amuwo Odofin,NA
-Measles 1 Dose Coverage (Annualized),2018,40.2,Lagos,Apapa,NA
+Measles 1 Dose Coverage (Annualized),2018,39.9,Lagos,Apapa,NA
 Measles 1 Dose Coverage (Annualized),2018,80.1,Lagos,Badagry,NA
 Measles 1 Dose Coverage (Annualized),2018,68.8,Lagos,Epe,NA
-Measles 1 Dose Coverage (Annualized),2018,85.9,Lagos,Eti-Osa,NA
+Measles 1 Dose Coverage (Annualized),2018,85.7,Lagos,Eti-Osa,NA
 Measles 1 Dose Coverage (Annualized),2018,88.3,Lagos,Ibeju/Lekki,NA
-Measles 1 Dose Coverage (Annualized),2018,64.8,Lagos,Ifako/Ijaye,NA
+Measles 1 Dose Coverage (Annualized),2018,65.8,Lagos,Ifako/Ijaye,NA
 Measles 1 Dose Coverage (Annualized),2018,75.4,Lagos,Ikeja,NA
-Measles 1 Dose Coverage (Annualized),2018,92.7,Lagos,Ikorodu,NA
+Measles 1 Dose Coverage (Annualized),2018,92.8,Lagos,Ikorodu,NA
 Measles 1 Dose Coverage (Annualized),2018,50,Lagos,Kosofe,NA
 Measles 1 Dose Coverage (Annualized),2018,75.7,Lagos,Lagos Island,NA
-Measles 1 Dose Coverage (Annualized),2018,56.9,Lagos,Lagos Mainland,NA
+Measles 1 Dose Coverage (Annualized),2018,57,Lagos,Lagos Mainland,NA
 Measles 1 Dose Coverage (Annualized),2018,64,Lagos,Mushin,NA
 Measles 1 Dose Coverage (Annualized),2018,80.4,Lagos,Ojo,NA
 Measles 1 Dose Coverage (Annualized),2018,74,Lagos,Oshodi/Isolo,NA
@@ -1619,10 +1619,10 @@ Measles 1 Dose Coverage (Annualized),2018,83.9,Zamfara,Shinkafi,NA
 Measles 1 Dose Coverage (Annualized),2018,96.4,Zamfara,Talata Mafara,NA
 Measles 1 Dose Coverage (Annualized),2018,74,Zamfara,Tsafe,NA
 Measles 1 Dose Coverage (Annualized),2018,62.3,Zamfara,Zurmi,NA
-Measles 1 Dose Coverage (Annualized),2019,71.3,Anambra,State level data,NA
 Measles 1 Dose Coverage (Annualized),2019,67.7,Abia,State level data,NA
 Measles 1 Dose Coverage (Annualized),2019,89.9,Adamawa,State level data,NA
 Measles 1 Dose Coverage (Annualized),2019,69.1,Akwa-Ibom,State level data,NA
+Measles 1 Dose Coverage (Annualized),2019,71.3,Anambra,State level data,NA
 Measles 1 Dose Coverage (Annualized),2019,62.3,Bauchi,State level data,NA
 Measles 1 Dose Coverage (Annualized),2019,68.1,Benue,State level data,NA
 Measles 1 Dose Coverage (Annualized),2019,87.1,Borno,State level data,NA
@@ -1813,13 +1813,13 @@ Measles 1 Dose Coverage (Annualized),2019,310.8,Borno,Monguno,NA
 Measles 1 Dose Coverage (Annualized),2019,54.3,Borno,Ngala,NA
 Measles 1 Dose Coverage (Annualized),2019,39,Borno,Nganzai,NA
 Measles 1 Dose Coverage (Annualized),2019,180.6,Borno,Shani,NA
-Measles 1 Dose Coverage (Annualized),2019,23.1,Bayelsa,Brass,NA
+Measles 1 Dose Coverage (Annualized),2019,23.2,Bayelsa,Brass,NA
 Measles 1 Dose Coverage (Annualized),2019,19.6,Bayelsa,Ekeremor,NA
 Measles 1 Dose Coverage (Annualized),2019,18.7,Bayelsa,Kolokuma/Opokuma,NA
 Measles 1 Dose Coverage (Annualized),2019,35.1,Bayelsa,Nembe,NA
 Measles 1 Dose Coverage (Annualized),2019,23,Bayelsa,Ogbia,NA
 Measles 1 Dose Coverage (Annualized),2019,22.9,Bayelsa,Sagbama,NA
-Measles 1 Dose Coverage (Annualized),2019,16,Bayelsa,Southern Ijaw,NA
+Measles 1 Dose Coverage (Annualized),2019,15.9,Bayelsa,Southern Ijaw,NA
 Measles 1 Dose Coverage (Annualized),2019,53.6,Bayelsa,Yenagoa,NA
 Measles 1 Dose Coverage (Annualized),2019,104.3,Cross River,Abi,NA
 Measles 1 Dose Coverage (Annualized),2019,100,Cross River,Akamkpa,NA
@@ -2158,21 +2158,21 @@ Measles 1 Dose Coverage (Annualized),2019,79.2,Kwara,Offa,NA
 Measles 1 Dose Coverage (Annualized),2019,61.7,Kwara,Oke-Ero,NA
 Measles 1 Dose Coverage (Annualized),2019,94.8,Kwara,Oyun,NA
 Measles 1 Dose Coverage (Annualized),2019,80.6,Kwara,Pategi,NA
-Measles 1 Dose Coverage (Annualized),2019,106.8,Lagos,Agege,NA
+Measles 1 Dose Coverage (Annualized),2019,105.3,Lagos,Agege,NA
 Measles 1 Dose Coverage (Annualized),2019,70.4,Lagos,Ajeromi/Ifelodun,NA
 Measles 1 Dose Coverage (Annualized),2019,45.4,Lagos,Alimosho,NA
 Measles 1 Dose Coverage (Annualized),2019,57.3,Lagos,Amuwo Odofin,NA
-Measles 1 Dose Coverage (Annualized),2019,61.2,Lagos,Apapa,NA
+Measles 1 Dose Coverage (Annualized),2019,61.1,Lagos,Apapa,NA
 Measles 1 Dose Coverage (Annualized),2019,80.6,Lagos,Badagry,NA
 Measles 1 Dose Coverage (Annualized),2019,112.3,Lagos,Epe,NA
-Measles 1 Dose Coverage (Annualized),2019,79.9,Lagos,Eti-Osa,NA
+Measles 1 Dose Coverage (Annualized),2019,79.7,Lagos,Eti-Osa,NA
 Measles 1 Dose Coverage (Annualized),2019,97.8,Lagos,Ibeju/Lekki,NA
-Measles 1 Dose Coverage (Annualized),2019,67.9,Lagos,Ifako/Ijaye,NA
+Measles 1 Dose Coverage (Annualized),2019,69.6,Lagos,Ifako/Ijaye,NA
 Measles 1 Dose Coverage (Annualized),2019,86.4,Lagos,Ikeja,NA
-Measles 1 Dose Coverage (Annualized),2019,96.8,Lagos,Ikorodu,NA
+Measles 1 Dose Coverage (Annualized),2019,96.9,Lagos,Ikorodu,NA
 Measles 1 Dose Coverage (Annualized),2019,48.1,Lagos,Kosofe,NA
 Measles 1 Dose Coverage (Annualized),2019,63.6,Lagos,Lagos Island,NA
-Measles 1 Dose Coverage (Annualized),2019,58.6,Lagos,Lagos Mainland,NA
+Measles 1 Dose Coverage (Annualized),2019,58.8,Lagos,Lagos Mainland,NA
 Measles 1 Dose Coverage (Annualized),2019,78.5,Lagos,Mushin,NA
 Measles 1 Dose Coverage (Annualized),2019,77,Lagos,Ojo,NA
 Measles 1 Dose Coverage (Annualized),2019,64.7,Lagos,Oshodi/Isolo,NA
@@ -2427,10 +2427,10 @@ Measles 1 Dose Coverage (Annualized),2019,73.3,Zamfara,Shinkafi,NA
 Measles 1 Dose Coverage (Annualized),2019,103.4,Zamfara,Talata Mafara,NA
 Measles 1 Dose Coverage (Annualized),2019,70.9,Zamfara,Tsafe,NA
 Measles 1 Dose Coverage (Annualized),2019,61.5,Zamfara,Zurmi,NA
-Measles 1 Dose Coverage (Annualized),2020,67.4,Anambra,State level data,NA
 Measles 1 Dose Coverage (Annualized),2020,52.9,Abia,State level data,NA
 Measles 1 Dose Coverage (Annualized),2020,95.1,Adamawa,State level data,NA
 Measles 1 Dose Coverage (Annualized),2020,56.1,Akwa-Ibom,State level data,NA
+Measles 1 Dose Coverage (Annualized),2020,67.4,Anambra,State level data,NA
 Measles 1 Dose Coverage (Annualized),2020,62.9,Bauchi,State level data,NA
 Measles 1 Dose Coverage (Annualized),2020,56,Benue,State level data,NA
 Measles 1 Dose Coverage (Annualized),2020,66.2,Borno,State level data,NA
@@ -2621,22 +2621,22 @@ Measles 1 Dose Coverage (Annualized),2020,230.2,Borno,Monguno,NA
 Measles 1 Dose Coverage (Annualized),2020,40.2,Borno,Ngala,NA
 Measles 1 Dose Coverage (Annualized),2020,53.7,Borno,Nganzai,NA
 Measles 1 Dose Coverage (Annualized),2020,127.2,Borno,Shani,NA
-Measles 1 Dose Coverage (Annualized),2020,14.9,Bayelsa,Brass,NA
+Measles 1 Dose Coverage (Annualized),2020,15,Bayelsa,Brass,NA
 Measles 1 Dose Coverage (Annualized),2020,16.9,Bayelsa,Ekeremor,NA
 Measles 1 Dose Coverage (Annualized),2020,15.4,Bayelsa,Kolokuma/Opokuma,NA
 Measles 1 Dose Coverage (Annualized),2020,31.4,Bayelsa,Nembe,NA
 Measles 1 Dose Coverage (Annualized),2020,16.2,Bayelsa,Ogbia,NA
 Measles 1 Dose Coverage (Annualized),2020,16,Bayelsa,Sagbama,NA
-Measles 1 Dose Coverage (Annualized),2020,10.7,Bayelsa,Southern Ijaw,NA
-Measles 1 Dose Coverage (Annualized),2020,44.7,Bayelsa,Yenagoa,NA
+Measles 1 Dose Coverage (Annualized),2020,10.4,Bayelsa,Southern Ijaw,NA
+Measles 1 Dose Coverage (Annualized),2020,44.9,Bayelsa,Yenagoa,NA
 Measles 1 Dose Coverage (Annualized),2020,101.4,Cross River,Abi,NA
 Measles 1 Dose Coverage (Annualized),2020,94.9,Cross River,Akamkpa,NA
-Measles 1 Dose Coverage (Annualized),2020,88,Cross River,Akpabuyo,NA
+Measles 1 Dose Coverage (Annualized),2020,87.4,Cross River,Akpabuyo,NA
 Measles 1 Dose Coverage (Annualized),2020,131.5,Cross River,Bakassi,NA
 Measles 1 Dose Coverage (Annualized),2020,77.3,Cross River,Bekwarra,NA
 Measles 1 Dose Coverage (Annualized),2020,83.1,Cross River,Biase,NA
 Measles 1 Dose Coverage (Annualized),2020,79.6,Cross River,Boki,NA
-Measles 1 Dose Coverage (Annualized),2020,77.6,Cross River,Calabar Municipal,NA
+Measles 1 Dose Coverage (Annualized),2020,78.4,Cross River,Calabar Municipal,NA
 Measles 1 Dose Coverage (Annualized),2020,72.9,Cross River,Calabar South,NA
 Measles 1 Dose Coverage (Annualized),2020,100.3,Cross River,Etung,NA
 Measles 1 Dose Coverage (Annualized),2020,51.1,Cross River,Ikom,NA
@@ -2966,21 +2966,21 @@ Measles 1 Dose Coverage (Annualized),2020,67.8,Kwara,Offa,NA
 Measles 1 Dose Coverage (Annualized),2020,55.4,Kwara,Oke-Ero,NA
 Measles 1 Dose Coverage (Annualized),2020,77.2,Kwara,Oyun,NA
 Measles 1 Dose Coverage (Annualized),2020,88,Kwara,Pategi,NA
-Measles 1 Dose Coverage (Annualized),2020,56.1,Lagos,Agege,NA
+Measles 1 Dose Coverage (Annualized),2020,55.3,Lagos,Agege,NA
 Measles 1 Dose Coverage (Annualized),2020,64.3,Lagos,Ajeromi/Ifelodun,NA
 Measles 1 Dose Coverage (Annualized),2020,56.4,Lagos,Alimosho,NA
 Measles 1 Dose Coverage (Annualized),2020,50.5,Lagos,Amuwo Odofin,NA
-Measles 1 Dose Coverage (Annualized),2020,53.2,Lagos,Apapa,NA
+Measles 1 Dose Coverage (Annualized),2020,52.9,Lagos,Apapa,NA
 Measles 1 Dose Coverage (Annualized),2020,72.7,Lagos,Badagry,NA
-Measles 1 Dose Coverage (Annualized),2020,79.1,Lagos,Epe,NA
-Measles 1 Dose Coverage (Annualized),2020,75.6,Lagos,Eti-Osa,NA
+Measles 1 Dose Coverage (Annualized),2020,81.1,Lagos,Epe,NA
+Measles 1 Dose Coverage (Annualized),2020,75.4,Lagos,Eti-Osa,NA
 Measles 1 Dose Coverage (Annualized),2020,97.1,Lagos,Ibeju/Lekki,NA
-Measles 1 Dose Coverage (Annualized),2020,56.6,Lagos,Ifako/Ijaye,NA
+Measles 1 Dose Coverage (Annualized),2020,57.4,Lagos,Ifako/Ijaye,NA
 Measles 1 Dose Coverage (Annualized),2020,69.8,Lagos,Ikeja,NA
-Measles 1 Dose Coverage (Annualized),2020,83.8,Lagos,Ikorodu,NA
+Measles 1 Dose Coverage (Annualized),2020,83.9,Lagos,Ikorodu,NA
 Measles 1 Dose Coverage (Annualized),2020,38.7,Lagos,Kosofe,NA
 Measles 1 Dose Coverage (Annualized),2020,50.5,Lagos,Lagos Island,NA
-Measles 1 Dose Coverage (Annualized),2020,46.8,Lagos,Lagos Mainland,NA
+Measles 1 Dose Coverage (Annualized),2020,45.8,Lagos,Lagos Mainland,NA
 Measles 1 Dose Coverage (Annualized),2020,69.7,Lagos,Mushin,NA
 Measles 1 Dose Coverage (Annualized),2020,63.9,Lagos,Ojo,NA
 Measles 1 Dose Coverage (Annualized),2020,63.7,Lagos,Oshodi/Isolo,NA
@@ -3235,10 +3235,10 @@ Measles 1 Dose Coverage (Annualized),2020,84.1,Zamfara,Shinkafi,NA
 Measles 1 Dose Coverage (Annualized),2020,78.1,Zamfara,Talata Mafara,NA
 Measles 1 Dose Coverage (Annualized),2020,59.3,Zamfara,Tsafe,NA
 Measles 1 Dose Coverage (Annualized),2020,66.5,Zamfara,Zurmi,NA
-Measles 1 Dose Coverage (Annualized),2021,78.5,Anambra,State level data,NA
 Measles 1 Dose Coverage (Annualized),2021,61.9,Abia,State level data,NA
 Measles 1 Dose Coverage (Annualized),2021,93,Adamawa,State level data,NA
 Measles 1 Dose Coverage (Annualized),2021,55.9,Akwa-Ibom,State level data,NA
+Measles 1 Dose Coverage (Annualized),2021,78.5,Anambra,State level data,NA
 Measles 1 Dose Coverage (Annualized),2021,57.4,Bauchi,State level data,NA
 Measles 1 Dose Coverage (Annualized),2021,61.6,Benue,State level data,NA
 Measles 1 Dose Coverage (Annualized),2021,59.5,Borno,State level data,NA
@@ -3437,8 +3437,8 @@ Measles 1 Dose Coverage (Annualized),2021,15.1,Bayelsa,Kolokuma/Opokuma,NA
 Measles 1 Dose Coverage (Annualized),2021,31.8,Bayelsa,Nembe,NA
 Measles 1 Dose Coverage (Annualized),2021,17.2,Bayelsa,Ogbia,NA
 Measles 1 Dose Coverage (Annualized),2021,15.4,Bayelsa,Sagbama,NA
-Measles 1 Dose Coverage (Annualized),2021,16.9,Bayelsa,Southern Ijaw,NA
-Measles 1 Dose Coverage (Annualized),2021,39.5,Bayelsa,Yenagoa,NA
+Measles 1 Dose Coverage (Annualized),2021,16.8,Bayelsa,Southern Ijaw,NA
+Measles 1 Dose Coverage (Annualized),2021,39.6,Bayelsa,Yenagoa,NA
 Measles 1 Dose Coverage (Annualized),2021,95.5,Cross River,Abi,NA
 Measles 1 Dose Coverage (Annualized),2021,84,Cross River,Akamkpa,NA
 Measles 1 Dose Coverage (Annualized),2021,84.3,Cross River,Akpabuyo,NA
@@ -3780,17 +3780,17 @@ Measles 1 Dose Coverage (Annualized),2021,44.5,Lagos,Agege,NA
 Measles 1 Dose Coverage (Annualized),2021,64,Lagos,Ajeromi/Ifelodun,NA
 Measles 1 Dose Coverage (Annualized),2021,53.7,Lagos,Alimosho,NA
 Measles 1 Dose Coverage (Annualized),2021,50.5,Lagos,Amuwo Odofin,NA
-Measles 1 Dose Coverage (Annualized),2021,60.7,Lagos,Apapa,NA
+Measles 1 Dose Coverage (Annualized),2021,60.4,Lagos,Apapa,NA
 Measles 1 Dose Coverage (Annualized),2021,75.9,Lagos,Badagry,NA
-Measles 1 Dose Coverage (Annualized),2021,79,Lagos,Epe,NA
-Measles 1 Dose Coverage (Annualized),2021,67.1,Lagos,Eti-Osa,NA
+Measles 1 Dose Coverage (Annualized),2021,83,Lagos,Epe,NA
+Measles 1 Dose Coverage (Annualized),2021,66.9,Lagos,Eti-Osa,NA
 Measles 1 Dose Coverage (Annualized),2021,101.3,Lagos,Ibeju/Lekki,NA
 Measles 1 Dose Coverage (Annualized),2021,51.7,Lagos,Ifako/Ijaye,NA
 Measles 1 Dose Coverage (Annualized),2021,67.1,Lagos,Ikeja,NA
-Measles 1 Dose Coverage (Annualized),2021,80,Lagos,Ikorodu,NA
+Measles 1 Dose Coverage (Annualized),2021,80.1,Lagos,Ikorodu,NA
 Measles 1 Dose Coverage (Annualized),2021,42.5,Lagos,Kosofe,NA
 Measles 1 Dose Coverage (Annualized),2021,47.1,Lagos,Lagos Island,NA
-Measles 1 Dose Coverage (Annualized),2021,33.1,Lagos,Lagos Mainland,NA
+Measles 1 Dose Coverage (Annualized),2021,31,Lagos,Lagos Mainland,NA
 Measles 1 Dose Coverage (Annualized),2021,65.9,Lagos,Mushin,NA
 Measles 1 Dose Coverage (Annualized),2021,60.4,Lagos,Ojo,NA
 Measles 1 Dose Coverage (Annualized),2021,69.4,Lagos,Oshodi/Isolo,NA
@@ -4045,814 +4045,1625 @@ Measles 1 Dose Coverage (Annualized),2021,48.5,Zamfara,Shinkafi,NA
 Measles 1 Dose Coverage (Annualized),2021,58.2,Zamfara,Talata Mafara,NA
 Measles 1 Dose Coverage (Annualized),2021,48.4,Zamfara,Tsafe,NA
 Measles 1 Dose Coverage (Annualized),2021,56.3,Zamfara,Zurmi,NA
-Measles 1 Dose Coverage (Annualized),2022,61.9,Anambra,State level data,NA
-Measles 1 Dose Coverage (Annualized),2022,42.4,Abia,State level data,NA
-Measles 1 Dose Coverage (Annualized),2022,71.2,Adamawa,State level data,NA
-Measles 1 Dose Coverage (Annualized),2022,46.8,Akwa-Ibom,State level data,NA
-Measles 1 Dose Coverage (Annualized),2022,50,Bauchi,State level data,NA
-Measles 1 Dose Coverage (Annualized),2022,50.8,Benue,State level data,NA
-Measles 1 Dose Coverage (Annualized),2022,47.9,Borno,State level data,NA
-Measles 1 Dose Coverage (Annualized),2022,22.9,Bayelsa,State level data,NA
-Measles 1 Dose Coverage (Annualized),2022,61.2,Cross River,State level data,NA
-Measles 1 Dose Coverage (Annualized),2022,52.5,Delta,State level data,NA
-Measles 1 Dose Coverage (Annualized),2022,55.2,Ebonyi,State level data,NA
-Measles 1 Dose Coverage (Annualized),2022,35.3,Edo,State level data,NA
-Measles 1 Dose Coverage (Annualized),2022,37.6,Ekiti,State level data,NA
-Measles 1 Dose Coverage (Annualized),2022,36.3,Enugu,State level data,NA
-Measles 1 Dose Coverage (Annualized),2022,84.8,Federal Capital Territory,State level data,NA
-Measles 1 Dose Coverage (Annualized),2022,79.6,Gombe,State level data,NA
-Measles 1 Dose Coverage (Annualized),2022,48.8,Imo,State level data,NA
-Measles 1 Dose Coverage (Annualized),2022,63.6,Jigawa,State level data,NA
-Measles 1 Dose Coverage (Annualized),2022,60.1,Kaduna,State level data,NA
-Measles 1 Dose Coverage (Annualized),2022,57.5,Kebbi,State level data,NA
-Measles 1 Dose Coverage (Annualized),2022,56.5,Kano,State level data,NA
-Measles 1 Dose Coverage (Annualized),2022,41.4,Kogi,State level data,NA
-Measles 1 Dose Coverage (Annualized),2022,56.6,Katsina,State level data,NA
-Measles 1 Dose Coverage (Annualized),2022,49.9,Kwara,State level data,NA
-Measles 1 Dose Coverage (Annualized),2022,53.1,Lagos,State level data,NA
-Measles 1 Dose Coverage (Annualized),2022,72.6,Nasarawa,State level data,NA
-Measles 1 Dose Coverage (Annualized),2022,53,Federal Government,State level data,NA
-Measles 1 Dose Coverage (Annualized),2022,53.7,Niger,State level data,NA
-Measles 1 Dose Coverage (Annualized),2022,52.9,Ogun,State level data,NA
-Measles 1 Dose Coverage (Annualized),2022,58.6,Ondo,State level data,NA
-Measles 1 Dose Coverage (Annualized),2022,38.5,Osun,State level data,NA
-Measles 1 Dose Coverage (Annualized),2022,51.6,Oyo,State level data,NA
-Measles 1 Dose Coverage (Annualized),2022,44.6,Plateau,State level data,NA
-Measles 1 Dose Coverage (Annualized),2022,53.2,Rivers,State level data,NA
-Measles 1 Dose Coverage (Annualized),2022,43.2,Sokoto,State level data,NA
-Measles 1 Dose Coverage (Annualized),2022,56.9,Taraba,State level data,NA
-Measles 1 Dose Coverage (Annualized),2022,59.2,Yobe,State level data,NA
-Measles 1 Dose Coverage (Annualized),2022,57.9,Zamfara,State level data,NA
-Measles 1 Dose Coverage (Annualized),2022,45.3,Abia,Aba North,NA
-Measles 1 Dose Coverage (Annualized),2022,37.4,Abia,Aba South,NA
-Measles 1 Dose Coverage (Annualized),2022,41.6,Abia,Arochukwu,NA
-Measles 1 Dose Coverage (Annualized),2022,29,Abia,Bende,NA
-Measles 1 Dose Coverage (Annualized),2022,29,Abia,Ikwuano,NA
-Measles 1 Dose Coverage (Annualized),2022,37.1,Abia,Isiala-Ngwa North,NA
-Measles 1 Dose Coverage (Annualized),2022,59,Abia,Isiala-Ngwa South,NA
-Measles 1 Dose Coverage (Annualized),2022,30.3,Abia,Isuikwuato,NA
-Measles 1 Dose Coverage (Annualized),2022,41.9,Abia,Obi Nwga,NA
-Measles 1 Dose Coverage (Annualized),2022,40.2,Abia,Ohafia,NA
-Measles 1 Dose Coverage (Annualized),2022,47.8,Abia,Osisioma Ngwa,NA
-Measles 1 Dose Coverage (Annualized),2022,47.3,Abia,Ugwunagbo,NA
-Measles 1 Dose Coverage (Annualized),2022,61.7,Abia,Ukwa East,NA
-Measles 1 Dose Coverage (Annualized),2022,53,Abia,Ukwa West,NA
-Measles 1 Dose Coverage (Annualized),2022,54.4,Abia,Umuahia North,NA
-Measles 1 Dose Coverage (Annualized),2022,55.9,Abia,Umuahia South,NA
-Measles 1 Dose Coverage (Annualized),2022,34.1,Abia,Umunneochi,NA
-Measles 1 Dose Coverage (Annualized),2022,82.5,Adamawa,Demsa,NA
-Measles 1 Dose Coverage (Annualized),2022,73.4,Adamawa,Fufore,NA
-Measles 1 Dose Coverage (Annualized),2022,71.9,Adamawa,Ganye,NA
-Measles 1 Dose Coverage (Annualized),2022,60.5,Adamawa,Girei,NA
-Measles 1 Dose Coverage (Annualized),2022,62.6,Adamawa,Gombi,NA
-Measles 1 Dose Coverage (Annualized),2022,59.7,Adamawa,Guyuk,NA
-Measles 1 Dose Coverage (Annualized),2022,86.5,Adamawa,Hong,NA
-Measles 1 Dose Coverage (Annualized),2022,80.5,Adamawa,Jada,NA
-Measles 1 Dose Coverage (Annualized),2022,78.1,Adamawa,Lamurde,NA
-Measles 1 Dose Coverage (Annualized),2022,57.4,Adamawa,Madagali,NA
-Measles 1 Dose Coverage (Annualized),2022,75.4,Adamawa,Maiha,NA
-Measles 1 Dose Coverage (Annualized),2022,68.8,Adamawa,Mayo-Belwa,NA
-Measles 1 Dose Coverage (Annualized),2022,72.8,Adamawa,Michika,NA
-Measles 1 Dose Coverage (Annualized),2022,73,Adamawa,Mubi North,NA
-Measles 1 Dose Coverage (Annualized),2022,68.3,Adamawa,Mubi South,NA
-Measles 1 Dose Coverage (Annualized),2022,54.4,Adamawa,Numan,NA
-Measles 1 Dose Coverage (Annualized),2022,69.5,Adamawa,Shelleng,NA
-Measles 1 Dose Coverage (Annualized),2022,60.4,Adamawa,Song,NA
-Measles 1 Dose Coverage (Annualized),2022,114.8,Adamawa,Toungo,NA
-Measles 1 Dose Coverage (Annualized),2022,74.8,Adamawa,Yola North,NA
-Measles 1 Dose Coverage (Annualized),2022,69.1,Adamawa,Yola South,NA
-Measles 1 Dose Coverage (Annualized),2022,53.2,Akwa-Ibom,Abak,NA
-Measles 1 Dose Coverage (Annualized),2022,64.6,Akwa-Ibom,Eastern Obolo,NA
-Measles 1 Dose Coverage (Annualized),2022,47.4,Akwa-Ibom,Eket,NA
-Measles 1 Dose Coverage (Annualized),2022,41.6,Akwa-Ibom,Esit Eket,NA
-Measles 1 Dose Coverage (Annualized),2022,61,Akwa-Ibom,Essien Udim,NA
-Measles 1 Dose Coverage (Annualized),2022,43.9,Akwa-Ibom,Etim Ekpo,NA
-Measles 1 Dose Coverage (Annualized),2022,35.6,Akwa-Ibom,Etinan,NA
-Measles 1 Dose Coverage (Annualized),2022,47.2,Akwa-Ibom,Ibeno,NA
-Measles 1 Dose Coverage (Annualized),2022,28.7,Akwa-Ibom,Ibesikpo Asutan,NA
-Measles 1 Dose Coverage (Annualized),2022,25.9,Akwa-Ibom,Ibiono Ibom,NA
-Measles 1 Dose Coverage (Annualized),2022,58.9,Akwa-Ibom,Ika,NA
-Measles 1 Dose Coverage (Annualized),2022,51.2,Akwa-Ibom,Ikono,NA
-Measles 1 Dose Coverage (Annualized),2022,45.9,Akwa-Ibom,Ikot Abasi,NA
-Measles 1 Dose Coverage (Annualized),2022,59.9,Akwa-Ibom,Ikot Ekpene,NA
-Measles 1 Dose Coverage (Annualized),2022,76.6,Akwa-Ibom,Ini,NA
-Measles 1 Dose Coverage (Annualized),2022,53.1,Akwa-Ibom,Itu,NA
-Measles 1 Dose Coverage (Annualized),2022,43.6,Akwa-Ibom,Mbo,NA
-Measles 1 Dose Coverage (Annualized),2022,53.1,Akwa-Ibom,Mkpat Enin,NA
-Measles 1 Dose Coverage (Annualized),2022,64.6,Akwa-Ibom,Nsit Atai,NA
-Measles 1 Dose Coverage (Annualized),2022,67.7,Akwa-Ibom,Nsit Ibom,NA
-Measles 1 Dose Coverage (Annualized),2022,24.1,Akwa-Ibom,Nsit Ubium,NA
-Measles 1 Dose Coverage (Annualized),2022,51,Akwa-Ibom,Obot Akara,NA
-Measles 1 Dose Coverage (Annualized),2022,42.2,Akwa-Ibom,Okobo,NA
-Measles 1 Dose Coverage (Annualized),2022,49.7,Akwa-Ibom,Onna,NA
-Measles 1 Dose Coverage (Annualized),2022,45.8,Akwa-Ibom,Oron,NA
-Measles 1 Dose Coverage (Annualized),2022,56.1,Akwa-Ibom,Oruk Anam,NA
-Measles 1 Dose Coverage (Annualized),2022,18.7,Akwa-Ibom,Udung Uko,NA
-Measles 1 Dose Coverage (Annualized),2022,27.9,Akwa-Ibom,Ukanafun,NA
-Measles 1 Dose Coverage (Annualized),2022,36.2,Akwa-Ibom,Uruan,NA
-Measles 1 Dose Coverage (Annualized),2022,54.3,Akwa-Ibom,Urue-Offong/Oruko,NA
-Measles 1 Dose Coverage (Annualized),2022,41.4,Akwa-Ibom,Uyo,NA
-Measles 1 Dose Coverage (Annualized),2022,43.7,Anambra,Aguata,NA
-Measles 1 Dose Coverage (Annualized),2022,61.3,Anambra,Anambra East,NA
-Measles 1 Dose Coverage (Annualized),2022,51.6,Anambra,Anambra West,NA
-Measles 1 Dose Coverage (Annualized),2022,54.3,Anambra,Anaocha,NA
-Measles 1 Dose Coverage (Annualized),2022,64.5,Anambra,Awka North,NA
-Measles 1 Dose Coverage (Annualized),2022,94.6,Anambra,Awka South,NA
-Measles 1 Dose Coverage (Annualized),2022,33.4,Anambra,Ayamelum,NA
-Measles 1 Dose Coverage (Annualized),2022,54.6,Anambra,Dunukofia,NA
-Measles 1 Dose Coverage (Annualized),2022,62.9,Anambra,Ekwusigo,NA
-Measles 1 Dose Coverage (Annualized),2022,50.7,Anambra,Idemili North,NA
-Measles 1 Dose Coverage (Annualized),2022,65.3,Anambra,Idemili South,NA
-Measles 1 Dose Coverage (Annualized),2022,53.8,Anambra,Ihiala,NA
-Measles 1 Dose Coverage (Annualized),2022,51.1,Anambra,Njikoka,NA
-Measles 1 Dose Coverage (Annualized),2022,81.2,Anambra,Nnewi North,NA
-Measles 1 Dose Coverage (Annualized),2022,87,Anambra,Nnewi South,NA
-Measles 1 Dose Coverage (Annualized),2022,127.9,Anambra,Ogbaru,NA
-Measles 1 Dose Coverage (Annualized),2022,64,Anambra,Onitsha North,NA
-Measles 1 Dose Coverage (Annualized),2022,88.7,Anambra,Onitsha South,NA
-Measles 1 Dose Coverage (Annualized),2022,50.3,Anambra,Orumba North,NA
-Measles 1 Dose Coverage (Annualized),2022,33.1,Anambra,Orumba South,NA
-Measles 1 Dose Coverage (Annualized),2022,58.9,Anambra,Oyi,NA
-Measles 1 Dose Coverage (Annualized),2022,49,Bauchi,Alkaleri,NA
-Measles 1 Dose Coverage (Annualized),2022,57.9,Bauchi,Bauchi,NA
-Measles 1 Dose Coverage (Annualized),2022,58.8,Bauchi,Bogoro,NA
-Measles 1 Dose Coverage (Annualized),2022,47.2,Bauchi,Dambam,NA
-Measles 1 Dose Coverage (Annualized),2022,43.2,Bauchi,Darazo,NA
-Measles 1 Dose Coverage (Annualized),2022,70.6,Bauchi,Dass,NA
-Measles 1 Dose Coverage (Annualized),2022,43.1,Bauchi,Gamawa,NA
-Measles 1 Dose Coverage (Annualized),2022,67.2,Bauchi,Ganjuwa,NA
-Measles 1 Dose Coverage (Annualized),2022,43.3,Bauchi,Giade,NA
-Measles 1 Dose Coverage (Annualized),2022,32.6,Bauchi,Itas/Gadau,NA
-Measles 1 Dose Coverage (Annualized),2022,40.9,Bauchi,Jama'are,NA
-Measles 1 Dose Coverage (Annualized),2022,39.3,Bauchi,Katagum,NA
-Measles 1 Dose Coverage (Annualized),2022,34.5,Bauchi,Kirfi,NA
-Measles 1 Dose Coverage (Annualized),2022,42.4,Bauchi,Misau,NA
-Measles 1 Dose Coverage (Annualized),2022,39.7,Bauchi,Ningi,NA
-Measles 1 Dose Coverage (Annualized),2022,38.6,Bauchi,Shira,NA
-Measles 1 Dose Coverage (Annualized),2022,56.1,Bauchi,Tafawa-Balewa,NA
-Measles 1 Dose Coverage (Annualized),2022,67.2,Bauchi,Toro,NA
-Measles 1 Dose Coverage (Annualized),2022,54.3,Bauchi,Warji,NA
-Measles 1 Dose Coverage (Annualized),2022,79.2,Bauchi,Zaki,NA
-Measles 1 Dose Coverage (Annualized),2022,49,Benue,Ado,NA
-Measles 1 Dose Coverage (Annualized),2022,47.9,Benue,Agatu,NA
-Measles 1 Dose Coverage (Annualized),2022,104.5,Benue,Apa,NA
-Measles 1 Dose Coverage (Annualized),2022,32.1,Benue,Buruku,NA
-Measles 1 Dose Coverage (Annualized),2022,52.4,Benue,Gboko,NA
-Measles 1 Dose Coverage (Annualized),2022,43,Benue,Guma,NA
-Measles 1 Dose Coverage (Annualized),2022,39.6,Benue,Gwer East,NA
-Measles 1 Dose Coverage (Annualized),2022,88,Benue,Gwer West,NA
-Measles 1 Dose Coverage (Annualized),2022,53.2,Benue,Katsina-Ala,NA
-Measles 1 Dose Coverage (Annualized),2022,27,Benue,Konshisha,NA
-Measles 1 Dose Coverage (Annualized),2022,71.2,Benue,Kwande,NA
-Measles 1 Dose Coverage (Annualized),2022,59.8,Benue,Logo,NA
-Measles 1 Dose Coverage (Annualized),2022,55.8,Benue,Makurdi,NA
-Measles 1 Dose Coverage (Annualized),2022,60.2,Benue,Obi,NA
-Measles 1 Dose Coverage (Annualized),2022,42.5,Benue,Ogbadibo,NA
-Measles 1 Dose Coverage (Annualized),2022,88.9,Benue,Ohimini,NA
-Measles 1 Dose Coverage (Annualized),2022,39.1,Benue,Oju,NA
-Measles 1 Dose Coverage (Annualized),2022,31.8,Benue,Okpokwu,NA
-Measles 1 Dose Coverage (Annualized),2022,41.9,Benue,Otukpo,NA
-Measles 1 Dose Coverage (Annualized),2022,42.4,Benue,Tarka,NA
-Measles 1 Dose Coverage (Annualized),2022,69.1,Benue,Ukum,NA
-Measles 1 Dose Coverage (Annualized),2022,36.6,Benue,Ushongo,NA
-Measles 1 Dose Coverage (Annualized),2022,44.1,Benue,Vandeikya,NA
-Measles 1 Dose Coverage (Annualized),2022,0.67,Borno,Abadam,NA
-Measles 1 Dose Coverage (Annualized),2022,69.7,Borno,Askira/Uba,NA
-Measles 1 Dose Coverage (Annualized),2022,25.8,Borno,Bama,NA
-Measles 1 Dose Coverage (Annualized),2022,92.3,Borno,Bayo,NA
-Measles 1 Dose Coverage (Annualized),2022,87.8,Borno,Biu,NA
-Measles 1 Dose Coverage (Annualized),2022,96.8,Borno,Chibok,NA
-Measles 1 Dose Coverage (Annualized),2022,31.2,Borno,Damboa,NA
-Measles 1 Dose Coverage (Annualized),2022,46.4,Borno,Dikwa,NA
-Measles 1 Dose Coverage (Annualized),2022,44.5,Borno,Gubio,NA
-Measles 1 Dose Coverage (Annualized),2022,33.6,Borno,Gwoza,NA
-Measles 1 Dose Coverage (Annualized),2022,60.4,Borno,Hawul,NA
-Measles 1 Dose Coverage (Annualized),2022,98.1,Borno,Jere,NA
-Measles 1 Dose Coverage (Annualized),2022,38.5,Borno,Kaga,NA
-Measles 1 Dose Coverage (Annualized),2022,32.1,Borno,Kala/Balge,NA
-Measles 1 Dose Coverage (Annualized),2022,55.4,Borno,Konduga,NA
-Measles 1 Dose Coverage (Annualized),2022,12.6,Borno,Kukawa,NA
-Measles 1 Dose Coverage (Annualized),2022,139.9,Borno,Kwaya Kusar,NA
-Measles 1 Dose Coverage (Annualized),2022,84.2,Borno,Mafa,NA
-Measles 1 Dose Coverage (Annualized),2022,32.3,Borno,Magumeri,NA
-Measles 1 Dose Coverage (Annualized),2022,34.8,Borno,Maiduguri,NA
-Measles 1 Dose Coverage (Annualized),2022,7.1,Borno,Marte,NA
-Measles 1 Dose Coverage (Annualized),2022,47.7,Borno,Mobbar,NA
-Measles 1 Dose Coverage (Annualized),2022,114.1,Borno,Monguno,NA
-Measles 1 Dose Coverage (Annualized),2022,30.5,Borno,Ngala,NA
-Measles 1 Dose Coverage (Annualized),2022,48.1,Borno,Nganzai,NA
-Measles 1 Dose Coverage (Annualized),2022,85.3,Borno,Shani,NA
-Measles 1 Dose Coverage (Annualized),2022,21.1,Bayelsa,Brass,NA
-Measles 1 Dose Coverage (Annualized),2022,28.7,Bayelsa,Ekeremor,NA
-Measles 1 Dose Coverage (Annualized),2022,8.6,Bayelsa,Kolokuma/Opokuma,NA
-Measles 1 Dose Coverage (Annualized),2022,27.2,Bayelsa,Nembe,NA
-Measles 1 Dose Coverage (Annualized),2022,17,Bayelsa,Ogbia,NA
-Measles 1 Dose Coverage (Annualized),2022,14.5,Bayelsa,Sagbama,NA
-Measles 1 Dose Coverage (Annualized),2022,15.4,Bayelsa,Southern Ijaw,NA
-Measles 1 Dose Coverage (Annualized),2022,35,Bayelsa,Yenagoa,NA
-Measles 1 Dose Coverage (Annualized),2022,76.1,Cross River,Abi,NA
-Measles 1 Dose Coverage (Annualized),2022,82.3,Cross River,Akamkpa,NA
-Measles 1 Dose Coverage (Annualized),2022,57,Cross River,Akpabuyo,NA
-Measles 1 Dose Coverage (Annualized),2022,86.2,Cross River,Bakassi,NA
-Measles 1 Dose Coverage (Annualized),2022,50.3,Cross River,Bekwarra,NA
-Measles 1 Dose Coverage (Annualized),2022,66.4,Cross River,Biase,NA
-Measles 1 Dose Coverage (Annualized),2022,64.7,Cross River,Boki,NA
-Measles 1 Dose Coverage (Annualized),2022,45.3,Cross River,Calabar Municipal,NA
-Measles 1 Dose Coverage (Annualized),2022,52.6,Cross River,Calabar South,NA
-Measles 1 Dose Coverage (Annualized),2022,81.3,Cross River,Etung,NA
-Measles 1 Dose Coverage (Annualized),2022,38.2,Cross River,Ikom,NA
-Measles 1 Dose Coverage (Annualized),2022,54.2,Cross River,Obanliku,NA
-Measles 1 Dose Coverage (Annualized),2022,63,Cross River,Obubra,NA
-Measles 1 Dose Coverage (Annualized),2022,61.5,Cross River,Obudu,NA
-Measles 1 Dose Coverage (Annualized),2022,56.8,Cross River,Odukpani,NA
-Measles 1 Dose Coverage (Annualized),2022,67.6,Cross River,Ogoja,NA
-Measles 1 Dose Coverage (Annualized),2022,71.6,Cross River,Yakurr,NA
-Measles 1 Dose Coverage (Annualized),2022,57.5,Cross River,Yala,NA
-Measles 1 Dose Coverage (Annualized),2022,72.2,Delta,Aniocha North,NA
-Measles 1 Dose Coverage (Annualized),2022,48.9,Delta,Aniocha South,NA
-Measles 1 Dose Coverage (Annualized),2022,75.4,Delta,Bomadi,NA
-Measles 1 Dose Coverage (Annualized),2022,38.8,Delta,Burutu,NA
-Measles 1 Dose Coverage (Annualized),2022,53.5,Delta,Ethiope East,NA
-Measles 1 Dose Coverage (Annualized),2022,48.2,Delta,Ethiope West,NA
-Measles 1 Dose Coverage (Annualized),2022,67.4,Delta,Ika North East,NA
-Measles 1 Dose Coverage (Annualized),2022,64.1,Delta,Ika South,NA
-Measles 1 Dose Coverage (Annualized),2022,62.9,Delta,Isoko North,NA
-Measles 1 Dose Coverage (Annualized),2022,46.2,Delta,Isoko South,NA
-Measles 1 Dose Coverage (Annualized),2022,38.8,Delta,Ndokwa East,NA
-Measles 1 Dose Coverage (Annualized),2022,39.8,Delta,Ndokwa West,NA
-Measles 1 Dose Coverage (Annualized),2022,60.1,Delta,Okpe,NA
-Measles 1 Dose Coverage (Annualized),2022,59.7,Delta,Oshimili North,NA
-Measles 1 Dose Coverage (Annualized),2022,72.5,Delta,Oshimili South,NA
-Measles 1 Dose Coverage (Annualized),2022,28.7,Delta,Patani,NA
-Measles 1 Dose Coverage (Annualized),2022,40.5,Delta,Sapele,NA
-Measles 1 Dose Coverage (Annualized),2022,48.8,Delta,Udu,NA
-Measles 1 Dose Coverage (Annualized),2022,58.6,Delta,Ughelli North,NA
-Measles 1 Dose Coverage (Annualized),2022,40.2,Delta,Ughelli South,NA
-Measles 1 Dose Coverage (Annualized),2022,53.8,Delta,Ukwuani,NA
-Measles 1 Dose Coverage (Annualized),2022,54,Delta,Uvwie,NA
-Measles 1 Dose Coverage (Annualized),2022,57,Delta,Warri North,NA
-Measles 1 Dose Coverage (Annualized),2022,98.4,Delta,Warri South,NA
-Measles 1 Dose Coverage (Annualized),2022,26.8,Delta,Warri South West,NA
-Measles 1 Dose Coverage (Annualized),2022,56.9,Ebonyi,Abakaliki,NA
-Measles 1 Dose Coverage (Annualized),2022,51.9,Ebonyi,Afikpo North,NA
-Measles 1 Dose Coverage (Annualized),2022,61.1,Ebonyi,Afikpo South,NA
-Measles 1 Dose Coverage (Annualized),2022,108.9,Ebonyi,Ebonyi,NA
-Measles 1 Dose Coverage (Annualized),2022,37.7,Ebonyi,Ezza North,NA
-Measles 1 Dose Coverage (Annualized),2022,40,Ebonyi,Ezza South,NA
-Measles 1 Dose Coverage (Annualized),2022,48.1,Ebonyi,Ikwo,NA
-Measles 1 Dose Coverage (Annualized),2022,41.1,Ebonyi,Ishielu,NA
-Measles 1 Dose Coverage (Annualized),2022,43.4,Ebonyi,Ivo,NA
-Measles 1 Dose Coverage (Annualized),2022,69.9,Ebonyi,Izzi,NA
-Measles 1 Dose Coverage (Annualized),2022,67.6,Ebonyi,Ohaozara,NA
-Measles 1 Dose Coverage (Annualized),2022,32.1,Ebonyi,Ohaukwu,NA
-Measles 1 Dose Coverage (Annualized),2022,61.6,Ebonyi,Onicha,NA
-Measles 1 Dose Coverage (Annualized),2022,35,Edo,Akoko-Edo,NA
-Measles 1 Dose Coverage (Annualized),2022,37,Edo,Egor,NA
-Measles 1 Dose Coverage (Annualized),2022,31.9,Edo,Esan Central,NA
-Measles 1 Dose Coverage (Annualized),2022,29.6,Edo,Esan North-East,NA
-Measles 1 Dose Coverage (Annualized),2022,48.8,Edo,Esan South-East,NA
-Measles 1 Dose Coverage (Annualized),2022,29.2,Edo,Esan West,NA
-Measles 1 Dose Coverage (Annualized),2022,48.2,Edo,Etsako Central,NA
-Measles 1 Dose Coverage (Annualized),2022,22.4,Edo,Etsako East,NA
-Measles 1 Dose Coverage (Annualized),2022,41,Edo,Etsako West,NA
-Measles 1 Dose Coverage (Annualized),2022,21.9,Edo,Igueben,NA
-Measles 1 Dose Coverage (Annualized),2022,51.8,Edo,Ikpoba-Okha,NA
-Measles 1 Dose Coverage (Annualized),2022,32.4,Edo,Oredo,NA
-Measles 1 Dose Coverage (Annualized),2022,12.9,Edo,Orhionmwon,NA
-Measles 1 Dose Coverage (Annualized),2022,39.7,Edo,Ovia North-East,NA
-Measles 1 Dose Coverage (Annualized),2022,40.1,Edo,Ovia South-West,NA
-Measles 1 Dose Coverage (Annualized),2022,16.2,Edo,Owan East,NA
-Measles 1 Dose Coverage (Annualized),2022,20.8,Edo,Owan West,NA
-Measles 1 Dose Coverage (Annualized),2022,48.4,Edo,Uhunmwonde,NA
-Measles 1 Dose Coverage (Annualized),2022,59.1,Ekiti,Ado Ekiti,NA
-Measles 1 Dose Coverage (Annualized),2022,26.2,Ekiti,Aiyekire (Gbonyin),NA
-Measles 1 Dose Coverage (Annualized),2022,66.9,Ekiti,Efon,NA
-Measles 1 Dose Coverage (Annualized),2022,25.1,Ekiti,Ekiti East,NA
-Measles 1 Dose Coverage (Annualized),2022,35.9,Ekiti,Ekiti South West,NA
-Measles 1 Dose Coverage (Annualized),2022,26.9,Ekiti,Ekiti West,NA
-Measles 1 Dose Coverage (Annualized),2022,51.8,Ekiti,Emure,NA
-Measles 1 Dose Coverage (Annualized),2022,25.3,Ekiti,Ido-Osi,NA
-Measles 1 Dose Coverage (Annualized),2022,38.6,Ekiti,Ijero,NA
-Measles 1 Dose Coverage (Annualized),2022,27.5,Ekiti,Ikere,NA
-Measles 1 Dose Coverage (Annualized),2022,19.6,Ekiti,Ikole,NA
-Measles 1 Dose Coverage (Annualized),2022,24.4,Ekiti,Ilejemeje,NA
-Measles 1 Dose Coverage (Annualized),2022,26.5,Ekiti,Irepodun/Ifelodun,NA
-Measles 1 Dose Coverage (Annualized),2022,57.6,Ekiti,Ise/Orun,NA
-Measles 1 Dose Coverage (Annualized),2022,49.7,Ekiti,Moba,NA
-Measles 1 Dose Coverage (Annualized),2022,31.6,Ekiti,Oye,NA
-Measles 1 Dose Coverage (Annualized),2022,9,Enugu,Aninri,NA
-Measles 1 Dose Coverage (Annualized),2022,42.5,Enugu,Awgu,NA
-Measles 1 Dose Coverage (Annualized),2022,50.4,Enugu,Enugu East,NA
-Measles 1 Dose Coverage (Annualized),2022,49.6,Enugu,Enugu North,NA
-Measles 1 Dose Coverage (Annualized),2022,14.8,Enugu,Enugu South,NA
-Measles 1 Dose Coverage (Annualized),2022,59,Enugu,Ezeagu,NA
-Measles 1 Dose Coverage (Annualized),2022,41.7,Enugu,Igbo-Etiti,NA
-Measles 1 Dose Coverage (Annualized),2022,39.1,Enugu,Igbo-Eze North,NA
-Measles 1 Dose Coverage (Annualized),2022,50,Enugu,Igbo-Eze South,NA
-Measles 1 Dose Coverage (Annualized),2022,13,Enugu,Isi-Uzo,NA
-Measles 1 Dose Coverage (Annualized),2022,24.7,Enugu,Nkanu East,NA
-Measles 1 Dose Coverage (Annualized),2022,33,Enugu,Nkanu West,NA
-Measles 1 Dose Coverage (Annualized),2022,33.2,Enugu,Nsukka,NA
-Measles 1 Dose Coverage (Annualized),2022,26.8,Enugu,Oji River,NA
-Measles 1 Dose Coverage (Annualized),2022,46.3,Enugu,Udenu,NA
-Measles 1 Dose Coverage (Annualized),2022,35.4,Enugu,Udi,NA
-Measles 1 Dose Coverage (Annualized),2022,19.5,Enugu,Uzo-Uwani,NA
-Measles 1 Dose Coverage (Annualized),2022,105.7,Federal Capital Territory,Abaji,NA
-Measles 1 Dose Coverage (Annualized),2022,73.3,Federal Capital Territory,Abuja Municipal,NA
-Measles 1 Dose Coverage (Annualized),2022,92.9,Federal Capital Territory,Bwari,NA
-Measles 1 Dose Coverage (Annualized),2022,91.4,Federal Capital Territory,Gwagwalada,NA
-Measles 1 Dose Coverage (Annualized),2022,134,Federal Capital Territory,Kuje,NA
-Measles 1 Dose Coverage (Annualized),2022,85.8,Federal Capital Territory,Kwali,NA
-Measles 1 Dose Coverage (Annualized),2022,59.5,Gombe,Akko,NA
-Measles 1 Dose Coverage (Annualized),2022,66.4,Gombe,Balanga,NA
-Measles 1 Dose Coverage (Annualized),2022,44.5,Gombe,Billiri,NA
-Measles 1 Dose Coverage (Annualized),2022,81.5,Gombe,Dukku,NA
-Measles 1 Dose Coverage (Annualized),2022,70.8,Gombe,Funakaye,NA
-Measles 1 Dose Coverage (Annualized),2022,211.4,Gombe,Gombe,NA
-Measles 1 Dose Coverage (Annualized),2022,62.9,Gombe,Kaltungo,NA
-Measles 1 Dose Coverage (Annualized),2022,63,Gombe,Kwami,NA
-Measles 1 Dose Coverage (Annualized),2022,54.7,Gombe,Nafada,NA
-Measles 1 Dose Coverage (Annualized),2022,29.5,Gombe,Shongom,NA
-Measles 1 Dose Coverage (Annualized),2022,78.9,Gombe,Yamaltu/Deba,NA
-Measles 1 Dose Coverage (Annualized),2022,34.9,Imo,Aboh-Mbaise,NA
-Measles 1 Dose Coverage (Annualized),2022,44.8,Imo,Ahiazu-Mbaise,NA
-Measles 1 Dose Coverage (Annualized),2022,61,Imo,Ehime-Mbano,NA
-Measles 1 Dose Coverage (Annualized),2022,56.3,Imo,Ezinihitte-Mbaise,NA
-Measles 1 Dose Coverage (Annualized),2022,33.4,Imo,Ideato North,NA
-Measles 1 Dose Coverage (Annualized),2022,33.8,Imo,Ideato South,NA
-Measles 1 Dose Coverage (Annualized),2022,64,Imo,Ihitte/Uboma,NA
-Measles 1 Dose Coverage (Annualized),2022,84.7,Imo,Ikeduru,NA
-Measles 1 Dose Coverage (Annualized),2022,67.7,Imo,Isiala Mbano,NA
-Measles 1 Dose Coverage (Annualized),2022,36.5,Imo,Isu,NA
-Measles 1 Dose Coverage (Annualized),2022,50.1,Imo,Mbaitoli,NA
-Measles 1 Dose Coverage (Annualized),2022,34.4,Imo,Ngor-Okpala,NA
-Measles 1 Dose Coverage (Annualized),2022,43.5,Imo,Njaba,NA
-Measles 1 Dose Coverage (Annualized),2022,46.3,Imo,Nkwerre,NA
-Measles 1 Dose Coverage (Annualized),2022,42.6,Imo,Nwangele,NA
-Measles 1 Dose Coverage (Annualized),2022,86.5,Imo,Obowo,NA
-Measles 1 Dose Coverage (Annualized),2022,23.5,Imo,Oguta,NA
-Measles 1 Dose Coverage (Annualized),2022,32.7,Imo,Ohaji/Egbema,NA
-Measles 1 Dose Coverage (Annualized),2022,27.2,Imo,Okigwe,NA
-Measles 1 Dose Coverage (Annualized),2022,54.4,Imo,Onuimo,NA
-Measles 1 Dose Coverage (Annualized),2022,54.3,Imo,Orlu,NA
-Measles 1 Dose Coverage (Annualized),2022,20.7,Imo,Orsu,NA
-Measles 1 Dose Coverage (Annualized),2022,30.6,Imo,Oru East,NA
-Measles 1 Dose Coverage (Annualized),2022,50.2,Imo,Oru West,NA
-Measles 1 Dose Coverage (Annualized),2022,81.3,Imo,Owerri Municipal,NA
-Measles 1 Dose Coverage (Annualized),2022,58.9,Imo,Owerri North,NA
-Measles 1 Dose Coverage (Annualized),2022,81.5,Imo,Owerri West,NA
-Measles 1 Dose Coverage (Annualized),2022,41.8,Jigawa,Auyo,NA
-Measles 1 Dose Coverage (Annualized),2022,69.4,Jigawa,Babura,NA
-Measles 1 Dose Coverage (Annualized),2022,62.3,Jigawa,Birnin Kudu,NA
-Measles 1 Dose Coverage (Annualized),2022,50.7,Jigawa,Birniwa,NA
-Measles 1 Dose Coverage (Annualized),2022,74.3,Jigawa,Buji,NA
-Measles 1 Dose Coverage (Annualized),2022,62.1,Jigawa,Dutse,NA
-Measles 1 Dose Coverage (Annualized),2022,83,Jigawa,Gagarawa,NA
-Measles 1 Dose Coverage (Annualized),2022,70.6,Jigawa,Garki,NA
-Measles 1 Dose Coverage (Annualized),2022,50.9,Jigawa,Gumel,NA
-Measles 1 Dose Coverage (Annualized),2022,47.2,Jigawa,Guri,NA
-Measles 1 Dose Coverage (Annualized),2022,65.4,Jigawa,Gwaram,NA
-Measles 1 Dose Coverage (Annualized),2022,57,Jigawa,Gwiwa,NA
-Measles 1 Dose Coverage (Annualized),2022,41,Jigawa,Hadejia,NA
-Measles 1 Dose Coverage (Annualized),2022,56,Jigawa,Jahun,NA
-Measles 1 Dose Coverage (Annualized),2022,44.1,Jigawa,Kafin Hausa,NA
-Measles 1 Dose Coverage (Annualized),2022,80.1,Jigawa,Kaugama,NA
-Measles 1 Dose Coverage (Annualized),2022,52.4,Jigawa,Kazaure,NA
-Measles 1 Dose Coverage (Annualized),2022,59.8,Jigawa,Kiri Kasamma,NA
-Measles 1 Dose Coverage (Annualized),2022,83.7,Jigawa,Kiyawa,NA
-Measles 1 Dose Coverage (Annualized),2022,75.2,Jigawa,Maigatari,NA
-Measles 1 Dose Coverage (Annualized),2022,52.9,Jigawa,Malam Madori,NA
-Measles 1 Dose Coverage (Annualized),2022,58.8,Jigawa,Miga,NA
-Measles 1 Dose Coverage (Annualized),2022,73.7,Jigawa,Ringim,NA
-Measles 1 Dose Coverage (Annualized),2022,81.3,Jigawa,Roni,NA
-Measles 1 Dose Coverage (Annualized),2022,78.1,Jigawa,Sule-Tankarkar,NA
-Measles 1 Dose Coverage (Annualized),2022,89.2,Jigawa,Taura,NA
-Measles 1 Dose Coverage (Annualized),2022,85.9,Jigawa,Yankwashi,NA
-Measles 1 Dose Coverage (Annualized),2022,83.4,Kaduna,Birnin Gwari,NA
-Measles 1 Dose Coverage (Annualized),2022,53,Kaduna,Chikun,NA
-Measles 1 Dose Coverage (Annualized),2022,88,Kaduna,Giwa,NA
-Measles 1 Dose Coverage (Annualized),2022,62.6,Kaduna,Igabi,NA
-Measles 1 Dose Coverage (Annualized),2022,82.6,Kaduna,Ikara,NA
-Measles 1 Dose Coverage (Annualized),2022,48,Kaduna,Jaba,NA
-Measles 1 Dose Coverage (Annualized),2022,31.5,Kaduna,Jema'a,NA
-Measles 1 Dose Coverage (Annualized),2022,40.6,Kaduna,Kachia,NA
-Measles 1 Dose Coverage (Annualized),2022,34.5,Kaduna,Kaduna North,NA
-Measles 1 Dose Coverage (Annualized),2022,36.4,Kaduna,Kaduna South,NA
-Measles 1 Dose Coverage (Annualized),2022,42.8,Kaduna,Kagarko,NA
-Measles 1 Dose Coverage (Annualized),2022,56.6,Kaduna,Kajuru,NA
-Measles 1 Dose Coverage (Annualized),2022,57,Kaduna,Kaura,NA
-Measles 1 Dose Coverage (Annualized),2022,74.6,Kaduna,Kauru,NA
-Measles 1 Dose Coverage (Annualized),2022,85.8,Kaduna,Kubau,NA
-Measles 1 Dose Coverage (Annualized),2022,53.5,Kaduna,Kudan,NA
-Measles 1 Dose Coverage (Annualized),2022,70.5,Kaduna,Lere,NA
-Measles 1 Dose Coverage (Annualized),2022,75.2,Kaduna,Makarfi,NA
-Measles 1 Dose Coverage (Annualized),2022,89.1,Kaduna,Sabon Gari,NA
-Measles 1 Dose Coverage (Annualized),2022,50.8,Kaduna,Sanga,NA
-Measles 1 Dose Coverage (Annualized),2022,87.8,Kaduna,Soba,NA
-Measles 1 Dose Coverage (Annualized),2022,49.2,Kaduna,Zangon Kataf,NA
-Measles 1 Dose Coverage (Annualized),2022,49.6,Kaduna,Zaria,NA
-Measles 1 Dose Coverage (Annualized),2022,80.5,Kebbi,Aleiro,NA
-Measles 1 Dose Coverage (Annualized),2022,30.5,Kebbi,Arewa,NA
-Measles 1 Dose Coverage (Annualized),2022,61.5,Kebbi,Argungu,NA
-Measles 1 Dose Coverage (Annualized),2022,40.6,Kebbi,Augie,NA
-Measles 1 Dose Coverage (Annualized),2022,71.8,Kebbi,Bagudo,NA
-Measles 1 Dose Coverage (Annualized),2022,42.3,Kebbi,Birnin Kebbi,NA
-Measles 1 Dose Coverage (Annualized),2022,50.2,Kebbi,Bunza,NA
-Measles 1 Dose Coverage (Annualized),2022,38,Kebbi,Dandi,NA
-Measles 1 Dose Coverage (Annualized),2022,64.4,Kebbi,Danko/Wasagu,NA
-Measles 1 Dose Coverage (Annualized),2022,62,Kebbi,Fakai,NA
-Measles 1 Dose Coverage (Annualized),2022,52.8,Kebbi,Gwandu,NA
-Measles 1 Dose Coverage (Annualized),2022,47.8,Kebbi,Jega,NA
-Measles 1 Dose Coverage (Annualized),2022,57.4,Kebbi,Kalgo,NA
-Measles 1 Dose Coverage (Annualized),2022,83.4,Kebbi,Koko/Besse,NA
-Measles 1 Dose Coverage (Annualized),2022,62,Kebbi,Maiyama,NA
-Measles 1 Dose Coverage (Annualized),2022,59,Kebbi,Ngaski,NA
-Measles 1 Dose Coverage (Annualized),2022,69.1,Kebbi,Sakaba,NA
-Measles 1 Dose Coverage (Annualized),2022,71.7,Kebbi,Shanga,NA
-Measles 1 Dose Coverage (Annualized),2022,42.4,Kebbi,Suru,NA
-Measles 1 Dose Coverage (Annualized),2022,58.1,Kebbi,Yauri,NA
-Measles 1 Dose Coverage (Annualized),2022,80.1,Kebbi,Zuru,NA
-Measles 1 Dose Coverage (Annualized),2022,54.6,Kano,Ajingi,NA
-Measles 1 Dose Coverage (Annualized),2022,63.3,Kano,Albasu,NA
-Measles 1 Dose Coverage (Annualized),2022,44.9,Kano,Bagwai,NA
-Measles 1 Dose Coverage (Annualized),2022,53.2,Kano,Bebeji,NA
-Measles 1 Dose Coverage (Annualized),2022,42.8,Kano,Bichi,NA
-Measles 1 Dose Coverage (Annualized),2022,67.2,Kano,Bunkure,NA
-Measles 1 Dose Coverage (Annualized),2022,53.5,Kano,Dala,NA
-Measles 1 Dose Coverage (Annualized),2022,56.4,Kano,Danbatta,NA
-Measles 1 Dose Coverage (Annualized),2022,63.8,Kano,Dawakin Kudu,NA
-Measles 1 Dose Coverage (Annualized),2022,42.7,Kano,Dawakin Tofa,NA
-Measles 1 Dose Coverage (Annualized),2022,64.8,Kano,Doguwa,NA
-Measles 1 Dose Coverage (Annualized),2022,54.8,Kano,Fagge,NA
-Measles 1 Dose Coverage (Annualized),2022,57.4,Kano,Gabasawa,NA
-Measles 1 Dose Coverage (Annualized),2022,62.7,Kano,Garko,NA
-Measles 1 Dose Coverage (Annualized),2022,49.8,Kano,Garum Mallam,NA
-Measles 1 Dose Coverage (Annualized),2022,69.1,Kano,Gaya,NA
-Measles 1 Dose Coverage (Annualized),2022,57.5,Kano,Gezawa,NA
-Measles 1 Dose Coverage (Annualized),2022,60.2,Kano,Gwale,NA
-Measles 1 Dose Coverage (Annualized),2022,62.3,Kano,Gwarzo,NA
-Measles 1 Dose Coverage (Annualized),2022,52.8,Kano,Kabo,NA
-Measles 1 Dose Coverage (Annualized),2022,44,Kano,Kano Municipal,NA
-Measles 1 Dose Coverage (Annualized),2022,41.3,Kano,Karaye,NA
-Measles 1 Dose Coverage (Annualized),2022,48.5,Kano,Kibiya,NA
-Measles 1 Dose Coverage (Annualized),2022,56,Kano,Kiru,NA
-Measles 1 Dose Coverage (Annualized),2022,64,Kano,Kumbotso,NA
-Measles 1 Dose Coverage (Annualized),2022,53.9,Kano,Kunchi,NA
-Measles 1 Dose Coverage (Annualized),2022,66,Kano,Kura,NA
-Measles 1 Dose Coverage (Annualized),2022,59.1,Kano,Madobi,NA
-Measles 1 Dose Coverage (Annualized),2022,56.3,Kano,Makoda,NA
-Measles 1 Dose Coverage (Annualized),2022,48.9,Kano,Minjibir,NA
-Measles 1 Dose Coverage (Annualized),2022,63.4,Kano,Nasarawa,NA
-Measles 1 Dose Coverage (Annualized),2022,57.9,Kano,Rano,NA
-Measles 1 Dose Coverage (Annualized),2022,48.3,Kano,Rimin Gado,NA
-Measles 1 Dose Coverage (Annualized),2022,56.3,Kano,Rogo,NA
-Measles 1 Dose Coverage (Annualized),2022,55.3,Kano,Shanono,NA
-Measles 1 Dose Coverage (Annualized),2022,56.2,Kano,Sumaila,NA
-Measles 1 Dose Coverage (Annualized),2022,64.3,Kano,Takai,NA
-Measles 1 Dose Coverage (Annualized),2022,61.5,Kano,Tarauni,NA
-Measles 1 Dose Coverage (Annualized),2022,47.5,Kano,Tofa,NA
-Measles 1 Dose Coverage (Annualized),2022,44.5,Kano,Tsanyawa,NA
-Measles 1 Dose Coverage (Annualized),2022,60.2,Kano,Tudun Wada,NA
-Measles 1 Dose Coverage (Annualized),2022,63.7,Kano,Ungogo,NA
-Measles 1 Dose Coverage (Annualized),2022,54.6,Kano,Warawa,NA
-Measles 1 Dose Coverage (Annualized),2022,58,Kano,Wudil,NA
-Measles 1 Dose Coverage (Annualized),2022,38.3,Kogi,Adavi,NA
-Measles 1 Dose Coverage (Annualized),2022,44.7,Kogi,Ajaokuta,NA
-Measles 1 Dose Coverage (Annualized),2022,61.3,Kogi,Ankpa,NA
-Measles 1 Dose Coverage (Annualized),2022,19.5,Kogi,Bassa,NA
-Measles 1 Dose Coverage (Annualized),2022,26.1,Kogi,Dekina,NA
-Measles 1 Dose Coverage (Annualized),2022,26.4,Kogi,Ibaji,NA
-Measles 1 Dose Coverage (Annualized),2022,94.4,Kogi,Idah,NA
-Measles 1 Dose Coverage (Annualized),2022,42.7,Kogi,Igalamela-Odolu,NA
-Measles 1 Dose Coverage (Annualized),2022,38.3,Kogi,Ijumu,NA
-Measles 1 Dose Coverage (Annualized),2022,35.3,Kogi,Kabba/Bunu,NA
-Measles 1 Dose Coverage (Annualized),2022,21.4,Kogi,Kogi,NA
-Measles 1 Dose Coverage (Annualized),2022,36.7,Kogi,Lokoja,NA
-Measles 1 Dose Coverage (Annualized),2022,61.6,Kogi,Mopa-Muro,NA
-Measles 1 Dose Coverage (Annualized),2022,16.9,Kogi,Ofu,NA
-Measles 1 Dose Coverage (Annualized),2022,39.2,Kogi,Ogori/Magongo,NA
-Measles 1 Dose Coverage (Annualized),2022,62.4,Kogi,Okehi,NA
-Measles 1 Dose Coverage (Annualized),2022,58.1,Kogi,Okene,NA
-Measles 1 Dose Coverage (Annualized),2022,43.7,Kogi,Olamaboro,NA
-Measles 1 Dose Coverage (Annualized),2022,48.4,Kogi,Omala,NA
-Measles 1 Dose Coverage (Annualized),2022,41,Kogi,Yagba East,NA
-Measles 1 Dose Coverage (Annualized),2022,21.8,Kogi,Yagba West,NA
-Measles 1 Dose Coverage (Annualized),2022,130.4,Katsina,Bakori,NA
-Measles 1 Dose Coverage (Annualized),2022,50.1,Katsina,Batagarawa,NA
-Measles 1 Dose Coverage (Annualized),2022,57.9,Katsina,Batsari,NA
-Measles 1 Dose Coverage (Annualized),2022,45,Katsina,Baure,NA
-Measles 1 Dose Coverage (Annualized),2022,49.8,Katsina,Bindawa,NA
-Measles 1 Dose Coverage (Annualized),2022,31.6,Katsina,Charanchi,NA
-Measles 1 Dose Coverage (Annualized),2022,52.4,Katsina,Dan Musa,NA
-Measles 1 Dose Coverage (Annualized),2022,82.1,Katsina,Dandume,NA
-Measles 1 Dose Coverage (Annualized),2022,83.9,Katsina,Danja,NA
-Measles 1 Dose Coverage (Annualized),2022,40.6,Katsina,Daura,NA
-Measles 1 Dose Coverage (Annualized),2022,58.3,Katsina,Dutsi,NA
-Measles 1 Dose Coverage (Annualized),2022,105.4,Katsina,Dutsin-Ma,NA
-Measles 1 Dose Coverage (Annualized),2022,45.3,Katsina,Faskari,NA
-Measles 1 Dose Coverage (Annualized),2022,60.9,Katsina,Funtua,NA
-Measles 1 Dose Coverage (Annualized),2022,30,Katsina,Ingawa,NA
-Measles 1 Dose Coverage (Annualized),2022,37.9,Katsina,Jibia,NA
-Measles 1 Dose Coverage (Annualized),2022,79.6,Katsina,Kafur,NA
-Measles 1 Dose Coverage (Annualized),2022,47.4,Katsina,Kaita,NA
-Measles 1 Dose Coverage (Annualized),2022,49.1,Katsina,Kankara,NA
-Measles 1 Dose Coverage (Annualized),2022,52.8,Katsina,Kankia,NA
-Measles 1 Dose Coverage (Annualized),2022,56.6,Katsina,Katsina,NA
-Measles 1 Dose Coverage (Annualized),2022,48.9,Katsina,Kurfi,NA
-Measles 1 Dose Coverage (Annualized),2022,58.6,Katsina,Kusada,NA
-Measles 1 Dose Coverage (Annualized),2022,31.7,Katsina,Mai'Adua,NA
-Measles 1 Dose Coverage (Annualized),2022,104.2,Katsina,Malumfashi,NA
-Measles 1 Dose Coverage (Annualized),2022,26.1,Katsina,Mani,NA
-Measles 1 Dose Coverage (Annualized),2022,57.5,Katsina,Mashi,NA
-Measles 1 Dose Coverage (Annualized),2022,67.5,Katsina,Matazu,NA
-Measles 1 Dose Coverage (Annualized),2022,49.1,Katsina,Musawa,NA
-Measles 1 Dose Coverage (Annualized),2022,67.3,Katsina,Rimi,NA
-Measles 1 Dose Coverage (Annualized),2022,58.2,Katsina,Sabuwa,NA
-Measles 1 Dose Coverage (Annualized),2022,54.4,Katsina,Safana,NA
-Measles 1 Dose Coverage (Annualized),2022,31.4,Katsina,Sandamu,NA
-Measles 1 Dose Coverage (Annualized),2022,40.6,Katsina,Zango,NA
-Measles 1 Dose Coverage (Annualized),2022,66.3,Kwara,Asa,NA
-Measles 1 Dose Coverage (Annualized),2022,29.1,Kwara,Baruten,NA
-Measles 1 Dose Coverage (Annualized),2022,67.2,Kwara,Edu,NA
-Measles 1 Dose Coverage (Annualized),2022,64.7,Kwara,Ekiti,NA
-Measles 1 Dose Coverage (Annualized),2022,35.9,Kwara,Ifelodun,NA
-Measles 1 Dose Coverage (Annualized),2022,32.8,Kwara,Ilorin East,NA
-Measles 1 Dose Coverage (Annualized),2022,73.1,Kwara,Ilorin South,NA
-Measles 1 Dose Coverage (Annualized),2022,45.8,Kwara,Ilorin West,NA
-Measles 1 Dose Coverage (Annualized),2022,58.7,Kwara,Irepodun,NA
-Measles 1 Dose Coverage (Annualized),2022,54.3,Kwara,Isin,NA
-Measles 1 Dose Coverage (Annualized),2022,53.4,Kwara,Kaiama,NA
-Measles 1 Dose Coverage (Annualized),2022,36.8,Kwara,Moro,NA
-Measles 1 Dose Coverage (Annualized),2022,48.1,Kwara,Offa,NA
-Measles 1 Dose Coverage (Annualized),2022,38,Kwara,Oke-Ero,NA
-Measles 1 Dose Coverage (Annualized),2022,63.2,Kwara,Oyun,NA
-Measles 1 Dose Coverage (Annualized),2022,51.1,Kwara,Pategi,NA
-Measles 1 Dose Coverage (Annualized),2022,33.2,Lagos,Agege,NA
-Measles 1 Dose Coverage (Annualized),2022,54.4,Lagos,Ajeromi/Ifelodun,NA
-Measles 1 Dose Coverage (Annualized),2022,65.6,Lagos,Alimosho,NA
-Measles 1 Dose Coverage (Annualized),2022,48.9,Lagos,Amuwo Odofin,NA
-Measles 1 Dose Coverage (Annualized),2022,51.3,Lagos,Apapa,NA
-Measles 1 Dose Coverage (Annualized),2022,76.8,Lagos,Badagry,NA
-Measles 1 Dose Coverage (Annualized),2022,62.5,Lagos,Epe,NA
-Measles 1 Dose Coverage (Annualized),2022,58.7,Lagos,Eti-Osa,NA
-Measles 1 Dose Coverage (Annualized),2022,112.2,Lagos,Ibeju/Lekki,NA
-Measles 1 Dose Coverage (Annualized),2022,39.2,Lagos,Ifako/Ijaye,NA
-Measles 1 Dose Coverage (Annualized),2022,50.5,Lagos,Ikeja,NA
-Measles 1 Dose Coverage (Annualized),2022,66.3,Lagos,Ikorodu,NA
-Measles 1 Dose Coverage (Annualized),2022,36.8,Lagos,Kosofe,NA
-Measles 1 Dose Coverage (Annualized),2022,48.9,Lagos,Lagos Island,NA
-Measles 1 Dose Coverage (Annualized),2022,37.6,Lagos,Lagos Mainland,NA
-Measles 1 Dose Coverage (Annualized),2022,42.5,Lagos,Mushin,NA
-Measles 1 Dose Coverage (Annualized),2022,58.3,Lagos,Ojo,NA
-Measles 1 Dose Coverage (Annualized),2022,51.8,Lagos,Oshodi/Isolo,NA
-Measles 1 Dose Coverage (Annualized),2022,47.3,Lagos,Shomolu,NA
-Measles 1 Dose Coverage (Annualized),2022,55.7,Lagos,Surulere,NA
-Measles 1 Dose Coverage (Annualized),2022,53.8,Nasarawa,Akwanga,NA
-Measles 1 Dose Coverage (Annualized),2022,74.8,Nasarawa,Awe,NA
-Measles 1 Dose Coverage (Annualized),2022,51.7,Nasarawa,Doma,NA
-Measles 1 Dose Coverage (Annualized),2022,118.4,Nasarawa,Karu,NA
-Measles 1 Dose Coverage (Annualized),2022,51.4,Nasarawa,Keana,NA
-Measles 1 Dose Coverage (Annualized),2022,70.6,Nasarawa,Keffi,NA
-Measles 1 Dose Coverage (Annualized),2022,54.9,Nasarawa,Kokona,NA
-Measles 1 Dose Coverage (Annualized),2022,70.7,Nasarawa,Lafia,NA
-Measles 1 Dose Coverage (Annualized),2022,64.7,Nasarawa,Nasarawa Eggon,NA
-Measles 1 Dose Coverage (Annualized),2022,66.1,Nasarawa,Nasarawa,NA
-Measles 1 Dose Coverage (Annualized),2022,118.2,Nasarawa,Obi,NA
-Measles 1 Dose Coverage (Annualized),2022,49.4,Nasarawa,Toto,NA
-Measles 1 Dose Coverage (Annualized),2022,49,Nasarawa,Wamba,NA
-Measles 1 Dose Coverage (Annualized),2022,77.9,Niger,Agaie,NA
-Measles 1 Dose Coverage (Annualized),2022,100.1,Niger,Agwara,NA
-Measles 1 Dose Coverage (Annualized),2022,56.2,Niger,Bida,NA
-Measles 1 Dose Coverage (Annualized),2022,86.5,Niger,Borgu,NA
-Measles 1 Dose Coverage (Annualized),2022,55.3,Niger,Bosso,NA
-Measles 1 Dose Coverage (Annualized),2022,50.6,Niger,Chanchaga,NA
-Measles 1 Dose Coverage (Annualized),2022,71.7,Niger,Edati,NA
-Measles 1 Dose Coverage (Annualized),2022,46.4,Niger,Gbako,NA
-Measles 1 Dose Coverage (Annualized),2022,57.5,Niger,Gurara,NA
-Measles 1 Dose Coverage (Annualized),2022,60.6,Niger,Katcha,NA
-Measles 1 Dose Coverage (Annualized),2022,51.4,Niger,Kontagora,NA
-Measles 1 Dose Coverage (Annualized),2022,84.3,Niger,Lapai,NA
-Measles 1 Dose Coverage (Annualized),2022,64.1,Niger,Lavun,NA
-Measles 1 Dose Coverage (Annualized),2022,42.6,Niger,Magama,NA
-Measles 1 Dose Coverage (Annualized),2022,39.1,Niger,Mariga,NA
-Measles 1 Dose Coverage (Annualized),2022,38.6,Niger,Mashegu,NA
-Measles 1 Dose Coverage (Annualized),2022,66,Niger,Mokwa,NA
-Measles 1 Dose Coverage (Annualized),2022,32.1,Niger,Muya,NA
-Measles 1 Dose Coverage (Annualized),2022,41.6,Niger,Paikoro,NA
-Measles 1 Dose Coverage (Annualized),2022,34.5,Niger,Rafi,NA
-Measles 1 Dose Coverage (Annualized),2022,54.2,Niger,Rijau,NA
-Measles 1 Dose Coverage (Annualized),2022,44.9,Niger,Shiroro,NA
-Measles 1 Dose Coverage (Annualized),2022,40.9,Niger,Suleja,NA
-Measles 1 Dose Coverage (Annualized),2022,42.2,Niger,Tafa,NA
-Measles 1 Dose Coverage (Annualized),2022,36.5,Niger,Wushishi,NA
-Measles 1 Dose Coverage (Annualized),2022,47.7,Ogun,Abeokuta North,NA
-Measles 1 Dose Coverage (Annualized),2022,34.9,Ogun,Abeokuta South,NA
-Measles 1 Dose Coverage (Annualized),2022,50.7,Ogun,Ado Odo/Ota,NA
-Measles 1 Dose Coverage (Annualized),2022,59,Ogun,Ewekoro,NA
-Measles 1 Dose Coverage (Annualized),2022,51.4,Ogun,Ifo,NA
-Measles 1 Dose Coverage (Annualized),2022,55.6,Ogun,Ijebu East,NA
-Measles 1 Dose Coverage (Annualized),2022,14.6,Ogun,Ijebu North East,NA
-Measles 1 Dose Coverage (Annualized),2022,210.4,Ogun,Ijebu North,NA
-Measles 1 Dose Coverage (Annualized),2022,75.3,Ogun,Ijebu Ode,NA
-Measles 1 Dose Coverage (Annualized),2022,68.9,Ogun,Ikenne,NA
-Measles 1 Dose Coverage (Annualized),2022,61.5,Ogun,Imeko Afon,NA
-Measles 1 Dose Coverage (Annualized),2022,60.6,Ogun,Ipokia,NA
-Measles 1 Dose Coverage (Annualized),2022,38.1,Ogun,Obafemi Owode,NA
-Measles 1 Dose Coverage (Annualized),2022,48.3,Ogun,Odeda,NA
-Measles 1 Dose Coverage (Annualized),2022,65.3,Ogun,Odogbolu,NA
-Measles 1 Dose Coverage (Annualized),2022,53.6,Ogun,Ogun Waterside,NA
-Measles 1 Dose Coverage (Annualized),2022,45.5,Ogun,Remo North,NA
-Measles 1 Dose Coverage (Annualized),2022,62.8,Ogun,Sagamu,NA
-Measles 1 Dose Coverage (Annualized),2022,40.8,Ogun,Yewa North,NA
-Measles 1 Dose Coverage (Annualized),2022,66.9,Ogun,Yewa South,NA
-Measles 1 Dose Coverage (Annualized),2022,32.2,Ondo,Akoko North East,NA
-Measles 1 Dose Coverage (Annualized),2022,46.7,Ondo,Akoko North West,NA
-Measles 1 Dose Coverage (Annualized),2022,44.8,Ondo,Akoko South East,NA
-Measles 1 Dose Coverage (Annualized),2022,24.1,Ondo,Akoko South West,NA
-Measles 1 Dose Coverage (Annualized),2022,81.1,Ondo,Akure North,NA
-Measles 1 Dose Coverage (Annualized),2022,87.8,Ondo,Akure South,NA
-Measles 1 Dose Coverage (Annualized),2022,68.4,Ondo,Ese Odo,NA
-Measles 1 Dose Coverage (Annualized),2022,57.3,Ondo,Idanre,NA
-Measles 1 Dose Coverage (Annualized),2022,14.4,Ondo,Ifedore,NA
-Measles 1 Dose Coverage (Annualized),2022,66.9,Ondo,Ilaje,NA
-Measles 1 Dose Coverage (Annualized),2022,59.4,Ondo,Ile-Oluji/Okeigbo,NA
-Measles 1 Dose Coverage (Annualized),2022,63.1,Ondo,Irele,NA
-Measles 1 Dose Coverage (Annualized),2022,113.3,Ondo,Odigbo,NA
-Measles 1 Dose Coverage (Annualized),2022,75.1,Ondo,Okitipupa,NA
-Measles 1 Dose Coverage (Annualized),2022,58,Ondo,Ondo East,NA
-Measles 1 Dose Coverage (Annualized),2022,55.8,Ondo,Ondo West,NA
-Measles 1 Dose Coverage (Annualized),2022,29.7,Ondo,Ose,NA
-Measles 1 Dose Coverage (Annualized),2022,37,Ondo,Owo,NA
-Measles 1 Dose Coverage (Annualized),2022,23,Osun,Atakumosa East,NA
-Measles 1 Dose Coverage (Annualized),2022,43.8,Osun,Atakumosa West,NA
-Measles 1 Dose Coverage (Annualized),2022,34.7,Osun,Ayedaade,NA
-Measles 1 Dose Coverage (Annualized),2022,26,Osun,Ayedire,NA
-Measles 1 Dose Coverage (Annualized),2022,24,Osun,Boluwaduro,NA
-Measles 1 Dose Coverage (Annualized),2022,61.3,Osun,Boripe,NA
-Measles 1 Dose Coverage (Annualized),2022,30.1,Osun,Ede North,NA
-Measles 1 Dose Coverage (Annualized),2022,39.3,Osun,Ede South,NA
-Measles 1 Dose Coverage (Annualized),2022,44.8,Osun,Egbedore,NA
-Measles 1 Dose Coverage (Annualized),2022,49,Osun,Ejigbo,NA
-Measles 1 Dose Coverage (Annualized),2022,44.2,Osun,Ife Central,NA
-Measles 1 Dose Coverage (Annualized),2022,43.4,Osun,Ife East,NA
-Measles 1 Dose Coverage (Annualized),2022,63.9,Osun,Ife North,NA
-Measles 1 Dose Coverage (Annualized),2022,39.7,Osun,Ife South,NA
-Measles 1 Dose Coverage (Annualized),2022,53.5,Osun,Ifedayo,NA
-Measles 1 Dose Coverage (Annualized),2022,40.1,Osun,Ifelodun,NA
-Measles 1 Dose Coverage (Annualized),2022,42.6,Osun,Ila,NA
-Measles 1 Dose Coverage (Annualized),2022,15.1,Osun,Ilesa East,NA
-Measles 1 Dose Coverage (Annualized),2022,34,Osun,Ilesa West,NA
-Measles 1 Dose Coverage (Annualized),2022,28.2,Osun,Irepodun,NA
-Measles 1 Dose Coverage (Annualized),2022,24.6,Osun,Irewole,NA
-Measles 1 Dose Coverage (Annualized),2022,22.4,Osun,Isokan,NA
-Measles 1 Dose Coverage (Annualized),2022,45.5,Osun,Iwo,NA
-Measles 1 Dose Coverage (Annualized),2022,40.7,Osun,Obokun,NA
-Measles 1 Dose Coverage (Annualized),2022,54.8,Osun,Odo Otin,NA
-Measles 1 Dose Coverage (Annualized),2022,28.9,Osun,Ola-Oluwa,NA
-Measles 1 Dose Coverage (Annualized),2022,35.3,Osun,Olorunda,NA
-Measles 1 Dose Coverage (Annualized),2022,17,Osun,Oriade,NA
-Measles 1 Dose Coverage (Annualized),2022,41.3,Osun,Orolu,NA
-Measles 1 Dose Coverage (Annualized),2022,39.6,Osun,Osogbo,NA
-Measles 1 Dose Coverage (Annualized),2022,66.8,Oyo,Afijio,NA
-Measles 1 Dose Coverage (Annualized),2022,76.5,Oyo,Akinyele,NA
-Measles 1 Dose Coverage (Annualized),2022,47.3,Oyo,Atiba,NA
-Measles 1 Dose Coverage (Annualized),2022,59.8,Oyo,Atisbo,NA
-Measles 1 Dose Coverage (Annualized),2022,60.7,Oyo,Egbeda,NA
-Measles 1 Dose Coverage (Annualized),2022,38.9,Oyo,Ibadan North East,NA
-Measles 1 Dose Coverage (Annualized),2022,39.2,Oyo,Ibadan North,NA
-Measles 1 Dose Coverage (Annualized),2022,44.6,Oyo,Ibadan North West,NA
-Measles 1 Dose Coverage (Annualized),2022,55.9,Oyo,Ibadan South East,NA
-Measles 1 Dose Coverage (Annualized),2022,66.8,Oyo,Ibadan South West,NA
-Measles 1 Dose Coverage (Annualized),2022,32,Oyo,Ibarapa Central,NA
-Measles 1 Dose Coverage (Annualized),2022,57.2,Oyo,Ibarapa East,NA
-Measles 1 Dose Coverage (Annualized),2022,28,Oyo,Ibarapa North,NA
-Measles 1 Dose Coverage (Annualized),2022,78.5,Oyo,Ido,NA
-Measles 1 Dose Coverage (Annualized),2022,67,Oyo,Irepo,NA
-Measles 1 Dose Coverage (Annualized),2022,37.1,Oyo,Iseyin,NA
-Measles 1 Dose Coverage (Annualized),2022,49.6,Oyo,Itesiwaju,NA
-Measles 1 Dose Coverage (Annualized),2022,55.2,Oyo,Iwajowa,NA
-Measles 1 Dose Coverage (Annualized),2022,30.7,Oyo,Kajola,NA
-Measles 1 Dose Coverage (Annualized),2022,50.4,Oyo,Lagelu,NA
-Measles 1 Dose Coverage (Annualized),2022,60.8,Oyo,Ogbomosho North,NA
-Measles 1 Dose Coverage (Annualized),2022,34.8,Oyo,Ogbomosho South,NA
-Measles 1 Dose Coverage (Annualized),2022,49.6,Oyo,Ogo Oluwa,NA
-Measles 1 Dose Coverage (Annualized),2022,63.6,Oyo,Olorunsogo,NA
-Measles 1 Dose Coverage (Annualized),2022,59.8,Oyo,Oluyole,NA
-Measles 1 Dose Coverage (Annualized),2022,36.9,Oyo,Ona Ara,NA
-Measles 1 Dose Coverage (Annualized),2022,67.4,Oyo,Orelope,NA
-Measles 1 Dose Coverage (Annualized),2022,61.9,Oyo,Ori Ire,NA
-Measles 1 Dose Coverage (Annualized),2022,70.4,Oyo,Oyo East,NA
-Measles 1 Dose Coverage (Annualized),2022,52.4,Oyo,Oyo West,NA
-Measles 1 Dose Coverage (Annualized),2022,69.9,Oyo,Saki East,NA
-Measles 1 Dose Coverage (Annualized),2022,37.6,Oyo,Saki West,NA
-Measles 1 Dose Coverage (Annualized),2022,39.1,Oyo,Surulere,NA
-Measles 1 Dose Coverage (Annualized),2022,57.2,Plateau,Barkin Ladi,NA
-Measles 1 Dose Coverage (Annualized),2022,52.4,Plateau,Bassa,NA
-Measles 1 Dose Coverage (Annualized),2022,43.7,Plateau,Bokkos,NA
-Measles 1 Dose Coverage (Annualized),2022,35.5,Plateau,Jos East,NA
-Measles 1 Dose Coverage (Annualized),2022,44.6,Plateau,Jos North,NA
-Measles 1 Dose Coverage (Annualized),2022,47.8,Plateau,Jos South,NA
-Measles 1 Dose Coverage (Annualized),2022,79.9,Plateau,Kanam,NA
-Measles 1 Dose Coverage (Annualized),2022,37,Plateau,Kanke,NA
-Measles 1 Dose Coverage (Annualized),2022,35.8,Plateau,Langtang North,NA
-Measles 1 Dose Coverage (Annualized),2022,41.6,Plateau,Langtang South,NA
-Measles 1 Dose Coverage (Annualized),2022,41,Plateau,Mangu,NA
-Measles 1 Dose Coverage (Annualized),2022,35.9,Plateau,Mikang,NA
-Measles 1 Dose Coverage (Annualized),2022,33.6,Plateau,Pankshin,NA
-Measles 1 Dose Coverage (Annualized),2022,38.9,Plateau,Qua'an Pan,NA
-Measles 1 Dose Coverage (Annualized),2022,46.9,Plateau,Riyom,NA
-Measles 1 Dose Coverage (Annualized),2022,38.5,Plateau,Shendam,NA
-Measles 1 Dose Coverage (Annualized),2022,39,Plateau,Wase,NA
-Measles 1 Dose Coverage (Annualized),2022,55.7,Rivers,Abua/Odual,NA
-Measles 1 Dose Coverage (Annualized),2022,67.7,Rivers,Ahoada East,NA
-Measles 1 Dose Coverage (Annualized),2022,36.9,Rivers,Ahoada West,NA
-Measles 1 Dose Coverage (Annualized),2022,39.1,Rivers,Akuku Toru,NA
-Measles 1 Dose Coverage (Annualized),2022,56.7,Rivers,Andoni,NA
-Measles 1 Dose Coverage (Annualized),2022,30.8,Rivers,Asari-Toru,NA
-Measles 1 Dose Coverage (Annualized),2022,38.6,Rivers,Bonny,NA
-Measles 1 Dose Coverage (Annualized),2022,32.3,Rivers,Degema,NA
-Measles 1 Dose Coverage (Annualized),2022,40.2,Rivers,Eleme,NA
-Measles 1 Dose Coverage (Annualized),2022,63.3,Rivers,Emohua,NA
-Measles 1 Dose Coverage (Annualized),2022,56.8,Rivers,Etche,NA
-Measles 1 Dose Coverage (Annualized),2022,57.3,Rivers,Gokana,NA
-Measles 1 Dose Coverage (Annualized),2022,46.2,Rivers,Ikwerre,NA
-Measles 1 Dose Coverage (Annualized),2022,63.6,Rivers,Khana,NA
-Measles 1 Dose Coverage (Annualized),2022,78.6,Rivers,Obio/Akpor,NA
-Measles 1 Dose Coverage (Annualized),2022,44.3,Rivers,Ogba/Egbema/Ndoni,NA
-Measles 1 Dose Coverage (Annualized),2022,68,Rivers,Ogu/Bolo,NA
-Measles 1 Dose Coverage (Annualized),2022,50.8,Rivers,Okrika,NA
-Measles 1 Dose Coverage (Annualized),2022,74.1,Rivers,Omumma,NA
-Measles 1 Dose Coverage (Annualized),2022,63.1,Rivers,Opobo/Nkoro,NA
-Measles 1 Dose Coverage (Annualized),2022,65.7,Rivers,Oyigbo,NA
-Measles 1 Dose Coverage (Annualized),2022,42.7,Rivers,Port-Harcourt,NA
-Measles 1 Dose Coverage (Annualized),2022,78.9,Rivers,Tai,NA
-Measles 1 Dose Coverage (Annualized),2022,31.6,Sokoto,Binji,NA
-Measles 1 Dose Coverage (Annualized),2022,41.2,Sokoto,Bodinga,NA
-Measles 1 Dose Coverage (Annualized),2022,37.1,Sokoto,Dange-Shuni,NA
-Measles 1 Dose Coverage (Annualized),2022,49.1,Sokoto,Gada,NA
-Measles 1 Dose Coverage (Annualized),2022,29.3,Sokoto,Goronyo,NA
-Measles 1 Dose Coverage (Annualized),2022,39.1,Sokoto,Gudu,NA
-Measles 1 Dose Coverage (Annualized),2022,32,Sokoto,Gwadabawa,NA
-Measles 1 Dose Coverage (Annualized),2022,41.2,Sokoto,Illela,NA
-Measles 1 Dose Coverage (Annualized),2022,43.2,Sokoto,Isa,NA
-Measles 1 Dose Coverage (Annualized),2022,29.1,Sokoto,Kebbe,NA
-Measles 1 Dose Coverage (Annualized),2022,46.4,Sokoto,Kware,NA
-Measles 1 Dose Coverage (Annualized),2022,54.9,Sokoto,Rabah,NA
-Measles 1 Dose Coverage (Annualized),2022,66.9,Sokoto,Sabon Birni,NA
-Measles 1 Dose Coverage (Annualized),2022,45.4,Sokoto,Shagari,NA
-Measles 1 Dose Coverage (Annualized),2022,32,Sokoto,Silame,NA
-Measles 1 Dose Coverage (Annualized),2022,33.2,Sokoto,Sokoto North,NA
-Measles 1 Dose Coverage (Annualized),2022,28,Sokoto,Sokoto South,NA
-Measles 1 Dose Coverage (Annualized),2022,58.3,Sokoto,Tambuwal,NA
-Measles 1 Dose Coverage (Annualized),2022,54,Sokoto,Tangaza,NA
-Measles 1 Dose Coverage (Annualized),2022,60,Sokoto,Tureta,NA
-Measles 1 Dose Coverage (Annualized),2022,44.7,Sokoto,Wamako,NA
-Measles 1 Dose Coverage (Annualized),2022,47.2,Sokoto,Wurno,NA
-Measles 1 Dose Coverage (Annualized),2022,54.3,Sokoto,Yabo,NA
-Measles 1 Dose Coverage (Annualized),2022,64,Taraba,Ardo-Kola,NA
-Measles 1 Dose Coverage (Annualized),2022,58.7,Taraba,Bali,NA
-Measles 1 Dose Coverage (Annualized),2022,60.6,Taraba,Donga,NA
-Measles 1 Dose Coverage (Annualized),2022,37.6,Taraba,Gashaka,NA
-Measles 1 Dose Coverage (Annualized),2022,56.1,Taraba,Gassol,NA
-Measles 1 Dose Coverage (Annualized),2022,77,Taraba,Ibi,NA
-Measles 1 Dose Coverage (Annualized),2022,63.2,Taraba,Jalingo,NA
-Measles 1 Dose Coverage (Annualized),2022,45.7,Taraba,Karim-Lamido,NA
-Measles 1 Dose Coverage (Annualized),2022,43.6,Taraba,Kurmi,NA
-Measles 1 Dose Coverage (Annualized),2022,51.7,Taraba,Lau,NA
-Measles 1 Dose Coverage (Annualized),2022,70.7,Taraba,Sardauna,NA
-Measles 1 Dose Coverage (Annualized),2022,57.3,Taraba,Takum,NA
-Measles 1 Dose Coverage (Annualized),2022,57.4,Taraba,Ussa,NA
-Measles 1 Dose Coverage (Annualized),2022,50.6,Taraba,Wukari,NA
-Measles 1 Dose Coverage (Annualized),2022,65.7,Taraba,Yorro,NA
-Measles 1 Dose Coverage (Annualized),2022,51.3,Taraba,Zing,NA
-Measles 1 Dose Coverage (Annualized),2022,59.9,Yobe,Bade,NA
-Measles 1 Dose Coverage (Annualized),2022,56.6,Yobe,Busari,NA
-Measles 1 Dose Coverage (Annualized),2022,71.8,Yobe,Damaturu,NA
-Measles 1 Dose Coverage (Annualized),2022,76.2,Yobe,Fika,NA
-Measles 1 Dose Coverage (Annualized),2022,40.6,Yobe,Fune,NA
-Measles 1 Dose Coverage (Annualized),2022,68.2,Yobe,Geidam,NA
-Measles 1 Dose Coverage (Annualized),2022,43.8,Yobe,Gujba,NA
-Measles 1 Dose Coverage (Annualized),2022,56.5,Yobe,Gulani,NA
-Measles 1 Dose Coverage (Annualized),2022,58,Yobe,Jakusko,NA
-Measles 1 Dose Coverage (Annualized),2022,61.5,Yobe,Karasuwa,NA
-Measles 1 Dose Coverage (Annualized),2022,82,Yobe,Machina,NA
-Measles 1 Dose Coverage (Annualized),2022,58.2,Yobe,Nangere,NA
-Measles 1 Dose Coverage (Annualized),2022,45,Yobe,Nguru,NA
-Measles 1 Dose Coverage (Annualized),2022,82.2,Yobe,Potiskum,NA
-Measles 1 Dose Coverage (Annualized),2022,66,Yobe,Tarmuwa,NA
-Measles 1 Dose Coverage (Annualized),2022,39.6,Yobe,Yunusari,NA
-Measles 1 Dose Coverage (Annualized),2022,71.2,Yobe,Yusufari,NA
-Measles 1 Dose Coverage (Annualized),2022,74.5,Zamfara,Anka,NA
-Measles 1 Dose Coverage (Annualized),2022,44.6,Zamfara,Bakura,NA
-Measles 1 Dose Coverage (Annualized),2022,63.8,Zamfara,Birnin Magaji,NA
-Measles 1 Dose Coverage (Annualized),2022,59.4,Zamfara,Bukkuyum,NA
-Measles 1 Dose Coverage (Annualized),2022,76,Zamfara,Bungudu,NA
-Measles 1 Dose Coverage (Annualized),2022,49.6,Zamfara,Gummi,NA
-Measles 1 Dose Coverage (Annualized),2022,41.4,Zamfara,Gusau,NA
-Measles 1 Dose Coverage (Annualized),2022,50.6,Zamfara,Kaura Namoda,NA
-Measles 1 Dose Coverage (Annualized),2022,75.5,Zamfara,Maradun,NA
-Measles 1 Dose Coverage (Annualized),2022,57.5,Zamfara,Maru,NA
-Measles 1 Dose Coverage (Annualized),2022,61.8,Zamfara,Shinkafi,NA
-Measles 1 Dose Coverage (Annualized),2022,51.1,Zamfara,Talata Mafara,NA
-Measles 1 Dose Coverage (Annualized),2022,54.8,Zamfara,Tsafe,NA
-Measles 1 Dose Coverage (Annualized),2022,65.8,Zamfara,Zurmi,NA
+Measles 1 Dose Coverage (Annualized),2022,59,Abia,State level data,NA
+Measles 1 Dose Coverage (Annualized),2022,97.9,Adamawa,State level data,NA
+Measles 1 Dose Coverage (Annualized),2022,76.1,Akwa-Ibom,State level data,NA
+Measles 1 Dose Coverage (Annualized),2022,83.5,Anambra,State level data,NA
+Measles 1 Dose Coverage (Annualized),2022,66.9,Bauchi,State level data,NA
+Measles 1 Dose Coverage (Annualized),2022,69.9,Benue,State level data,NA
+Measles 1 Dose Coverage (Annualized),2022,68.8,Borno,State level data,NA
+Measles 1 Dose Coverage (Annualized),2022,31.4,Bayelsa,State level data,NA
+Measles 1 Dose Coverage (Annualized),2022,78.1,Cross River,State level data,NA
+Measles 1 Dose Coverage (Annualized),2022,76.2,Delta,State level data,NA
+Measles 1 Dose Coverage (Annualized),2022,75.5,Ebonyi,State level data,NA
+Measles 1 Dose Coverage (Annualized),2022,46.7,Edo,State level data,NA
+Measles 1 Dose Coverage (Annualized),2022,51.8,Ekiti,State level data,NA
+Measles 1 Dose Coverage (Annualized),2022,52.4,Enugu,State level data,NA
+Measles 1 Dose Coverage (Annualized),2022,137.7,Federal Capital Territory,State level data,NA
+Measles 1 Dose Coverage (Annualized),2022,113.3,Gombe,State level data,NA
+Measles 1 Dose Coverage (Annualized),2022,66.1,Imo,State level data,NA
+Measles 1 Dose Coverage (Annualized),2022,88.7,Jigawa,State level data,NA
+Measles 1 Dose Coverage (Annualized),2022,81.3,Kaduna,State level data,NA
+Measles 1 Dose Coverage (Annualized),2022,81.4,Kebbi,State level data,NA
+Measles 1 Dose Coverage (Annualized),2022,75.9,Kano,State level data,NA
+Measles 1 Dose Coverage (Annualized),2022,58.2,Kogi,State level data,NA
+Measles 1 Dose Coverage (Annualized),2022,83.4,Katsina,State level data,NA
+Measles 1 Dose Coverage (Annualized),2022,66.7,Kwara,State level data,NA
+Measles 1 Dose Coverage (Annualized),2022,69.6,Lagos,State level data,NA
+Measles 1 Dose Coverage (Annualized),2022,101.4,Nasarawa,State level data,NA
+Measles 1 Dose Coverage (Annualized),2022,73.6,Federal Government,State level data,NA
+Measles 1 Dose Coverage (Annualized),2022,80.7,Niger,State level data,NA
+Measles 1 Dose Coverage (Annualized),2022,72,Ogun,State level data,NA
+Measles 1 Dose Coverage (Annualized),2022,78,Ondo,State level data,NA
+Measles 1 Dose Coverage (Annualized),2022,53.1,Osun,State level data,NA
+Measles 1 Dose Coverage (Annualized),2022,69,Oyo,State level data,NA
+Measles 1 Dose Coverage (Annualized),2022,60.1,Plateau,State level data,NA
+Measles 1 Dose Coverage (Annualized),2022,72.2,Rivers,State level data,NA
+Measles 1 Dose Coverage (Annualized),2022,60.2,Sokoto,State level data,NA
+Measles 1 Dose Coverage (Annualized),2022,81.4,Taraba,State level data,NA
+Measles 1 Dose Coverage (Annualized),2022,82,Yobe,State level data,NA
+Measles 1 Dose Coverage (Annualized),2022,80.3,Zamfara,State level data,NA
+Measles 1 Dose Coverage (Annualized),2022,76.6,Abia,Aba North,NA
+Measles 1 Dose Coverage (Annualized),2022,52.4,Abia,Aba South,NA
+Measles 1 Dose Coverage (Annualized),2022,60.7,Abia,Arochukwu,NA
+Measles 1 Dose Coverage (Annualized),2022,41.2,Abia,Bende,NA
+Measles 1 Dose Coverage (Annualized),2022,40.1,Abia,Ikwuano,NA
+Measles 1 Dose Coverage (Annualized),2022,49.3,Abia,Isiala-Ngwa North,NA
+Measles 1 Dose Coverage (Annualized),2022,78.2,Abia,Isiala-Ngwa South,NA
+Measles 1 Dose Coverage (Annualized),2022,43.1,Abia,Isuikwuato,NA
+Measles 1 Dose Coverage (Annualized),2022,56.9,Abia,Obi Nwga,NA
+Measles 1 Dose Coverage (Annualized),2022,58.9,Abia,Ohafia,NA
+Measles 1 Dose Coverage (Annualized),2022,64.3,Abia,Osisioma Ngwa,NA
+Measles 1 Dose Coverage (Annualized),2022,67.2,Abia,Ugwunagbo,NA
+Measles 1 Dose Coverage (Annualized),2022,84.6,Abia,Ukwa East,NA
+Measles 1 Dose Coverage (Annualized),2022,71.4,Abia,Ukwa West,NA
+Measles 1 Dose Coverage (Annualized),2022,73.7,Abia,Umuahia North,NA
+Measles 1 Dose Coverage (Annualized),2022,72.3,Abia,Umuahia South,NA
+Measles 1 Dose Coverage (Annualized),2022,48.2,Abia,Umunneochi,NA
+Measles 1 Dose Coverage (Annualized),2022,111.9,Adamawa,Demsa,NA
+Measles 1 Dose Coverage (Annualized),2022,101.7,Adamawa,Fufore,NA
+Measles 1 Dose Coverage (Annualized),2022,95.4,Adamawa,Ganye,NA
+Measles 1 Dose Coverage (Annualized),2022,83.8,Adamawa,Girei,NA
+Measles 1 Dose Coverage (Annualized),2022,88,Adamawa,Gombi,NA
+Measles 1 Dose Coverage (Annualized),2022,81.8,Adamawa,Guyuk,NA
+Measles 1 Dose Coverage (Annualized),2022,116.3,Adamawa,Hong,NA
+Measles 1 Dose Coverage (Annualized),2022,108.4,Adamawa,Jada,NA
+Measles 1 Dose Coverage (Annualized),2022,104.2,Adamawa,Lamurde,NA
+Measles 1 Dose Coverage (Annualized),2022,69.3,Adamawa,Madagali,NA
+Measles 1 Dose Coverage (Annualized),2022,98.9,Adamawa,Maiha,NA
+Measles 1 Dose Coverage (Annualized),2022,93,Adamawa,Mayo-Belwa,NA
+Measles 1 Dose Coverage (Annualized),2022,117.1,Adamawa,Michika,NA
+Measles 1 Dose Coverage (Annualized),2022,104.6,Adamawa,Mubi North,NA
+Measles 1 Dose Coverage (Annualized),2022,93.2,Adamawa,Mubi South,NA
+Measles 1 Dose Coverage (Annualized),2022,71.5,Adamawa,Numan,NA
+Measles 1 Dose Coverage (Annualized),2022,94.3,Adamawa,Shelleng,NA
+Measles 1 Dose Coverage (Annualized),2022,88.2,Adamawa,Song,NA
+Measles 1 Dose Coverage (Annualized),2022,153.7,Adamawa,Toungo,NA
+Measles 1 Dose Coverage (Annualized),2022,107,Adamawa,Yola North,NA
+Measles 1 Dose Coverage (Annualized),2022,92.7,Adamawa,Yola South,NA
+Measles 1 Dose Coverage (Annualized),2022,71.2,Akwa-Ibom,Abak,NA
+Measles 1 Dose Coverage (Annualized),2022,85.4,Akwa-Ibom,Eastern Obolo,NA
+Measles 1 Dose Coverage (Annualized),2022,63.6,Akwa-Ibom,Eket,NA
+Measles 1 Dose Coverage (Annualized),2022,59.2,Akwa-Ibom,Esit Eket,NA
+Measles 1 Dose Coverage (Annualized),2022,81.2,Akwa-Ibom,Essien Udim,NA
+Measles 1 Dose Coverage (Annualized),2022,61.3,Akwa-Ibom,Etim Ekpo,NA
+Measles 1 Dose Coverage (Annualized),2022,66.8,Akwa-Ibom,Etinan,NA
+Measles 1 Dose Coverage (Annualized),2022,64.6,Akwa-Ibom,Ibeno,NA
+Measles 1 Dose Coverage (Annualized),2022,40.2,Akwa-Ibom,Ibesikpo Asutan,NA
+Measles 1 Dose Coverage (Annualized),2022,34.1,Akwa-Ibom,Ibiono Ibom,NA
+Measles 1 Dose Coverage (Annualized),2022,74.3,Akwa-Ibom,Ika,NA
+Measles 1 Dose Coverage (Annualized),2022,77.6,Akwa-Ibom,Ikono,NA
+Measles 1 Dose Coverage (Annualized),2022,63.5,Akwa-Ibom,Ikot Abasi,NA
+Measles 1 Dose Coverage (Annualized),2022,101.9,Akwa-Ibom,Ikot Ekpene,NA
+Measles 1 Dose Coverage (Annualized),2022,95.2,Akwa-Ibom,Ini,NA
+Measles 1 Dose Coverage (Annualized),2022,88.1,Akwa-Ibom,Itu,NA
+Measles 1 Dose Coverage (Annualized),2022,61.2,Akwa-Ibom,Mbo,NA
+Measles 1 Dose Coverage (Annualized),2022,125.4,Akwa-Ibom,Mkpat Enin,NA
+Measles 1 Dose Coverage (Annualized),2022,121.1,Akwa-Ibom,Nsit Atai,NA
+Measles 1 Dose Coverage (Annualized),2022,128.9,Akwa-Ibom,Nsit Ibom,NA
+Measles 1 Dose Coverage (Annualized),2022,32.6,Akwa-Ibom,Nsit Ubium,NA
+Measles 1 Dose Coverage (Annualized),2022,69.8,Akwa-Ibom,Obot Akara,NA
+Measles 1 Dose Coverage (Annualized),2022,54.3,Akwa-Ibom,Okobo,NA
+Measles 1 Dose Coverage (Annualized),2022,64.6,Akwa-Ibom,Onna,NA
+Measles 1 Dose Coverage (Annualized),2022,141.1,Akwa-Ibom,Oron,NA
+Measles 1 Dose Coverage (Annualized),2022,169.9,Akwa-Ibom,Oruk Anam,NA
+Measles 1 Dose Coverage (Annualized),2022,25.7,Akwa-Ibom,Udung Uko,NA
+Measles 1 Dose Coverage (Annualized),2022,36,Akwa-Ibom,Ukanafun,NA
+Measles 1 Dose Coverage (Annualized),2022,57.3,Akwa-Ibom,Uruan,NA
+Measles 1 Dose Coverage (Annualized),2022,120.4,Akwa-Ibom,Urue-Offong/Oruko,NA
+Measles 1 Dose Coverage (Annualized),2022,52.5,Akwa-Ibom,Uyo,NA
+Measles 1 Dose Coverage (Annualized),2022,58.1,Anambra,Aguata,NA
+Measles 1 Dose Coverage (Annualized),2022,90.8,Anambra,Anambra East,NA
+Measles 1 Dose Coverage (Annualized),2022,66.3,Anambra,Anambra West,NA
+Measles 1 Dose Coverage (Annualized),2022,78.4,Anambra,Anaocha,NA
+Measles 1 Dose Coverage (Annualized),2022,90.7,Anambra,Awka North,NA
+Measles 1 Dose Coverage (Annualized),2022,112.1,Anambra,Awka South,NA
+Measles 1 Dose Coverage (Annualized),2022,44.8,Anambra,Ayamelum,NA
+Measles 1 Dose Coverage (Annualized),2022,75.6,Anambra,Dunukofia,NA
+Measles 1 Dose Coverage (Annualized),2022,85.6,Anambra,Ekwusigo,NA
+Measles 1 Dose Coverage (Annualized),2022,70.3,Anambra,Idemili North,NA
+Measles 1 Dose Coverage (Annualized),2022,87.1,Anambra,Idemili South,NA
+Measles 1 Dose Coverage (Annualized),2022,74.5,Anambra,Ihiala,NA
+Measles 1 Dose Coverage (Annualized),2022,69.9,Anambra,Njikoka,NA
+Measles 1 Dose Coverage (Annualized),2022,107.4,Anambra,Nnewi North,NA
+Measles 1 Dose Coverage (Annualized),2022,122,Anambra,Nnewi South,NA
+Measles 1 Dose Coverage (Annualized),2022,161.5,Anambra,Ogbaru,NA
+Measles 1 Dose Coverage (Annualized),2022,89.9,Anambra,Onitsha North,NA
+Measles 1 Dose Coverage (Annualized),2022,124.6,Anambra,Onitsha South,NA
+Measles 1 Dose Coverage (Annualized),2022,66.6,Anambra,Orumba North,NA
+Measles 1 Dose Coverage (Annualized),2022,44.7,Anambra,Orumba South,NA
+Measles 1 Dose Coverage (Annualized),2022,79.7,Anambra,Oyi,NA
+Measles 1 Dose Coverage (Annualized),2022,65.1,Bauchi,Alkaleri,NA
+Measles 1 Dose Coverage (Annualized),2022,76.1,Bauchi,Bauchi,NA
+Measles 1 Dose Coverage (Annualized),2022,79.8,Bauchi,Bogoro,NA
+Measles 1 Dose Coverage (Annualized),2022,65.6,Bauchi,Dambam,NA
+Measles 1 Dose Coverage (Annualized),2022,57.9,Bauchi,Darazo,NA
+Measles 1 Dose Coverage (Annualized),2022,92.6,Bauchi,Dass,NA
+Measles 1 Dose Coverage (Annualized),2022,56.8,Bauchi,Gamawa,NA
+Measles 1 Dose Coverage (Annualized),2022,87.4,Bauchi,Ganjuwa,NA
+Measles 1 Dose Coverage (Annualized),2022,57.2,Bauchi,Giade,NA
+Measles 1 Dose Coverage (Annualized),2022,44.2,Bauchi,Itas/Gadau,NA
+Measles 1 Dose Coverage (Annualized),2022,55.1,Bauchi,Jama'are,NA
+Measles 1 Dose Coverage (Annualized),2022,53.3,Bauchi,Katagum,NA
+Measles 1 Dose Coverage (Annualized),2022,44.9,Bauchi,Kirfi,NA
+Measles 1 Dose Coverage (Annualized),2022,55,Bauchi,Misau,NA
+Measles 1 Dose Coverage (Annualized),2022,52.7,Bauchi,Ningi,NA
+Measles 1 Dose Coverage (Annualized),2022,50.3,Bauchi,Shira,NA
+Measles 1 Dose Coverage (Annualized),2022,77,Bauchi,Tafawa-Balewa,NA
+Measles 1 Dose Coverage (Annualized),2022,93.6,Bauchi,Toro,NA
+Measles 1 Dose Coverage (Annualized),2022,71.6,Bauchi,Warji,NA
+Measles 1 Dose Coverage (Annualized),2022,109.6,Bauchi,Zaki,NA
+Measles 1 Dose Coverage (Annualized),2022,59.8,Benue,Ado,NA
+Measles 1 Dose Coverage (Annualized),2022,62.8,Benue,Agatu,NA
+Measles 1 Dose Coverage (Annualized),2022,128.8,Benue,Apa,NA
+Measles 1 Dose Coverage (Annualized),2022,64.9,Benue,Buruku,NA
+Measles 1 Dose Coverage (Annualized),2022,73.5,Benue,Gboko,NA
+Measles 1 Dose Coverage (Annualized),2022,60.6,Benue,Guma,NA
+Measles 1 Dose Coverage (Annualized),2022,49.8,Benue,Gwer East,NA
+Measles 1 Dose Coverage (Annualized),2022,114.3,Benue,Gwer West,NA
+Measles 1 Dose Coverage (Annualized),2022,66.9,Benue,Katsina-Ala,NA
+Measles 1 Dose Coverage (Annualized),2022,39.3,Benue,Konshisha,NA
+Measles 1 Dose Coverage (Annualized),2022,104.4,Benue,Kwande,NA
+Measles 1 Dose Coverage (Annualized),2022,79,Benue,Logo,NA
+Measles 1 Dose Coverage (Annualized),2022,77.8,Benue,Makurdi,NA
+Measles 1 Dose Coverage (Annualized),2022,81.2,Benue,Obi,NA
+Measles 1 Dose Coverage (Annualized),2022,59.1,Benue,Ogbadibo,NA
+Measles 1 Dose Coverage (Annualized),2022,122.9,Benue,Ohimini,NA
+Measles 1 Dose Coverage (Annualized),2022,57.7,Benue,Oju,NA
+Measles 1 Dose Coverage (Annualized),2022,38.9,Benue,Okpokwu,NA
+Measles 1 Dose Coverage (Annualized),2022,54,Benue,Otukpo,NA
+Measles 1 Dose Coverage (Annualized),2022,57,Benue,Tarka,NA
+Measles 1 Dose Coverage (Annualized),2022,81.1,Benue,Ukum,NA
+Measles 1 Dose Coverage (Annualized),2022,49.5,Benue,Ushongo,NA
+Measles 1 Dose Coverage (Annualized),2022,78.5,Benue,Vandeikya,NA
+Measles 1 Dose Coverage (Annualized),2022,3.7,Borno,Abadam,NA
+Measles 1 Dose Coverage (Annualized),2022,94,Borno,Askira/Uba,NA
+Measles 1 Dose Coverage (Annualized),2022,40.5,Borno,Bama,NA
+Measles 1 Dose Coverage (Annualized),2022,121.5,Borno,Bayo,NA
+Measles 1 Dose Coverage (Annualized),2022,120.3,Borno,Biu,NA
+Measles 1 Dose Coverage (Annualized),2022,142.3,Borno,Chibok,NA
+Measles 1 Dose Coverage (Annualized),2022,44.2,Borno,Damboa,NA
+Measles 1 Dose Coverage (Annualized),2022,62.5,Borno,Dikwa,NA
+Measles 1 Dose Coverage (Annualized),2022,126.6,Borno,Gubio,NA
+Measles 1 Dose Coverage (Annualized),2022,44.3,Borno,Gwoza,NA
+Measles 1 Dose Coverage (Annualized),2022,81.4,Borno,Hawul,NA
+Measles 1 Dose Coverage (Annualized),2022,145.8,Borno,Jere,NA
+Measles 1 Dose Coverage (Annualized),2022,53.6,Borno,Kaga,NA
+Measles 1 Dose Coverage (Annualized),2022,39.4,Borno,Kala/Balge,NA
+Measles 1 Dose Coverage (Annualized),2022,81.5,Borno,Konduga,NA
+Measles 1 Dose Coverage (Annualized),2022,18.1,Borno,Kukawa,NA
+Measles 1 Dose Coverage (Annualized),2022,203.9,Borno,Kwaya Kusar,NA
+Measles 1 Dose Coverage (Annualized),2022,129.1,Borno,Mafa,NA
+Measles 1 Dose Coverage (Annualized),2022,45.5,Borno,Magumeri,NA
+Measles 1 Dose Coverage (Annualized),2022,47.6,Borno,Maiduguri,NA
+Measles 1 Dose Coverage (Annualized),2022,9.1,Borno,Marte,NA
+Measles 1 Dose Coverage (Annualized),2022,61.1,Borno,Mobbar,NA
+Measles 1 Dose Coverage (Annualized),2022,148.7,Borno,Monguno,NA
+Measles 1 Dose Coverage (Annualized),2022,35.9,Borno,Ngala,NA
+Measles 1 Dose Coverage (Annualized),2022,57.8,Borno,Nganzai,NA
+Measles 1 Dose Coverage (Annualized),2022,115.8,Borno,Shani,NA
+Measles 1 Dose Coverage (Annualized),2022,34.3,Bayelsa,Brass,NA
+Measles 1 Dose Coverage (Annualized),2022,38.8,Bayelsa,Ekeremor,NA
+Measles 1 Dose Coverage (Annualized),2022,11.7,Bayelsa,Kolokuma/Opokuma,NA
+Measles 1 Dose Coverage (Annualized),2022,38.2,Bayelsa,Nembe,NA
+Measles 1 Dose Coverage (Annualized),2022,20.4,Bayelsa,Ogbia,NA
+Measles 1 Dose Coverage (Annualized),2022,19.6,Bayelsa,Sagbama,NA
+Measles 1 Dose Coverage (Annualized),2022,21.2,Bayelsa,Southern Ijaw,NA
+Measles 1 Dose Coverage (Annualized),2022,47.1,Bayelsa,Yenagoa,NA
+Measles 1 Dose Coverage (Annualized),2022,96.9,Cross River,Abi,NA
+Measles 1 Dose Coverage (Annualized),2022,111.1,Cross River,Akamkpa,NA
+Measles 1 Dose Coverage (Annualized),2022,71.7,Cross River,Akpabuyo,NA
+Measles 1 Dose Coverage (Annualized),2022,105.4,Cross River,Bakassi,NA
+Measles 1 Dose Coverage (Annualized),2022,62.7,Cross River,Bekwarra,NA
+Measles 1 Dose Coverage (Annualized),2022,85.4,Cross River,Biase,NA
+Measles 1 Dose Coverage (Annualized),2022,84.2,Cross River,Boki,NA
+Measles 1 Dose Coverage (Annualized),2022,52.7,Cross River,Calabar Municipal,NA
+Measles 1 Dose Coverage (Annualized),2022,69.7,Cross River,Calabar South,NA
+Measles 1 Dose Coverage (Annualized),2022,107.1,Cross River,Etung,NA
+Measles 1 Dose Coverage (Annualized),2022,49.3,Cross River,Ikom,NA
+Measles 1 Dose Coverage (Annualized),2022,67.2,Cross River,Obanliku,NA
+Measles 1 Dose Coverage (Annualized),2022,81.3,Cross River,Obubra,NA
+Measles 1 Dose Coverage (Annualized),2022,79.8,Cross River,Obudu,NA
+Measles 1 Dose Coverage (Annualized),2022,74.8,Cross River,Odukpani,NA
+Measles 1 Dose Coverage (Annualized),2022,82.5,Cross River,Ogoja,NA
+Measles 1 Dose Coverage (Annualized),2022,87,Cross River,Yakurr,NA
+Measles 1 Dose Coverage (Annualized),2022,75.8,Cross River,Yala,NA
+Measles 1 Dose Coverage (Annualized),2022,96.3,Delta,Aniocha North,NA
+Measles 1 Dose Coverage (Annualized),2022,65.2,Delta,Aniocha South,NA
+Measles 1 Dose Coverage (Annualized),2022,94.5,Delta,Bomadi,NA
+Measles 1 Dose Coverage (Annualized),2022,45.5,Delta,Burutu,NA
+Measles 1 Dose Coverage (Annualized),2022,82.3,Delta,Ethiope East,NA
+Measles 1 Dose Coverage (Annualized),2022,66,Delta,Ethiope West,NA
+Measles 1 Dose Coverage (Annualized),2022,106.5,Delta,Ika North East,NA
+Measles 1 Dose Coverage (Annualized),2022,84.8,Delta,Ika South,NA
+Measles 1 Dose Coverage (Annualized),2022,83.3,Delta,Isoko North,NA
+Measles 1 Dose Coverage (Annualized),2022,63.2,Delta,Isoko South,NA
+Measles 1 Dose Coverage (Annualized),2022,46.8,Delta,Ndokwa East,NA
+Measles 1 Dose Coverage (Annualized),2022,62.8,Delta,Ndokwa West,NA
+Measles 1 Dose Coverage (Annualized),2022,168.1,Delta,Okpe,NA
+Measles 1 Dose Coverage (Annualized),2022,81,Delta,Oshimili North,NA
+Measles 1 Dose Coverage (Annualized),2022,96,Delta,Oshimili South,NA
+Measles 1 Dose Coverage (Annualized),2022,90,Delta,Patani,NA
+Measles 1 Dose Coverage (Annualized),2022,55.6,Delta,Sapele,NA
+Measles 1 Dose Coverage (Annualized),2022,63.9,Delta,Udu,NA
+Measles 1 Dose Coverage (Annualized),2022,79.1,Delta,Ughelli North,NA
+Measles 1 Dose Coverage (Annualized),2022,51.4,Delta,Ughelli South,NA
+Measles 1 Dose Coverage (Annualized),2022,71.8,Delta,Ukwuani,NA
+Measles 1 Dose Coverage (Annualized),2022,103.3,Delta,Uvwie,NA
+Measles 1 Dose Coverage (Annualized),2022,73.5,Delta,Warri North,NA
+Measles 1 Dose Coverage (Annualized),2022,132.4,Delta,Warri South,NA
+Measles 1 Dose Coverage (Annualized),2022,34.9,Delta,Warri South West,NA
+Measles 1 Dose Coverage (Annualized),2022,77.4,Ebonyi,Abakaliki,NA
+Measles 1 Dose Coverage (Annualized),2022,72.5,Ebonyi,Afikpo North,NA
+Measles 1 Dose Coverage (Annualized),2022,84.1,Ebonyi,Afikpo South,NA
+Measles 1 Dose Coverage (Annualized),2022,141,Ebonyi,Ebonyi,NA
+Measles 1 Dose Coverage (Annualized),2022,51.5,Ebonyi,Ezza North,NA
+Measles 1 Dose Coverage (Annualized),2022,55.4,Ebonyi,Ezza South,NA
+Measles 1 Dose Coverage (Annualized),2022,64.2,Ebonyi,Ikwo,NA
+Measles 1 Dose Coverage (Annualized),2022,57.5,Ebonyi,Ishielu,NA
+Measles 1 Dose Coverage (Annualized),2022,63.9,Ebonyi,Ivo,NA
+Measles 1 Dose Coverage (Annualized),2022,95.2,Ebonyi,Izzi,NA
+Measles 1 Dose Coverage (Annualized),2022,92.4,Ebonyi,Ohaozara,NA
+Measles 1 Dose Coverage (Annualized),2022,43.2,Ebonyi,Ohaukwu,NA
+Measles 1 Dose Coverage (Annualized),2022,85.8,Ebonyi,Onicha,NA
+Measles 1 Dose Coverage (Annualized),2022,45,Edo,Akoko-Edo,NA
+Measles 1 Dose Coverage (Annualized),2022,49.4,Edo,Egor,NA
+Measles 1 Dose Coverage (Annualized),2022,44.8,Edo,Esan Central,NA
+Measles 1 Dose Coverage (Annualized),2022,38.1,Edo,Esan North-East,NA
+Measles 1 Dose Coverage (Annualized),2022,58.2,Edo,Esan South-East,NA
+Measles 1 Dose Coverage (Annualized),2022,37.8,Edo,Esan West,NA
+Measles 1 Dose Coverage (Annualized),2022,64,Edo,Etsako Central,NA
+Measles 1 Dose Coverage (Annualized),2022,29.9,Edo,Etsako East,NA
+Measles 1 Dose Coverage (Annualized),2022,51.4,Edo,Etsako West,NA
+Measles 1 Dose Coverage (Annualized),2022,28.1,Edo,Igueben,NA
+Measles 1 Dose Coverage (Annualized),2022,69.5,Edo,Ikpoba-Okha,NA
+Measles 1 Dose Coverage (Annualized),2022,43.2,Edo,Oredo,NA
+Measles 1 Dose Coverage (Annualized),2022,16.8,Edo,Orhionmwon,NA
+Measles 1 Dose Coverage (Annualized),2022,53.2,Edo,Ovia North-East,NA
+Measles 1 Dose Coverage (Annualized),2022,53.3,Edo,Ovia South-West,NA
+Measles 1 Dose Coverage (Annualized),2022,19.2,Edo,Owan East,NA
+Measles 1 Dose Coverage (Annualized),2022,36.5,Edo,Owan West,NA
+Measles 1 Dose Coverage (Annualized),2022,69.2,Edo,Uhunmwonde,NA
+Measles 1 Dose Coverage (Annualized),2022,78.2,Ekiti,Ado Ekiti,NA
+Measles 1 Dose Coverage (Annualized),2022,37.9,Ekiti,Aiyekire (Gbonyin),NA
+Measles 1 Dose Coverage (Annualized),2022,87.6,Ekiti,Efon,NA
+Measles 1 Dose Coverage (Annualized),2022,34.8,Ekiti,Ekiti East,NA
+Measles 1 Dose Coverage (Annualized),2022,55.2,Ekiti,Ekiti South West,NA
+Measles 1 Dose Coverage (Annualized),2022,36.9,Ekiti,Ekiti West,NA
+Measles 1 Dose Coverage (Annualized),2022,70.3,Ekiti,Emure,NA
+Measles 1 Dose Coverage (Annualized),2022,37.2,Ekiti,Ido-Osi,NA
+Measles 1 Dose Coverage (Annualized),2022,54,Ekiti,Ijero,NA
+Measles 1 Dose Coverage (Annualized),2022,37.8,Ekiti,Ikere,NA
+Measles 1 Dose Coverage (Annualized),2022,27.4,Ekiti,Ikole,NA
+Measles 1 Dose Coverage (Annualized),2022,37.7,Ekiti,Ilejemeje,NA
+Measles 1 Dose Coverage (Annualized),2022,35.7,Ekiti,Irepodun/Ifelodun,NA
+Measles 1 Dose Coverage (Annualized),2022,78.2,Ekiti,Ise/Orun,NA
+Measles 1 Dose Coverage (Annualized),2022,67.7,Ekiti,Moba,NA
+Measles 1 Dose Coverage (Annualized),2022,43.2,Ekiti,Oye,NA
+Measles 1 Dose Coverage (Annualized),2022,15.3,Enugu,Aninri,NA
+Measles 1 Dose Coverage (Annualized),2022,61.4,Enugu,Awgu,NA
+Measles 1 Dose Coverage (Annualized),2022,66.6,Enugu,Enugu East,NA
+Measles 1 Dose Coverage (Annualized),2022,87.6,Enugu,Enugu North,NA
+Measles 1 Dose Coverage (Annualized),2022,20.9,Enugu,Enugu South,NA
+Measles 1 Dose Coverage (Annualized),2022,79.9,Enugu,Ezeagu,NA
+Measles 1 Dose Coverage (Annualized),2022,63,Enugu,Igbo-Etiti,NA
+Measles 1 Dose Coverage (Annualized),2022,58,Enugu,Igbo-Eze North,NA
+Measles 1 Dose Coverage (Annualized),2022,65.4,Enugu,Igbo-Eze South,NA
+Measles 1 Dose Coverage (Annualized),2022,18.4,Enugu,Isi-Uzo,NA
+Measles 1 Dose Coverage (Annualized),2022,36.3,Enugu,Nkanu East,NA
+Measles 1 Dose Coverage (Annualized),2022,48.3,Enugu,Nkanu West,NA
+Measles 1 Dose Coverage (Annualized),2022,46.6,Enugu,Nsukka,NA
+Measles 1 Dose Coverage (Annualized),2022,39.5,Enugu,Oji River,NA
+Measles 1 Dose Coverage (Annualized),2022,62.5,Enugu,Udenu,NA
+Measles 1 Dose Coverage (Annualized),2022,51.2,Enugu,Udi,NA
+Measles 1 Dose Coverage (Annualized),2022,25.5,Enugu,Uzo-Uwani,NA
+Measles 1 Dose Coverage (Annualized),2022,207.8,Federal Capital Territory,Abaji,NA
+Measles 1 Dose Coverage (Annualized),2022,99.8,Federal Capital Territory,Abuja Municipal,NA
+Measles 1 Dose Coverage (Annualized),2022,143.1,Federal Capital Territory,Bwari,NA
+Measles 1 Dose Coverage (Annualized),2022,124,Federal Capital Territory,Gwagwalada,NA
+Measles 1 Dose Coverage (Annualized),2022,341.1,Federal Capital Territory,Kuje,NA
+Measles 1 Dose Coverage (Annualized),2022,214.7,Federal Capital Territory,Kwali,NA
+Measles 1 Dose Coverage (Annualized),2022,82.3,Gombe,Akko,NA
+Measles 1 Dose Coverage (Annualized),2022,89.4,Gombe,Balanga,NA
+Measles 1 Dose Coverage (Annualized),2022,57.5,Gombe,Billiri,NA
+Measles 1 Dose Coverage (Annualized),2022,210,Gombe,Dukku,NA
+Measles 1 Dose Coverage (Annualized),2022,107.3,Gombe,Funakaye,NA
+Measles 1 Dose Coverage (Annualized),2022,237.1,Gombe,Gombe,NA
+Measles 1 Dose Coverage (Annualized),2022,85.1,Gombe,Kaltungo,NA
+Measles 1 Dose Coverage (Annualized),2022,89.4,Gombe,Kwami,NA
+Measles 1 Dose Coverage (Annualized),2022,82.1,Gombe,Nafada,NA
+Measles 1 Dose Coverage (Annualized),2022,45.6,Gombe,Shongom,NA
+Measles 1 Dose Coverage (Annualized),2022,107.5,Gombe,Yamaltu/Deba,NA
+Measles 1 Dose Coverage (Annualized),2022,46.8,Imo,Aboh-Mbaise,NA
+Measles 1 Dose Coverage (Annualized),2022,61,Imo,Ahiazu-Mbaise,NA
+Measles 1 Dose Coverage (Annualized),2022,81,Imo,Ehime-Mbano,NA
+Measles 1 Dose Coverage (Annualized),2022,76.1,Imo,Ezinihitte-Mbaise,NA
+Measles 1 Dose Coverage (Annualized),2022,45.3,Imo,Ideato North,NA
+Measles 1 Dose Coverage (Annualized),2022,44.4,Imo,Ideato South,NA
+Measles 1 Dose Coverage (Annualized),2022,83.2,Imo,Ihitte/Uboma,NA
+Measles 1 Dose Coverage (Annualized),2022,114.6,Imo,Ikeduru,NA
+Measles 1 Dose Coverage (Annualized),2022,92.1,Imo,Isiala Mbano,NA
+Measles 1 Dose Coverage (Annualized),2022,41.7,Imo,Isu,NA
+Measles 1 Dose Coverage (Annualized),2022,68.3,Imo,Mbaitoli,NA
+Measles 1 Dose Coverage (Annualized),2022,51.8,Imo,Ngor-Okpala,NA
+Measles 1 Dose Coverage (Annualized),2022,59.6,Imo,Njaba,NA
+Measles 1 Dose Coverage (Annualized),2022,66.7,Imo,Nkwerre,NA
+Measles 1 Dose Coverage (Annualized),2022,57,Imo,Nwangele,NA
+Measles 1 Dose Coverage (Annualized),2022,117.9,Imo,Obowo,NA
+Measles 1 Dose Coverage (Annualized),2022,33.6,Imo,Oguta,NA
+Measles 1 Dose Coverage (Annualized),2022,41.4,Imo,Ohaji/Egbema,NA
+Measles 1 Dose Coverage (Annualized),2022,46.5,Imo,Okigwe,NA
+Measles 1 Dose Coverage (Annualized),2022,69.3,Imo,Onuimo,NA
+Measles 1 Dose Coverage (Annualized),2022,76.2,Imo,Orlu,NA
+Measles 1 Dose Coverage (Annualized),2022,30.3,Imo,Orsu,NA
+Measles 1 Dose Coverage (Annualized),2022,53.1,Imo,Oru East,NA
+Measles 1 Dose Coverage (Annualized),2022,66.2,Imo,Oru West,NA
+Measles 1 Dose Coverage (Annualized),2022,107.4,Imo,Owerri Municipal,NA
+Measles 1 Dose Coverage (Annualized),2022,77.9,Imo,Owerri North,NA
+Measles 1 Dose Coverage (Annualized),2022,102.7,Imo,Owerri West,NA
+Measles 1 Dose Coverage (Annualized),2022,65,Jigawa,Auyo,NA
+Measles 1 Dose Coverage (Annualized),2022,99.1,Jigawa,Babura,NA
+Measles 1 Dose Coverage (Annualized),2022,87.1,Jigawa,Birnin Kudu,NA
+Measles 1 Dose Coverage (Annualized),2022,70.1,Jigawa,Birniwa,NA
+Measles 1 Dose Coverage (Annualized),2022,92.3,Jigawa,Buji,NA
+Measles 1 Dose Coverage (Annualized),2022,86.9,Jigawa,Dutse,NA
+Measles 1 Dose Coverage (Annualized),2022,105.8,Jigawa,Gagarawa,NA
+Measles 1 Dose Coverage (Annualized),2022,105.6,Jigawa,Garki,NA
+Measles 1 Dose Coverage (Annualized),2022,70.6,Jigawa,Gumel,NA
+Measles 1 Dose Coverage (Annualized),2022,72.2,Jigawa,Guri,NA
+Measles 1 Dose Coverage (Annualized),2022,94.1,Jigawa,Gwaram,NA
+Measles 1 Dose Coverage (Annualized),2022,72.9,Jigawa,Gwiwa,NA
+Measles 1 Dose Coverage (Annualized),2022,61.6,Jigawa,Hadejia,NA
+Measles 1 Dose Coverage (Annualized),2022,77.6,Jigawa,Jahun,NA
+Measles 1 Dose Coverage (Annualized),2022,69,Jigawa,Kafin Hausa,NA
+Measles 1 Dose Coverage (Annualized),2022,106.9,Jigawa,Kaugama,NA
+Measles 1 Dose Coverage (Annualized),2022,69.7,Jigawa,Kazaure,NA
+Measles 1 Dose Coverage (Annualized),2022,80.6,Jigawa,Kiri Kasamma,NA
+Measles 1 Dose Coverage (Annualized),2022,118,Jigawa,Kiyawa,NA
+Measles 1 Dose Coverage (Annualized),2022,101.6,Jigawa,Maigatari,NA
+Measles 1 Dose Coverage (Annualized),2022,75.3,Jigawa,Malam Madori,NA
+Measles 1 Dose Coverage (Annualized),2022,90.4,Jigawa,Miga,NA
+Measles 1 Dose Coverage (Annualized),2022,106.8,Jigawa,Ringim,NA
+Measles 1 Dose Coverage (Annualized),2022,110.5,Jigawa,Roni,NA
+Measles 1 Dose Coverage (Annualized),2022,96.5,Jigawa,Sule-Tankarkar,NA
+Measles 1 Dose Coverage (Annualized),2022,119.1,Jigawa,Taura,NA
+Measles 1 Dose Coverage (Annualized),2022,108.3,Jigawa,Yankwashi,NA
+Measles 1 Dose Coverage (Annualized),2022,112.6,Kaduna,Birnin Gwari,NA
+Measles 1 Dose Coverage (Annualized),2022,70.6,Kaduna,Chikun,NA
+Measles 1 Dose Coverage (Annualized),2022,115.9,Kaduna,Giwa,NA
+Measles 1 Dose Coverage (Annualized),2022,83,Kaduna,Igabi,NA
+Measles 1 Dose Coverage (Annualized),2022,120.4,Kaduna,Ikara,NA
+Measles 1 Dose Coverage (Annualized),2022,63.5,Kaduna,Jaba,NA
+Measles 1 Dose Coverage (Annualized),2022,42.6,Kaduna,Jema'a,NA
+Measles 1 Dose Coverage (Annualized),2022,54.7,Kaduna,Kachia,NA
+Measles 1 Dose Coverage (Annualized),2022,46.4,Kaduna,Kaduna North,NA
+Measles 1 Dose Coverage (Annualized),2022,46.7,Kaduna,Kaduna South,NA
+Measles 1 Dose Coverage (Annualized),2022,57,Kaduna,Kagarko,NA
+Measles 1 Dose Coverage (Annualized),2022,87.6,Kaduna,Kajuru,NA
+Measles 1 Dose Coverage (Annualized),2022,92.5,Kaduna,Kaura,NA
+Measles 1 Dose Coverage (Annualized),2022,98.8,Kaduna,Kauru,NA
+Measles 1 Dose Coverage (Annualized),2022,118.4,Kaduna,Kubau,NA
+Measles 1 Dose Coverage (Annualized),2022,70.2,Kaduna,Kudan,NA
+Measles 1 Dose Coverage (Annualized),2022,96.9,Kaduna,Lere,NA
+Measles 1 Dose Coverage (Annualized),2022,103.1,Kaduna,Makarfi,NA
+Measles 1 Dose Coverage (Annualized),2022,117.8,Kaduna,Sabon Gari,NA
+Measles 1 Dose Coverage (Annualized),2022,68.9,Kaduna,Sanga,NA
+Measles 1 Dose Coverage (Annualized),2022,111.1,Kaduna,Soba,NA
+Measles 1 Dose Coverage (Annualized),2022,66.2,Kaduna,Zangon Kataf,NA
+Measles 1 Dose Coverage (Annualized),2022,67.3,Kaduna,Zaria,NA
+Measles 1 Dose Coverage (Annualized),2022,113.8,Kebbi,Aleiro,NA
+Measles 1 Dose Coverage (Annualized),2022,47.8,Kebbi,Arewa,NA
+Measles 1 Dose Coverage (Annualized),2022,85.6,Kebbi,Argungu,NA
+Measles 1 Dose Coverage (Annualized),2022,54.2,Kebbi,Augie,NA
+Measles 1 Dose Coverage (Annualized),2022,95.5,Kebbi,Bagudo,NA
+Measles 1 Dose Coverage (Annualized),2022,71.2,Kebbi,Birnin Kebbi,NA
+Measles 1 Dose Coverage (Annualized),2022,70.3,Kebbi,Bunza,NA
+Measles 1 Dose Coverage (Annualized),2022,55.8,Kebbi,Dandi,NA
+Measles 1 Dose Coverage (Annualized),2022,89.5,Kebbi,Danko/Wasagu,NA
+Measles 1 Dose Coverage (Annualized),2022,86.2,Kebbi,Fakai,NA
+Measles 1 Dose Coverage (Annualized),2022,76.9,Kebbi,Gwandu,NA
+Measles 1 Dose Coverage (Annualized),2022,66.5,Kebbi,Jega,NA
+Measles 1 Dose Coverage (Annualized),2022,82.3,Kebbi,Kalgo,NA
+Measles 1 Dose Coverage (Annualized),2022,118.4,Kebbi,Koko/Besse,NA
+Measles 1 Dose Coverage (Annualized),2022,86.5,Kebbi,Maiyama,NA
+Measles 1 Dose Coverage (Annualized),2022,82.2,Kebbi,Ngaski,NA
+Measles 1 Dose Coverage (Annualized),2022,95.7,Kebbi,Sakaba,NA
+Measles 1 Dose Coverage (Annualized),2022,102.2,Kebbi,Shanga,NA
+Measles 1 Dose Coverage (Annualized),2022,57.9,Kebbi,Suru,NA
+Measles 1 Dose Coverage (Annualized),2022,80.9,Kebbi,Yauri,NA
+Measles 1 Dose Coverage (Annualized),2022,108.6,Kebbi,Zuru,NA
+Measles 1 Dose Coverage (Annualized),2022,74.5,Kano,Ajingi,NA
+Measles 1 Dose Coverage (Annualized),2022,86.5,Kano,Albasu,NA
+Measles 1 Dose Coverage (Annualized),2022,61.8,Kano,Bagwai,NA
+Measles 1 Dose Coverage (Annualized),2022,70.5,Kano,Bebeji,NA
+Measles 1 Dose Coverage (Annualized),2022,59.4,Kano,Bichi,NA
+Measles 1 Dose Coverage (Annualized),2022,89.3,Kano,Bunkure,NA
+Measles 1 Dose Coverage (Annualized),2022,71.4,Kano,Dala,NA
+Measles 1 Dose Coverage (Annualized),2022,75.7,Kano,Danbatta,NA
+Measles 1 Dose Coverage (Annualized),2022,86.2,Kano,Dawakin Kudu,NA
+Measles 1 Dose Coverage (Annualized),2022,58.3,Kano,Dawakin Tofa,NA
+Measles 1 Dose Coverage (Annualized),2022,86.9,Kano,Doguwa,NA
+Measles 1 Dose Coverage (Annualized),2022,72.8,Kano,Fagge,NA
+Measles 1 Dose Coverage (Annualized),2022,78.4,Kano,Gabasawa,NA
+Measles 1 Dose Coverage (Annualized),2022,84.7,Kano,Garko,NA
+Measles 1 Dose Coverage (Annualized),2022,66.2,Kano,Garum Mallam,NA
+Measles 1 Dose Coverage (Annualized),2022,94.2,Kano,Gaya,NA
+Measles 1 Dose Coverage (Annualized),2022,78.6,Kano,Gezawa,NA
+Measles 1 Dose Coverage (Annualized),2022,78.1,Kano,Gwale,NA
+Measles 1 Dose Coverage (Annualized),2022,83.4,Kano,Gwarzo,NA
+Measles 1 Dose Coverage (Annualized),2022,72.2,Kano,Kabo,NA
+Measles 1 Dose Coverage (Annualized),2022,60.9,Kano,Kano Municipal,NA
+Measles 1 Dose Coverage (Annualized),2022,58.3,Kano,Karaye,NA
+Measles 1 Dose Coverage (Annualized),2022,65.5,Kano,Kibiya,NA
+Measles 1 Dose Coverage (Annualized),2022,78.8,Kano,Kiru,NA
+Measles 1 Dose Coverage (Annualized),2022,86.6,Kano,Kumbotso,NA
+Measles 1 Dose Coverage (Annualized),2022,69.6,Kano,Kunchi,NA
+Measles 1 Dose Coverage (Annualized),2022,89.3,Kano,Kura,NA
+Measles 1 Dose Coverage (Annualized),2022,79.7,Kano,Madobi,NA
+Measles 1 Dose Coverage (Annualized),2022,75.6,Kano,Makoda,NA
+Measles 1 Dose Coverage (Annualized),2022,65.9,Kano,Minjibir,NA
+Measles 1 Dose Coverage (Annualized),2022,81.3,Kano,Nasarawa,NA
+Measles 1 Dose Coverage (Annualized),2022,78.9,Kano,Rano,NA
+Measles 1 Dose Coverage (Annualized),2022,63.9,Kano,Rimin Gado,NA
+Measles 1 Dose Coverage (Annualized),2022,74.9,Kano,Rogo,NA
+Measles 1 Dose Coverage (Annualized),2022,73,Kano,Shanono,NA
+Measles 1 Dose Coverage (Annualized),2022,76.4,Kano,Sumaila,NA
+Measles 1 Dose Coverage (Annualized),2022,86.1,Kano,Takai,NA
+Measles 1 Dose Coverage (Annualized),2022,78.2,Kano,Tarauni,NA
+Measles 1 Dose Coverage (Annualized),2022,66.6,Kano,Tofa,NA
+Measles 1 Dose Coverage (Annualized),2022,60.9,Kano,Tsanyawa,NA
+Measles 1 Dose Coverage (Annualized),2022,80.2,Kano,Tudun Wada,NA
+Measles 1 Dose Coverage (Annualized),2022,84.7,Kano,Ungogo,NA
+Measles 1 Dose Coverage (Annualized),2022,74.6,Kano,Warawa,NA
+Measles 1 Dose Coverage (Annualized),2022,78.3,Kano,Wudil,NA
+Measles 1 Dose Coverage (Annualized),2022,67.5,Kogi,Adavi,NA
+Measles 1 Dose Coverage (Annualized),2022,58,Kogi,Ajaokuta,NA
+Measles 1 Dose Coverage (Annualized),2022,77.1,Kogi,Ankpa,NA
+Measles 1 Dose Coverage (Annualized),2022,38.3,Kogi,Bassa,NA
+Measles 1 Dose Coverage (Annualized),2022,40.4,Kogi,Dekina,NA
+Measles 1 Dose Coverage (Annualized),2022,32.2,Kogi,Ibaji,NA
+Measles 1 Dose Coverage (Annualized),2022,131,Kogi,Idah,NA
+Measles 1 Dose Coverage (Annualized),2022,61.2,Kogi,Igalamela-Odolu,NA
+Measles 1 Dose Coverage (Annualized),2022,53.4,Kogi,Ijumu,NA
+Measles 1 Dose Coverage (Annualized),2022,51.3,Kogi,Kabba/Bunu,NA
+Measles 1 Dose Coverage (Annualized),2022,30.4,Kogi,Kogi,NA
+Measles 1 Dose Coverage (Annualized),2022,48.8,Kogi,Lokoja,NA
+Measles 1 Dose Coverage (Annualized),2022,85.3,Kogi,Mopa-Muro,NA
+Measles 1 Dose Coverage (Annualized),2022,27.2,Kogi,Ofu,NA
+Measles 1 Dose Coverage (Annualized),2022,66.2,Kogi,Ogori/Magongo,NA
+Measles 1 Dose Coverage (Annualized),2022,81.9,Kogi,Okehi,NA
+Measles 1 Dose Coverage (Annualized),2022,74.8,Kogi,Okene,NA
+Measles 1 Dose Coverage (Annualized),2022,57.2,Kogi,Olamaboro,NA
+Measles 1 Dose Coverage (Annualized),2022,72.1,Kogi,Omala,NA
+Measles 1 Dose Coverage (Annualized),2022,58.9,Kogi,Yagba East,NA
+Measles 1 Dose Coverage (Annualized),2022,37.8,Kogi,Yagba West,NA
+Measles 1 Dose Coverage (Annualized),2022,177.6,Katsina,Bakori,NA
+Measles 1 Dose Coverage (Annualized),2022,71.8,Katsina,Batagarawa,NA
+Measles 1 Dose Coverage (Annualized),2022,80.6,Katsina,Batsari,NA
+Measles 1 Dose Coverage (Annualized),2022,68.9,Katsina,Baure,NA
+Measles 1 Dose Coverage (Annualized),2022,76.5,Katsina,Bindawa,NA
+Measles 1 Dose Coverage (Annualized),2022,56.5,Katsina,Charanchi,NA
+Measles 1 Dose Coverage (Annualized),2022,73.8,Katsina,Dan Musa,NA
+Measles 1 Dose Coverage (Annualized),2022,124.9,Katsina,Dandume,NA
+Measles 1 Dose Coverage (Annualized),2022,127.4,Katsina,Danja,NA
+Measles 1 Dose Coverage (Annualized),2022,54.9,Katsina,Daura,NA
+Measles 1 Dose Coverage (Annualized),2022,80.2,Katsina,Dutsi,NA
+Measles 1 Dose Coverage (Annualized),2022,155.2,Katsina,Dutsin-Ma,NA
+Measles 1 Dose Coverage (Annualized),2022,70.1,Katsina,Faskari,NA
+Measles 1 Dose Coverage (Annualized),2022,98,Katsina,Funtua,NA
+Measles 1 Dose Coverage (Annualized),2022,53,Katsina,Ingawa,NA
+Measles 1 Dose Coverage (Annualized),2022,74.5,Katsina,Jibia,NA
+Measles 1 Dose Coverage (Annualized),2022,121.3,Katsina,Kafur,NA
+Measles 1 Dose Coverage (Annualized),2022,70.1,Katsina,Kaita,NA
+Measles 1 Dose Coverage (Annualized),2022,71.1,Katsina,Kankara,NA
+Measles 1 Dose Coverage (Annualized),2022,80.3,Katsina,Kankia,NA
+Measles 1 Dose Coverage (Annualized),2022,77.1,Katsina,Katsina,NA
+Measles 1 Dose Coverage (Annualized),2022,66.5,Katsina,Kurfi,NA
+Measles 1 Dose Coverage (Annualized),2022,86.5,Katsina,Kusada,NA
+Measles 1 Dose Coverage (Annualized),2022,48,Katsina,Mai'Adua,NA
+Measles 1 Dose Coverage (Annualized),2022,143.8,Katsina,Malumfashi,NA
+Measles 1 Dose Coverage (Annualized),2022,47.3,Katsina,Mani,NA
+Measles 1 Dose Coverage (Annualized),2022,84.4,Katsina,Mashi,NA
+Measles 1 Dose Coverage (Annualized),2022,99,Katsina,Matazu,NA
+Measles 1 Dose Coverage (Annualized),2022,72.6,Katsina,Musawa,NA
+Measles 1 Dose Coverage (Annualized),2022,94.9,Katsina,Rimi,NA
+Measles 1 Dose Coverage (Annualized),2022,83.6,Katsina,Sabuwa,NA
+Measles 1 Dose Coverage (Annualized),2022,71.5,Katsina,Safana,NA
+Measles 1 Dose Coverage (Annualized),2022,46.8,Katsina,Sandamu,NA
+Measles 1 Dose Coverage (Annualized),2022,56.4,Katsina,Zango,NA
+Measles 1 Dose Coverage (Annualized),2022,87.8,Kwara,Asa,NA
+Measles 1 Dose Coverage (Annualized),2022,40.2,Kwara,Baruten,NA
+Measles 1 Dose Coverage (Annualized),2022,83.4,Kwara,Edu,NA
+Measles 1 Dose Coverage (Annualized),2022,86.9,Kwara,Ekiti,NA
+Measles 1 Dose Coverage (Annualized),2022,47.5,Kwara,Ifelodun,NA
+Measles 1 Dose Coverage (Annualized),2022,42.6,Kwara,Ilorin East,NA
+Measles 1 Dose Coverage (Annualized),2022,92.4,Kwara,Ilorin South,NA
+Measles 1 Dose Coverage (Annualized),2022,62.8,Kwara,Ilorin West,NA
+Measles 1 Dose Coverage (Annualized),2022,74.5,Kwara,Irepodun,NA
+Measles 1 Dose Coverage (Annualized),2022,68,Kwara,Isin,NA
+Measles 1 Dose Coverage (Annualized),2022,72.7,Kwara,Kaiama,NA
+Measles 1 Dose Coverage (Annualized),2022,50.5,Kwara,Moro,NA
+Measles 1 Dose Coverage (Annualized),2022,60.9,Kwara,Offa,NA
+Measles 1 Dose Coverage (Annualized),2022,52.8,Kwara,Oke-Ero,NA
+Measles 1 Dose Coverage (Annualized),2022,79.4,Kwara,Oyun,NA
+Measles 1 Dose Coverage (Annualized),2022,96.4,Kwara,Pategi,NA
+Measles 1 Dose Coverage (Annualized),2022,43.8,Lagos,Agege,NA
+Measles 1 Dose Coverage (Annualized),2022,75.9,Lagos,Ajeromi/Ifelodun,NA
+Measles 1 Dose Coverage (Annualized),2022,79.7,Lagos,Alimosho,NA
+Measles 1 Dose Coverage (Annualized),2022,68.1,Lagos,Amuwo Odofin,NA
+Measles 1 Dose Coverage (Annualized),2022,66.4,Lagos,Apapa,NA
+Measles 1 Dose Coverage (Annualized),2022,95.4,Lagos,Badagry,NA
+Measles 1 Dose Coverage (Annualized),2022,93.3,Lagos,Epe,NA
+Measles 1 Dose Coverage (Annualized),2022,78.7,Lagos,Eti-Osa,NA
+Measles 1 Dose Coverage (Annualized),2022,139.4,Lagos,Ibeju/Lekki,NA
+Measles 1 Dose Coverage (Annualized),2022,53.2,Lagos,Ifako/Ijaye,NA
+Measles 1 Dose Coverage (Annualized),2022,74.4,Lagos,Ikeja,NA
+Measles 1 Dose Coverage (Annualized),2022,87.4,Lagos,Ikorodu,NA
+Measles 1 Dose Coverage (Annualized),2022,52.6,Lagos,Kosofe,NA
+Measles 1 Dose Coverage (Annualized),2022,67.7,Lagos,Lagos Island,NA
+Measles 1 Dose Coverage (Annualized),2022,47.1,Lagos,Lagos Mainland,NA
+Measles 1 Dose Coverage (Annualized),2022,54.9,Lagos,Mushin,NA
+Measles 1 Dose Coverage (Annualized),2022,73,Lagos,Ojo,NA
+Measles 1 Dose Coverage (Annualized),2022,70.1,Lagos,Oshodi/Isolo,NA
+Measles 1 Dose Coverage (Annualized),2022,62.4,Lagos,Shomolu,NA
+Measles 1 Dose Coverage (Annualized),2022,68.5,Lagos,Surulere,NA
+Measles 1 Dose Coverage (Annualized),2022,70.3,Nasarawa,Akwanga,NA
+Measles 1 Dose Coverage (Annualized),2022,127.3,Nasarawa,Awe,NA
+Measles 1 Dose Coverage (Annualized),2022,71.2,Nasarawa,Doma,NA
+Measles 1 Dose Coverage (Annualized),2022,156,Nasarawa,Karu,NA
+Measles 1 Dose Coverage (Annualized),2022,70.7,Nasarawa,Keana,NA
+Measles 1 Dose Coverage (Annualized),2022,96.7,Nasarawa,Keffi,NA
+Measles 1 Dose Coverage (Annualized),2022,73.2,Nasarawa,Kokona,NA
+Measles 1 Dose Coverage (Annualized),2022,97.7,Nasarawa,Lafia,NA
+Measles 1 Dose Coverage (Annualized),2022,86.2,Nasarawa,Nasarawa Eggon,NA
+Measles 1 Dose Coverage (Annualized),2022,113.4,Nasarawa,Nasarawa,NA
+Measles 1 Dose Coverage (Annualized),2022,151,Nasarawa,Obi,NA
+Measles 1 Dose Coverage (Annualized),2022,66.5,Nasarawa,Toto,NA
+Measles 1 Dose Coverage (Annualized),2022,67,Nasarawa,Wamba,NA
+Measles 1 Dose Coverage (Annualized),2022,107.4,Niger,Agaie,NA
+Measles 1 Dose Coverage (Annualized),2022,152.7,Niger,Agwara,NA
+Measles 1 Dose Coverage (Annualized),2022,80.7,Niger,Bida,NA
+Measles 1 Dose Coverage (Annualized),2022,122.1,Niger,Borgu,NA
+Measles 1 Dose Coverage (Annualized),2022,81.5,Niger,Bosso,NA
+Measles 1 Dose Coverage (Annualized),2022,66.3,Niger,Chanchaga,NA
+Measles 1 Dose Coverage (Annualized),2022,98.7,Niger,Edati,NA
+Measles 1 Dose Coverage (Annualized),2022,79,Niger,Gbako,NA
+Measles 1 Dose Coverage (Annualized),2022,80,Niger,Gurara,NA
+Measles 1 Dose Coverage (Annualized),2022,93.2,Niger,Katcha,NA
+Measles 1 Dose Coverage (Annualized),2022,72.1,Niger,Kontagora,NA
+Measles 1 Dose Coverage (Annualized),2022,121,Niger,Lapai,NA
+Measles 1 Dose Coverage (Annualized),2022,96,Niger,Lavun,NA
+Measles 1 Dose Coverage (Annualized),2022,72.1,Niger,Magama,NA
+Measles 1 Dose Coverage (Annualized),2022,81.4,Niger,Mariga,NA
+Measles 1 Dose Coverage (Annualized),2022,58,Niger,Mashegu,NA
+Measles 1 Dose Coverage (Annualized),2022,97.9,Niger,Mokwa,NA
+Measles 1 Dose Coverage (Annualized),2022,78.5,Niger,Muya,NA
+Measles 1 Dose Coverage (Annualized),2022,59.8,Niger,Paikoro,NA
+Measles 1 Dose Coverage (Annualized),2022,53.8,Niger,Rafi,NA
+Measles 1 Dose Coverage (Annualized),2022,79.4,Niger,Rijau,NA
+Measles 1 Dose Coverage (Annualized),2022,70.2,Niger,Shiroro,NA
+Measles 1 Dose Coverage (Annualized),2022,55.2,Niger,Suleja,NA
+Measles 1 Dose Coverage (Annualized),2022,65.3,Niger,Tafa,NA
+Measles 1 Dose Coverage (Annualized),2022,52.9,Niger,Wushishi,NA
+Measles 1 Dose Coverage (Annualized),2022,64.4,Ogun,Abeokuta North,NA
+Measles 1 Dose Coverage (Annualized),2022,47.7,Ogun,Abeokuta South,NA
+Measles 1 Dose Coverage (Annualized),2022,71.1,Ogun,Ado Odo/Ota,NA
+Measles 1 Dose Coverage (Annualized),2022,84.1,Ogun,Ewekoro,NA
+Measles 1 Dose Coverage (Annualized),2022,69.1,Ogun,Ifo,NA
+Measles 1 Dose Coverage (Annualized),2022,77.4,Ogun,Ijebu East,NA
+Measles 1 Dose Coverage (Annualized),2022,21.4,Ogun,Ijebu North East,NA
+Measles 1 Dose Coverage (Annualized),2022,300.5,Ogun,Ijebu North,NA
+Measles 1 Dose Coverage (Annualized),2022,100.4,Ogun,Ijebu Ode,NA
+Measles 1 Dose Coverage (Annualized),2022,93.7,Ogun,Ikenne,NA
+Measles 1 Dose Coverage (Annualized),2022,81.3,Ogun,Imeko Afon,NA
+Measles 1 Dose Coverage (Annualized),2022,78.6,Ogun,Ipokia,NA
+Measles 1 Dose Coverage (Annualized),2022,54,Ogun,Obafemi Owode,NA
+Measles 1 Dose Coverage (Annualized),2022,69.8,Ogun,Odeda,NA
+Measles 1 Dose Coverage (Annualized),2022,87.4,Ogun,Odogbolu,NA
+Measles 1 Dose Coverage (Annualized),2022,71.9,Ogun,Ogun Waterside,NA
+Measles 1 Dose Coverage (Annualized),2022,68.5,Ogun,Remo North,NA
+Measles 1 Dose Coverage (Annualized),2022,80.6,Ogun,Sagamu,NA
+Measles 1 Dose Coverage (Annualized),2022,51.6,Ogun,Yewa North,NA
+Measles 1 Dose Coverage (Annualized),2022,88,Ogun,Yewa South,NA
+Measles 1 Dose Coverage (Annualized),2022,43.8,Ondo,Akoko North East,NA
+Measles 1 Dose Coverage (Annualized),2022,62.6,Ondo,Akoko North West,NA
+Measles 1 Dose Coverage (Annualized),2022,59.6,Ondo,Akoko South East,NA
+Measles 1 Dose Coverage (Annualized),2022,32,Ondo,Akoko South West,NA
+Measles 1 Dose Coverage (Annualized),2022,108.7,Ondo,Akure North,NA
+Measles 1 Dose Coverage (Annualized),2022,115.9,Ondo,Akure South,NA
+Measles 1 Dose Coverage (Annualized),2022,90.4,Ondo,Ese Odo,NA
+Measles 1 Dose Coverage (Annualized),2022,73.4,Ondo,Idanre,NA
+Measles 1 Dose Coverage (Annualized),2022,19.3,Ondo,Ifedore,NA
+Measles 1 Dose Coverage (Annualized),2022,89.3,Ondo,Ilaje,NA
+Measles 1 Dose Coverage (Annualized),2022,79.1,Ondo,Ile-Oluji/Okeigbo,NA
+Measles 1 Dose Coverage (Annualized),2022,84.3,Ondo,Irele,NA
+Measles 1 Dose Coverage (Annualized),2022,154.5,Ondo,Odigbo,NA
+Measles 1 Dose Coverage (Annualized),2022,98.5,Ondo,Okitipupa,NA
+Measles 1 Dose Coverage (Annualized),2022,77.7,Ondo,Ondo East,NA
+Measles 1 Dose Coverage (Annualized),2022,73.4,Ondo,Ondo West,NA
+Measles 1 Dose Coverage (Annualized),2022,39.6,Ondo,Ose,NA
+Measles 1 Dose Coverage (Annualized),2022,48.8,Ondo,Owo,NA
+Measles 1 Dose Coverage (Annualized),2022,29.8,Osun,Atakumosa East,NA
+Measles 1 Dose Coverage (Annualized),2022,58,Osun,Atakumosa West,NA
+Measles 1 Dose Coverage (Annualized),2022,49.8,Osun,Ayedaade,NA
+Measles 1 Dose Coverage (Annualized),2022,73.5,Osun,Ayedire,NA
+Measles 1 Dose Coverage (Annualized),2022,34.2,Osun,Boluwaduro,NA
+Measles 1 Dose Coverage (Annualized),2022,79.1,Osun,Boripe,NA
+Measles 1 Dose Coverage (Annualized),2022,44.6,Osun,Ede North,NA
+Measles 1 Dose Coverage (Annualized),2022,55,Osun,Ede South,NA
+Measles 1 Dose Coverage (Annualized),2022,67,Osun,Egbedore,NA
+Measles 1 Dose Coverage (Annualized),2022,69.6,Osun,Ejigbo,NA
+Measles 1 Dose Coverage (Annualized),2022,53.3,Osun,Ife Central,NA
+Measles 1 Dose Coverage (Annualized),2022,56.6,Osun,Ife East,NA
+Measles 1 Dose Coverage (Annualized),2022,105.1,Osun,Ife North,NA
+Measles 1 Dose Coverage (Annualized),2022,54.2,Osun,Ife South,NA
+Measles 1 Dose Coverage (Annualized),2022,74.9,Osun,Ifedayo,NA
+Measles 1 Dose Coverage (Annualized),2022,55.7,Osun,Ifelodun,NA
+Measles 1 Dose Coverage (Annualized),2022,57,Osun,Ila,NA
+Measles 1 Dose Coverage (Annualized),2022,21.8,Osun,Ilesa East,NA
+Measles 1 Dose Coverage (Annualized),2022,46.7,Osun,Ilesa West,NA
+Measles 1 Dose Coverage (Annualized),2022,39.7,Osun,Irepodun,NA
+Measles 1 Dose Coverage (Annualized),2022,33.8,Osun,Irewole,NA
+Measles 1 Dose Coverage (Annualized),2022,29,Osun,Isokan,NA
+Measles 1 Dose Coverage (Annualized),2022,60.7,Osun,Iwo,NA
+Measles 1 Dose Coverage (Annualized),2022,54.9,Osun,Obokun,NA
+Measles 1 Dose Coverage (Annualized),2022,65.2,Osun,Odo Otin,NA
+Measles 1 Dose Coverage (Annualized),2022,34,Osun,Ola-Oluwa,NA
+Measles 1 Dose Coverage (Annualized),2022,44.3,Osun,Olorunda,NA
+Measles 1 Dose Coverage (Annualized),2022,23.1,Osun,Oriade,NA
+Measles 1 Dose Coverage (Annualized),2022,54.5,Osun,Orolu,NA
+Measles 1 Dose Coverage (Annualized),2022,52.6,Osun,Osogbo,NA
+Measles 1 Dose Coverage (Annualized),2022,83.4,Oyo,Afijio,NA
+Measles 1 Dose Coverage (Annualized),2022,103.5,Oyo,Akinyele,NA
+Measles 1 Dose Coverage (Annualized),2022,59.3,Oyo,Atiba,NA
+Measles 1 Dose Coverage (Annualized),2022,77,Oyo,Atisbo,NA
+Measles 1 Dose Coverage (Annualized),2022,79.4,Oyo,Egbeda,NA
+Measles 1 Dose Coverage (Annualized),2022,51.6,Oyo,Ibadan North East,NA
+Measles 1 Dose Coverage (Annualized),2022,59.9,Oyo,Ibadan North,NA
+Measles 1 Dose Coverage (Annualized),2022,57.2,Oyo,Ibadan North West,NA
+Measles 1 Dose Coverage (Annualized),2022,77,Oyo,Ibadan South East,NA
+Measles 1 Dose Coverage (Annualized),2022,85.1,Oyo,Ibadan South West,NA
+Measles 1 Dose Coverage (Annualized),2022,41,Oyo,Ibarapa Central,NA
+Measles 1 Dose Coverage (Annualized),2022,81.6,Oyo,Ibarapa East,NA
+Measles 1 Dose Coverage (Annualized),2022,37.2,Oyo,Ibarapa North,NA
+Measles 1 Dose Coverage (Annualized),2022,102.3,Oyo,Ido,NA
+Measles 1 Dose Coverage (Annualized),2022,86.6,Oyo,Irepo,NA
+Measles 1 Dose Coverage (Annualized),2022,46.6,Oyo,Iseyin,NA
+Measles 1 Dose Coverage (Annualized),2022,63,Oyo,Itesiwaju,NA
+Measles 1 Dose Coverage (Annualized),2022,77.2,Oyo,Iwajowa,NA
+Measles 1 Dose Coverage (Annualized),2022,42.3,Oyo,Kajola,NA
+Measles 1 Dose Coverage (Annualized),2022,66.1,Oyo,Lagelu,NA
+Measles 1 Dose Coverage (Annualized),2022,81.8,Oyo,Ogbomosho North,NA
+Measles 1 Dose Coverage (Annualized),2022,43,Oyo,Ogbomosho South,NA
+Measles 1 Dose Coverage (Annualized),2022,65.9,Oyo,Ogo Oluwa,NA
+Measles 1 Dose Coverage (Annualized),2022,82.6,Oyo,Olorunsogo,NA
+Measles 1 Dose Coverage (Annualized),2022,78.8,Oyo,Oluyole,NA
+Measles 1 Dose Coverage (Annualized),2022,50.6,Oyo,Ona Ara,NA
+Measles 1 Dose Coverage (Annualized),2022,89.2,Oyo,Orelope,NA
+Measles 1 Dose Coverage (Annualized),2022,83.3,Oyo,Ori Ire,NA
+Measles 1 Dose Coverage (Annualized),2022,92.5,Oyo,Oyo East,NA
+Measles 1 Dose Coverage (Annualized),2022,69.8,Oyo,Oyo West,NA
+Measles 1 Dose Coverage (Annualized),2022,103.5,Oyo,Saki East,NA
+Measles 1 Dose Coverage (Annualized),2022,56,Oyo,Saki West,NA
+Measles 1 Dose Coverage (Annualized),2022,49.9,Oyo,Surulere,NA
+Measles 1 Dose Coverage (Annualized),2022,71.6,Plateau,Barkin Ladi,NA
+Measles 1 Dose Coverage (Annualized),2022,66,Plateau,Bassa,NA
+Measles 1 Dose Coverage (Annualized),2022,56.4,Plateau,Bokkos,NA
+Measles 1 Dose Coverage (Annualized),2022,73.6,Plateau,Jos East,NA
+Measles 1 Dose Coverage (Annualized),2022,57,Plateau,Jos North,NA
+Measles 1 Dose Coverage (Annualized),2022,72.3,Plateau,Jos South,NA
+Measles 1 Dose Coverage (Annualized),2022,104.2,Plateau,Kanam,NA
+Measles 1 Dose Coverage (Annualized),2022,46.9,Plateau,Kanke,NA
+Measles 1 Dose Coverage (Annualized),2022,46.2,Plateau,Langtang North,NA
+Measles 1 Dose Coverage (Annualized),2022,55.4,Plateau,Langtang South,NA
+Measles 1 Dose Coverage (Annualized),2022,59.4,Plateau,Mangu,NA
+Measles 1 Dose Coverage (Annualized),2022,50,Plateau,Mikang,NA
+Measles 1 Dose Coverage (Annualized),2022,42.3,Plateau,Pankshin,NA
+Measles 1 Dose Coverage (Annualized),2022,50.4,Plateau,Qua'an Pan,NA
+Measles 1 Dose Coverage (Annualized),2022,58.8,Plateau,Riyom,NA
+Measles 1 Dose Coverage (Annualized),2022,50.6,Plateau,Shendam,NA
+Measles 1 Dose Coverage (Annualized),2022,55.4,Plateau,Wase,NA
+Measles 1 Dose Coverage (Annualized),2022,68.1,Rivers,Abua/Odual,NA
+Measles 1 Dose Coverage (Annualized),2022,87.8,Rivers,Ahoada East,NA
+Measles 1 Dose Coverage (Annualized),2022,54.7,Rivers,Ahoada West,NA
+Measles 1 Dose Coverage (Annualized),2022,49.8,Rivers,Akuku Toru,NA
+Measles 1 Dose Coverage (Annualized),2022,73.8,Rivers,Andoni,NA
+Measles 1 Dose Coverage (Annualized),2022,38.9,Rivers,Asari-Toru,NA
+Measles 1 Dose Coverage (Annualized),2022,68.7,Rivers,Bonny,NA
+Measles 1 Dose Coverage (Annualized),2022,41.2,Rivers,Degema,NA
+Measles 1 Dose Coverage (Annualized),2022,53.1,Rivers,Eleme,NA
+Measles 1 Dose Coverage (Annualized),2022,76.3,Rivers,Emohua,NA
+Measles 1 Dose Coverage (Annualized),2022,81.3,Rivers,Etche,NA
+Measles 1 Dose Coverage (Annualized),2022,76.5,Rivers,Gokana,NA
+Measles 1 Dose Coverage (Annualized),2022,62,Rivers,Ikwerre,NA
+Measles 1 Dose Coverage (Annualized),2022,84.8,Rivers,Khana,NA
+Measles 1 Dose Coverage (Annualized),2022,103.5,Rivers,Obio/Akpor,NA
+Measles 1 Dose Coverage (Annualized),2022,62.9,Rivers,Ogba/Egbema/Ndoni,NA
+Measles 1 Dose Coverage (Annualized),2022,88.9,Rivers,Ogu/Bolo,NA
+Measles 1 Dose Coverage (Annualized),2022,67.8,Rivers,Okrika,NA
+Measles 1 Dose Coverage (Annualized),2022,98.9,Rivers,Omumma,NA
+Measles 1 Dose Coverage (Annualized),2022,94.1,Rivers,Opobo/Nkoro,NA
+Measles 1 Dose Coverage (Annualized),2022,86.8,Rivers,Oyigbo,NA
+Measles 1 Dose Coverage (Annualized),2022,60.5,Rivers,Port-Harcourt,NA
+Measles 1 Dose Coverage (Annualized),2022,124.8,Rivers,Tai,NA
+Measles 1 Dose Coverage (Annualized),2022,40.8,Sokoto,Binji,NA
+Measles 1 Dose Coverage (Annualized),2022,55.3,Sokoto,Bodinga,NA
+Measles 1 Dose Coverage (Annualized),2022,50.8,Sokoto,Dange-Shuni,NA
+Measles 1 Dose Coverage (Annualized),2022,59.8,Sokoto,Gada,NA
+Measles 1 Dose Coverage (Annualized),2022,41,Sokoto,Goronyo,NA
+Measles 1 Dose Coverage (Annualized),2022,52.5,Sokoto,Gudu,NA
+Measles 1 Dose Coverage (Annualized),2022,40.9,Sokoto,Gwadabawa,NA
+Measles 1 Dose Coverage (Annualized),2022,95,Sokoto,Illela,NA
+Measles 1 Dose Coverage (Annualized),2022,66.1,Sokoto,Isa,NA
+Measles 1 Dose Coverage (Annualized),2022,41.2,Sokoto,Kebbe,NA
+Measles 1 Dose Coverage (Annualized),2022,70.8,Sokoto,Kware,NA
+Measles 1 Dose Coverage (Annualized),2022,78,Sokoto,Rabah,NA
+Measles 1 Dose Coverage (Annualized),2022,93,Sokoto,Sabon Birni,NA
+Measles 1 Dose Coverage (Annualized),2022,56.5,Sokoto,Shagari,NA
+Measles 1 Dose Coverage (Annualized),2022,46.5,Sokoto,Silame,NA
+Measles 1 Dose Coverage (Annualized),2022,45.9,Sokoto,Sokoto North,NA
+Measles 1 Dose Coverage (Annualized),2022,38.4,Sokoto,Sokoto South,NA
+Measles 1 Dose Coverage (Annualized),2022,77.6,Sokoto,Tambuwal,NA
+Measles 1 Dose Coverage (Annualized),2022,71.8,Sokoto,Tangaza,NA
+Measles 1 Dose Coverage (Annualized),2022,79.4,Sokoto,Tureta,NA
+Measles 1 Dose Coverage (Annualized),2022,57.2,Sokoto,Wamako,NA
+Measles 1 Dose Coverage (Annualized),2022,64,Sokoto,Wurno,NA
+Measles 1 Dose Coverage (Annualized),2022,76.3,Sokoto,Yabo,NA
+Measles 1 Dose Coverage (Annualized),2022,85.1,Taraba,Ardo-Kola,NA
+Measles 1 Dose Coverage (Annualized),2022,84.9,Taraba,Bali,NA
+Measles 1 Dose Coverage (Annualized),2022,87.5,Taraba,Donga,NA
+Measles 1 Dose Coverage (Annualized),2022,103.7,Taraba,Gashaka,NA
+Measles 1 Dose Coverage (Annualized),2022,77.8,Taraba,Gassol,NA
+Measles 1 Dose Coverage (Annualized),2022,106.6,Taraba,Ibi,NA
+Measles 1 Dose Coverage (Annualized),2022,89.1,Taraba,Jalingo,NA
+Measles 1 Dose Coverage (Annualized),2022,69.6,Taraba,Karim-Lamido,NA
+Measles 1 Dose Coverage (Annualized),2022,63.7,Taraba,Kurmi,NA
+Measles 1 Dose Coverage (Annualized),2022,67,Taraba,Lau,NA
+Measles 1 Dose Coverage (Annualized),2022,96.2,Taraba,Sardauna,NA
+Measles 1 Dose Coverage (Annualized),2022,74.4,Taraba,Takum,NA
+Measles 1 Dose Coverage (Annualized),2022,81.2,Taraba,Ussa,NA
+Measles 1 Dose Coverage (Annualized),2022,68,Taraba,Wukari,NA
+Measles 1 Dose Coverage (Annualized),2022,94,Taraba,Yorro,NA
+Measles 1 Dose Coverage (Annualized),2022,72.8,Taraba,Zing,NA
+Measles 1 Dose Coverage (Annualized),2022,76.8,Yobe,Bade,NA
+Measles 1 Dose Coverage (Annualized),2022,81.3,Yobe,Busari,NA
+Measles 1 Dose Coverage (Annualized),2022,95.2,Yobe,Damaturu,NA
+Measles 1 Dose Coverage (Annualized),2022,105.5,Yobe,Fika,NA
+Measles 1 Dose Coverage (Annualized),2022,58.3,Yobe,Fune,NA
+Measles 1 Dose Coverage (Annualized),2022,96.8,Yobe,Geidam,NA
+Measles 1 Dose Coverage (Annualized),2022,60.5,Yobe,Gujba,NA
+Measles 1 Dose Coverage (Annualized),2022,78.3,Yobe,Gulani,NA
+Measles 1 Dose Coverage (Annualized),2022,80.4,Yobe,Jakusko,NA
+Measles 1 Dose Coverage (Annualized),2022,85.8,Yobe,Karasuwa,NA
+Measles 1 Dose Coverage (Annualized),2022,108.5,Yobe,Machina,NA
+Measles 1 Dose Coverage (Annualized),2022,76.7,Yobe,Nangere,NA
+Measles 1 Dose Coverage (Annualized),2022,63.4,Yobe,Nguru,NA
+Measles 1 Dose Coverage (Annualized),2022,113.1,Yobe,Potiskum,NA
+Measles 1 Dose Coverage (Annualized),2022,90.3,Yobe,Tarmuwa,NA
+Measles 1 Dose Coverage (Annualized),2022,58.2,Yobe,Yunusari,NA
+Measles 1 Dose Coverage (Annualized),2022,99.3,Yobe,Yusufari,NA
+Measles 1 Dose Coverage (Annualized),2022,96,Zamfara,Anka,NA
+Measles 1 Dose Coverage (Annualized),2022,57,Zamfara,Bakura,NA
+Measles 1 Dose Coverage (Annualized),2022,99.6,Zamfara,Birnin Magaji,NA
+Measles 1 Dose Coverage (Annualized),2022,78.7,Zamfara,Bukkuyum,NA
+Measles 1 Dose Coverage (Annualized),2022,99.9,Zamfara,Bungudu,NA
+Measles 1 Dose Coverage (Annualized),2022,69.4,Zamfara,Gummi,NA
+Measles 1 Dose Coverage (Annualized),2022,59.8,Zamfara,Gusau,NA
+Measles 1 Dose Coverage (Annualized),2022,67,Zamfara,Kaura Namoda,NA
+Measles 1 Dose Coverage (Annualized),2022,106.3,Zamfara,Maradun,NA
+Measles 1 Dose Coverage (Annualized),2022,81.6,Zamfara,Maru,NA
+Measles 1 Dose Coverage (Annualized),2022,103.9,Zamfara,Shinkafi,NA
+Measles 1 Dose Coverage (Annualized),2022,70.3,Zamfara,Talata Mafara,NA
+Measles 1 Dose Coverage (Annualized),2022,76.2,Zamfara,Tsafe,NA
+Measles 1 Dose Coverage (Annualized),2022,87,Zamfara,Zurmi,NA
+Measles 1 Dose Coverage (Annualized),2023,56.3,Abia,State level data,NA
+Measles 1 Dose Coverage (Annualized),2023,96.9,Adamawa,State level data,NA
+Measles 1 Dose Coverage (Annualized),2023,51.1,Akwa-Ibom,State level data,NA
+Measles 1 Dose Coverage (Annualized),2023,90.6,Anambra,State level data,NA
+Measles 1 Dose Coverage (Annualized),2023,74.7,Bauchi,State level data,NA
+Measles 1 Dose Coverage (Annualized),2023,56.2,Benue,State level data,NA
+Measles 1 Dose Coverage (Annualized),2023,80.8,Borno,State level data,NA
+Measles 1 Dose Coverage (Annualized),2023,53.8,Bayelsa,State level data,NA
+Measles 1 Dose Coverage (Annualized),2023,83.4,Cross River,State level data,NA
+Measles 1 Dose Coverage (Annualized),2023,69.2,Delta,State level data,NA
+Measles 1 Dose Coverage (Annualized),2023,83.2,Ebonyi,State level data,NA
+Measles 1 Dose Coverage (Annualized),2023,48.9,Edo,State level data,NA
+Measles 1 Dose Coverage (Annualized),2023,67.7,Ekiti,State level data,NA
+Measles 1 Dose Coverage (Annualized),2023,60.8,Enugu,State level data,NA
+Measles 1 Dose Coverage (Annualized),2023,119.1,Federal Capital Territory,State level data,NA
+Measles 1 Dose Coverage (Annualized),2023,82.6,Gombe,State level data,NA
+Measles 1 Dose Coverage (Annualized),2023,61.2,Imo,State level data,NA
+Measles 1 Dose Coverage (Annualized),2023,90.9,Jigawa,State level data,NA
+Measles 1 Dose Coverage (Annualized),2023,86.9,Kaduna,State level data,NA
+Measles 1 Dose Coverage (Annualized),2023,88.4,Kebbi,State level data,NA
+Measles 1 Dose Coverage (Annualized),2023,70.6,Kano,State level data,NA
+Measles 1 Dose Coverage (Annualized),2023,67.6,Kogi,State level data,NA
+Measles 1 Dose Coverage (Annualized),2023,86.8,Katsina,State level data,NA
+Measles 1 Dose Coverage (Annualized),2023,67.6,Kwara,State level data,NA
+Measles 1 Dose Coverage (Annualized),2023,70.9,Lagos,State level data,NA
+Measles 1 Dose Coverage (Annualized),2023,91.9,Nasarawa,State level data,NA
+Measles 1 Dose Coverage (Annualized),2023,74.4,Federal Government,State level data,NA
+Measles 1 Dose Coverage (Annualized),2023,96.2,Niger,State level data,NA
+Measles 1 Dose Coverage (Annualized),2023,78,Ogun,State level data,NA
+Measles 1 Dose Coverage (Annualized),2023,78.5,Ondo,State level data,NA
+Measles 1 Dose Coverage (Annualized),2023,51.6,Osun,State level data,NA
+Measles 1 Dose Coverage (Annualized),2023,68.4,Oyo,State level data,NA
+Measles 1 Dose Coverage (Annualized),2023,50.7,Plateau,State level data,NA
+Measles 1 Dose Coverage (Annualized),2023,63.2,Rivers,State level data,NA
+Measles 1 Dose Coverage (Annualized),2023,65.4,Sokoto,State level data,NA
+Measles 1 Dose Coverage (Annualized),2023,99.3,Taraba,State level data,NA
+Measles 1 Dose Coverage (Annualized),2023,94.3,Yobe,State level data,NA
+Measles 1 Dose Coverage (Annualized),2023,88.9,Zamfara,State level data,NA
+Measles 1 Dose Coverage (Annualized),2023,129.8,Abia,Aba North,NA
+Measles 1 Dose Coverage (Annualized),2023,50.2,Abia,Aba South,NA
+Measles 1 Dose Coverage (Annualized),2023,59.9,Abia,Arochukwu,NA
+Measles 1 Dose Coverage (Annualized),2023,40.3,Abia,Bende,NA
+Measles 1 Dose Coverage (Annualized),2023,40,Abia,Ikwuano,NA
+Measles 1 Dose Coverage (Annualized),2023,43.5,Abia,Isiala-Ngwa North,NA
+Measles 1 Dose Coverage (Annualized),2023,75.4,Abia,Isiala-Ngwa South,NA
+Measles 1 Dose Coverage (Annualized),2023,41.8,Abia,Isuikwuato,NA
+Measles 1 Dose Coverage (Annualized),2023,50.2,Abia,Obi Nwga,NA
+Measles 1 Dose Coverage (Annualized),2023,55.3,Abia,Ohafia,NA
+Measles 1 Dose Coverage (Annualized),2023,63.2,Abia,Osisioma Ngwa,NA
+Measles 1 Dose Coverage (Annualized),2023,49.3,Abia,Ugwunagbo,NA
+Measles 1 Dose Coverage (Annualized),2023,77.4,Abia,Ukwa East,NA
+Measles 1 Dose Coverage (Annualized),2023,81.3,Abia,Ukwa West,NA
+Measles 1 Dose Coverage (Annualized),2023,54.5,Abia,Umuahia North,NA
+Measles 1 Dose Coverage (Annualized),2023,58.8,Abia,Umuahia South,NA
+Measles 1 Dose Coverage (Annualized),2023,40.5,Abia,Umunneochi,NA
+Measles 1 Dose Coverage (Annualized),2023,109,Adamawa,Demsa,NA
+Measles 1 Dose Coverage (Annualized),2023,93.3,Adamawa,Fufore,NA
+Measles 1 Dose Coverage (Annualized),2023,94.3,Adamawa,Ganye,NA
+Measles 1 Dose Coverage (Annualized),2023,85.8,Adamawa,Girei,NA
+Measles 1 Dose Coverage (Annualized),2023,81,Adamawa,Gombi,NA
+Measles 1 Dose Coverage (Annualized),2023,80.9,Adamawa,Guyuk,NA
+Measles 1 Dose Coverage (Annualized),2023,101,Adamawa,Hong,NA
+Measles 1 Dose Coverage (Annualized),2023,105.1,Adamawa,Jada,NA
+Measles 1 Dose Coverage (Annualized),2023,101.1,Adamawa,Lamurde,NA
+Measles 1 Dose Coverage (Annualized),2023,76.4,Adamawa,Madagali,NA
+Measles 1 Dose Coverage (Annualized),2023,88.5,Adamawa,Maiha,NA
+Measles 1 Dose Coverage (Annualized),2023,96.3,Adamawa,Mayo-Belwa,NA
+Measles 1 Dose Coverage (Annualized),2023,98.7,Adamawa,Michika,NA
+Measles 1 Dose Coverage (Annualized),2023,100.7,Adamawa,Mubi North,NA
+Measles 1 Dose Coverage (Annualized),2023,86.5,Adamawa,Mubi South,NA
+Measles 1 Dose Coverage (Annualized),2023,85,Adamawa,Numan,NA
+Measles 1 Dose Coverage (Annualized),2023,92.8,Adamawa,Shelleng,NA
+Measles 1 Dose Coverage (Annualized),2023,138.7,Adamawa,Song,NA
+Measles 1 Dose Coverage (Annualized),2023,170.8,Adamawa,Toungo,NA
+Measles 1 Dose Coverage (Annualized),2023,85.9,Adamawa,Yola North,NA
+Measles 1 Dose Coverage (Annualized),2023,92.6,Adamawa,Yola South,NA
+Measles 1 Dose Coverage (Annualized),2023,57.8,Akwa-Ibom,Abak,NA
+Measles 1 Dose Coverage (Annualized),2023,39.5,Akwa-Ibom,Eastern Obolo,NA
+Measles 1 Dose Coverage (Annualized),2023,56.9,Akwa-Ibom,Eket,NA
+Measles 1 Dose Coverage (Annualized),2023,46.4,Akwa-Ibom,Esit Eket,NA
+Measles 1 Dose Coverage (Annualized),2023,44.5,Akwa-Ibom,Essien Udim,NA
+Measles 1 Dose Coverage (Annualized),2023,51.7,Akwa-Ibom,Etim Ekpo,NA
+Measles 1 Dose Coverage (Annualized),2023,32.1,Akwa-Ibom,Etinan,NA
+Measles 1 Dose Coverage (Annualized),2023,47.5,Akwa-Ibom,Ibeno,NA
+Measles 1 Dose Coverage (Annualized),2023,37.2,Akwa-Ibom,Ibesikpo Asutan,NA
+Measles 1 Dose Coverage (Annualized),2023,39,Akwa-Ibom,Ibiono Ibom,NA
+Measles 1 Dose Coverage (Annualized),2023,55.2,Akwa-Ibom,Ika,NA
+Measles 1 Dose Coverage (Annualized),2023,59.9,Akwa-Ibom,Ikono,NA
+Measles 1 Dose Coverage (Annualized),2023,47.4,Akwa-Ibom,Ikot Abasi,NA
+Measles 1 Dose Coverage (Annualized),2023,61.3,Akwa-Ibom,Ikot Ekpene,NA
+Measles 1 Dose Coverage (Annualized),2023,52.3,Akwa-Ibom,Ini,NA
+Measles 1 Dose Coverage (Annualized),2023,57.4,Akwa-Ibom,Itu,NA
+Measles 1 Dose Coverage (Annualized),2023,48.6,Akwa-Ibom,Mbo,NA
+Measles 1 Dose Coverage (Annualized),2023,66.6,Akwa-Ibom,Mkpat Enin,NA
+Measles 1 Dose Coverage (Annualized),2023,51.2,Akwa-Ibom,Nsit Atai,NA
+Measles 1 Dose Coverage (Annualized),2023,101.9,Akwa-Ibom,Nsit Ibom,NA
+Measles 1 Dose Coverage (Annualized),2023,33.8,Akwa-Ibom,Nsit Ubium,NA
+Measles 1 Dose Coverage (Annualized),2023,60.9,Akwa-Ibom,Obot Akara,NA
+Measles 1 Dose Coverage (Annualized),2023,43.3,Akwa-Ibom,Okobo,NA
+Measles 1 Dose Coverage (Annualized),2023,64.1,Akwa-Ibom,Onna,NA
+Measles 1 Dose Coverage (Annualized),2023,47.4,Akwa-Ibom,Oron,NA
+Measles 1 Dose Coverage (Annualized),2023,47.3,Akwa-Ibom,Oruk Anam,NA
+Measles 1 Dose Coverage (Annualized),2023,35.8,Akwa-Ibom,Udung Uko,NA
+Measles 1 Dose Coverage (Annualized),2023,19.9,Akwa-Ibom,Ukanafun,NA
+Measles 1 Dose Coverage (Annualized),2023,41.1,Akwa-Ibom,Uruan,NA
+Measles 1 Dose Coverage (Annualized),2023,66.6,Akwa-Ibom,Urue-Offong/Oruko,NA
+Measles 1 Dose Coverage (Annualized),2023,58.7,Akwa-Ibom,Uyo,NA
+Measles 1 Dose Coverage (Annualized),2023,72.2,Anambra,Aguata,NA
+Measles 1 Dose Coverage (Annualized),2023,105.4,Anambra,Anambra East,NA
+Measles 1 Dose Coverage (Annualized),2023,45.7,Anambra,Anambra West,NA
+Measles 1 Dose Coverage (Annualized),2023,79.3,Anambra,Anaocha,NA
+Measles 1 Dose Coverage (Annualized),2023,113.2,Anambra,Awka North,NA
+Measles 1 Dose Coverage (Annualized),2023,94.6,Anambra,Awka South,NA
+Measles 1 Dose Coverage (Annualized),2023,47.4,Anambra,Ayamelum,NA
+Measles 1 Dose Coverage (Annualized),2023,104.8,Anambra,Dunukofia,NA
+Measles 1 Dose Coverage (Annualized),2023,104.5,Anambra,Ekwusigo,NA
+Measles 1 Dose Coverage (Annualized),2023,91.5,Anambra,Idemili North,NA
+Measles 1 Dose Coverage (Annualized),2023,77.6,Anambra,Idemili South,NA
+Measles 1 Dose Coverage (Annualized),2023,68.8,Anambra,Ihiala,NA
+Measles 1 Dose Coverage (Annualized),2023,95.4,Anambra,Njikoka,NA
+Measles 1 Dose Coverage (Annualized),2023,93.4,Anambra,Nnewi North,NA
+Measles 1 Dose Coverage (Annualized),2023,129.3,Anambra,Nnewi South,NA
+Measles 1 Dose Coverage (Annualized),2023,158.6,Anambra,Ogbaru,NA
+Measles 1 Dose Coverage (Annualized),2023,104.8,Anambra,Onitsha North,NA
+Measles 1 Dose Coverage (Annualized),2023,158.9,Anambra,Onitsha South,NA
+Measles 1 Dose Coverage (Annualized),2023,65,Anambra,Orumba North,NA
+Measles 1 Dose Coverage (Annualized),2023,52.8,Anambra,Orumba South,NA
+Measles 1 Dose Coverage (Annualized),2023,103.1,Anambra,Oyi,NA
+Measles 1 Dose Coverage (Annualized),2023,62.9,Bauchi,Alkaleri,NA
+Measles 1 Dose Coverage (Annualized),2023,83.9,Bauchi,Bauchi,NA
+Measles 1 Dose Coverage (Annualized),2023,91.3,Bauchi,Bogoro,NA
+Measles 1 Dose Coverage (Annualized),2023,81.3,Bauchi,Dambam,NA
+Measles 1 Dose Coverage (Annualized),2023,76.5,Bauchi,Darazo,NA
+Measles 1 Dose Coverage (Annualized),2023,97.5,Bauchi,Dass,NA
+Measles 1 Dose Coverage (Annualized),2023,62.9,Bauchi,Gamawa,NA
+Measles 1 Dose Coverage (Annualized),2023,86,Bauchi,Ganjuwa,NA
+Measles 1 Dose Coverage (Annualized),2023,59.6,Bauchi,Giade,NA
+Measles 1 Dose Coverage (Annualized),2023,54.8,Bauchi,Itas/Gadau,NA
+Measles 1 Dose Coverage (Annualized),2023,71.4,Bauchi,Jama'are,NA
+Measles 1 Dose Coverage (Annualized),2023,58.4,Bauchi,Katagum,NA
+Measles 1 Dose Coverage (Annualized),2023,67.7,Bauchi,Kirfi,NA
+Measles 1 Dose Coverage (Annualized),2023,59.6,Bauchi,Misau,NA
+Measles 1 Dose Coverage (Annualized),2023,60.1,Bauchi,Ningi,NA
+Measles 1 Dose Coverage (Annualized),2023,60.8,Bauchi,Shira,NA
+Measles 1 Dose Coverage (Annualized),2023,86.3,Bauchi,Tafawa-Balewa,NA
+Measles 1 Dose Coverage (Annualized),2023,104.1,Bauchi,Toro,NA
+Measles 1 Dose Coverage (Annualized),2023,74.7,Bauchi,Warji,NA
+Measles 1 Dose Coverage (Annualized),2023,114.6,Bauchi,Zaki,NA
+Measles 1 Dose Coverage (Annualized),2023,39,Benue,Ado,NA
+Measles 1 Dose Coverage (Annualized),2023,73,Benue,Agatu,NA
+Measles 1 Dose Coverage (Annualized),2023,124.8,Benue,Apa,NA
+Measles 1 Dose Coverage (Annualized),2023,47.9,Benue,Buruku,NA
+Measles 1 Dose Coverage (Annualized),2023,68.2,Benue,Gboko,NA
+Measles 1 Dose Coverage (Annualized),2023,31,Benue,Guma,NA
+Measles 1 Dose Coverage (Annualized),2023,43.3,Benue,Gwer East,NA
+Measles 1 Dose Coverage (Annualized),2023,88.4,Benue,Gwer West,NA
+Measles 1 Dose Coverage (Annualized),2023,47.2,Benue,Katsina-Ala,NA
+Measles 1 Dose Coverage (Annualized),2023,49.3,Benue,Konshisha,NA
+Measles 1 Dose Coverage (Annualized),2023,54.7,Benue,Kwande,NA
+Measles 1 Dose Coverage (Annualized),2023,76.1,Benue,Logo,NA
+Measles 1 Dose Coverage (Annualized),2023,68.9,Benue,Makurdi,NA
+Measles 1 Dose Coverage (Annualized),2023,107.1,Benue,Obi,NA
+Measles 1 Dose Coverage (Annualized),2023,64.5,Benue,Ogbadibo,NA
+Measles 1 Dose Coverage (Annualized),2023,86,Benue,Ohimini,NA
+Measles 1 Dose Coverage (Annualized),2023,65.2,Benue,Oju,NA
+Measles 1 Dose Coverage (Annualized),2023,16.9,Benue,Okpokwu,NA
+Measles 1 Dose Coverage (Annualized),2023,63.4,Benue,Otukpo,NA
+Measles 1 Dose Coverage (Annualized),2023,53.1,Benue,Tarka,NA
+Measles 1 Dose Coverage (Annualized),2023,46.4,Benue,Ukum,NA
+Measles 1 Dose Coverage (Annualized),2023,35.1,Benue,Ushongo,NA
+Measles 1 Dose Coverage (Annualized),2023,27,Benue,Vandeikya,NA
+Measles 1 Dose Coverage (Annualized),2023,21.2,Borno,Abadam,NA
+Measles 1 Dose Coverage (Annualized),2023,92.3,Borno,Askira/Uba,NA
+Measles 1 Dose Coverage (Annualized),2023,130.7,Borno,Bama,NA
+Measles 1 Dose Coverage (Annualized),2023,155.2,Borno,Bayo,NA
+Measles 1 Dose Coverage (Annualized),2023,101.6,Borno,Biu,NA
+Measles 1 Dose Coverage (Annualized),2023,134.3,Borno,Chibok,NA
+Measles 1 Dose Coverage (Annualized),2023,43.3,Borno,Damboa,NA
+Measles 1 Dose Coverage (Annualized),2023,48.1,Borno,Dikwa,NA
+Measles 1 Dose Coverage (Annualized),2023,96.1,Borno,Gubio,NA
+Measles 1 Dose Coverage (Annualized),2023,43.2,Borno,Gwoza,NA
+Measles 1 Dose Coverage (Annualized),2023,77.4,Borno,Hawul,NA
+Measles 1 Dose Coverage (Annualized),2023,190.7,Borno,Jere,NA
+Measles 1 Dose Coverage (Annualized),2023,56.8,Borno,Kaga,NA
+Measles 1 Dose Coverage (Annualized),2023,70.2,Borno,Kala/Balge,NA
+Measles 1 Dose Coverage (Annualized),2023,104.5,Borno,Konduga,NA
+Measles 1 Dose Coverage (Annualized),2023,26.4,Borno,Kukawa,NA
+Measles 1 Dose Coverage (Annualized),2023,210.9,Borno,Kwaya Kusar,NA
+Measles 1 Dose Coverage (Annualized),2023,142.5,Borno,Mafa,NA
+Measles 1 Dose Coverage (Annualized),2023,64.1,Borno,Magumeri,NA
+Measles 1 Dose Coverage (Annualized),2023,57.9,Borno,Maiduguri,NA
+Measles 1 Dose Coverage (Annualized),2023,13.2,Borno,Marte,NA
+Measles 1 Dose Coverage (Annualized),2023,61.8,Borno,Mobbar,NA
+Measles 1 Dose Coverage (Annualized),2023,162.4,Borno,Monguno,NA
+Measles 1 Dose Coverage (Annualized),2023,42.5,Borno,Ngala,NA
+Measles 1 Dose Coverage (Annualized),2023,73.8,Borno,Nganzai,NA
+Measles 1 Dose Coverage (Annualized),2023,118.5,Borno,Shani,NA
+Measles 1 Dose Coverage (Annualized),2023,151.2,Bayelsa,Brass,NA
+Measles 1 Dose Coverage (Annualized),2023,56.2,Bayelsa,Ekeremor,NA
+Measles 1 Dose Coverage (Annualized),2023,22.4,Bayelsa,Kolokuma/Opokuma,NA
+Measles 1 Dose Coverage (Annualized),2023,55.2,Bayelsa,Nembe,NA
+Measles 1 Dose Coverage (Annualized),2023,27.5,Bayelsa,Ogbia,NA
+Measles 1 Dose Coverage (Annualized),2023,29.2,Bayelsa,Sagbama,NA
+Measles 1 Dose Coverage (Annualized),2023,33.7,Bayelsa,Southern Ijaw,NA
+Measles 1 Dose Coverage (Annualized),2023,52,Bayelsa,Yenagoa,NA
+Measles 1 Dose Coverage (Annualized),2023,89.2,Cross River,Abi,NA
+Measles 1 Dose Coverage (Annualized),2023,117.5,Cross River,Akamkpa,NA
+Measles 1 Dose Coverage (Annualized),2023,72.3,Cross River,Akpabuyo,NA
+Measles 1 Dose Coverage (Annualized),2023,110,Cross River,Bakassi,NA
+Measles 1 Dose Coverage (Annualized),2023,65.3,Cross River,Bekwarra,NA
+Measles 1 Dose Coverage (Annualized),2023,96.4,Cross River,Biase,NA
+Measles 1 Dose Coverage (Annualized),2023,85.4,Cross River,Boki,NA
+Measles 1 Dose Coverage (Annualized),2023,55.6,Cross River,Calabar Municipal,NA
+Measles 1 Dose Coverage (Annualized),2023,75.4,Cross River,Calabar South,NA
+Measles 1 Dose Coverage (Annualized),2023,116.9,Cross River,Etung,NA
+Measles 1 Dose Coverage (Annualized),2023,47.9,Cross River,Ikom,NA
+Measles 1 Dose Coverage (Annualized),2023,79.9,Cross River,Obanliku,NA
+Measles 1 Dose Coverage (Annualized),2023,80.6,Cross River,Obubra,NA
+Measles 1 Dose Coverage (Annualized),2023,84,Cross River,Obudu,NA
+Measles 1 Dose Coverage (Annualized),2023,86.1,Cross River,Odukpani,NA
+Measles 1 Dose Coverage (Annualized),2023,85.9,Cross River,Ogoja,NA
+Measles 1 Dose Coverage (Annualized),2023,111.8,Cross River,Yakurr,NA
+Measles 1 Dose Coverage (Annualized),2023,80.5,Cross River,Yala,NA
+Measles 1 Dose Coverage (Annualized),2023,77.8,Delta,Aniocha North,NA
+Measles 1 Dose Coverage (Annualized),2023,57.1,Delta,Aniocha South,NA
+Measles 1 Dose Coverage (Annualized),2023,68.1,Delta,Bomadi,NA
+Measles 1 Dose Coverage (Annualized),2023,50,Delta,Burutu,NA
+Measles 1 Dose Coverage (Annualized),2023,65.8,Delta,Ethiope East,NA
+Measles 1 Dose Coverage (Annualized),2023,68,Delta,Ethiope West,NA
+Measles 1 Dose Coverage (Annualized),2023,94.2,Delta,Ika North East,NA
+Measles 1 Dose Coverage (Annualized),2023,73.9,Delta,Ika South,NA
+Measles 1 Dose Coverage (Annualized),2023,85.1,Delta,Isoko North,NA
+Measles 1 Dose Coverage (Annualized),2023,77.6,Delta,Isoko South,NA
+Measles 1 Dose Coverage (Annualized),2023,51.7,Delta,Ndokwa East,NA
+Measles 1 Dose Coverage (Annualized),2023,53.2,Delta,Ndokwa West,NA
+Measles 1 Dose Coverage (Annualized),2023,74.1,Delta,Okpe,NA
+Measles 1 Dose Coverage (Annualized),2023,82.3,Delta,Oshimili North,NA
+Measles 1 Dose Coverage (Annualized),2023,94.3,Delta,Oshimili South,NA
+Measles 1 Dose Coverage (Annualized),2023,50.4,Delta,Patani,NA
+Measles 1 Dose Coverage (Annualized),2023,57.2,Delta,Sapele,NA
+Measles 1 Dose Coverage (Annualized),2023,65.4,Delta,Udu,NA
+Measles 1 Dose Coverage (Annualized),2023,76,Delta,Ughelli North,NA
+Measles 1 Dose Coverage (Annualized),2023,49.9,Delta,Ughelli South,NA
+Measles 1 Dose Coverage (Annualized),2023,79.6,Delta,Ukwuani,NA
+Measles 1 Dose Coverage (Annualized),2023,65.7,Delta,Uvwie,NA
+Measles 1 Dose Coverage (Annualized),2023,80,Delta,Warri North,NA
+Measles 1 Dose Coverage (Annualized),2023,138.1,Delta,Warri South,NA
+Measles 1 Dose Coverage (Annualized),2023,36.9,Delta,Warri South West,NA
+Measles 1 Dose Coverage (Annualized),2023,92.3,Ebonyi,Abakaliki,NA
+Measles 1 Dose Coverage (Annualized),2023,83.6,Ebonyi,Afikpo North,NA
+Measles 1 Dose Coverage (Annualized),2023,98.4,Ebonyi,Afikpo South,NA
+Measles 1 Dose Coverage (Annualized),2023,129.4,Ebonyi,Ebonyi,NA
+Measles 1 Dose Coverage (Annualized),2023,68,Ebonyi,Ezza North,NA
+Measles 1 Dose Coverage (Annualized),2023,56.8,Ebonyi,Ezza South,NA
+Measles 1 Dose Coverage (Annualized),2023,66.2,Ebonyi,Ikwo,NA
+Measles 1 Dose Coverage (Annualized),2023,57.2,Ebonyi,Ishielu,NA
+Measles 1 Dose Coverage (Annualized),2023,134.4,Ebonyi,Ivo,NA
+Measles 1 Dose Coverage (Annualized),2023,86.4,Ebonyi,Izzi,NA
+Measles 1 Dose Coverage (Annualized),2023,105.8,Ebonyi,Ohaozara,NA
+Measles 1 Dose Coverage (Annualized),2023,43.8,Ebonyi,Ohaukwu,NA
+Measles 1 Dose Coverage (Annualized),2023,87.2,Ebonyi,Onicha,NA
+Measles 1 Dose Coverage (Annualized),2023,48.3,Edo,Akoko-Edo,NA
+Measles 1 Dose Coverage (Annualized),2023,45.3,Edo,Egor,NA
+Measles 1 Dose Coverage (Annualized),2023,38.5,Edo,Esan Central,NA
+Measles 1 Dose Coverage (Annualized),2023,35.7,Edo,Esan North-East,NA
+Measles 1 Dose Coverage (Annualized),2023,56,Edo,Esan South-East,NA
+Measles 1 Dose Coverage (Annualized),2023,35.4,Edo,Esan West,NA
+Measles 1 Dose Coverage (Annualized),2023,79.6,Edo,Etsako Central,NA
+Measles 1 Dose Coverage (Annualized),2023,33.6,Edo,Etsako East,NA
+Measles 1 Dose Coverage (Annualized),2023,55.9,Edo,Etsako West,NA
+Measles 1 Dose Coverage (Annualized),2023,31.5,Edo,Igueben,NA
+Measles 1 Dose Coverage (Annualized),2023,71,Edo,Ikpoba-Okha,NA
+Measles 1 Dose Coverage (Annualized),2023,51.5,Edo,Oredo,NA
+Measles 1 Dose Coverage (Annualized),2023,15.4,Edo,Orhionmwon,NA
+Measles 1 Dose Coverage (Annualized),2023,59,Edo,Ovia North-East,NA
+Measles 1 Dose Coverage (Annualized),2023,48.3,Edo,Ovia South-West,NA
+Measles 1 Dose Coverage (Annualized),2023,28.5,Edo,Owan East,NA
+Measles 1 Dose Coverage (Annualized),2023,30.9,Edo,Owan West,NA
+Measles 1 Dose Coverage (Annualized),2023,82.2,Edo,Uhunmwonde,NA
+Measles 1 Dose Coverage (Annualized),2023,75.7,Ekiti,Ado Ekiti,NA
+Measles 1 Dose Coverage (Annualized),2023,52.4,Ekiti,Aiyekire (Gbonyin),NA
+Measles 1 Dose Coverage (Annualized),2023,89.1,Ekiti,Efon,NA
+Measles 1 Dose Coverage (Annualized),2023,54.3,Ekiti,Ekiti East,NA
+Measles 1 Dose Coverage (Annualized),2023,83.8,Ekiti,Ekiti South West,NA
+Measles 1 Dose Coverage (Annualized),2023,62.5,Ekiti,Ekiti West,NA
+Measles 1 Dose Coverage (Annualized),2023,85.5,Ekiti,Emure,NA
+Measles 1 Dose Coverage (Annualized),2023,73,Ekiti,Ido-Osi,NA
+Measles 1 Dose Coverage (Annualized),2023,78.3,Ekiti,Ijero,NA
+Measles 1 Dose Coverage (Annualized),2023,50.6,Ekiti,Ikere,NA
+Measles 1 Dose Coverage (Annualized),2023,42.1,Ekiti,Ikole,NA
+Measles 1 Dose Coverage (Annualized),2023,77.3,Ekiti,Ilejemeje,NA
+Measles 1 Dose Coverage (Annualized),2023,35,Ekiti,Irepodun/Ifelodun,NA
+Measles 1 Dose Coverage (Annualized),2023,79.4,Ekiti,Ise/Orun,NA
+Measles 1 Dose Coverage (Annualized),2023,83.9,Ekiti,Moba,NA
+Measles 1 Dose Coverage (Annualized),2023,68.4,Ekiti,Oye,NA
+Measles 1 Dose Coverage (Annualized),2023,35.4,Enugu,Aninri,NA
+Measles 1 Dose Coverage (Annualized),2023,86.1,Enugu,Awgu,NA
+Measles 1 Dose Coverage (Annualized),2023,80.3,Enugu,Enugu East,NA
+Measles 1 Dose Coverage (Annualized),2023,72.3,Enugu,Enugu North,NA
+Measles 1 Dose Coverage (Annualized),2023,60.8,Enugu,Enugu South,NA
+Measles 1 Dose Coverage (Annualized),2023,82.2,Enugu,Ezeagu,NA
+Measles 1 Dose Coverage (Annualized),2023,70.1,Enugu,Igbo-Etiti,NA
+Measles 1 Dose Coverage (Annualized),2023,48.4,Enugu,Igbo-Eze North,NA
+Measles 1 Dose Coverage (Annualized),2023,67.3,Enugu,Igbo-Eze South,NA
+Measles 1 Dose Coverage (Annualized),2023,27.4,Enugu,Isi-Uzo,NA
+Measles 1 Dose Coverage (Annualized),2023,38.1,Enugu,Nkanu East,NA
+Measles 1 Dose Coverage (Annualized),2023,62.5,Enugu,Nkanu West,NA
+Measles 1 Dose Coverage (Annualized),2023,59.1,Enugu,Nsukka,NA
+Measles 1 Dose Coverage (Annualized),2023,55.6,Enugu,Oji River,NA
+Measles 1 Dose Coverage (Annualized),2023,71.1,Enugu,Udenu,NA
+Measles 1 Dose Coverage (Annualized),2023,52.3,Enugu,Udi,NA
+Measles 1 Dose Coverage (Annualized),2023,30.3,Enugu,Uzo-Uwani,NA
+Measles 1 Dose Coverage (Annualized),2023,181.4,Federal Capital Territory,Abaji,NA
+Measles 1 Dose Coverage (Annualized),2023,106.7,Federal Capital Territory,Abuja Municipal,NA
+Measles 1 Dose Coverage (Annualized),2023,119.1,Federal Capital Territory,Bwari,NA
+Measles 1 Dose Coverage (Annualized),2023,127.2,Federal Capital Territory,Gwagwalada,NA
+Measles 1 Dose Coverage (Annualized),2023,157.6,Federal Capital Territory,Kuje,NA
+Measles 1 Dose Coverage (Annualized),2023,131.4,Federal Capital Territory,Kwali,NA
+Measles 1 Dose Coverage (Annualized),2023,82.9,Gombe,Akko,NA
+Measles 1 Dose Coverage (Annualized),2023,76.6,Gombe,Balanga,NA
+Measles 1 Dose Coverage (Annualized),2023,57,Gombe,Billiri,NA
+Measles 1 Dose Coverage (Annualized),2023,91.2,Gombe,Dukku,NA
+Measles 1 Dose Coverage (Annualized),2023,83.5,Gombe,Funakaye,NA
+Measles 1 Dose Coverage (Annualized),2023,108.3,Gombe,Gombe,NA
+Measles 1 Dose Coverage (Annualized),2023,64,Gombe,Kaltungo,NA
+Measles 1 Dose Coverage (Annualized),2023,92,Gombe,Kwami,NA
+Measles 1 Dose Coverage (Annualized),2023,72.9,Gombe,Nafada,NA
+Measles 1 Dose Coverage (Annualized),2023,52,Gombe,Shongom,NA
+Measles 1 Dose Coverage (Annualized),2023,99.8,Gombe,Yamaltu/Deba,NA
+Measles 1 Dose Coverage (Annualized),2023,67.4,Imo,Aboh-Mbaise,NA
+Measles 1 Dose Coverage (Annualized),2023,32.1,Imo,Ahiazu-Mbaise,NA
+Measles 1 Dose Coverage (Annualized),2023,79.1,Imo,Ehime-Mbano,NA
+Measles 1 Dose Coverage (Annualized),2023,55.9,Imo,Ezinihitte-Mbaise,NA
+Measles 1 Dose Coverage (Annualized),2023,32.9,Imo,Ideato North,NA
+Measles 1 Dose Coverage (Annualized),2023,40.5,Imo,Ideato South,NA
+Measles 1 Dose Coverage (Annualized),2023,80.4,Imo,Ihitte/Uboma,NA
+Measles 1 Dose Coverage (Annualized),2023,92.8,Imo,Ikeduru,NA
+Measles 1 Dose Coverage (Annualized),2023,81.9,Imo,Isiala Mbano,NA
+Measles 1 Dose Coverage (Annualized),2023,32.4,Imo,Isu,NA
+Measles 1 Dose Coverage (Annualized),2023,65,Imo,Mbaitoli,NA
+Measles 1 Dose Coverage (Annualized),2023,39.5,Imo,Ngor-Okpala,NA
+Measles 1 Dose Coverage (Annualized),2023,53.8,Imo,Njaba,NA
+Measles 1 Dose Coverage (Annualized),2023,44.7,Imo,Nkwerre,NA
+Measles 1 Dose Coverage (Annualized),2023,45.9,Imo,Nwangele,NA
+Measles 1 Dose Coverage (Annualized),2023,115.7,Imo,Obowo,NA
+Measles 1 Dose Coverage (Annualized),2023,95.1,Imo,Oguta,NA
+Measles 1 Dose Coverage (Annualized),2023,39.6,Imo,Ohaji/Egbema,NA
+Measles 1 Dose Coverage (Annualized),2023,50.5,Imo,Okigwe,NA
+Measles 1 Dose Coverage (Annualized),2023,93.1,Imo,Onuimo,NA
+Measles 1 Dose Coverage (Annualized),2023,61.9,Imo,Orlu,NA
+Measles 1 Dose Coverage (Annualized),2023,17.1,Imo,Orsu,NA
+Measles 1 Dose Coverage (Annualized),2023,53.8,Imo,Oru East,NA
+Measles 1 Dose Coverage (Annualized),2023,56.1,Imo,Oru West,NA
+Measles 1 Dose Coverage (Annualized),2023,100.9,Imo,Owerri Municipal,NA
+Measles 1 Dose Coverage (Annualized),2023,67.1,Imo,Owerri North,NA
+Measles 1 Dose Coverage (Annualized),2023,82.7,Imo,Owerri West,NA
+Measles 1 Dose Coverage (Annualized),2023,91.9,Jigawa,Auyo,NA
+Measles 1 Dose Coverage (Annualized),2023,97.9,Jigawa,Babura,NA
+Measles 1 Dose Coverage (Annualized),2023,81.8,Jigawa,Birnin Kudu,NA
+Measles 1 Dose Coverage (Annualized),2023,81.4,Jigawa,Birniwa,NA
+Measles 1 Dose Coverage (Annualized),2023,97,Jigawa,Buji,NA
+Measles 1 Dose Coverage (Annualized),2023,102.7,Jigawa,Dutse,NA
+Measles 1 Dose Coverage (Annualized),2023,107.4,Jigawa,Gagarawa,NA
+Measles 1 Dose Coverage (Annualized),2023,96.2,Jigawa,Garki,NA
+Measles 1 Dose Coverage (Annualized),2023,74.4,Jigawa,Gumel,NA
+Measles 1 Dose Coverage (Annualized),2023,79.3,Jigawa,Guri,NA
+Measles 1 Dose Coverage (Annualized),2023,89.9,Jigawa,Gwaram,NA
+Measles 1 Dose Coverage (Annualized),2023,78.5,Jigawa,Gwiwa,NA
+Measles 1 Dose Coverage (Annualized),2023,89.7,Jigawa,Hadejia,NA
+Measles 1 Dose Coverage (Annualized),2023,83.3,Jigawa,Jahun,NA
+Measles 1 Dose Coverage (Annualized),2023,81,Jigawa,Kafin Hausa,NA
+Measles 1 Dose Coverage (Annualized),2023,100.9,Jigawa,Kaugama,NA
+Measles 1 Dose Coverage (Annualized),2023,71.6,Jigawa,Kazaure,NA
+Measles 1 Dose Coverage (Annualized),2023,69.6,Jigawa,Kiri Kasamma,NA
+Measles 1 Dose Coverage (Annualized),2023,134.7,Jigawa,Kiyawa,NA
+Measles 1 Dose Coverage (Annualized),2023,97.2,Jigawa,Maigatari,NA
+Measles 1 Dose Coverage (Annualized),2023,79.8,Jigawa,Malam Madori,NA
+Measles 1 Dose Coverage (Annualized),2023,97.4,Jigawa,Miga,NA
+Measles 1 Dose Coverage (Annualized),2023,105.6,Jigawa,Ringim,NA
+Measles 1 Dose Coverage (Annualized),2023,102.6,Jigawa,Roni,NA
+Measles 1 Dose Coverage (Annualized),2023,99,Jigawa,Sule-Tankarkar,NA
+Measles 1 Dose Coverage (Annualized),2023,96.1,Jigawa,Taura,NA
+Measles 1 Dose Coverage (Annualized),2023,83.4,Jigawa,Yankwashi,NA
+Measles 1 Dose Coverage (Annualized),2023,130.8,Kaduna,Birnin Gwari,NA
+Measles 1 Dose Coverage (Annualized),2023,70.1,Kaduna,Chikun,NA
+Measles 1 Dose Coverage (Annualized),2023,124.8,Kaduna,Giwa,NA
+Measles 1 Dose Coverage (Annualized),2023,96,Kaduna,Igabi,NA
+Measles 1 Dose Coverage (Annualized),2023,111.7,Kaduna,Ikara,NA
+Measles 1 Dose Coverage (Annualized),2023,64.7,Kaduna,Jaba,NA
+Measles 1 Dose Coverage (Annualized),2023,43.6,Kaduna,Jema'a,NA
+Measles 1 Dose Coverage (Annualized),2023,55.4,Kaduna,Kachia,NA
+Measles 1 Dose Coverage (Annualized),2023,44.7,Kaduna,Kaduna North,NA
+Measles 1 Dose Coverage (Annualized),2023,43,Kaduna,Kaduna South,NA
+Measles 1 Dose Coverage (Annualized),2023,55.4,Kaduna,Kagarko,NA
+Measles 1 Dose Coverage (Annualized),2023,90.5,Kaduna,Kajuru,NA
+Measles 1 Dose Coverage (Annualized),2023,66.3,Kaduna,Kaura,NA
+Measles 1 Dose Coverage (Annualized),2023,100.3,Kaduna,Kauru,NA
+Measles 1 Dose Coverage (Annualized),2023,124.5,Kaduna,Kubau,NA
+Measles 1 Dose Coverage (Annualized),2023,82.1,Kaduna,Kudan,NA
+Measles 1 Dose Coverage (Annualized),2023,146.3,Kaduna,Lere,NA
+Measles 1 Dose Coverage (Annualized),2023,125,Kaduna,Makarfi,NA
+Measles 1 Dose Coverage (Annualized),2023,120.1,Kaduna,Sabon Gari,NA
+Measles 1 Dose Coverage (Annualized),2023,76.9,Kaduna,Sanga,NA
+Measles 1 Dose Coverage (Annualized),2023,109.5,Kaduna,Soba,NA
+Measles 1 Dose Coverage (Annualized),2023,71.9,Kaduna,Zangon Kataf,NA
+Measles 1 Dose Coverage (Annualized),2023,76.4,Kaduna,Zaria,NA
+Measles 1 Dose Coverage (Annualized),2023,115,Kebbi,Aleiro,NA
+Measles 1 Dose Coverage (Annualized),2023,59.2,Kebbi,Arewa,NA
+Measles 1 Dose Coverage (Annualized),2023,82.7,Kebbi,Argungu,NA
+Measles 1 Dose Coverage (Annualized),2023,89.1,Kebbi,Augie,NA
+Measles 1 Dose Coverage (Annualized),2023,72.6,Kebbi,Bagudo,NA
+Measles 1 Dose Coverage (Annualized),2023,90.4,Kebbi,Birnin Kebbi,NA
+Measles 1 Dose Coverage (Annualized),2023,105.7,Kebbi,Bunza,NA
+Measles 1 Dose Coverage (Annualized),2023,76.6,Kebbi,Dandi,NA
+Measles 1 Dose Coverage (Annualized),2023,185.6,Kebbi,Danko/Wasagu,NA
+Measles 1 Dose Coverage (Annualized),2023,67.1,Kebbi,Fakai,NA
+Measles 1 Dose Coverage (Annualized),2023,92.3,Kebbi,Gwandu,NA
+Measles 1 Dose Coverage (Annualized),2023,167.6,Kebbi,Jega,NA
+Measles 1 Dose Coverage (Annualized),2023,58.7,Kebbi,Kalgo,NA
+Measles 1 Dose Coverage (Annualized),2023,98.7,Kebbi,Koko/Besse,NA
+Measles 1 Dose Coverage (Annualized),2023,150.7,Kebbi,Maiyama,NA
+Measles 1 Dose Coverage (Annualized),2023,124.5,Kebbi,Ngaski,NA
+Measles 1 Dose Coverage (Annualized),2023,61.7,Kebbi,Sakaba,NA
+Measles 1 Dose Coverage (Annualized),2023,98.9,Kebbi,Shanga,NA
+Measles 1 Dose Coverage (Annualized),2023,30.4,Kebbi,Suru,NA
+Measles 1 Dose Coverage (Annualized),2023,82.5,Kebbi,Yauri,NA
+Measles 1 Dose Coverage (Annualized),2023,94.9,Kebbi,Zuru,NA
+Measles 1 Dose Coverage (Annualized),2023,65.9,Kano,Ajingi,NA
+Measles 1 Dose Coverage (Annualized),2023,82.1,Kano,Albasu,NA
+Measles 1 Dose Coverage (Annualized),2023,61,Kano,Bagwai,NA
+Measles 1 Dose Coverage (Annualized),2023,67,Kano,Bebeji,NA
+Measles 1 Dose Coverage (Annualized),2023,60.7,Kano,Bichi,NA
+Measles 1 Dose Coverage (Annualized),2023,79.2,Kano,Bunkure,NA
+Measles 1 Dose Coverage (Annualized),2023,61,Kano,Dala,NA
+Measles 1 Dose Coverage (Annualized),2023,67.7,Kano,Danbatta,NA
+Measles 1 Dose Coverage (Annualized),2023,80.8,Kano,Dawakin Kudu,NA
+Measles 1 Dose Coverage (Annualized),2023,61.1,Kano,Dawakin Tofa,NA
+Measles 1 Dose Coverage (Annualized),2023,80.2,Kano,Doguwa,NA
+Measles 1 Dose Coverage (Annualized),2023,67.7,Kano,Fagge,NA
+Measles 1 Dose Coverage (Annualized),2023,66,Kano,Gabasawa,NA
+Measles 1 Dose Coverage (Annualized),2023,66.1,Kano,Garko,NA
+Measles 1 Dose Coverage (Annualized),2023,61.9,Kano,Garum Mallam,NA
+Measles 1 Dose Coverage (Annualized),2023,79.3,Kano,Gaya,NA
+Measles 1 Dose Coverage (Annualized),2023,64.3,Kano,Gezawa,NA
+Measles 1 Dose Coverage (Annualized),2023,70.8,Kano,Gwale,NA
+Measles 1 Dose Coverage (Annualized),2023,84,Kano,Gwarzo,NA
+Measles 1 Dose Coverage (Annualized),2023,62.7,Kano,Kabo,NA
+Measles 1 Dose Coverage (Annualized),2023,55.2,Kano,Kano Municipal,NA
+Measles 1 Dose Coverage (Annualized),2023,60.8,Kano,Karaye,NA
+Measles 1 Dose Coverage (Annualized),2023,66.9,Kano,Kibiya,NA
+Measles 1 Dose Coverage (Annualized),2023,83.4,Kano,Kiru,NA
+Measles 1 Dose Coverage (Annualized),2023,87.4,Kano,Kumbotso,NA
+Measles 1 Dose Coverage (Annualized),2023,64.6,Kano,Kunchi,NA
+Measles 1 Dose Coverage (Annualized),2023,78.2,Kano,Kura,NA
+Measles 1 Dose Coverage (Annualized),2023,75.5,Kano,Madobi,NA
+Measles 1 Dose Coverage (Annualized),2023,62.3,Kano,Makoda,NA
+Measles 1 Dose Coverage (Annualized),2023,60,Kano,Minjibir,NA
+Measles 1 Dose Coverage (Annualized),2023,73.3,Kano,Nasarawa,NA
+Measles 1 Dose Coverage (Annualized),2023,73.2,Kano,Rano,NA
+Measles 1 Dose Coverage (Annualized),2023,64.3,Kano,Rimin Gado,NA
+Measles 1 Dose Coverage (Annualized),2023,66.5,Kano,Rogo,NA
+Measles 1 Dose Coverage (Annualized),2023,73.2,Kano,Shanono,NA
+Measles 1 Dose Coverage (Annualized),2023,76.2,Kano,Sumaila,NA
+Measles 1 Dose Coverage (Annualized),2023,84.9,Kano,Takai,NA
+Measles 1 Dose Coverage (Annualized),2023,70,Kano,Tarauni,NA
+Measles 1 Dose Coverage (Annualized),2023,68.8,Kano,Tofa,NA
+Measles 1 Dose Coverage (Annualized),2023,68.8,Kano,Tsanyawa,NA
+Measles 1 Dose Coverage (Annualized),2023,73.3,Kano,Tudun Wada,NA
+Measles 1 Dose Coverage (Annualized),2023,79.7,Kano,Ungogo,NA
+Measles 1 Dose Coverage (Annualized),2023,69.3,Kano,Warawa,NA
+Measles 1 Dose Coverage (Annualized),2023,77.5,Kano,Wudil,NA
+Measles 1 Dose Coverage (Annualized),2023,78.5,Kogi,Adavi,NA
+Measles 1 Dose Coverage (Annualized),2023,73.9,Kogi,Ajaokuta,NA
+Measles 1 Dose Coverage (Annualized),2023,41.5,Kogi,Ankpa,NA
+Measles 1 Dose Coverage (Annualized),2023,62.4,Kogi,Bassa,NA
+Measles 1 Dose Coverage (Annualized),2023,60.9,Kogi,Dekina,NA
+Measles 1 Dose Coverage (Annualized),2023,49.3,Kogi,Ibaji,NA
+Measles 1 Dose Coverage (Annualized),2023,141.6,Kogi,Idah,NA
+Measles 1 Dose Coverage (Annualized),2023,79.4,Kogi,Igalamela-Odolu,NA
+Measles 1 Dose Coverage (Annualized),2023,95.7,Kogi,Ijumu,NA
+Measles 1 Dose Coverage (Annualized),2023,70.2,Kogi,Kabba/Bunu,NA
+Measles 1 Dose Coverage (Annualized),2023,39.6,Kogi,Kogi,NA
+Measles 1 Dose Coverage (Annualized),2023,50.9,Kogi,Lokoja,NA
+Measles 1 Dose Coverage (Annualized),2023,97.4,Kogi,Mopa-Muro,NA
+Measles 1 Dose Coverage (Annualized),2023,47.6,Kogi,Ofu,NA
+Measles 1 Dose Coverage (Annualized),2023,51.1,Kogi,Ogori/Magongo,NA
+Measles 1 Dose Coverage (Annualized),2023,81.3,Kogi,Okehi,NA
+Measles 1 Dose Coverage (Annualized),2023,75,Kogi,Okene,NA
+Measles 1 Dose Coverage (Annualized),2023,39.3,Kogi,Olamaboro,NA
+Measles 1 Dose Coverage (Annualized),2023,83.9,Kogi,Omala,NA
+Measles 1 Dose Coverage (Annualized),2023,71.2,Kogi,Yagba East,NA
+Measles 1 Dose Coverage (Annualized),2023,96.9,Kogi,Yagba West,NA
+Measles 1 Dose Coverage (Annualized),2023,157.4,Katsina,Bakori,NA
+Measles 1 Dose Coverage (Annualized),2023,89.4,Katsina,Batagarawa,NA
+Measles 1 Dose Coverage (Annualized),2023,87.3,Katsina,Batsari,NA
+Measles 1 Dose Coverage (Annualized),2023,80,Katsina,Baure,NA
+Measles 1 Dose Coverage (Annualized),2023,74.1,Katsina,Bindawa,NA
+Measles 1 Dose Coverage (Annualized),2023,84.6,Katsina,Charanchi,NA
+Measles 1 Dose Coverage (Annualized),2023,74.1,Katsina,Dan Musa,NA
+Measles 1 Dose Coverage (Annualized),2023,126.9,Katsina,Dandume,NA
+Measles 1 Dose Coverage (Annualized),2023,140.8,Katsina,Danja,NA
+Measles 1 Dose Coverage (Annualized),2023,46.9,Katsina,Daura,NA
+Measles 1 Dose Coverage (Annualized),2023,63.8,Katsina,Dutsi,NA
+Measles 1 Dose Coverage (Annualized),2023,123.8,Katsina,Dutsin-Ma,NA
+Measles 1 Dose Coverage (Annualized),2023,74.4,Katsina,Faskari,NA
+Measles 1 Dose Coverage (Annualized),2023,117.1,Katsina,Funtua,NA
+Measles 1 Dose Coverage (Annualized),2023,65.6,Katsina,Ingawa,NA
+Measles 1 Dose Coverage (Annualized),2023,93.6,Katsina,Jibia,NA
+Measles 1 Dose Coverage (Annualized),2023,112.3,Katsina,Kafur,NA
+Measles 1 Dose Coverage (Annualized),2023,97.8,Katsina,Kaita,NA
+Measles 1 Dose Coverage (Annualized),2023,71.9,Katsina,Kankara,NA
+Measles 1 Dose Coverage (Annualized),2023,83.4,Katsina,Kankia,NA
+Measles 1 Dose Coverage (Annualized),2023,71,Katsina,Katsina,NA
+Measles 1 Dose Coverage (Annualized),2023,72.6,Katsina,Kurfi,NA
+Measles 1 Dose Coverage (Annualized),2023,86.9,Katsina,Kusada,NA
+Measles 1 Dose Coverage (Annualized),2023,53.8,Katsina,Mai'Adua,NA
+Measles 1 Dose Coverage (Annualized),2023,117.5,Katsina,Malumfashi,NA
+Measles 1 Dose Coverage (Annualized),2023,77.5,Katsina,Mani,NA
+Measles 1 Dose Coverage (Annualized),2023,86.1,Katsina,Mashi,NA
+Measles 1 Dose Coverage (Annualized),2023,94.5,Katsina,Matazu,NA
+Measles 1 Dose Coverage (Annualized),2023,70.8,Katsina,Musawa,NA
+Measles 1 Dose Coverage (Annualized),2023,101.1,Katsina,Rimi,NA
+Measles 1 Dose Coverage (Annualized),2023,75.2,Katsina,Sabuwa,NA
+Measles 1 Dose Coverage (Annualized),2023,93.2,Katsina,Safana,NA
+Measles 1 Dose Coverage (Annualized),2023,61.6,Katsina,Sandamu,NA
+Measles 1 Dose Coverage (Annualized),2023,51.9,Katsina,Zango,NA
+Measles 1 Dose Coverage (Annualized),2023,77.4,Kwara,Asa,NA
+Measles 1 Dose Coverage (Annualized),2023,61.5,Kwara,Baruten,NA
+Measles 1 Dose Coverage (Annualized),2023,57,Kwara,Edu,NA
+Measles 1 Dose Coverage (Annualized),2023,80,Kwara,Ekiti,NA
+Measles 1 Dose Coverage (Annualized),2023,58.4,Kwara,Ifelodun,NA
+Measles 1 Dose Coverage (Annualized),2023,48.8,Kwara,Ilorin East,NA
+Measles 1 Dose Coverage (Annualized),2023,86.9,Kwara,Ilorin South,NA
+Measles 1 Dose Coverage (Annualized),2023,66.7,Kwara,Ilorin West,NA
+Measles 1 Dose Coverage (Annualized),2023,77.6,Kwara,Irepodun,NA
+Measles 1 Dose Coverage (Annualized),2023,59.7,Kwara,Isin,NA
+Measles 1 Dose Coverage (Annualized),2023,75,Kwara,Kaiama,NA
+Measles 1 Dose Coverage (Annualized),2023,77.2,Kwara,Moro,NA
+Measles 1 Dose Coverage (Annualized),2023,87.7,Kwara,Offa,NA
+Measles 1 Dose Coverage (Annualized),2023,57.7,Kwara,Oke-Ero,NA
+Measles 1 Dose Coverage (Annualized),2023,85.8,Kwara,Oyun,NA
+Measles 1 Dose Coverage (Annualized),2023,47.3,Kwara,Pategi,NA
+Measles 1 Dose Coverage (Annualized),2023,60.4,Lagos,Agege,NA
+Measles 1 Dose Coverage (Annualized),2023,79.4,Lagos,Ajeromi/Ifelodun,NA
+Measles 1 Dose Coverage (Annualized),2023,65.8,Lagos,Alimosho,NA
+Measles 1 Dose Coverage (Annualized),2023,77,Lagos,Amuwo Odofin,NA
+Measles 1 Dose Coverage (Annualized),2023,61.8,Lagos,Apapa,NA
+Measles 1 Dose Coverage (Annualized),2023,73.7,Lagos,Badagry,NA
+Measles 1 Dose Coverage (Annualized),2023,79.4,Lagos,Epe,NA
+Measles 1 Dose Coverage (Annualized),2023,80.5,Lagos,Eti-Osa,NA
+Measles 1 Dose Coverage (Annualized),2023,109.2,Lagos,Ibeju/Lekki,NA
+Measles 1 Dose Coverage (Annualized),2023,72.7,Lagos,Ifako/Ijaye,NA
+Measles 1 Dose Coverage (Annualized),2023,79.6,Lagos,Ikeja,NA
+Measles 1 Dose Coverage (Annualized),2023,97.1,Lagos,Ikorodu,NA
+Measles 1 Dose Coverage (Annualized),2023,56.8,Lagos,Kosofe,NA
+Measles 1 Dose Coverage (Annualized),2023,63.7,Lagos,Lagos Island,NA
+Measles 1 Dose Coverage (Annualized),2023,48.6,Lagos,Lagos Mainland,NA
+Measles 1 Dose Coverage (Annualized),2023,68.1,Lagos,Mushin,NA
+Measles 1 Dose Coverage (Annualized),2023,67.1,Lagos,Ojo,NA
+Measles 1 Dose Coverage (Annualized),2023,79.7,Lagos,Oshodi/Isolo,NA
+Measles 1 Dose Coverage (Annualized),2023,68.9,Lagos,Shomolu,NA
+Measles 1 Dose Coverage (Annualized),2023,62.5,Lagos,Surulere,NA
+Measles 1 Dose Coverage (Annualized),2023,56.6,Nasarawa,Akwanga,NA
+Measles 1 Dose Coverage (Annualized),2023,104.5,Nasarawa,Awe,NA
+Measles 1 Dose Coverage (Annualized),2023,66.6,Nasarawa,Doma,NA
+Measles 1 Dose Coverage (Annualized),2023,154.2,Nasarawa,Karu,NA
+Measles 1 Dose Coverage (Annualized),2023,67.3,Nasarawa,Keana,NA
+Measles 1 Dose Coverage (Annualized),2023,91.5,Nasarawa,Keffi,NA
+Measles 1 Dose Coverage (Annualized),2023,72.7,Nasarawa,Kokona,NA
+Measles 1 Dose Coverage (Annualized),2023,95.3,Nasarawa,Lafia,NA
+Measles 1 Dose Coverage (Annualized),2023,87.7,Nasarawa,Nasarawa Eggon,NA
+Measles 1 Dose Coverage (Annualized),2023,83.4,Nasarawa,Nasarawa,NA
+Measles 1 Dose Coverage (Annualized),2023,111.7,Nasarawa,Obi,NA
+Measles 1 Dose Coverage (Annualized),2023,66.2,Nasarawa,Toto,NA
+Measles 1 Dose Coverage (Annualized),2023,74.4,Nasarawa,Wamba,NA
+Measles 1 Dose Coverage (Annualized),2023,127.2,Niger,Agaie,NA
+Measles 1 Dose Coverage (Annualized),2023,214.1,Niger,Agwara,NA
+Measles 1 Dose Coverage (Annualized),2023,90,Niger,Bida,NA
+Measles 1 Dose Coverage (Annualized),2023,140.9,Niger,Borgu,NA
+Measles 1 Dose Coverage (Annualized),2023,96.6,Niger,Bosso,NA
+Measles 1 Dose Coverage (Annualized),2023,65.7,Niger,Chanchaga,NA
+Measles 1 Dose Coverage (Annualized),2023,94.1,Niger,Edati,NA
+Measles 1 Dose Coverage (Annualized),2023,120.2,Niger,Gbako,NA
+Measles 1 Dose Coverage (Annualized),2023,97.1,Niger,Gurara,NA
+Measles 1 Dose Coverage (Annualized),2023,127.6,Niger,Katcha,NA
+Measles 1 Dose Coverage (Annualized),2023,99.5,Niger,Kontagora,NA
+Measles 1 Dose Coverage (Annualized),2023,127.5,Niger,Lapai,NA
+Measles 1 Dose Coverage (Annualized),2023,112.6,Niger,Lavun,NA
+Measles 1 Dose Coverage (Annualized),2023,69.8,Niger,Magama,NA
+Measles 1 Dose Coverage (Annualized),2023,103.3,Niger,Mariga,NA
+Measles 1 Dose Coverage (Annualized),2023,80.4,Niger,Mashegu,NA
+Measles 1 Dose Coverage (Annualized),2023,103.2,Niger,Mokwa,NA
+Measles 1 Dose Coverage (Annualized),2023,88.1,Niger,Muya,NA
+Measles 1 Dose Coverage (Annualized),2023,73.4,Niger,Paikoro,NA
+Measles 1 Dose Coverage (Annualized),2023,60.6,Niger,Rafi,NA
+Measles 1 Dose Coverage (Annualized),2023,108.1,Niger,Rijau,NA
+Measles 1 Dose Coverage (Annualized),2023,79.8,Niger,Shiroro,NA
+Measles 1 Dose Coverage (Annualized),2023,65.7,Niger,Suleja,NA
+Measles 1 Dose Coverage (Annualized),2023,116.7,Niger,Tafa,NA
+Measles 1 Dose Coverage (Annualized),2023,62.6,Niger,Wushishi,NA
+Measles 1 Dose Coverage (Annualized),2023,73.9,Ogun,Abeokuta North,NA
+Measles 1 Dose Coverage (Annualized),2023,61.6,Ogun,Abeokuta South,NA
+Measles 1 Dose Coverage (Annualized),2023,76.4,Ogun,Ado Odo/Ota,NA
+Measles 1 Dose Coverage (Annualized),2023,94.2,Ogun,Ewekoro,NA
+Measles 1 Dose Coverage (Annualized),2023,67.3,Ogun,Ifo,NA
+Measles 1 Dose Coverage (Annualized),2023,70,Ogun,Ijebu East,NA
+Measles 1 Dose Coverage (Annualized),2023,22.4,Ogun,Ijebu North East,NA
+Measles 1 Dose Coverage (Annualized),2023,447.6,Ogun,Ijebu North,NA
+Measles 1 Dose Coverage (Annualized),2023,108.4,Ogun,Ijebu Ode,NA
+Measles 1 Dose Coverage (Annualized),2023,103.9,Ogun,Ikenne,NA
+Measles 1 Dose Coverage (Annualized),2023,94.4,Ogun,Imeko Afon,NA
+Measles 1 Dose Coverage (Annualized),2023,68.8,Ogun,Ipokia,NA
+Measles 1 Dose Coverage (Annualized),2023,56.4,Ogun,Obafemi Owode,NA
+Measles 1 Dose Coverage (Annualized),2023,84.4,Ogun,Odeda,NA
+Measles 1 Dose Coverage (Annualized),2023,83.2,Ogun,Odogbolu,NA
+Measles 1 Dose Coverage (Annualized),2023,75.4,Ogun,Ogun Waterside,NA
+Measles 1 Dose Coverage (Annualized),2023,89.3,Ogun,Remo North,NA
+Measles 1 Dose Coverage (Annualized),2023,74.5,Ogun,Sagamu,NA
+Measles 1 Dose Coverage (Annualized),2023,70.8,Ogun,Yewa North,NA
+Measles 1 Dose Coverage (Annualized),2023,76.6,Ogun,Yewa South,NA
+Measles 1 Dose Coverage (Annualized),2023,52.8,Ondo,Akoko North East,NA
+Measles 1 Dose Coverage (Annualized),2023,66.7,Ondo,Akoko North West,NA
+Measles 1 Dose Coverage (Annualized),2023,62,Ondo,Akoko South East,NA
+Measles 1 Dose Coverage (Annualized),2023,41,Ondo,Akoko South West,NA
+Measles 1 Dose Coverage (Annualized),2023,115,Ondo,Akure North,NA
+Measles 1 Dose Coverage (Annualized),2023,111.8,Ondo,Akure South,NA
+Measles 1 Dose Coverage (Annualized),2023,80.3,Ondo,Ese Odo,NA
+Measles 1 Dose Coverage (Annualized),2023,71.8,Ondo,Idanre,NA
+Measles 1 Dose Coverage (Annualized),2023,18.1,Ondo,Ifedore,NA
+Measles 1 Dose Coverage (Annualized),2023,85.6,Ondo,Ilaje,NA
+Measles 1 Dose Coverage (Annualized),2023,78.3,Ondo,Ile-Oluji/Okeigbo,NA
+Measles 1 Dose Coverage (Annualized),2023,94.3,Ondo,Irele,NA
+Measles 1 Dose Coverage (Annualized),2023,154.5,Ondo,Odigbo,NA
+Measles 1 Dose Coverage (Annualized),2023,99.7,Ondo,Okitipupa,NA
+Measles 1 Dose Coverage (Annualized),2023,76.7,Ondo,Ondo East,NA
+Measles 1 Dose Coverage (Annualized),2023,71.9,Ondo,Ondo West,NA
+Measles 1 Dose Coverage (Annualized),2023,39.3,Ondo,Ose,NA
+Measles 1 Dose Coverage (Annualized),2023,46.2,Ondo,Owo,NA
+Measles 1 Dose Coverage (Annualized),2023,35.4,Osun,Atakumosa East,NA
+Measles 1 Dose Coverage (Annualized),2023,53.9,Osun,Atakumosa West,NA
+Measles 1 Dose Coverage (Annualized),2023,58.5,Osun,Ayedaade,NA
+Measles 1 Dose Coverage (Annualized),2023,35.8,Osun,Ayedire,NA
+Measles 1 Dose Coverage (Annualized),2023,43.3,Osun,Boluwaduro,NA
+Measles 1 Dose Coverage (Annualized),2023,77.4,Osun,Boripe,NA
+Measles 1 Dose Coverage (Annualized),2023,47.9,Osun,Ede North,NA
+Measles 1 Dose Coverage (Annualized),2023,55.6,Osun,Ede South,NA
+Measles 1 Dose Coverage (Annualized),2023,55.3,Osun,Egbedore,NA
+Measles 1 Dose Coverage (Annualized),2023,40.6,Osun,Ejigbo,NA
+Measles 1 Dose Coverage (Annualized),2023,71.9,Osun,Ife Central,NA
+Measles 1 Dose Coverage (Annualized),2023,59.3,Osun,Ife East,NA
+Measles 1 Dose Coverage (Annualized),2023,86.8,Osun,Ife North,NA
+Measles 1 Dose Coverage (Annualized),2023,48.8,Osun,Ife South,NA
+Measles 1 Dose Coverage (Annualized),2023,98,Osun,Ifedayo,NA
+Measles 1 Dose Coverage (Annualized),2023,56.5,Osun,Ifelodun,NA
+Measles 1 Dose Coverage (Annualized),2023,68.1,Osun,Ila,NA
+Measles 1 Dose Coverage (Annualized),2023,37.8,Osun,Ilesa East,NA
+Measles 1 Dose Coverage (Annualized),2023,57.2,Osun,Ilesa West,NA
+Measles 1 Dose Coverage (Annualized),2023,38.6,Osun,Irepodun,NA
+Measles 1 Dose Coverage (Annualized),2023,42.4,Osun,Irewole,NA
+Measles 1 Dose Coverage (Annualized),2023,32.2,Osun,Isokan,NA
+Measles 1 Dose Coverage (Annualized),2023,54.1,Osun,Iwo,NA
+Measles 1 Dose Coverage (Annualized),2023,53,Osun,Obokun,NA
+Measles 1 Dose Coverage (Annualized),2023,35.4,Osun,Odo Otin,NA
+Measles 1 Dose Coverage (Annualized),2023,31.6,Osun,Ola-Oluwa,NA
+Measles 1 Dose Coverage (Annualized),2023,43.6,Osun,Olorunda,NA
+Measles 1 Dose Coverage (Annualized),2023,24.9,Osun,Oriade,NA
+Measles 1 Dose Coverage (Annualized),2023,47.9,Osun,Orolu,NA
+Measles 1 Dose Coverage (Annualized),2023,55.7,Osun,Osogbo,NA
+Measles 1 Dose Coverage (Annualized),2023,77.3,Oyo,Afijio,NA
+Measles 1 Dose Coverage (Annualized),2023,100.5,Oyo,Akinyele,NA
+Measles 1 Dose Coverage (Annualized),2023,63.4,Oyo,Atiba,NA
+Measles 1 Dose Coverage (Annualized),2023,62.4,Oyo,Atisbo,NA
+Measles 1 Dose Coverage (Annualized),2023,76.4,Oyo,Egbeda,NA
+Measles 1 Dose Coverage (Annualized),2023,61.1,Oyo,Ibadan North East,NA
+Measles 1 Dose Coverage (Annualized),2023,42.2,Oyo,Ibadan North,NA
+Measles 1 Dose Coverage (Annualized),2023,72.9,Oyo,Ibadan North West,NA
+Measles 1 Dose Coverage (Annualized),2023,67.5,Oyo,Ibadan South East,NA
+Measles 1 Dose Coverage (Annualized),2023,78.4,Oyo,Ibadan South West,NA
+Measles 1 Dose Coverage (Annualized),2023,30.9,Oyo,Ibarapa Central,NA
+Measles 1 Dose Coverage (Annualized),2023,60.5,Oyo,Ibarapa East,NA
+Measles 1 Dose Coverage (Annualized),2023,45.7,Oyo,Ibarapa North,NA
+Measles 1 Dose Coverage (Annualized),2023,106,Oyo,Ido,NA
+Measles 1 Dose Coverage (Annualized),2023,90.8,Oyo,Irepo,NA
+Measles 1 Dose Coverage (Annualized),2023,45.8,Oyo,Iseyin,NA
+Measles 1 Dose Coverage (Annualized),2023,82.1,Oyo,Itesiwaju,NA
+Measles 1 Dose Coverage (Annualized),2023,94.5,Oyo,Iwajowa,NA
+Measles 1 Dose Coverage (Annualized),2023,46.9,Oyo,Kajola,NA
+Measles 1 Dose Coverage (Annualized),2023,55.8,Oyo,Lagelu,NA
+Measles 1 Dose Coverage (Annualized),2023,73.8,Oyo,Ogbomosho North,NA
+Measles 1 Dose Coverage (Annualized),2023,59.8,Oyo,Ogbomosho South,NA
+Measles 1 Dose Coverage (Annualized),2023,74.5,Oyo,Ogo Oluwa,NA
+Measles 1 Dose Coverage (Annualized),2023,77.7,Oyo,Olorunsogo,NA
+Measles 1 Dose Coverage (Annualized),2023,82.1,Oyo,Oluyole,NA
+Measles 1 Dose Coverage (Annualized),2023,56.4,Oyo,Ona Ara,NA
+Measles 1 Dose Coverage (Annualized),2023,82.7,Oyo,Orelope,NA
+Measles 1 Dose Coverage (Annualized),2023,79.2,Oyo,Ori Ire,NA
+Measles 1 Dose Coverage (Annualized),2023,89.7,Oyo,Oyo East,NA
+Measles 1 Dose Coverage (Annualized),2023,77.8,Oyo,Oyo West,NA
+Measles 1 Dose Coverage (Annualized),2023,99.8,Oyo,Saki East,NA
+Measles 1 Dose Coverage (Annualized),2023,58,Oyo,Saki West,NA
+Measles 1 Dose Coverage (Annualized),2023,54.2,Oyo,Surulere,NA
+Measles 1 Dose Coverage (Annualized),2023,61.7,Plateau,Barkin Ladi,NA
+Measles 1 Dose Coverage (Annualized),2023,58.5,Plateau,Bassa,NA
+Measles 1 Dose Coverage (Annualized),2023,42.1,Plateau,Bokkos,NA
+Measles 1 Dose Coverage (Annualized),2023,46.7,Plateau,Jos East,NA
+Measles 1 Dose Coverage (Annualized),2023,55.7,Plateau,Jos North,NA
+Measles 1 Dose Coverage (Annualized),2023,51.9,Plateau,Jos South,NA
+Measles 1 Dose Coverage (Annualized),2023,84,Plateau,Kanam,NA
+Measles 1 Dose Coverage (Annualized),2023,31.8,Plateau,Kanke,NA
+Measles 1 Dose Coverage (Annualized),2023,37.7,Plateau,Langtang North,NA
+Measles 1 Dose Coverage (Annualized),2023,42,Plateau,Langtang South,NA
+Measles 1 Dose Coverage (Annualized),2023,44.8,Plateau,Mangu,NA
+Measles 1 Dose Coverage (Annualized),2023,33.1,Plateau,Mikang,NA
+Measles 1 Dose Coverage (Annualized),2023,36.5,Plateau,Pankshin,NA
+Measles 1 Dose Coverage (Annualized),2023,62.5,Plateau,Qua'an Pan,NA
+Measles 1 Dose Coverage (Annualized),2023,42.4,Plateau,Riyom,NA
+Measles 1 Dose Coverage (Annualized),2023,48,Plateau,Shendam,NA
+Measles 1 Dose Coverage (Annualized),2023,56.7,Plateau,Wase,NA
+Measles 1 Dose Coverage (Annualized),2023,59.7,Rivers,Abua/Odual,NA
+Measles 1 Dose Coverage (Annualized),2023,68.7,Rivers,Ahoada East,NA
+Measles 1 Dose Coverage (Annualized),2023,42.1,Rivers,Ahoada West,NA
+Measles 1 Dose Coverage (Annualized),2023,53.1,Rivers,Akuku Toru,NA
+Measles 1 Dose Coverage (Annualized),2023,52.3,Rivers,Andoni,NA
+Measles 1 Dose Coverage (Annualized),2023,46,Rivers,Asari-Toru,NA
+Measles 1 Dose Coverage (Annualized),2023,44.3,Rivers,Bonny,NA
+Measles 1 Dose Coverage (Annualized),2023,32.8,Rivers,Degema,NA
+Measles 1 Dose Coverage (Annualized),2023,44,Rivers,Eleme,NA
+Measles 1 Dose Coverage (Annualized),2023,47.3,Rivers,Emohua,NA
+Measles 1 Dose Coverage (Annualized),2023,73.4,Rivers,Etche,NA
+Measles 1 Dose Coverage (Annualized),2023,70.9,Rivers,Gokana,NA
+Measles 1 Dose Coverage (Annualized),2023,59.5,Rivers,Ikwerre,NA
+Measles 1 Dose Coverage (Annualized),2023,83.7,Rivers,Khana,NA
+Measles 1 Dose Coverage (Annualized),2023,84.9,Rivers,Obio/Akpor,NA
+Measles 1 Dose Coverage (Annualized),2023,84.4,Rivers,Ogba/Egbema/Ndoni,NA
+Measles 1 Dose Coverage (Annualized),2023,77.8,Rivers,Ogu/Bolo,NA
+Measles 1 Dose Coverage (Annualized),2023,62.5,Rivers,Okrika,NA
+Measles 1 Dose Coverage (Annualized),2023,91.2,Rivers,Omumma,NA
+Measles 1 Dose Coverage (Annualized),2023,75.5,Rivers,Opobo/Nkoro,NA
+Measles 1 Dose Coverage (Annualized),2023,79.6,Rivers,Oyigbo,NA
+Measles 1 Dose Coverage (Annualized),2023,53.4,Rivers,Port-Harcourt,NA
+Measles 1 Dose Coverage (Annualized),2023,93.9,Rivers,Tai,NA
+Measles 1 Dose Coverage (Annualized),2023,43,Sokoto,Binji,NA
+Measles 1 Dose Coverage (Annualized),2023,53.3,Sokoto,Bodinga,NA
+Measles 1 Dose Coverage (Annualized),2023,53.7,Sokoto,Dange-Shuni,NA
+Measles 1 Dose Coverage (Annualized),2023,69.7,Sokoto,Gada,NA
+Measles 1 Dose Coverage (Annualized),2023,69,Sokoto,Goronyo,NA
+Measles 1 Dose Coverage (Annualized),2023,59.8,Sokoto,Gudu,NA
+Measles 1 Dose Coverage (Annualized),2023,46.1,Sokoto,Gwadabawa,NA
+Measles 1 Dose Coverage (Annualized),2023,68.3,Sokoto,Illela,NA
+Measles 1 Dose Coverage (Annualized),2023,92.6,Sokoto,Isa,NA
+Measles 1 Dose Coverage (Annualized),2023,55,Sokoto,Kebbe,NA
+Measles 1 Dose Coverage (Annualized),2023,77.8,Sokoto,Kware,NA
+Measles 1 Dose Coverage (Annualized),2023,99.1,Sokoto,Rabah,NA
+Measles 1 Dose Coverage (Annualized),2023,98.1,Sokoto,Sabon Birni,NA
+Measles 1 Dose Coverage (Annualized),2023,43.8,Sokoto,Shagari,NA
+Measles 1 Dose Coverage (Annualized),2023,47.2,Sokoto,Silame,NA
+Measles 1 Dose Coverage (Annualized),2023,48.4,Sokoto,Sokoto North,NA
+Measles 1 Dose Coverage (Annualized),2023,62.4,Sokoto,Sokoto South,NA
+Measles 1 Dose Coverage (Annualized),2023,70.2,Sokoto,Tambuwal,NA
+Measles 1 Dose Coverage (Annualized),2023,72.1,Sokoto,Tangaza,NA
+Measles 1 Dose Coverage (Annualized),2023,95.2,Sokoto,Tureta,NA
+Measles 1 Dose Coverage (Annualized),2023,63.1,Sokoto,Wamako,NA
+Measles 1 Dose Coverage (Annualized),2023,59.4,Sokoto,Wurno,NA
+Measles 1 Dose Coverage (Annualized),2023,71.2,Sokoto,Yabo,NA
+Measles 1 Dose Coverage (Annualized),2023,93.4,Taraba,Ardo-Kola,NA
+Measles 1 Dose Coverage (Annualized),2023,107.4,Taraba,Bali,NA
+Measles 1 Dose Coverage (Annualized),2023,97.9,Taraba,Donga,NA
+Measles 1 Dose Coverage (Annualized),2023,66.9,Taraba,Gashaka,NA
+Measles 1 Dose Coverage (Annualized),2023,107.5,Taraba,Gassol,NA
+Measles 1 Dose Coverage (Annualized),2023,199.3,Taraba,Ibi,NA
+Measles 1 Dose Coverage (Annualized),2023,99.3,Taraba,Jalingo,NA
+Measles 1 Dose Coverage (Annualized),2023,84.9,Taraba,Karim-Lamido,NA
+Measles 1 Dose Coverage (Annualized),2023,84.7,Taraba,Kurmi,NA
+Measles 1 Dose Coverage (Annualized),2023,109.5,Taraba,Lau,NA
+Measles 1 Dose Coverage (Annualized),2023,90.1,Taraba,Sardauna,NA
+Measles 1 Dose Coverage (Annualized),2023,101.1,Taraba,Takum,NA
+Measles 1 Dose Coverage (Annualized),2023,97.2,Taraba,Ussa,NA
+Measles 1 Dose Coverage (Annualized),2023,82.2,Taraba,Wukari,NA
+Measles 1 Dose Coverage (Annualized),2023,117.5,Taraba,Yorro,NA
+Measles 1 Dose Coverage (Annualized),2023,93.1,Taraba,Zing,NA
+Measles 1 Dose Coverage (Annualized),2023,77.9,Yobe,Bade,NA
+Measles 1 Dose Coverage (Annualized),2023,87.2,Yobe,Busari,NA
+Measles 1 Dose Coverage (Annualized),2023,100.2,Yobe,Damaturu,NA
+Measles 1 Dose Coverage (Annualized),2023,124.1,Yobe,Fika,NA
+Measles 1 Dose Coverage (Annualized),2023,69.5,Yobe,Fune,NA
+Measles 1 Dose Coverage (Annualized),2023,118,Yobe,Geidam,NA
+Measles 1 Dose Coverage (Annualized),2023,69.2,Yobe,Gujba,NA
+Measles 1 Dose Coverage (Annualized),2023,109,Yobe,Gulani,NA
+Measles 1 Dose Coverage (Annualized),2023,87.7,Yobe,Jakusko,NA
+Measles 1 Dose Coverage (Annualized),2023,98,Yobe,Karasuwa,NA
+Measles 1 Dose Coverage (Annualized),2023,112.4,Yobe,Machina,NA
+Measles 1 Dose Coverage (Annualized),2023,87.4,Yobe,Nangere,NA
+Measles 1 Dose Coverage (Annualized),2023,88.1,Yobe,Nguru,NA
+Measles 1 Dose Coverage (Annualized),2023,125.8,Yobe,Potiskum,NA
+Measles 1 Dose Coverage (Annualized),2023,107,Yobe,Tarmuwa,NA
+Measles 1 Dose Coverage (Annualized),2023,64.7,Yobe,Yunusari,NA
+Measles 1 Dose Coverage (Annualized),2023,110.4,Yobe,Yusufari,NA
+Measles 1 Dose Coverage (Annualized),2023,91.2,Zamfara,Anka,NA
+Measles 1 Dose Coverage (Annualized),2023,71.5,Zamfara,Bakura,NA
+Measles 1 Dose Coverage (Annualized),2023,86.8,Zamfara,Birnin Magaji,NA
+Measles 1 Dose Coverage (Annualized),2023,80.9,Zamfara,Bukkuyum,NA
+Measles 1 Dose Coverage (Annualized),2023,106,Zamfara,Bungudu,NA
+Measles 1 Dose Coverage (Annualized),2023,94.1,Zamfara,Gummi,NA
+Measles 1 Dose Coverage (Annualized),2023,94.3,Zamfara,Gusau,NA
+Measles 1 Dose Coverage (Annualized),2023,92.5,Zamfara,Kaura Namoda,NA
+Measles 1 Dose Coverage (Annualized),2023,89.8,Zamfara,Maradun,NA
+Measles 1 Dose Coverage (Annualized),2023,94.3,Zamfara,Maru,NA
+Measles 1 Dose Coverage (Annualized),2023,92.6,Zamfara,Shinkafi,NA
+Measles 1 Dose Coverage (Annualized),2023,83.2,Zamfara,Talata Mafara,NA
+Measles 1 Dose Coverage (Annualized),2023,86.5,Zamfara,Tsafe,NA
+Measles 1 Dose Coverage (Annualized),2023,75.8,Zamfara,Zurmi,NA

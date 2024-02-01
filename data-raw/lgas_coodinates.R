@@ -2,23 +2,19 @@
 
 library(dplyr)
 library(stringr)
-library(datimutils)
+library(dhis2r)
 
 dw <- config::get("development_stream2")
 
-loginToDATIM(
-  base_url = "https://dhis2nigeria.org.ng/dhis/",
-  username = dw$dhis2_username,
-  password = dw$dhis2_password
-)
-
+dhis2_connection <- dhis2r::Dhis2r$new(base_url = "https://dhis2nigeria.org.ng/dhis/",
+                                             username= dw$Dhis2_username,
+                                             password= dw$Dhis2_password,
+                                             api_version_position = "after")
 
 ########################################################
 
-lgas <- getMetadata(organisationUnits,
-                    "level:eq:3",
-                    fields = ":all")%>% tibble()%>%
-  select(id, name, level ,parent.id)%>%
+
+lgas <- dhis2_connection$get_metadata(endpoint = "organisationUnits", fields = c("id","name", "level" ,"parent")) |>
   filter(!str_detect(name, "Cold Store")) %>%
   mutate(name = name %>%
            str_remove(pattern = "^[:alpha:]{2}[:blank:]") %>%
@@ -33,7 +29,7 @@ lgas <- getMetadata(organisationUnits,
 lgas_parented  <- lgas %>%
   left_join(states %>%
               select(c("id", "name" )),
-            by= c("parent.id" = "id")) %>%
+            by= c("parent$id" = "id")) %>%
   select(-level) %>%
   purrr::set_names("LGA_id", "LGA", "State_id", "State")
 

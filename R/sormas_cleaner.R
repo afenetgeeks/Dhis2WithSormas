@@ -14,12 +14,28 @@
 sormas_cleaner  <- function(file, skip = 2, disease = c("diphtheria", "measles", "yellow fever", "meningitis (csm)")) {
 
   disease <- match.arg(disease)
-   sormas_lgas <- vroom::vroom(file = file,skip = skip)
+   sormas_lgas <- vroom::vroom(file = file,skip = skip) |>
+     mutate(across(c(`Disease name`, `Disease`), str_to_lower))
 
-  sormas_lgas_cleaned <-  sormas_lgas  |>
-  mutate(`Disease name` = str_to_lower(`Disease name`),
-         `Disease` = str_to_lower(`Disease`)) |>
-    filter(`Disease name` == disease | `Disease` == disease) |>
+   # sormas_lgas <- vroom::vroom(file = "/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/sormas_measles_cases_2017_2023.csv",
+   #                             skip = 2) |>
+   #   mutate(across(c(`Disease name`, `Disease`), str_to_lower))
+
+   if(disease == "diphtheria"){
+
+     sormas_lgas  <- sormas_lgas |>
+       filter(str_detect(`Disease name`, pattern = "^dep|^dip")) |>
+       mutate(`Disease name`= "diphtheria") |>
+       filter(`Disease name` == disease) |>
+       select(-`Disease`) |>
+       rename(`Disease` = `Disease name`)
+
+   }else {
+     sormas_lgas  <- sormas_lgas |>
+       select(-`Disease name`)
+   }
+
+   sormas_lgas_cleaned <- sormas_lgas |>
     mutate(`Responsible state` = str_replace(`Responsible state`, pattern = "Fct" ,replacement = "Federal Capital Territory")) %>%
     mutate(LGA = as.character(case_when(
       `Responsible LGA`  == "Ibeju Lekki" ~ "Ibeju/Lekki",
@@ -71,7 +87,6 @@ sormas_cleaner  <- function(file, skip = 2, disease = c("diphtheria", "measles",
     )) %>%
     select(-c(lat, lon, sormas_lat, sormas_long)) %>%
     mutate(`Vaccination status` = `Vaccination status` %>% replace_na("Unknown"))
-
 
 
   sormas_cleaned  <- sormas_lgas_cleaned_locations %>%

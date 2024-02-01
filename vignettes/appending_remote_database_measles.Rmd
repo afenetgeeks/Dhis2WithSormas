@@ -21,7 +21,7 @@ library(readr)
 
 ```{r}
 
-input <- list(year = "2023", month = "08")
+input <- list(year = "2023", month = "12")
 
 dw <- config::get("development_stream2")
 
@@ -42,7 +42,7 @@ connection <- DBI::dbConnect(RMariaDB::MariaDB(),
 ```{r}
 #measles_sormas_cleaned <- sormas_cleaner("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/sormas_measles.csv")
 
-measles_sormas_cleaned <- sormas_cleaner("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/sormas_measles_cases_2017_August_2023.csv", disease = "measles")
+measles_sormas_cleaned <- sormas_cleaner("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/sormas_measles_cases_Dec_2023.csv", disease = "measles")
 
 ```
 
@@ -90,12 +90,13 @@ measles2_given <- getAnalytics_cleaned(indicator_id = "oB7SLTRHciH",
 
 
 ```{r}
-measles_alt_denominator <- get_2_dose_alt_denominator(sormas_cleaned = measles_sormas_cleaned,
-                                                       first_dose = measles1_coverage_monthly,
-                                                       later_dose = measles2_coverage_monthly,
-                                                       first_dose_given = measles1_given,
-                                                       later_dose_given = measles2_given,
-                                                       denominator_data = denominator_data)
+measles_alt_denominator <- get_2_dose_alt_denominator(
+                            sormas_cleaned =  measles_sormas_cleaned,
+                            first_dose = measles1_coverage_monthly,
+                            later_dose = measles2_coverage_monthly,
+                            first_dose_given = measles1_given,
+                            later_dose_given = measles2_given,
+                            denominator_data = denominator_data)
 
 # [1] "Measles 1 given"           "State"                     "LGA"                       "Months"                   
 #  [5] "Year"                      "Measles 2 given"           "MCV 1 Alt Denominator"     "MCV 2 Alt Denominator"    
