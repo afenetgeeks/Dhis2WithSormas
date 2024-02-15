@@ -1,6 +1,6 @@
 
 #' Clean sormas data
-#' @import stringr
+#' @import stringr readr
 #' @param string a dataframe from sormas
 #' @inheritParams stringr::str_split
 #'
@@ -14,10 +14,10 @@
 sormas_cleaner  <- function(file, skip = 2, disease = c("diphtheria", "measles", "yellow fever", "meningitis (csm)")) {
 
   disease <- match.arg(disease)
-   sormas_lgas <- vroom::vroom(file = file,skip = skip) |>
+   sormas_lgas <- readr::read_csv(file = file,skip = skip) |>
      mutate(across(c(`Disease name`, `Disease`), str_to_lower))
 
-   # sormas_lgas <- vroom::vroom(file = "/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/sormas_measles_cases_2017_2023.csv",
+   # sormas_lgas <- readr::read_csv(file = "/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/sormas_meningitis_cases_Dec_2023.csv",
    #                             skip = 2) |>
    #   mutate(across(c(`Disease name`, `Disease`), str_to_lower))
 

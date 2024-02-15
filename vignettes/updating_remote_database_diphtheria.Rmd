@@ -197,7 +197,7 @@ dbWriteTable(connection, name = "penta_coverage_map",
 updated_remote_database(connection,
   dataset = bind_rows( filter(penta_coverage_map, State == "Federal Capital Territory"),
                        filter(penta_coverage_map, State != "Federal Capital Territory") ),
-  aws_datatable = "penta_coverage_map",starting_index = 4001)
+  aws_datatable = "penta_coverage_map",starting_index = 41001)
 
 
 ```
@@ -215,7 +215,7 @@ updated_remote_database(connection = connection,
   dataset = bind_rows( filter(diphtheria_cases_map, State == "Federal Capital Territory"),
                        filter(diphtheria_cases_map, State != "Federal Capital Territory") ), 
                      
-                     aws_datatable = "diphtheria_cases_map",starting_index = 1)
+                     aws_datatable = "diphtheria_cases_map",starting_index = 31001)
 
 
 ```

@@ -30,8 +30,7 @@ connection <- DBI::dbConnect(RMariaDB::MariaDB(),
                password = dw$DB_password,
                host     = dw$DB_host,
                port     = dw$DB_port,
-               dbname   = dw$DB_name
-            )
+               dbname   = dw$DB_name)
 
 ```
 
@@ -104,7 +103,7 @@ measles_alt_denominator <- get_2_dose_alt_denominator(
 
 
 
-dbAppendTable(connection , name = "measles_alt_denominator", value = measles_alt_denominator )
+dbAppendTable(connection , name = "measles_alt_denominator2", value = measles_alt_denominator )
 
 ```
 
@@ -114,7 +113,7 @@ dbAppendTable(connection , name = "measles_alt_denominator", value = measles_alt
 
 measles_age_group <- get_age_group(sormas_cleaned = measles_sormas_cleaned)
 
-dbAppendTable(connection, name = "measles_age_group", value = measles_age_group )
+dbAppendTable(connection, name = "measles_age_group2", value = measles_age_group )
 
 
 ```
@@ -123,7 +122,9 @@ dbAppendTable(connection, name = "measles_age_group", value = measles_age_group 
 
 
 ```{r}
-measles_1_2_given <- add_measles_1_2_given(measles1_given = measles1_given,measles2_given = measles2_given)
+measles_1_2_given <- add_two_dose_antigen_given(first_dose_given = measles1_given,
+                                                second_dose_given = measles2_given,
+                                                        antigen = "Measles")
 
 #measles_received <- read_csv("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/measles_Received.csv")
 measles_received <-  getAnalytics_cleaned(indicator_id = "XklyJxzoyxR",
@@ -162,7 +163,7 @@ measles_stock_analysis <- get_stock_analysis(doses_given = measles_1_2_given,
                                         opening_balance = measles_opening_balance,
                                         opened_used = measles_opened_used)
 
-dbAppendTable(connection, name = "measles_stock_analysis", 
+dbAppendTable(connection, name = "measles_stock_analysis2", 
               value = measles_stock_analysis )
 
 
@@ -173,9 +174,9 @@ dbAppendTable(connection, name = "measles_stock_analysis",
 
 ```{r}
 mcv1_mcv2_dropout_rate <- get_drop_out_rate(first_dose  = measles1_coverage_monthly,
-                                            second_dose =  measles2_coverage_monthly)
+                                            later_dose =  measles2_coverage_monthly)
 
-dbAppendTable(connection, name = "mcv1_mcv2_dropout_rate", value = mcv1_mcv2_dropout_rate )
+dbAppendTable(connection, name = "mcv1_mcv2_dropout_rate2", value = mcv1_mcv2_dropout_rate )
 
 
 
@@ -200,7 +201,7 @@ measles_yf_discrepancy <- get_discrepancy(main_vaccine_given = measles1_given,
                                                         other_vaccine_given = yf_vaccine_given)
 
 
-dbAppendTable(connection, name = "measles_yf_discrepancy", value = measles_yf_discrepancy )
+dbAppendTable(connection, name = "measles_yf_discrepancy2", value = measles_yf_discrepancy )
 
 ```
 
@@ -257,7 +258,7 @@ measles1_coverage_annually <- getAnalytics_cleaned(indicator_id = "hvYqrmR6MPq",
 measles_coverage_map <- get_coverage_map(annual_data = measles1_coverage_annually,
                  monthly_data = measles1_coverage_monthly)
 
-dbAppendTable(connection, name = "measles_coverage_map", value = measles_coverage_map )
+dbAppendTable(connection, name = "measles_coverage_map2", value = measles_coverage_map )
 
 ```
 

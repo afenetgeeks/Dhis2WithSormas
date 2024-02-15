@@ -5,12 +5,39 @@
 
 get_age_group <- function(sormas_cleaned){
 
-  sormas_cases_by_age_group <-   distinct(sormas_cleaned)  |>
-    rename_with(str_to_title) |>
+  sormas_cases_by_age_group <- distinct(measles_sormas_cleaned) |>
+    rename_with(str_to_sentence) |>
     rename("LGA" = Lga ) |>
-    select(-c(State_id, Lga_id, `Case Classification`)) |>
-    pivot_wider(names_from = `Vaccination Status`,
-                values_from = `Vaccination Status`) %>%
+    select(-c(State_id, Lga_id, `Case classification`)) |>
+    pivot_wider(names_from = `Vaccination status`,
+                values_from = `Vaccination status`)
+
+
+  cols_available <- names(sormas_cases_by_age_group)
+
+  cols_alls <- c("##Case Id", "Disease", "Sex", "Age", "Age group", "State", "LGA", "Long",
+                "Lat", "Months", "Year", "Vaccinated", "Unknown", "Unvaccinated")
+
+  cols_needed <- cols_alls[!(cols_alls %in% cols_available)]
+
+              for(col in cols_needed){
+
+               if(col == "Vaccinated"){
+
+                 sormas_cases_by_age_group <- sormas_cases_by_age_group |>
+                   mutate(Vaccinated = NA_character_)
+               }else if(col == "Unknown"){
+                 sormas_cases_by_age_group <- sormas_cases_by_age_group |>
+                   mutate(Unknown = NA_character_)
+
+               }else if(col == "Unvaccinated"){
+                 sormas_cases_by_age_group <- sormas_cases_by_age_group |>
+                   mutate(Unvaccinated = NA_character_)
+               }
+
+              }
+
+  sormas_cases_by_age_group <-   sormas_cases_by_age_group |>
     mutate(across(c(Vaccinated, Unvaccinated, Unknown), ~ if_else(is.na(.x), 0, 1))) %>%
     mutate(Age_numeric = case_when(!str_detect(Age, "[[:alpha:]]")~  as.numeric(Age),
                                    str_detect(Age,  "Months") ~  as.numeric(str_extract(Age, pattern = "[[:digit:]]"))/12,
