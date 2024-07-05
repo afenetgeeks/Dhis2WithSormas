@@ -30,11 +30,16 @@ get_mcv_different_sources <- function(mcv1_annualized_all_time, mcv2_annualized_
                                       Year == "2019" ~ 75.7,
                                       Year == "2020" ~ 71.7,
                                       Year == "2021" ~ 67.1,
+                                      Year == "2022" ~ 73.6,
+                                      Year == "2023" ~ 75.3,
                                       TRUE~ `Dhis2 (MCV1)`),
            `Dhis2 (MCV2)` = case_when(
              Year == "2019" ~ 9.2,
              Year == "2020" ~ 18.6,
              Year == "2021" ~ 27,
+             Year == "2022" ~ 34.8,
+             Year == "2023" ~ 40.9,
+
              TRUE~ `Dhis2 (MCV2)`))
 
 }

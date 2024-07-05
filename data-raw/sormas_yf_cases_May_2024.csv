@@ -1,0 +1,5 @@
+"CaseData","CaseData","CaseData","Person","Person","Person","CaseData","CaseData","CaseData","CaseData","CaseData","CaseData"
+"uuid","disease","diseaseDetails","person.sex","person.approximateAge","person.ageGroup","reportDate","responsibleRegion","responsibleDistrict","caseClassification","addressGpsCoordinates","vaccinationStatus"
+##Case ID,Disease,Disease name,Sex,Age,Age group,Date of report (dd/MM/yyyy),Responsible state,Responsible LGA,Case classification,GPS coordinates of the address,Vaccination status
+"STXKQ6-YQULXU-4NO25Y-IPIOSC7U","Yellow Fever","","Female","38","35--39","27/05/2024","Ondo","Idanre","Confirmed case","","Unknown"
+"WE6M2K-QNBAHH-SX7COR-2SFZKP54","Yellow Fever","","Female","32","30--34","09/05/2024","Ondo","Ondo East","Confirmed case","","Vaccinated"

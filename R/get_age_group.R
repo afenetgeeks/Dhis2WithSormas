@@ -5,7 +5,7 @@
 
 get_age_group <- function(sormas_cleaned){
 
-  sormas_cases_by_age_group <- distinct(measles_sormas_cleaned) |>
+  sormas_cases_by_age_group <- distinct(sormas_cleaned) |>
     rename_with(str_to_sentence) |>
     rename("LGA" = Lga ) |>
     select(-c(State_id, Lga_id, `Case classification`)) |>

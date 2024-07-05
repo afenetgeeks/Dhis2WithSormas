@@ -21,7 +21,7 @@ library(readr)
 
 ```{r}
 
-input <- list(year = "2023", month = "12")
+input <- list(year = "2023", month = "08")
 
 dw <- config::get("development_stream2")
 
@@ -37,7 +37,7 @@ connection <- DBI::dbConnect(RMariaDB::MariaDB(),
 ##  Confirmed Yellow Fever cases, coverage
 
 ```{r}
-sormas_yellow_fever_cleaned <- sormas_cleaner("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/sormas_yf_cases_Dec_2023.csv", disease = "yellow fever")
+sormas_yellow_fever_cleaned <- sormas_cleaner("/Volumes/Robinson/Afenet-projects/afenet-nigeria/Dhis2WithSormas/data-raw/sormas_yf_cases_May_2024.csv", disease = "yellow fever")
 ```
 
 

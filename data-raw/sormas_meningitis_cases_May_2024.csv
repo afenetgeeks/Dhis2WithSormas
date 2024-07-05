@@ -1,0 +1,4 @@
+"CaseData","CaseData","CaseData","Person","Person","Person","CaseData","CaseData","CaseData","CaseData","CaseData","CaseData"
+"uuid","disease","diseaseDetails","person.sex","person.approximateAge","person.ageGroup","reportDate","responsibleRegion","responsibleDistrict","caseClassification","addressGpsCoordinates","vaccinationStatus"
+##Case ID,Disease,Disease name,Sex,Age,Age group,Date of report (dd/MM/yyyy),Responsible state,Responsible LGA,Case classification,GPS coordinates of the address,Vaccination status
+"R2M3KF-JBSWVA-4H6WZC-VVSNSLOI","Meningitis (CSM)","","Male","18","15--19","08/05/2024","Jigawa","Birnin Kudu","Confirmed case","",""

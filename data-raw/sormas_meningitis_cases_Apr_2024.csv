@@ -1,0 +1,5 @@
+"CaseData","CaseData","CaseData","Person","Person","Person","CaseData","CaseData","CaseData","CaseData","CaseData","CaseData"
+"uuid","disease","diseaseDetails","person.sex","person.approximateAge","person.ageGroup","reportDate","responsibleRegion","responsibleDistrict","caseClassification","addressGpsCoordinates","vaccinationStatus"
+##Case ID,Disease,Disease name,Sex,Age,Age group,Date of report (dd/MM/yyyy),Responsible state,Responsible LGA,Case classification,GPS coordinates of the address,Vaccination status
+"SW4W4B-W7KTHK-3ID3RT-AZAWSPOI","Meningitis (CSM)","","Female","1 Months","0--4","30/04/2024","Adamawa","Yola South","Confirmed case","","Unknown"
+"TZASYS-RPH2ZA-FENIIH-TDLACDYI","Meningitis (CSM)","","Male","12","10--14","25/04/2024","Kano","Dawakin Kudu","Confirmed case","",""
